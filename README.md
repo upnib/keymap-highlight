@@ -15,19 +15,19 @@ These tables describe the current shipped app status in this repository.
 | Editor / Software   | Keymap Parser | Demo Presets |
 | ------------------- | ------------- | ------------ |
 | VS Code             | ✅            | ✅           |
-| JetBrains IDEs      | ✅            | ⚠️           |
-| Vim                 | ⚠️            | ⚠️           |
-| Neovim              | ⚠️            | ⏳           |
+| JetBrains IDEs      | ✅            | ✅           |
+| Vim                 | ⚠️          | ⚠️         |
+| Neovim              | ⚠️          | ⏳            |
 | Zed                 | ✅            | ✅           |
 | Krita               | ✅            | ✅           |
-| Adobe Illustrator   | ✅            | ✅           |
+| Adobe Illustrator   | ⚠️          | ✅           |
 | Blender             | ✅            | ✅           |
-| Emacs               | ⚠️            | ⏳           |
-| Adobe Photoshop     | ⏳            | ⏳           |
-| Adobe After Effects | ⏳            | ⏳           |
-| Adobe Lightroom     | ⏳            | ⏳           |
-| Autodesk Maya       | ⏳            | ⏳           |
-| Sublime Text        | ⏳            | ⏳           |
+| Emacs               | ⚠️          | ⏳            |
+| Adobe Photoshop     | ⏳             | ⏳            |
+| Adobe After Effects | ⏳             | ⏳            |
+| Adobe Lightroom     | ⏳             | ⏳            |
+| Autodesk Maya       | ⏳             | ⏳            |
+| Sublime Text        | ⏳             | ⏳            |
 
 ### Functionality Status
 
@@ -35,14 +35,14 @@ These tables describe the current shipped app status in this repository.
 | ---------------------------------------------- | ------ |
 | Privacy-first local processing and persistence | ✅     |
 | Keyboard visualization                         | ✅     |
-| Binding discovery search, grouping, filtering  | ✅     |
+| Key bindings searching, grouping, filtering    | ✅     |
 | Context of action analysis                     | ✅     |
-| Keyboard Layout switching and customization    | ✅     |
+| Keyboard hardware/input layout switching       | ✅     |
 | Human-friendly action labels                   | ✅     |
 | Cheatsheet export                              | ✅     |
-| UI/UX i18n                                     | ⚠️     |
-| Code Test Suites                               | ⚠️     |
-| In-app usage guide and help                    | ⏳     |
+| UI/UX i18n                                     | ⚠️   |
+| Code Test Suites                               | ⚠️   |
+| In-app usage guide and help                    | ⏳      |
 
 ## Getting Started
 
@@ -102,6 +102,7 @@ This project is structured as a monorepo.
 A Cloudflare account and your Keymap Highlight repository.
 
 #### Setup Instructions
+
 1. Open **Cloudflare Dashboard -> Workers & Pages -> Create application**.
 2. Connect with a Git provider (GitHub or GitLab), then select your forked Keymap Highlight repository.
 3. In the project setup form, use these values:
