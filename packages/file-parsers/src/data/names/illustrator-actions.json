@@ -1,0 +1,1834 @@
+{
+  "Actual Size": {
+    "en": "Actual Size",
+    "zh-cn": "实际大小",
+    "zh-tw": "實際大小",
+    "es": "Tamaño real",
+    "fr": "Taille réelle",
+    "ja": "実際のサイズ"
+  },
+  "Add Anchor Point": {
+    "en": "Add Anchor Point",
+    "zh-cn": "添加锚点",
+    "zh-tw": "新增錨點",
+    "es": "Añadir punto de ancla",
+    "fr": "Ajouter un point d’ancrage",
+    "ja": "アンカーポイントを追加"
+  },
+  "Add New Fill": {
+    "en": "Add New Fill",
+    "zh-cn": "添加新填色",
+    "zh-tw": "新增填色",
+    "es": "Añadir nuevo relleno",
+    "fr": "Ajouter un nouveau fond",
+    "ja": "新規塗りを追加"
+  },
+  "Add New Stroke": {
+    "en": "Add New Stroke",
+    "zh-cn": "添加新描边",
+    "zh-tw": "新增筆畫",
+    "es": "Añadir nuevo trazo",
+    "fr": "Ajouter un nouveau contour",
+    "ja": "新規線を追加"
+  },
+  "Align": {
+    "en": "Align",
+    "zh-cn": "对齐",
+    "zh-tw": "對齊",
+    "es": "Alinear",
+    "fr": "Aligner",
+    "ja": "整列"
+  },
+  "All": {
+    "en": "All",
+    "zh-cn": "全部",
+    "zh-tw": "全部",
+    "es": "Todo",
+    "fr": "Tout",
+    "ja": "すべて"
+  },
+  "All on Active Artboard": {
+    "en": "All on Active Artboard",
+    "zh-cn": "当前画板上的全部",
+    "zh-tw": "目前畫板上的全部",
+    "es": "Todo en la mesa de trabajo activa",
+    "fr": "Tout sur le plan de travail actif",
+    "ja": "現在のアートボード上のすべて"
+  },
+  "Anchor Point": {
+    "en": "Anchor Point",
+    "zh-cn": "锚点",
+    "zh-tw": "錨點",
+    "es": "Punto de ancla",
+    "fr": "Point d’ancrage",
+    "ja": "アンカーポイント"
+  },
+  "Appearance": {
+    "en": "Appearance",
+    "zh-cn": "外观",
+    "zh-tw": "外觀",
+    "es": "Apariencia",
+    "fr": "Aspect",
+    "ja": "アピアランス"
+  },
+  "Apply Last Effect": {
+    "en": "Apply Last Effect",
+    "zh-cn": "应用上次效果",
+    "zh-tw": "套用上次效果",
+    "es": "Aplicar último efecto",
+    "fr": "Appliquer le dernier effet",
+    "ja": "前回の効果を適用"
+  },
+  "Artboard": {
+    "en": "Artboard",
+    "zh-cn": "画板",
+    "zh-tw": "畫板",
+    "es": "Mesa de trabajo",
+    "fr": "Plan de travail",
+    "ja": "アートボード"
+  },
+  "Attributes": {
+    "en": "Attributes",
+    "zh-cn": "属性",
+    "zh-tw": "屬性",
+    "es": "Atributos",
+    "fr": "Attributs",
+    "ja": "属性"
+  },
+  "Average": {
+    "en": "Average",
+    "zh-cn": "平均",
+    "zh-tw": "平均",
+    "es": "Promediar",
+    "fr": "Moyenne",
+    "ja": "平均"
+  },
+  "Average & Join": {
+    "en": "Average & Join",
+    "zh-cn": "平均并连接",
+    "zh-tw": "平均並連接",
+    "es": "Promediar y unir",
+    "fr": "Moyenne et joindre",
+    "ja": "平均して連結"
+  },
+  "Blend": {
+    "en": "Blend",
+    "zh-cn": "混合",
+    "zh-tw": "混合",
+    "es": "Fusión",
+    "fr": "Dégradé de formes",
+    "ja": "ブレンド"
+  },
+  "Blob Brush": {
+    "en": "Blob Brush",
+    "zh-cn": "斑点画笔",
+    "zh-tw": "斑點筆刷",
+    "es": "Pincel de manchas",
+    "fr": "Pinceau de taches",
+    "ja": "塗りブラシ"
+  },
+  "Bold": {
+    "en": "Bold",
+    "zh-cn": "加粗",
+    "zh-tw": "粗體",
+    "es": "Negrita",
+    "fr": "Gras",
+    "ja": "太字"
+  },
+  "Bring Forward": {
+    "en": "Bring Forward",
+    "zh-cn": "上移一层",
+    "zh-tw": "往前移一層",
+    "es": "Traer hacia adelante",
+    "fr": "Avancer d’un plan",
+    "ja": "前面へ移動"
+  },
+  "Bring to Front": {
+    "en": "Bring to Front",
+    "zh-cn": "置于顶层",
+    "zh-tw": "移至最前",
+    "es": "Traer al frente",
+    "fr": "Premier plan",
+    "ja": "最前面へ"
+  },
+  "Browse in Bridge": {
+    "en": "Browse in Bridge",
+    "zh-cn": "在 Bridge 中浏览",
+    "zh-tw": "在 Bridge 中瀏覽",
+    "es": "Explorar en Bridge",
+    "fr": "Parcourir dans Bridge",
+    "ja": "Bridge で参照"
+  },
+  "Brushes": {
+    "en": "Brushes",
+    "zh-cn": "画笔",
+    "zh-tw": "筆刷",
+    "es": "Pinceles",
+    "fr": "Pinceaux",
+    "ja": "ブラシ"
+  },
+  "Bullet": {
+    "en": "Bullet",
+    "zh-cn": "项目符号",
+    "zh-tw": "項目符號",
+    "es": "Viñeta",
+    "fr": "Puce",
+    "ja": "箇条書き記号"
+  },
+  "Center Text": {
+    "en": "Center Text",
+    "zh-cn": "文本居中",
+    "zh-tw": "文字置中",
+    "es": "Centrar texto",
+    "fr": "Centrer le texte",
+    "ja": "テキストを中央揃え"
+  },
+  "Change to Artboard Rulers": {
+    "en": "Change to Artboard Rulers",
+    "zh-cn": "切换为画板标尺",
+    "zh-tw": "切換為畫板尺規",
+    "es": "Cambiar a reglas de mesa de trabajo",
+    "fr": "Passer aux règles du plan de travail",
+    "ja": "アートボード定規に切り替え"
+  },
+  "Character": {
+    "en": "Character",
+    "zh-cn": "字符",
+    "zh-tw": "字元",
+    "es": "Carácter",
+    "fr": "Caractère",
+    "ja": "文字"
+  },
+  "Check Spelling": {
+    "en": "Check Spelling",
+    "zh-cn": "检查拼写",
+    "zh-tw": "檢查拼字",
+    "es": "Revisar ortografía",
+    "fr": "Vérifier l’orthographe",
+    "ja": "スペルチェック"
+  },
+  "Clean": {
+    "en": "Clean",
+    "zh-cn": "清理",
+    "zh-tw": "清理",
+    "es": "Limpiar",
+    "fr": "Nettoyer",
+    "ja": "クリーンアップ"
+  },
+  "Clear Tracking": {
+    "en": "Clear Tracking",
+    "zh-cn": "清除字距",
+    "zh-tw": "清除字距",
+    "es": "Borrar interletraje",
+    "fr": "Effacer l’approche",
+    "ja": "トラッキングをクリア"
+  },
+  "Close": {
+    "en": "Close",
+    "zh-cn": "关闭",
+    "zh-tw": "關閉",
+    "es": "Cerrar",
+    "fr": "Fermer",
+    "ja": "閉じる"
+  },
+  "Close All": {
+    "en": "Close All",
+    "zh-cn": "全部关闭",
+    "zh-tw": "全部關閉",
+    "es": "Cerrar todo",
+    "fr": "Tout fermer",
+    "ja": "すべて閉じる"
+  },
+  "Color": {
+    "en": "Color",
+    "zh-cn": "颜色",
+    "zh-tw": "顏色",
+    "es": "Color",
+    "fr": "Couleur",
+    "ja": "カラー"
+  },
+  "Color Guide": {
+    "en": "Color Guide",
+    "zh-cn": "颜色参考",
+    "zh-tw": "顏色參考",
+    "es": "Guía de color",
+    "fr": "Guide des couleurs",
+    "ja": "カラ―ガイド"
+  },
+  "Color Settings": {
+    "en": "Color Settings",
+    "zh-cn": "颜色设置",
+    "zh-tw": "顏色設定",
+    "es": "Ajustes de color",
+    "fr": "Réglages colorimétriques",
+    "ja": "カラー設定"
+  },
+  "Column Graph": {
+    "en": "Column Graph",
+    "zh-cn": "柱形图",
+    "zh-tw": "柱形圖",
+    "es": "Gráfico de columnas",
+    "fr": "Graphique à colonnes",
+    "ja": "縦棒グラフ"
+  },
+  "Copy": {
+    "en": "Copy",
+    "zh-cn": "复制",
+    "zh-tw": "複製",
+    "es": "Copiar",
+    "fr": "Copier",
+    "ja": "コピー"
+  },
+  "Copy (Secondary)": {
+    "en": "Copy (Secondary)",
+    "zh-cn": "复制（次要）",
+    "zh-tw": "複製（次要）",
+    "es": "Copiar (secundario)",
+    "fr": "Copier (secondaire)",
+    "ja": "コピー（代替）"
+  },
+  "Copyright Symbol": {
+    "en": "Copyright Symbol",
+    "zh-cn": "版权符号",
+    "zh-tw": "版權符號",
+    "es": "Símbolo de copyright",
+    "fr": "Symbole de copyright",
+    "ja": "著作権記号"
+  },
+  "Create Outlines": {
+    "en": "Create Outlines",
+    "zh-cn": "创建轮廓",
+    "zh-tw": "建立外框",
+    "es": "Crear contornos",
+    "fr": "Créer les contours",
+    "ja": "アウトラインを作成"
+  },
+  "Curvature Tool": {
+    "en": "Curvature Tool",
+    "zh-cn": "曲率工具",
+    "zh-tw": "曲率工具",
+    "es": "Herramienta Curvatura",
+    "fr": "Outil Courbure",
+    "ja": "カーブツール"
+  },
+  "Custom View": {
+    "en": "Custom View",
+    "zh-cn": "自定视图",
+    "zh-tw": "自訂檢視",
+    "es": "Vista personalizada",
+    "fr": "Affichage personnalisé",
+    "ja": "カスタム表示"
+  },
+  "Cut": {
+    "en": "Cut",
+    "zh-cn": "剪切",
+    "zh-tw": "剪下",
+    "es": "Cortar",
+    "fr": "Couper",
+    "ja": "切り取り"
+  },
+  "Cut (Secondary)": {
+    "en": "Cut (Secondary)",
+    "zh-cn": "剪切（次要）",
+    "zh-tw": "剪下（次要）",
+    "es": "Cortar (secundario)",
+    "fr": "Couper (secondaire)",
+    "ja": "切り取り（代替）"
+  },
+  "Decrease Diameter": {
+    "en": "Decrease Diameter",
+    "zh-cn": "减小直径",
+    "zh-tw": "減小直徑",
+    "es": "Reducir diámetro",
+    "fr": "Réduire le diamètre",
+    "ja": "直径を小さくする"
+  },
+  "Default": {
+    "en": "Default",
+    "zh-cn": "默认",
+    "zh-tw": "預設",
+    "es": "Predeterminado",
+    "fr": "Par défaut",
+    "ja": "デフォルト"
+  },
+  "Delete Anchor Point": {
+    "en": "Delete Anchor Point",
+    "zh-cn": "删除锚点",
+    "zh-tw": "刪除錨點",
+    "es": "Eliminar punto de ancla",
+    "fr": "Supprimer le point d’ancrage",
+    "ja": "アンカーポイントを削除"
+  },
+  "Deselect": {
+    "en": "Deselect",
+    "zh-cn": "取消选择",
+    "zh-tw": "取消選取",
+    "es": "Deseleccionar",
+    "fr": "Désélectionner",
+    "ja": "選択解除"
+  },
+  "Direct Selection": {
+    "en": "Direct Selection",
+    "zh-cn": "直接选择",
+    "zh-tw": "直接選取",
+    "es": "Selección directa",
+    "fr": "Sélection directe",
+    "ja": "ダイレクト選択"
+  },
+  "Discretionary Hyphen": {
+    "en": "Discretionary Hyphen",
+    "zh-cn": "任选连字符",
+    "zh-tw": "選擇性連字號",
+    "es": "Guion discrecional",
+    "fr": "Trait d’union conditionnel",
+    "ja": "任意ハイフン"
+  },
+  "Document Setup": {
+    "en": "Document Setup",
+    "zh-cn": "文档设置",
+    "zh-tw": "文件設定",
+    "es": "Ajustes del documento",
+    "fr": "Configuration du document",
+    "ja": "ドキュメント設定"
+  },
+  "Double Left Quotation Marks": {
+    "en": "Double Left Quotation Marks",
+    "zh-cn": "左双引号",
+    "zh-tw": "左雙引號",
+    "es": "Comillas dobles izquierdas",
+    "fr": "Guillemets doubles ouvrants",
+    "ja": "左二重引用符"
+  },
+  "Double Right Quotation Marks": {
+    "en": "Double Right Quotation Marks",
+    "zh-cn": "右双引号",
+    "zh-tw": "右雙引號",
+    "es": "Comillas dobles derechas",
+    "fr": "Guillemets doubles fermants",
+    "ja": "右二重引用符"
+  },
+  "Edit Pattern": {
+    "en": "Edit Pattern",
+    "zh-cn": "编辑图案",
+    "zh-tw": "編輯圖樣",
+    "es": "Editar motivo",
+    "fr": "Modifier le motif",
+    "ja": "パターンを編集"
+  },
+  "Ellipse": {
+    "en": "Ellipse",
+    "zh-cn": "椭圆",
+    "zh-tw": "橢圓",
+    "es": "Elipse",
+    "fr": "Ellipse",
+    "ja": "楕円"
+  },
+  "Ellipsis": {
+    "en": "Ellipsis",
+    "zh-cn": "省略号",
+    "zh-tw": "省略號",
+    "es": "Puntos suspensivos",
+    "fr": "Points de suspension",
+    "ja": "省略記号"
+  },
+  "Em Dash": {
+    "en": "Em Dash",
+    "zh-cn": "长破折号",
+    "zh-tw": "長破折號",
+    "es": "Raya larga",
+    "fr": "Tiret cadratin",
+    "ja": "em ダッシュ"
+  },
+  "Em Space": {
+    "en": "Em Space",
+    "zh-cn": "全角空格",
+    "zh-tw": "全形空格",
+    "es": "Espacio eme",
+    "fr": "Espace cadratin",
+    "ja": "em スペース"
+  },
+  "En Dash": {
+    "en": "En Dash",
+    "zh-cn": "短破折号",
+    "zh-tw": "短破折號",
+    "es": "Raya corta",
+    "fr": "Tiret demi-cadratin",
+    "ja": "en ダッシュ"
+  },
+  "En Space": {
+    "en": "En Space",
+    "zh-cn": "半角空格",
+    "zh-tw": "半形空格",
+    "es": "Espacio ene",
+    "fr": "Espace demi-cadratin",
+    "ja": "en スペース"
+  },
+  "Eraser": {
+    "en": "Eraser",
+    "zh-cn": "橡皮擦",
+    "zh-tw": "橡皮擦",
+    "es": "Borrador",
+    "fr": "Gomme",
+    "ja": "消しゴム"
+  },
+  "Exit": {
+    "en": "Exit",
+    "zh-cn": "退出",
+    "zh-tw": "退出",
+    "es": "Salir",
+    "fr": "Quitter",
+    "ja": "終了"
+  },
+  "Export for Screens": {
+    "en": "Export for Screens",
+    "zh-cn": "导出为屏幕",
+    "zh-tw": "輸出供螢幕",
+    "es": "Exportar para pantallas",
+    "fr": "Exporter pour les écrans",
+    "ja": "画面用に書き出し"
+  },
+  "Eyedropper": {
+    "en": "Eyedropper",
+    "zh-cn": "吸管",
+    "zh-tw": "滴管",
+    "es": "Cuentagotas",
+    "fr": "Pipette",
+    "ja": "スポイト"
+  },
+  "File Info": {
+    "en": "File Info",
+    "zh-cn": "文件信息",
+    "zh-tw": "檔案資訊",
+    "es": "Información del archivo",
+    "fr": "Informations sur le fichier",
+    "ja": "ファイル情報"
+  },
+  "Fit All in Window": {
+    "en": "Fit All in Window",
+    "zh-cn": "窗口中显示全部",
+    "zh-tw": "視窗中顯示全部",
+    "es": "Encajar todo en la ventana",
+    "fr": "Tout afficher dans la fenêtre",
+    "ja": "すべてをウィンドウに合わせる"
+  },
+  "Fit Artboard in Window": {
+    "en": "Fit Artboard in Window",
+    "zh-cn": "窗口中显示画板",
+    "zh-tw": "視窗中顯示畫板",
+    "es": "Encajar mesa de trabajo en la ventana",
+    "fr": "Adapter le plan de travail à la fenêtre",
+    "ja": "アートボードをウィンドウに合わせる"
+  },
+  "Font Size Step Down": {
+    "en": "Font Size Step Down",
+    "zh-cn": "字号步进减小",
+    "zh-tw": "字級遞減",
+    "es": "Reducir tamaño de fuente por paso",
+    "fr": "Réduire la taille de police par incrément",
+    "ja": "フォントサイズを段階的に下げる"
+  },
+  "Font Size Step Up": {
+    "en": "Font Size Step Up",
+    "zh-cn": "字号步进增大",
+    "zh-tw": "字級遞增",
+    "es": "Aumentar tamaño de fuente por paso",
+    "fr": "Augmenter la taille de police par incrément",
+    "ja": "フォントサイズを段階的に上げる"
+  },
+  "Free Transform": {
+    "en": "Free Transform",
+    "zh-cn": "自由变换",
+    "zh-tw": "自由變形",
+    "es": "Transformación libre",
+    "fr": "Transformation manuelle",
+    "ja": "自由変形"
+  },
+  "General": {
+    "en": "General",
+    "zh-cn": "常规",
+    "zh-tw": "一般",
+    "es": "General",
+    "fr": "Général",
+    "ja": "一般"
+  },
+  "GPU Preview": {
+    "en": "GPU Preview",
+    "zh-cn": "GPU 预览",
+    "zh-tw": "GPU 預覽",
+    "es": "Vista previa con GPU",
+    "fr": "Aperçu GPU",
+    "ja": "GPU プレビュー"
+  },
+  "Gradient": {
+    "en": "Gradient",
+    "zh-cn": "渐变",
+    "zh-tw": "漸層",
+    "es": "Degradado",
+    "fr": "Dégradé",
+    "ja": "グラデーション"
+  },
+  "Graphic Styles": {
+    "en": "Graphic Styles",
+    "zh-cn": "图形样式",
+    "zh-tw": "圖形樣式",
+    "es": "Estilos gráficos",
+    "fr": "Styles graphiques",
+    "ja": "グラフィックスタイル"
+  },
+  "Group": {
+    "en": "Group",
+    "zh-cn": "编组",
+    "zh-tw": "群組",
+    "es": "Agrupar",
+    "fr": "Grouper",
+    "ja": "グループ化"
+  },
+  "Hair": {
+    "en": "Hair",
+    "zh-cn": "细线",
+    "zh-tw": "細線",
+    "es": "Línea fina",
+    "fr": "Ligne fine",
+    "ja": "極細線"
+  },
+  "Hand": {
+    "en": "Hand",
+    "zh-cn": "抓手",
+    "zh-tw": "手形工具",
+    "es": "Mano",
+    "fr": "Main",
+    "ja": "手のひら"
+  },
+  "Hide Artboards": {
+    "en": "Hide Artboards",
+    "zh-cn": "隐藏画板",
+    "zh-tw": "隱藏畫板",
+    "es": "Ocultar mesas de trabajo",
+    "fr": "Masquer les plans de travail",
+    "ja": "アートボードを隠す"
+  },
+  "Hide Bounding Box": {
+    "en": "Hide Bounding Box",
+    "zh-cn": "隐藏定界框",
+    "zh-tw": "隱藏外框",
+    "es": "Ocultar cuadro delimitador",
+    "fr": "Masquer le cadre de sélection",
+    "ja": "バウンディングボックスを隠す"
+  },
+  "Hide Edges": {
+    "en": "Hide Edges",
+    "zh-cn": "隐藏边缘",
+    "zh-tw": "隱藏邊緣",
+    "es": "Ocultar bordes",
+    "fr": "Masquer les contours",
+    "ja": "エッジを隠す"
+  },
+  "Hide Gradient Annotator": {
+    "en": "Hide Gradient Annotator",
+    "zh-cn": "隐藏渐变注释器",
+    "zh-tw": "隱藏漸層註解器",
+    "es": "Ocultar anotador de degradado",
+    "fr": "Masquer l’annotateur de dégradé",
+    "ja": "グラデーション注釈を隠す"
+  },
+  "Hide Guides": {
+    "en": "Hide Guides",
+    "zh-cn": "隐藏参考线",
+    "zh-tw": "隱藏參考線",
+    "es": "Ocultar guías",
+    "fr": "Masquer les repères",
+    "ja": "ガイドを隠す"
+  },
+  "Hide Others": {
+    "en": "Hide Others",
+    "zh-cn": "隐藏其他",
+    "zh-tw": "隱藏其他",
+    "es": "Ocultar otros",
+    "fr": "Masquer les autres",
+    "ja": "他を隠す"
+  },
+  "Highlight Font": {
+    "en": "Highlight Font",
+    "zh-cn": "高亮字体",
+    "zh-tw": "醒目顯示字體",
+    "es": "Resaltar fuente",
+    "fr": "Mettre en surbrillance la police",
+    "ja": "フォントをハイライト"
+  },
+  "Highlight Font (Secondary)": {
+    "en": "Highlight Font (Secondary)",
+    "zh-cn": "高亮字体（次要）",
+    "zh-tw": "醒目顯示字體（次要）",
+    "es": "Resaltar fuente (secundario)",
+    "fr": "Mettre en surbrillance la police (secondaire)",
+    "ja": "フォントをハイライト（代替）"
+  },
+  "Illustrator Help": {
+    "en": "Illustrator Help",
+    "zh-cn": "Illustrator 帮助",
+    "zh-tw": "Illustrator 說明",
+    "es": "Ayuda de Illustrator",
+    "fr": "Aide d’Illustrator",
+    "ja": "Illustrator ヘルプ"
+  },
+  "Increase Diameter": {
+    "en": "Increase Diameter",
+    "zh-cn": "增大直径",
+    "zh-tw": "增大直徑",
+    "es": "Aumentar diámetro",
+    "fr": "Augmenter le diamètre",
+    "ja": "直径を大きくする"
+  },
+  "Info": {
+    "en": "Info",
+    "zh-cn": "信息",
+    "zh-tw": "資訊",
+    "es": "Información",
+    "fr": "Infos",
+    "ja": "情報"
+  },
+  "Italic": {
+    "en": "Italic",
+    "zh-cn": "斜体",
+    "zh-tw": "斜體",
+    "es": "Cursiva",
+    "fr": "Italique",
+    "ja": "斜体"
+  },
+  "Join": {
+    "en": "Join",
+    "zh-cn": "连接",
+    "zh-tw": "連接",
+    "es": "Unir",
+    "fr": "Joindre",
+    "ja": "連結"
+  },
+  "Justify All Lines": {
+    "en": "Justify All Lines",
+    "zh-cn": "两端对齐所有行",
+    "zh-tw": "左右對齊所有行",
+    "es": "Justificar todas las líneas",
+    "fr": "Justifier toutes les lignes",
+    "ja": "すべての行を両端揃え"
+  },
+  "Justify Text": {
+    "en": "Justify Text",
+    "zh-cn": "文本两端对齐",
+    "zh-tw": "文字左右對齊",
+    "es": "Justificar texto",
+    "fr": "Justifier le texte",
+    "ja": "テキストを両端揃え"
+  },
+  "Justify Text Left": {
+    "en": "Justify Text Left",
+    "zh-cn": "文本左侧两端对齐",
+    "zh-tw": "文字左側左右對齊",
+    "es": "Justificar texto a la izquierda",
+    "fr": "Justifier le texte à gauche",
+    "ja": "テキストを左寄せ両端揃え"
+  },
+  "Kern Looser": {
+    "en": "Kern Looser",
+    "zh-cn": "放宽字偶距",
+    "zh-tw": "放寬字偶距",
+    "es": "Aumentar interletraje",
+    "fr": "Desserrer le crénage",
+    "ja": "カーニングを広げる"
+  },
+  "Kern Tighter": {
+    "en": "Kern Tighter",
+    "zh-cn": "收紧字偶距",
+    "zh-tw": "縮緊字偶距",
+    "es": "Reducir interletraje",
+    "fr": "Resserrer le crénage",
+    "ja": "カーニングを詰める"
+  },
+  "Keyboard Shortcuts": {
+    "en": "Keyboard Shortcuts",
+    "zh-cn": "键盘快捷键",
+    "zh-tw": "鍵盤快速鍵",
+    "es": "Métodos abreviados de teclado",
+    "fr": "Raccourcis clavier",
+    "ja": "キーボードショートカット"
+  },
+  "Lasso": {
+    "en": "Lasso",
+    "zh-cn": "套索",
+    "zh-tw": "套索",
+    "es": "Lazo",
+    "fr": "Lasso",
+    "ja": "なげなわ"
+  },
+  "Last Effect": {
+    "en": "Last Effect",
+    "zh-cn": "上次效果",
+    "zh-tw": "上次效果",
+    "es": "Último efecto",
+    "fr": "Dernier effet",
+    "ja": "前回の効果"
+  },
+  "Layers": {
+    "en": "Layers",
+    "zh-cn": "图层",
+    "zh-tw": "圖層",
+    "es": "Capas",
+    "fr": "Calques",
+    "ja": "レイヤー"
+  },
+  "Left Align Text": {
+    "en": "Left Align Text",
+    "zh-cn": "文本左对齐",
+    "zh-tw": "文字靠左對齊",
+    "es": "Alinear texto a la izquierda",
+    "fr": "Aligner le texte à gauche",
+    "ja": "テキストを左揃え"
+  },
+  "Line Segment": {
+    "en": "Line Segment",
+    "zh-cn": "线段",
+    "zh-tw": "線段",
+    "es": "Segmento de línea",
+    "fr": "Segment de ligne",
+    "ja": "直線"
+  },
+  "Live Paint Bucket": {
+    "en": "Live Paint Bucket",
+    "zh-cn": "实时上色桶",
+    "zh-tw": "即時上色桶",
+    "es": "Bote de pintura interactiva",
+    "fr": "Pot de peinture dynamique",
+    "ja": "ライブペイントバケツ"
+  },
+  "Live Paint Selection": {
+    "en": "Live Paint Selection",
+    "zh-cn": "实时上色选择",
+    "zh-tw": "即時上色選取",
+    "es": "Selección de pintura interactiva",
+    "fr": "Sélection de peinture dynamique",
+    "ja": "ライブペイント選択"
+  },
+  "Lock Guides": {
+    "en": "Lock Guides",
+    "zh-cn": "锁定参考线",
+    "zh-tw": "鎖定參考線",
+    "es": "Bloquear guías",
+    "fr": "Verrouiller les repères",
+    "ja": "ガイドをロック"
+  },
+  "Lock Others": {
+    "en": "Lock Others",
+    "zh-cn": "锁定其他",
+    "zh-tw": "鎖定其他",
+    "es": "Bloquear otros",
+    "fr": "Verrouiller les autres",
+    "ja": "他をロック"
+  },
+  "Magic Wand": {
+    "en": "Magic Wand",
+    "zh-cn": "魔棒",
+    "zh-tw": "魔術棒",
+    "es": "Varita mágica",
+    "fr": "Baguette magique",
+    "ja": "自動選択"
+  },
+  "Make": {
+    "en": "Make",
+    "zh-cn": "建立",
+    "zh-tw": "建立",
+    "es": "Crear",
+    "fr": "Créer",
+    "ja": "作成"
+  },
+  "Make Guides": {
+    "en": "Make Guides",
+    "zh-cn": "建立参考线",
+    "zh-tw": "建立參考線",
+    "es": "Crear guías",
+    "fr": "Créer des repères",
+    "ja": "ガイドを作成"
+  },
+  "Make with Mesh": {
+    "en": "Make with Mesh",
+    "zh-cn": "用网格创建",
+    "zh-tw": "以網格建立",
+    "es": "Crear con malla",
+    "fr": "Créer avec un filet",
+    "ja": "メッシュで作成"
+  },
+  "Make with Top Object": {
+    "en": "Make with Top Object",
+    "zh-cn": "用顶层对象创建",
+    "zh-tw": "使用最上層物件建立",
+    "es": "Crear con objeto superior",
+    "fr": "Créer avec l’objet supérieur",
+    "ja": "最前面のオブジェクトで作成"
+  },
+  "Make with Warp": {
+    "en": "Make with Warp",
+    "zh-cn": "用封套扭曲创建",
+    "zh-tw": "以變形建立",
+    "es": "Crear con deformación",
+    "fr": "Créer avec une déformation",
+    "ja": "ワープで作成"
+  },
+  "Mesh": {
+    "en": "Mesh",
+    "zh-cn": "网格",
+    "zh-tw": "網格",
+    "es": "Malla",
+    "fr": "Filet",
+    "ja": "メッシュ"
+  },
+  "Move": {
+    "en": "Move",
+    "zh-cn": "移动",
+    "zh-tw": "移動",
+    "es": "Mover",
+    "fr": "Déplacer",
+    "ja": "移動"
+  },
+  "Navigate to Next Document": {
+    "en": "Navigate to Next Document",
+    "zh-cn": "切换到下一个文档",
+    "zh-tw": "切換到下一份文件",
+    "es": "Ir al siguiente documento",
+    "fr": "Aller au document suivant",
+    "ja": "次のドキュメントへ移動"
+  },
+  "Navigate to Next Document Group": {
+    "en": "Navigate to Next Document Group",
+    "zh-cn": "切换到下一个文档组",
+    "zh-tw": "切換到下一個文件群組",
+    "es": "Ir al siguiente grupo de documentos",
+    "fr": "Aller au groupe de documents suivant",
+    "ja": "次のドキュメントグループへ移動"
+  },
+  "Navigate to Previous Document": {
+    "en": "Navigate to Previous Document",
+    "zh-cn": "切换到上一个文档",
+    "zh-tw": "切換到上一份文件",
+    "es": "Ir al documento anterior",
+    "fr": "Aller au document précédent",
+    "ja": "前のドキュメントへ移動"
+  },
+  "Navigate to Previous Document Group": {
+    "en": "Navigate to Previous Document Group",
+    "zh-cn": "切换到上一个文档组",
+    "zh-tw": "切換到上一個文件群組",
+    "es": "Ir al grupo de documentos anterior",
+    "fr": "Aller au groupe de documents précédent",
+    "ja": "前のドキュメントグループへ移動"
+  },
+  "New": {
+    "en": "New",
+    "zh-cn": "新建",
+    "zh-tw": "新增",
+    "es": "Nuevo",
+    "fr": "Nouveau",
+    "ja": "新規"
+  },
+  "New File (No Dialog)": {
+    "en": "New File (No Dialog)",
+    "zh-cn": "新建文件（无对话框）",
+    "zh-tw": "新增文件（無對話框）",
+    "es": "Nuevo archivo (sin diálogo)",
+    "fr": "Nouveau fichier (sans boîte de dialogue)",
+    "ja": "新規ファイル（ダイアログなし）"
+  },
+  "New from Template": {
+    "en": "New from Template",
+    "zh-cn": "从模板新建",
+    "zh-tw": "從範本新增",
+    "es": "Nuevo desde plantilla",
+    "fr": "Nouveau à partir d’un modèle",
+    "ja": "テンプレートから新規作成"
+  },
+  "New Layer": {
+    "en": "New Layer",
+    "zh-cn": "新建图层",
+    "zh-tw": "新增圖層",
+    "es": "Nueva capa",
+    "fr": "Nouveau calque",
+    "ja": "新規レイヤー"
+  },
+  "New Layer with Dialog": {
+    "en": "New Layer with Dialog",
+    "zh-cn": "新建图层（带对话框）",
+    "zh-tw": "新增圖層（含對話框）",
+    "es": "Nueva capa con diálogo",
+    "fr": "Nouveau calque avec boîte de dialogue",
+    "ja": "新規レイヤー（ダイアログ付き）"
+  },
+  "New Symbol": {
+    "en": "New Symbol",
+    "zh-cn": "新建符号",
+    "zh-tw": "新增符號",
+    "es": "Nuevo símbolo",
+    "fr": "Nouveau symbole",
+    "ja": "新規シンボル"
+  },
+  "Next Object Above": {
+    "en": "Next Object Above",
+    "zh-cn": "上方下一个对象",
+    "zh-tw": "上方下一個物件",
+    "es": "Siguiente objeto superior",
+    "fr": "Objet suivant au-dessus",
+    "ja": "上の次のオブジェクト"
+  },
+  "Next Object Below": {
+    "en": "Next Object Below",
+    "zh-cn": "下方下一个对象",
+    "zh-tw": "下方下一個物件",
+    "es": "Siguiente objeto inferior",
+    "fr": "Objet suivant en dessous",
+    "ja": "下の次のオブジェクト"
+  },
+  "None": {
+    "en": "None",
+    "zh-cn": "无",
+    "zh-tw": "無",
+    "es": "Ninguno",
+    "fr": "Aucun",
+    "ja": "なし"
+  },
+  "Open": {
+    "en": "Open",
+    "zh-cn": "打开",
+    "zh-tw": "開啟",
+    "es": "Abrir",
+    "fr": "Ouvrir",
+    "ja": "開く"
+  },
+  "OpenType": {
+    "en": "OpenType",
+    "zh-cn": "OpenType",
+    "zh-tw": "OpenType",
+    "es": "OpenType",
+    "fr": "OpenType",
+    "ja": "OpenType"
+  },
+  "Other Script": {
+    "en": "Other Script",
+    "zh-cn": "其他脚本",
+    "zh-tw": "其他腳本",
+    "es": "Otro script",
+    "fr": "Autre script",
+    "ja": "その他のスクリプト"
+  },
+  "Overprint Preview": {
+    "en": "Overprint Preview",
+    "zh-cn": "叠印预览",
+    "zh-tw": "疊印預覽",
+    "es": "Vista previa de sobreimpresión",
+    "fr": "Aperçu de la surimpression",
+    "ja": "オーバープリントプレビュー"
+  },
+  "Package": {
+    "en": "Package",
+    "zh-cn": "打包",
+    "zh-tw": "封裝",
+    "es": "Empaquetar",
+    "fr": "Assembler",
+    "ja": "パッケージ"
+  },
+  "Paintbrush": {
+    "en": "Paintbrush",
+    "zh-cn": "画笔",
+    "zh-tw": "畫筆",
+    "es": "Pincel",
+    "fr": "Pinceau",
+    "ja": "ペイントブラシ"
+  },
+  "Paragraph": {
+    "en": "Paragraph",
+    "zh-cn": "段落",
+    "zh-tw": "段落",
+    "es": "Párrafo",
+    "fr": "Paragraphe",
+    "ja": "段落"
+  },
+  "Paragraph Symbol": {
+    "en": "Paragraph Symbol",
+    "zh-cn": "段落符号",
+    "zh-tw": "段落符號",
+    "es": "Símbolo de párrafo",
+    "fr": "Symbole de paragraphe",
+    "ja": "段落記号"
+  },
+  "Paste": {
+    "en": "Paste",
+    "zh-cn": "粘贴",
+    "zh-tw": "貼上",
+    "es": "Pegar",
+    "fr": "Coller",
+    "ja": "貼り付け"
+  },
+  "Paste (Secondary)": {
+    "en": "Paste (Secondary)",
+    "zh-cn": "粘贴（次要）",
+    "zh-tw": "貼上（次要）",
+    "es": "Pegar (secundario)",
+    "fr": "Coller (secondaire)",
+    "ja": "貼り付け（代替）"
+  },
+  "Paste in Back": {
+    "en": "Paste in Back",
+    "zh-cn": "贴在后面",
+    "zh-tw": "貼到後方",
+    "es": "Pegar detrás",
+    "fr": "Coller à l’arrière",
+    "ja": "背面にペースト"
+  },
+  "Paste in Front": {
+    "en": "Paste in Front",
+    "zh-cn": "贴在前面",
+    "zh-tw": "貼到前方",
+    "es": "Pegar delante",
+    "fr": "Coller à l’avant",
+    "ja": "前面にペースト"
+  },
+  "Paste in Place": {
+    "en": "Paste in Place",
+    "zh-cn": "原位粘贴",
+    "zh-tw": "原地貼上",
+    "es": "Pegar en el mismo lugar",
+    "fr": "Coller sur place",
+    "ja": "同じ位置にペースト"
+  },
+  "Paste on All Artboards": {
+    "en": "Paste on All Artboards",
+    "zh-cn": "在所有画板上粘贴",
+    "zh-tw": "在所有畫板上貼上",
+    "es": "Pegar en todas las mesas de trabajo",
+    "fr": "Coller sur tous les plans de travail",
+    "ja": "すべてのアートボードにペースト"
+  },
+  "Paste without Formatting": {
+    "en": "Paste without Formatting",
+    "zh-cn": "粘贴而不保留格式",
+    "zh-tw": "貼上但不保留格式",
+    "es": "Pegar sin formato",
+    "fr": "Coller sans mise en forme",
+    "ja": "書式なしで貼り付け"
+  },
+  "Pathfinder": {
+    "en": "Pathfinder",
+    "zh-cn": "路径查找器",
+    "zh-tw": "路徑管理員",
+    "es": "Buscatrazos",
+    "fr": "Pathfinder",
+    "ja": "パスファインダー"
+  },
+  "Pen": {
+    "en": "Pen",
+    "zh-cn": "钢笔",
+    "zh-tw": "鋼筆",
+    "es": "Pluma",
+    "fr": "Plume",
+    "ja": "ペン"
+  },
+  "Pencil": {
+    "en": "Pencil",
+    "zh-cn": "铅笔",
+    "zh-tw": "鉛筆",
+    "es": "Lápiz",
+    "fr": "Crayon",
+    "ja": "鉛筆"
+  },
+  "Perspective Grid": {
+    "en": "Perspective Grid",
+    "zh-cn": "透视网格",
+    "zh-tw": "透視格點",
+    "es": "Cuadrícula de perspectiva",
+    "fr": "Grille de perspective",
+    "ja": "遠近グリッド"
+  },
+  "Perspective Selection": {
+    "en": "Perspective Selection",
+    "zh-cn": "透视选择",
+    "zh-tw": "透視選取",
+    "es": "Selección de perspectiva",
+    "fr": "Sélection en perspective",
+    "ja": "遠近選択"
+  },
+  "Pixel Preview": {
+    "en": "Pixel Preview",
+    "zh-cn": "像素预览",
+    "zh-tw": "像素預覽",
+    "es": "Vista previa de píxeles",
+    "fr": "Aperçu en pixels",
+    "ja": "ピクセルプレビュー"
+  },
+  "Place": {
+    "en": "Place",
+    "zh-cn": "置入",
+    "zh-tw": "置入",
+    "es": "Colocar",
+    "fr": "Importer",
+    "ja": "配置"
+  },
+  "Point Size Down": {
+    "en": "Point Size Down",
+    "zh-cn": "点大小减小",
+    "zh-tw": "點大小減小",
+    "es": "Reducir tamaño en puntos",
+    "fr": "Réduire la taille en points",
+    "ja": "ポイントサイズを下げる"
+  },
+  "Point Size Up": {
+    "en": "Point Size Up",
+    "zh-cn": "点大小增大",
+    "zh-tw": "點大小增大",
+    "es": "Aumentar tamaño en puntos",
+    "fr": "Augmenter la taille en points",
+    "ja": "ポイントサイズを上げる"
+  },
+  "Presentation Mode": {
+    "en": "Presentation Mode",
+    "zh-cn": "演示模式",
+    "zh-tw": "簡報模式",
+    "es": "Modo de presentación",
+    "fr": "Mode présentation",
+    "ja": "プレゼンテーションモード"
+  },
+  "Preview": {
+    "en": "Preview",
+    "zh-cn": "预览",
+    "zh-tw": "預覽",
+    "es": "Vista previa",
+    "fr": "Aperçu",
+    "ja": "プレビュー"
+  },
+  "Print": {
+    "en": "Print",
+    "zh-cn": "打印",
+    "zh-tw": "列印",
+    "es": "Imprimir",
+    "fr": "Imprimer",
+    "ja": "印刷"
+  },
+  "Rectangle": {
+    "en": "Rectangle",
+    "zh-cn": "矩形",
+    "zh-tw": "矩形",
+    "es": "Rectángulo",
+    "fr": "Rectangle",
+    "ja": "長方形"
+  },
+  "Redo": {
+    "en": "Redo",
+    "zh-cn": "重做",
+    "zh-tw": "取消復原",
+    "es": "Rehacer",
+    "fr": "Rétablir",
+    "ja": "やり直し"
+  },
+  "Reflect": {
+    "en": "Reflect",
+    "zh-cn": "镜像",
+    "zh-tw": "鏡射",
+    "es": "Reflejar",
+    "fr": "Symétrie",
+    "ja": "リフレクト"
+  },
+  "Registered Trademark Symbol": {
+    "en": "Registered Trademark Symbol",
+    "zh-cn": "注册商标符号",
+    "zh-tw": "註冊商標符號",
+    "es": "Símbolo de marca registrada",
+    "fr": "Symbole de marque déposée",
+    "ja": "登録商標記号"
+  },
+  "Release": {
+    "en": "Release",
+    "zh-cn": "释放",
+    "zh-tw": "釋放",
+    "es": "Soltar",
+    "fr": "Libérer",
+    "ja": "解除"
+  },
+  "Release Guides": {
+    "en": "Release Guides",
+    "zh-cn": "释放参考线",
+    "zh-tw": "釋放參考線",
+    "es": "Soltar guías",
+    "fr": "Libérer les repères",
+    "ja": "ガイドを解除"
+  },
+  "Repeat Pathfinder": {
+    "en": "Repeat Pathfinder",
+    "zh-cn": "重复路径查找器",
+    "zh-tw": "重複路徑管理員",
+    "es": "Repetir Buscatrazos",
+    "fr": "Répéter Pathfinder",
+    "ja": "パスファインダーを繰り返す"
+  },
+  "Reselect": {
+    "en": "Reselect",
+    "zh-cn": "重新选择",
+    "zh-tw": "重新選取",
+    "es": "Volver a seleccionar",
+    "fr": "Resélectionner",
+    "ja": "再選択"
+  },
+  "Reset Rotate View": {
+    "en": "Reset Rotate View",
+    "zh-cn": "重置旋转视图",
+    "zh-tw": "重設旋轉檢視",
+    "es": "Restablecer vista girada",
+    "fr": "Réinitialiser la vue pivotée",
+    "ja": "回転ビューをリセット"
+  },
+  "Right Align Text": {
+    "en": "Right Align Text",
+    "zh-cn": "文本右对齐",
+    "zh-tw": "文字靠右對齊",
+    "es": "Alinear texto a la derecha",
+    "fr": "Aligner le texte à droite",
+    "ja": "テキストを右揃え"
+  },
+  "Rotate": {
+    "en": "Rotate",
+    "zh-cn": "旋转",
+    "zh-tw": "旋轉",
+    "es": "Rotar",
+    "fr": "Rotation",
+    "ja": "回転"
+  },
+  "Rotate View Tool": {
+    "en": "Rotate View Tool",
+    "zh-cn": "旋转视图工具",
+    "zh-tw": "旋轉檢視工具",
+    "es": "Herramienta Rotar vista",
+    "fr": "Outil Rotation de la vue",
+    "ja": "回転ビューツール"
+  },
+  "Save": {
+    "en": "Save",
+    "zh-cn": "保存",
+    "zh-tw": "儲存",
+    "es": "Guardar",
+    "fr": "Enregistrer",
+    "ja": "保存"
+  },
+  "Save a Copy": {
+    "en": "Save a Copy",
+    "zh-cn": "保存副本",
+    "zh-tw": "儲存副本",
+    "es": "Guardar una copia",
+    "fr": "Enregistrer une copie",
+    "ja": "コピーを保存"
+  },
+  "Save As": {
+    "en": "Save As",
+    "zh-cn": "另存为",
+    "zh-tw": "另存新檔",
+    "es": "Guardar como",
+    "fr": "Enregistrer sous",
+    "ja": "名前を付けて保存"
+  },
+  "Save for Web (Legacy)": {
+    "en": "Save for Web (Legacy)",
+    "zh-cn": "存储为 Web 所用格式（旧版）",
+    "zh-tw": "儲存為網頁格式（舊版）",
+    "es": "Guardar para web (heredado)",
+    "fr": "Enregistrer pour le Web (hérité)",
+    "ja": "Web 用に保存（従来）"
+  },
+  "Scale": {
+    "en": "Scale",
+    "zh-cn": "缩放",
+    "zh-tw": "縮放",
+    "es": "Escalar",
+    "fr": "Mise à l’échelle",
+    "ja": "拡大・縮小"
+  },
+  "Scissors": {
+    "en": "Scissors",
+    "zh-cn": "剪刀",
+    "zh-tw": "剪刀",
+    "es": "Tijeras",
+    "fr": "Ciseaux",
+    "ja": "はさみ"
+  },
+  "Section Symbol": {
+    "en": "Section Symbol",
+    "zh-cn": "节符号",
+    "zh-tw": "節符號",
+    "es": "Símbolo de sección",
+    "fr": "Symbole de section",
+    "ja": "節記号"
+  },
+  "Selection": {
+    "en": "Selection",
+    "zh-cn": "选择",
+    "zh-tw": "選取",
+    "es": "Selección",
+    "fr": "Sélection",
+    "ja": "選択"
+  },
+  "Send Backward": {
+    "en": "Send Backward",
+    "zh-cn": "下移一层",
+    "zh-tw": "往後移一層",
+    "es": "Enviar hacia atrás",
+    "fr": "Reculer d’un plan",
+    "ja": "背面へ移動"
+  },
+  "Send to Back": {
+    "en": "Send to Back",
+    "zh-cn": "置于底层",
+    "zh-tw": "移至最後",
+    "es": "Enviar al fondo",
+    "fr": "Arrière-plan",
+    "ja": "最背面へ"
+  },
+  "Shape Builder": {
+    "en": "Shape Builder",
+    "zh-cn": "形状生成器",
+    "zh-tw": "形狀建立工具",
+    "es": "Creador de formas",
+    "fr": "Concepteur de forme",
+    "ja": "シェイプ形成ツール"
+  },
+  "Shaper Tool": {
+    "en": "Shaper Tool",
+    "zh-cn": "Shaper 工具",
+    "zh-tw": "Shaper 工具",
+    "es": "Herramienta Shaper",
+    "fr": "Outil Shaper",
+    "ja": "シェイパーツール"
+  },
+  "Show All": {
+    "en": "Show All",
+    "zh-cn": "显示全部",
+    "zh-tw": "顯示全部",
+    "es": "Mostrar todo",
+    "fr": "Tout afficher",
+    "ja": "すべて表示"
+  },
+  "Show Grid": {
+    "en": "Show Grid",
+    "zh-cn": "显示网格",
+    "zh-tw": "顯示格點",
+    "es": "Mostrar cuadrícula",
+    "fr": "Afficher la grille",
+    "ja": "グリッドを表示"
+  },
+  "Show Hidden Characters": {
+    "en": "Show Hidden Characters",
+    "zh-cn": "显示隐藏字符",
+    "zh-tw": "顯示隱藏字元",
+    "es": "Mostrar caracteres ocultos",
+    "fr": "Afficher les caractères masqués",
+    "ja": "隠し文字を表示"
+  },
+  "Show Rulers": {
+    "en": "Show Rulers",
+    "zh-cn": "显示标尺",
+    "zh-tw": "顯示尺規",
+    "es": "Mostrar reglas",
+    "fr": "Afficher les règles",
+    "ja": "定規を表示"
+  },
+  "Show Template": {
+    "en": "Show Template",
+    "zh-cn": "显示模板",
+    "zh-tw": "顯示範本",
+    "es": "Mostrar plantilla",
+    "fr": "Afficher le modèle",
+    "ja": "テンプレートを表示"
+  },
+  "Show Text Threads": {
+    "en": "Show Text Threads",
+    "zh-cn": "显示文本串接",
+    "zh-tw": "顯示文字串接",
+    "es": "Mostrar hilos de texto",
+    "fr": "Afficher les liens de texte",
+    "ja": "テキスト連結を表示"
+  },
+  "Show Transparency Grid": {
+    "en": "Show Transparency Grid",
+    "zh-cn": "显示透明网格",
+    "zh-tw": "顯示透明格點",
+    "es": "Mostrar cuadrícula de transparencia",
+    "fr": "Afficher la grille de transparence",
+    "ja": "透明グリッドを表示"
+  },
+  "Show/Hide All But Toolbox": {
+    "en": "Show/Hide All But Toolbox",
+    "zh-cn": "显示/隐藏除工具箱外的所有内容",
+    "zh-tw": "顯示/隱藏除工具箱外的所有內容",
+    "es": "Mostrar/ocultar todo excepto la caja de herramientas",
+    "fr": "Afficher/Masquer tout sauf la boîte à outils",
+    "ja": "ツールボックス以外をすべて表示/非表示"
+  },
+  "Show/Hide All Palettes": {
+    "en": "Show/Hide All Palettes",
+    "zh-cn": "显示/隐藏所有面板",
+    "zh-tw": "顯示/隱藏所有面板",
+    "es": "Mostrar/ocultar todos los paneles",
+    "fr": "Afficher/Masquer tous les panneaux",
+    "ja": "すべてのパネルを表示/非表示"
+  },
+  "Single Left Quotation Marks": {
+    "en": "Single Left Quotation Marks",
+    "zh-cn": "左单引号",
+    "zh-tw": "左單引號",
+    "es": "Comillas simples izquierdas",
+    "fr": "Guillemet simple ouvrant",
+    "ja": "左単一引用符"
+  },
+  "Single Right Quotation Marks": {
+    "en": "Single Right Quotation Marks",
+    "zh-cn": "右单引号",
+    "zh-tw": "右單引號",
+    "es": "Comillas simples derechas",
+    "fr": "Guillemet simple fermant",
+    "ja": "右単一引用符"
+  },
+  "Slice": {
+    "en": "Slice",
+    "zh-cn": "切片",
+    "zh-tw": "切片",
+    "es": "Sector",
+    "fr": "Tranche",
+    "ja": "スライス"
+  },
+  "Smart Guides": {
+    "en": "Smart Guides",
+    "zh-cn": "智能参考线",
+    "zh-tw": "智慧參考線",
+    "es": "Guías inteligentes",
+    "fr": "Repères commentés",
+    "ja": "スマートガイド"
+  },
+  "Snap to Grid": {
+    "en": "Snap to Grid",
+    "zh-cn": "对齐到网格",
+    "zh-tw": "貼齊格點",
+    "es": "Ajustar a la cuadrícula",
+    "fr": "Magnétisme de la grille",
+    "ja": "グリッドにスナップ"
+  },
+  "Snap to Point": {
+    "en": "Snap to Point",
+    "zh-cn": "对齐到点",
+    "zh-tw": "貼齊點",
+    "es": "Ajustar a punto",
+    "fr": "Magnétisme du point",
+    "ja": "ポイントにスナップ"
+  },
+  "Spacing": {
+    "en": "Spacing",
+    "zh-cn": "间距",
+    "zh-tw": "間距",
+    "es": "Espaciado",
+    "fr": "Espacement",
+    "ja": "間隔"
+  },
+  "Stroke": {
+    "en": "Stroke",
+    "zh-cn": "描边",
+    "zh-tw": "筆畫",
+    "es": "Trazo",
+    "fr": "Contour",
+    "ja": "線"
+  },
+  "Subscript": {
+    "en": "Subscript",
+    "zh-cn": "下标",
+    "zh-tw": "下標",
+    "es": "Subíndice",
+    "fr": "Indice",
+    "ja": "下付き"
+  },
+  "Subscript (Secondary)": {
+    "en": "Subscript (Secondary)",
+    "zh-cn": "下标（次要）",
+    "zh-tw": "下標（次要）",
+    "es": "Subíndice (secundario)",
+    "fr": "Indice (secondaire)",
+    "ja": "下付き（代替）"
+  },
+  "Superscript": {
+    "en": "Superscript",
+    "zh-cn": "上标",
+    "zh-tw": "上標",
+    "es": "Superíndice",
+    "fr": "Exposant",
+    "ja": "上付き"
+  },
+  "Superscript (Secondary)": {
+    "en": "Superscript (Secondary)",
+    "zh-cn": "上标（次要）",
+    "zh-tw": "上標（次要）",
+    "es": "Superíndice (secundario)",
+    "fr": "Exposant (secondaire)",
+    "ja": "上付き（代替）"
+  },
+  "Swap Fill/Stroke": {
+    "en": "Swap Fill/Stroke",
+    "zh-cn": "交换填色/描边",
+    "zh-tw": "交換填色/筆畫",
+    "es": "Intercambiar relleno/trazo",
+    "fr": "Permuter fond/contour",
+    "ja": "塗りと線を入れ替え"
+  },
+  "Switch Selection Tools": {
+    "en": "Switch Selection Tools",
+    "zh-cn": "切换选择工具",
+    "zh-tw": "切換選取工具",
+    "es": "Cambiar herramientas de selección",
+    "fr": "Basculer les outils de sélection",
+    "ja": "選択ツールを切り替え"
+  },
+  "Switch Units": {
+    "en": "Switch Units",
+    "zh-cn": "切换单位",
+    "zh-tw": "切換單位",
+    "es": "Cambiar unidades",
+    "fr": "Changer d’unités",
+    "ja": "単位を切り替え"
+  },
+  "Symbol Sprayer": {
+    "en": "Symbol Sprayer",
+    "zh-cn": "符号喷枪",
+    "zh-tw": "符號噴槍",
+    "es": "Rociador de símbolos",
+    "fr": "Pulvérisateur de symboles",
+    "ja": "シンボルスプレイヤー"
+  },
+  "Symbolism Tools - Decrease Intensity": {
+    "en": "Symbolism Tools - Decrease Intensity",
+    "zh-cn": "符号工具 - 降低强度",
+    "zh-tw": "符號工具 - 降低強度",
+    "es": "Herramientas de símbolos - Reducir intensidad",
+    "fr": "Outils de symboles - Réduire l’intensité",
+    "ja": "シンボリズムツール - 強度を下げる"
+  },
+  "Symbolism Tools - Increase Intensity": {
+    "en": "Symbolism Tools - Increase Intensity",
+    "zh-cn": "符号工具 - 提高强度",
+    "zh-tw": "符號工具 - 提高強度",
+    "es": "Herramientas de símbolos - Aumentar intensidad",
+    "fr": "Outils de symboles - Augmenter l’intensité",
+    "ja": "シンボリズムツール - 強度を上げる"
+  },
+  "Symbols": {
+    "en": "Symbols",
+    "zh-cn": "符号",
+    "zh-tw": "符號",
+    "es": "Símbolos",
+    "fr": "Symboles",
+    "ja": "シンボル"
+  },
+  "Tabs": {
+    "en": "Tabs",
+    "zh-cn": "制表符",
+    "zh-tw": "定位點",
+    "es": "Tabulaciones",
+    "fr": "Tabulations",
+    "ja": "タブ"
+  },
+  "Thin Space": {
+    "en": "Thin Space",
+    "zh-cn": "细空格",
+    "zh-tw": "細空格",
+    "es": "Espacio fino",
+    "fr": "Espace fine",
+    "ja": "シンスペース"
+  },
+  "Toggle Auto Hyphenation": {
+    "en": "Toggle Auto Hyphenation",
+    "zh-cn": "切换自动断字",
+    "zh-tw": "切換自動斷字",
+    "es": "Alternar guionado automático",
+    "fr": "Basculer la césure automatique",
+    "ja": "自動ハイフネーションを切り替え"
+  },
+  "Toggle Drawing Mode": {
+    "en": "Toggle Drawing Mode",
+    "zh-cn": "切换绘图模式",
+    "zh-tw": "切換繪圖模式",
+    "es": "Alternar modo de dibujo",
+    "fr": "Basculer le mode de dessin",
+    "ja": "描画モードを切り替え"
+  },
+  "Toggle Fill/Stroke": {
+    "en": "Toggle Fill/Stroke",
+    "zh-cn": "切换填色/描边",
+    "zh-tw": "切換填色/筆畫",
+    "es": "Alternar relleno/trazo",
+    "fr": "Basculer fond/contour",
+    "ja": "塗り/線を切り替え"
+  },
+  "Toggle Line Composer": {
+    "en": "Toggle Line Composer",
+    "zh-cn": "切换行合成器",
+    "zh-tw": "切換行合成器",
+    "es": "Alternar compositor de líneas",
+    "fr": "Basculer le compositeur de lignes",
+    "ja": "行コンポーザーを切り替え"
+  },
+  "Toggle Screen Mode": {
+    "en": "Toggle Screen Mode",
+    "zh-cn": "切换屏幕模式",
+    "zh-tw": "切換螢幕模式",
+    "es": "Alternar modo de pantalla",
+    "fr": "Basculer le mode d’écran",
+    "ja": "画面モードを切り替え"
+  },
+  "Touch Type": {
+    "en": "Touch Type",
+    "zh-cn": "触控文字",
+    "zh-tw": "觸控文字",
+    "es": "Texto táctil",
+    "fr": "Texte tactile",
+    "ja": "タッチ文字"
+  },
+  "Tracking": {
+    "en": "Tracking",
+    "zh-cn": "字距",
+    "zh-tw": "字距",
+    "es": "Interletraje",
+    "fr": "Approche",
+    "ja": "トラッキング"
+  },
+  "Trademark Symbol": {
+    "en": "Trademark Symbol",
+    "zh-cn": "商标符号",
+    "zh-tw": "商標符號",
+    "es": "Símbolo de marca comercial",
+    "fr": "Symbole de marque",
+    "ja": "商標記号"
+  },
+  "Transform": {
+    "en": "Transform",
+    "zh-cn": "变换",
+    "zh-tw": "變形",
+    "es": "Transformar",
+    "fr": "Transformation",
+    "ja": "変形"
+  },
+  "Transform Again": {
+    "en": "Transform Again",
+    "zh-cn": "再次变换",
+    "zh-tw": "再次變形",
+    "es": "Transformar de nuevo",
+    "fr": "Transformer de nouveau",
+    "ja": "変形を繰り返す"
+  },
+  "Transparency": {
+    "en": "Transparency",
+    "zh-cn": "透明度",
+    "zh-tw": "透明度",
+    "es": "Transparencia",
+    "fr": "Transparence",
+    "ja": "透明"
+  },
+  "Type": {
+    "en": "Type",
+    "zh-cn": "文字",
+    "zh-tw": "文字",
+    "es": "Texto",
+    "fr": "Texte",
+    "ja": "文字"
+  },
+  "Underline": {
+    "en": "Underline",
+    "zh-cn": "下划线",
+    "zh-tw": "底線",
+    "es": "Subrayado",
+    "fr": "Souligné",
+    "ja": "下線"
+  },
+  "Undo": {
+    "en": "Undo",
+    "zh-cn": "撤销",
+    "zh-tw": "復原",
+    "es": "Deshacer",
+    "fr": "Annuler",
+    "ja": "元に戻す"
+  },
+  "Ungroup": {
+    "en": "Ungroup",
+    "zh-cn": "取消编组",
+    "zh-tw": "取消群組",
+    "es": "Desagrupar",
+    "fr": "Dissocier",
+    "ja": "グループ解除"
+  },
+  "Ungroup All": {
+    "en": "Ungroup All",
+    "zh-cn": "全部取消编组",
+    "zh-tw": "全部取消群組",
+    "es": "Desagrupar todo",
+    "fr": "Tout dissocier",
+    "ja": "すべてのグループを解除"
+  },
+  "Uniform Type": {
+    "en": "Uniform Type",
+    "zh-cn": "统一文字",
+    "zh-tw": "統一文字",
+    "es": "Tipo uniforme",
+    "fr": "Texte uniforme",
+    "ja": "均一テキスト"
+  },
+  "Unlock All": {
+    "en": "Unlock All",
+    "zh-cn": "全部解锁",
+    "zh-tw": "全部解除鎖定",
+    "es": "Desbloquear todo",
+    "fr": "Tout déverrouiller",
+    "ja": "すべてロック解除"
+  },
+  "Warp": {
+    "en": "Warp",
+    "zh-cn": "封套扭曲",
+    "zh-tw": "彎曲",
+    "es": "Deformar",
+    "fr": "Déformation",
+    "ja": "ワープ"
+  },
+  "Width": {
+    "en": "Width",
+    "zh-cn": "宽度",
+    "zh-tw": "寬度",
+    "es": "Anchura",
+    "fr": "Largeur",
+    "ja": "幅"
+  },
+  "Zoom": {
+    "en": "Zoom",
+    "zh-cn": "缩放",
+    "zh-tw": "縮放",
+    "es": "Zoom",
+    "fr": "Zoom",
+    "ja": "ズーム"
+  },
+  "Zoom In": {
+    "en": "Zoom In",
+    "zh-cn": "放大",
+    "zh-tw": "放大",
+    "es": "Acercar",
+    "fr": "Zoom avant",
+    "ja": "ズームイン"
+  },
+  "Zoom In (Secondary)": {
+    "en": "Zoom In (Secondary)",
+    "zh-cn": "放大（次要）",
+    "zh-tw": "放大（次要）",
+    "es": "Acercar (secundario)",
+    "fr": "Zoom avant (secondaire)",
+    "ja": "ズームイン（代替）"
+  },
+  "Zoom Out": {
+    "en": "Zoom Out",
+    "zh-cn": "缩小",
+    "zh-tw": "縮小",
+    "es": "Alejar",
+    "fr": "Zoom arrière",
+    "ja": "ズームアウト"
+  }
+}

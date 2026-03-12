@@ -1,0 +1,4962 @@
+{
+  "zed::OpenFile": {
+    "en": "Open File",
+    "zh-cn": "打开文件",
+    "zh-tw": "開啟文件",
+    "es": "Abrir Archivo",
+    "fr": "Ouvrir le Fichier",
+    "ja": "ファイルを開く"
+  },
+  "zed::NewFile": {
+    "en": "New File",
+    "zh-cn": "新建文件",
+    "zh-tw": "新增文件",
+    "es": "Nuevo Archivo",
+    "fr": "Nouveau Fichier",
+    "ja": "新しいファイル"
+  },
+  "zed::SaveFile": {
+    "en": "Save File",
+    "zh-cn": "保存文件",
+    "zh-tw": "儲存文件",
+    "es": "Guardar Archivo",
+    "fr": "Enregistrer le Fichier",
+    "ja": "ファイルを保存"
+  },
+  "zed::CloseActiveItem": {
+    "en": "Close Tab",
+    "zh-cn": "关闭标签页",
+    "zh-tw": "關閉分頁",
+    "es": "Cerrar Pestaña",
+    "fr": "Fermer l'Onglet",
+    "ja": "タブを閉じる"
+  },
+  "zed::Quit": {
+    "en": "Quit",
+    "zh-cn": "退出",
+    "zh-tw": "退出",
+    "es": "Salir",
+    "fr": "Quitter",
+    "ja": "終了"
+  },
+  "zed::ToggleSidebar": {
+    "en": "Toggle Sidebar",
+    "zh-cn": "切换侧边栏",
+    "zh-tw": "切換側邊欄",
+    "es": "Alternar Barra Lateral",
+    "fr": "Basculer la Barre Latérale",
+    "ja": "サイドバーを切り替え"
+  },
+  "zed::ToggleTerminal": {
+    "en": "Toggle Terminal",
+    "zh-cn": "切换终端",
+    "zh-tw": "切換終端機",
+    "es": "Alternar Terminal",
+    "fr": "Basculer le Terminal",
+    "ja": "ターミナルを切り替え"
+  },
+  "zed::ToggleFileFinder": {
+    "en": "Open File Finder",
+    "zh-cn": "打开文件查找器",
+    "zh-tw": "開啟文件尋找器",
+    "es": "Abrir Buscador de Archivos",
+    "fr": "Ouvrir le Chercheur de Fichiers",
+    "ja": "ファイルファインダーを開く"
+  },
+  "zed::ToggleCommandPalette": {
+    "en": "Command Palette",
+    "zh-cn": "命令面板",
+    "zh-tw": "命令面板",
+    "es": "Paleta de Comandos",
+    "fr": "Palette de Commandes",
+    "ja": "コマンドパレット"
+  },
+  "zed::FindInProject": {
+    "en": "Find in Project",
+    "zh-cn": "在项目中查找",
+    "zh-tw": "在專案中尋找",
+    "es": "Buscar en el Proyecto",
+    "fr": "Rechercher dans le Projet",
+    "ja": "プロジェクト内を検索"
+  },
+  "zed::OpenSettings": {
+    "en": "Open Settings",
+    "zh-cn": "打开设置",
+    "zh-tw": "開啟設定",
+    "es": "Abrir Configuración",
+    "fr": "Ouvrir les Paramètres",
+    "ja": "設定を開く"
+  },
+  "zed::OpenKeymap": {
+    "en": "Open Keymap",
+    "zh-cn": "打开键位映射",
+    "zh-tw": "開啟鍵盤映射",
+    "es": "Abrir Mapa de Teclas",
+    "fr": "Ouvrir le Mappage de Touches",
+    "ja": "キーマップを開く"
+  },
+  "zed::OpenDefaultKeymap": {
+    "en": "Open Default Keymap",
+    "zh-cn": "打开默认键位映射",
+    "zh-tw": "開啟預設鍵盤映射",
+    "es": "Abrir Mapa de Teclas Predeterminado",
+    "fr": "Ouvrir le Mappage de Touches par Défaut",
+    "ja": "デフォルトキーマップを開く"
+  },
+  "zed::OpenTheme": {
+    "en": "Open Theme Selector",
+    "zh-cn": "打开主题选择器",
+    "zh-tw": "開啟主題選擇器",
+    "es": "Abrir Selector de Tema",
+    "fr": "Ouvrir le Sélecteur de Thème",
+    "ja": "テーマセレクターを開く"
+  },
+  "zed::Minimize": {
+    "en": "Minimize Window",
+    "zh-cn": "最小化窗口",
+    "zh-tw": "最小化視窗",
+    "es": "Minimizar Ventana",
+    "fr": "Réduire la Fenêtre",
+    "ja": "ウィンドウを最小化"
+  },
+  "zed::Zoom": {
+    "en": "Zoom Window",
+    "zh-cn": "缩放窗口",
+    "zh-tw": "縮放視窗",
+    "es": "Ampliar Ventana",
+    "fr": "Agrandir la Fenêtre",
+    "ja": "ウィンドウをズーム"
+  },
+  "zed::ToggleFullScreen": {
+    "en": "Toggle Full Screen",
+    "zh-cn": "切换全屏",
+    "zh-tw": "切換全螢幕",
+    "es": "Alternar Pantalla Completa",
+    "fr": "Basculer Plein Écran",
+    "ja": "フルスクリーンを切り替え"
+  },
+  "zed::NewWindow": {
+    "en": "New Window",
+    "zh-cn": "新建窗口",
+    "zh-tw": "新增視窗",
+    "es": "Nueva Ventana",
+    "fr": "Nouvelle Fenêtre",
+    "ja": "新しいウィンドウ"
+  },
+  "zed::CloseWindow": {
+    "en": "Close Window",
+    "zh-cn": "关闭窗口",
+    "zh-tw": "關閉視窗",
+    "es": "Cerrar Ventana",
+    "fr": "Fermer la Fenêtre",
+    "ja": "ウィンドウを閉じる"
+  },
+  "zed::OpenRecent": {
+    "en": "Open Recent",
+    "zh-cn": "打开最近文件",
+    "zh-tw": "開啟最近文件",
+    "es": "Abrir Reciente",
+    "fr": "Ouvrir Récent",
+    "ja": "最近のファイルを開く"
+  },
+  "editor::SelectAll": {
+    "en": "Select All",
+    "zh-cn": "全选",
+    "zh-tw": "全選",
+    "es": "Seleccionar Todo",
+    "fr": "Sélectionner Tout",
+    "ja": "すべて選択"
+  },
+  "editor::SelectLine": {
+    "en": "Select Line",
+    "zh-cn": "选择行",
+    "zh-tw": "選取行",
+    "es": "Seleccionar Línea",
+    "fr": "Sélectionner la Ligne",
+    "ja": "行を選択"
+  },
+  "editor::SelectToBeginningOfLine": {
+    "en": "Select to Line Start",
+    "zh-cn": "选择到行首",
+    "zh-tw": "選取至行首",
+    "es": "Seleccionar al Inicio de Línea",
+    "fr": "Sélectionner jusqu'au Début de Ligne",
+    "ja": "行頭まで選択"
+  },
+  "editor::SelectToEndOfLine": {
+    "en": "Select to Line End",
+    "zh-cn": "选择到行尾",
+    "zh-tw": "選取至行尾",
+    "es": "Seleccionar al Fin de Línea",
+    "fr": "Sélectionner jusqu'à la Fin de Ligne",
+    "ja": "行末まで選択"
+  },
+  "editor::SelectToBeginning": {
+    "en": "Select to File Start",
+    "zh-cn": "选择到文件开头",
+    "zh-tw": "選取至檔案開頭",
+    "es": "Seleccionar al Inicio del Archivo",
+    "fr": "Sélectionner jusqu'au Début du Fichier",
+    "ja": "ファイル先頭まで選択"
+  },
+  "editor::SelectToEnd": {
+    "en": "Select to File End",
+    "zh-cn": "选择到文件末尾",
+    "zh-tw": "選取至檔案末尾",
+    "es": "Seleccionar al Fin del Archivo",
+    "fr": "Sélectionner jusqu'à la Fin du Fichier",
+    "ja": "ファイル末尾まで選択"
+  },
+  "editor::SelectWord": {
+    "en": "Select Word",
+    "zh-cn": "选择单词",
+    "zh-tw": "選取字詞",
+    "es": "Seleccionar Palabra",
+    "fr": "Sélectionner le Mot",
+    "ja": "単語を選択"
+  },
+  "editor::MoveUp": {
+    "en": "Move Up",
+    "zh-cn": "向上移动",
+    "zh-tw": "向上移動",
+    "es": "Mover Arriba",
+    "fr": "Déplacer vers le Haut",
+    "ja": "上に移動"
+  },
+  "editor::MoveDown": {
+    "en": "Move Down",
+    "zh-cn": "向下移动",
+    "zh-tw": "向下移動",
+    "es": "Mover Abajo",
+    "fr": "Déplacer vers le Bas",
+    "ja": "下に移動"
+  },
+  "editor::MoveLeft": {
+    "en": "Move Left",
+    "zh-cn": "向左移动",
+    "zh-tw": "向左移動",
+    "es": "Mover a la Izquierda",
+    "fr": "Déplacer à Gauche",
+    "ja": "左に移動"
+  },
+  "editor::MoveRight": {
+    "en": "Move Right",
+    "zh-cn": "向右移动",
+    "zh-tw": "向右移動",
+    "es": "Mover a la Derecha",
+    "fr": "Déplacer à Droite",
+    "ja": "右に移動"
+  },
+  "editor::MoveToBeginningOfLine": {
+    "en": "Go to Line Start",
+    "zh-cn": "跳转到行首",
+    "zh-tw": "移至行首",
+    "es": "Ir al Inicio de Línea",
+    "fr": "Aller au Début de Ligne",
+    "ja": "行頭へ移動"
+  },
+  "editor::MoveToEndOfLine": {
+    "en": "Go to Line End",
+    "zh-cn": "跳转到行尾",
+    "zh-tw": "移至行尾",
+    "es": "Ir al Fin de Línea",
+    "fr": "Aller à la Fin de Ligne",
+    "ja": "行末へ移動"
+  },
+  "editor::MoveToBeginning": {
+    "en": "Go to File Start",
+    "zh-cn": "跳转到文件开头",
+    "zh-tw": "移至檔案開頭",
+    "es": "Ir al Inicio del Archivo",
+    "fr": "Aller au Début du Fichier",
+    "ja": "ファイル先頭へ移動"
+  },
+  "editor::MoveToEnd": {
+    "en": "Go to File End",
+    "zh-cn": "跳转到文件末尾",
+    "zh-tw": "移至檔案末尾",
+    "es": "Ir al Fin del Archivo",
+    "fr": "Aller à la Fin du Fichier",
+    "ja": "ファイル末尾へ移動"
+  },
+  "editor::MoveWordLeft": {
+    "en": "Move Word Left",
+    "zh-cn": "向左移动一个单词",
+    "zh-tw": "向左移動一個字詞",
+    "es": "Mover Palabra a la Izquierda",
+    "fr": "Déplacer un Mot à Gauche",
+    "ja": "左へ単語移動"
+  },
+  "editor::MoveWordRight": {
+    "en": "Move Word Right",
+    "zh-cn": "向右移动一个单词",
+    "zh-tw": "向右移動一個字詞",
+    "es": "Mover Palabra a la Derecha",
+    "fr": "Déplacer un Mot à Droite",
+    "ja": "右へ単語移動"
+  },
+  "editor::SelectWordLeft": {
+    "en": "Select Word Left",
+    "zh-cn": "向左选择一个单词",
+    "zh-tw": "向左選取一個字詞",
+    "es": "Seleccionar Palabra a la Izquierda",
+    "fr": "Sélectionner un Mot à Gauche",
+    "ja": "左へ単語を選択"
+  },
+  "editor::SelectWordRight": {
+    "en": "Select Word Right",
+    "zh-cn": "向右选择一个单词",
+    "zh-tw": "向右選取一個字詞",
+    "es": "Seleccionar Palabra a la Derecha",
+    "fr": "Sélectionner un Mot à Droite",
+    "ja": "右へ単語を選択"
+  },
+  "editor::Undo": {
+    "en": "Undo",
+    "zh-cn": "撤销",
+    "zh-tw": "復原",
+    "es": "Deshacer",
+    "fr": "Annuler",
+    "ja": "元に戻す"
+  },
+  "editor::Redo": {
+    "en": "Redo",
+    "zh-cn": "重做",
+    "zh-tw": "取消復原",
+    "es": "Rehacer",
+    "fr": "Rétablir",
+    "ja": "やり直し"
+  },
+  "editor::Cut": {
+    "en": "Cut",
+    "zh-cn": "剪切",
+    "zh-tw": "剪下",
+    "es": "Cortar",
+    "fr": "Couper",
+    "ja": "切り取り"
+  },
+  "editor::Copy": {
+    "en": "Copy",
+    "zh-cn": "复制",
+    "zh-tw": "複製",
+    "es": "Copiar",
+    "fr": "Copier",
+    "ja": "コピー"
+  },
+  "editor::Paste": {
+    "en": "Paste",
+    "zh-cn": "粘贴",
+    "zh-tw": "貼上",
+    "es": "Pegar",
+    "fr": "Coller",
+    "ja": "貼り付け"
+  },
+  "editor::DeleteLine": {
+    "en": "Delete Line",
+    "zh-cn": "删除行",
+    "zh-tw": "刪除行",
+    "es": "Eliminar Línea",
+    "fr": "Supprimer la Ligne",
+    "ja": "行を削除"
+  },
+  "editor::DuplicateLine": {
+    "en": "Duplicate Line",
+    "zh-cn": "复制行",
+    "zh-tw": "複製行",
+    "es": "Duplicar Línea",
+    "fr": "Dupliquer la Ligne",
+    "ja": "行を複製"
+  },
+  "editor::MoveLineUp": {
+    "en": "Move Line Up",
+    "zh-cn": "向上移动行",
+    "zh-tw": "向上移動行",
+    "es": "Mover Línea Arriba",
+    "fr": "Déplacer la Ligne vers le Haut",
+    "ja": "行を上に移動"
+  },
+  "editor::MoveLineDown": {
+    "en": "Move Line Down",
+    "zh-cn": "向下移动行",
+    "zh-tw": "向下移動行",
+    "es": "Mover Línea Abajo",
+    "fr": "Déplacer la Ligne vers le Bas",
+    "ja": "行を下に移動"
+  },
+  "editor::ToggleComments": {
+    "en": "Toggle Comment",
+    "zh-cn": "切换注释",
+    "zh-tw": "切換注解",
+    "es": "Alternar Comentario",
+    "fr": "Basculer le Commentaire",
+    "ja": "コメントを切り替え"
+  },
+  "editor::AddSelectionAbove": {
+    "en": "Add Cursor Above",
+    "zh-cn": "在上方添加光标",
+    "zh-tw": "在上方新增游標",
+    "es": "Agregar Cursor Arriba",
+    "fr": "Ajouter un Curseur au-dessus",
+    "ja": "上にカーソルを追加"
+  },
+  "editor::AddSelectionBelow": {
+    "en": "Add Cursor Below",
+    "zh-cn": "在下方添加光标",
+    "zh-tw": "在下方新增游標",
+    "es": "Agregar Cursor Abajo",
+    "fr": "Ajouter un Curseur en-dessous",
+    "ja": "下にカーソルを追加"
+  },
+  "editor::Format": {
+    "en": "Format Document",
+    "zh-cn": "格式化文档",
+    "zh-tw": "格式化文件",
+    "es": "Formatear Documento",
+    "fr": "Formater le Document",
+    "ja": "ドキュメントをフォーマット"
+  },
+  "editor::FormatSelection": {
+    "en": "Format Selection",
+    "zh-cn": "格式化选定内容",
+    "zh-tw": "格式化選取範圍",
+    "es": "Formatear Selección",
+    "fr": "Formater la Sélection",
+    "ja": "選択範囲をフォーマット"
+  },
+  "editor::Rename": {
+    "en": "Rename Symbol",
+    "zh-cn": "重命名符号",
+    "zh-tw": "重新命名符號",
+    "es": "Renombrar Símbolo",
+    "fr": "Renommer le Symbole",
+    "ja": "シンボルの名前変更"
+  },
+  "editor::GoToDefinition": {
+    "en": "Go to Definition",
+    "zh-cn": "转到定义",
+    "zh-tw": "移至定義",
+    "es": "Ir a la Definición",
+    "fr": "Aller à la Définition",
+    "ja": "定義に移動"
+  },
+  "editor::GoToTypeDefinition": {
+    "en": "Go to Type Definition",
+    "zh-cn": "转到类型定义",
+    "zh-tw": "移至類型定義",
+    "es": "Ir a la Definición de Tipo",
+    "fr": "Aller à la Définition de Type",
+    "ja": "型定義に移動"
+  },
+  "editor::GoToImplementation": {
+    "en": "Go to Implementation",
+    "zh-cn": "转到实现",
+    "zh-tw": "移至實作",
+    "es": "Ir a la Implementación",
+    "fr": "Aller à l'Implémentation",
+    "ja": "実装に移動"
+  },
+  "editor::FindReferences": {
+    "en": "Find References",
+    "zh-cn": "查找引用",
+    "zh-tw": "尋找參考",
+    "es": "Buscar Referencias",
+    "fr": "Trouver les Références",
+    "ja": "参照を検索"
+  },
+  "editor::Fold": {
+    "en": "Fold",
+    "zh-cn": "折叠",
+    "zh-tw": "折疊",
+    "es": "Plegar",
+    "fr": "Replier",
+    "ja": "折り畳む"
+  },
+  "editor::FoldAll": {
+    "en": "Fold All",
+    "zh-cn": "折叠全部",
+    "zh-tw": "折疊全部",
+    "es": "Plegar Todo",
+    "fr": "Replier Tout",
+    "ja": "すべて折り畳む"
+  },
+  "editor::UnfoldAll": {
+    "en": "Unfold All",
+    "zh-cn": "展开全部",
+    "zh-tw": "展開全部",
+    "es": "Desplegar Todo",
+    "fr": "Déplier Tout",
+    "ja": "すべて展開"
+  },
+  "editor::ToggleFold": {
+    "en": "Toggle Fold",
+    "zh-cn": "切换折叠",
+    "zh-tw": "切換折疊",
+    "es": "Alternar Pliegue",
+    "fr": "Basculer le Repli",
+    "ja": "折り畳みを切り替え"
+  },
+  "editor::RevealInProjectPanel": {
+    "en": "Reveal in Explorer",
+    "zh-cn": "在资源管理器中显示",
+    "zh-tw": "在檔案總管中顯示",
+    "es": "Revelar en el Explorador",
+    "fr": "Afficher dans l'Explorateur",
+    "ja": "エクスプローラーで表示"
+  },
+  "editor::Find": {
+    "en": "Find",
+    "zh-cn": "查找",
+    "zh-tw": "尋找",
+    "es": "Buscar",
+    "fr": "Rechercher",
+    "ja": "検索"
+  },
+  "editor::FindAndReplace": {
+    "en": "Find and Replace",
+    "zh-cn": "查找和替换",
+    "zh-tw": "尋找並取代",
+    "es": "Buscar y Reemplazar",
+    "fr": "Rechercher et Remplacer",
+    "ja": "検索と置換"
+  },
+  "editor::SelectNextMatch": {
+    "en": "Select Next Match",
+    "zh-cn": "选择下一个匹配项",
+    "zh-tw": "選取下一個相符項",
+    "es": "Seleccionar Siguiente Coincidencia",
+    "fr": "Sélectionner la Prochaine Correspondance",
+    "ja": "次の一致を選択"
+  },
+  "editor::SelectPreviousMatch": {
+    "en": "Select Previous Match",
+    "zh-cn": "选择上一个匹配项",
+    "zh-tw": "選取上一個相符項",
+    "es": "Seleccionar Coincidencia Anterior",
+    "fr": "Sélectionner la Correspondance Précédente",
+    "ja": "前の一致を選択"
+  },
+  "editor::SelectAllMatches": {
+    "en": "Select All Matches",
+    "zh-cn": "选择所有匹配项",
+    "zh-tw": "選取所有相符項",
+    "es": "Seleccionar Todas las Coincidencias",
+    "fr": "Sélectionner Toutes les Correspondances",
+    "ja": "すべての一致を選択"
+  },
+  "editor::ToggleCaseSensitiveSearch": {
+    "en": "Toggle Case Sensitive Search",
+    "zh-cn": "切换大小写敏感搜索",
+    "zh-tw": "切換區分大小寫搜尋",
+    "es": "Alternar Búsqueda Sensible a Mayúsculas",
+    "fr": "Basculer la Recherche Sensible à la Casse",
+    "ja": "大文字小文字を区別する検索を切り替え"
+  },
+  "editor::ToggleWholeWordSearch": {
+    "en": "Toggle Whole Word Search",
+    "zh-cn": "切换全词搜索",
+    "zh-tw": "切換全字搜尋",
+    "es": "Alternar Búsqueda de Palabra Completa",
+    "fr": "Basculer la Recherche de Mot Entier",
+    "ja": "単語全体検索を切り替え"
+  },
+  "editor::ToggleRegexSearch": {
+    "en": "Toggle Regex Search",
+    "zh-cn": "切换正则表达式搜索",
+    "zh-tw": "切換規則運算式搜尋",
+    "es": "Alternar Búsqueda de Expresión Regular",
+    "fr": "Basculer la Recherche par Expression Régulière",
+    "ja": "正規表現検索を切り替え"
+  },
+  "editor::Hover": {
+    "en": "Show Hover",
+    "zh-cn": "显示悬停提示",
+    "zh-tw": "顯示懸停提示",
+    "es": "Mostrar Información al Pasar",
+    "fr": "Afficher l'Infobulle",
+    "ja": "ホバー情報を表示"
+  },
+  "editor::ShowCompletions": {
+    "en": "Show Completions",
+    "zh-cn": "显示补全",
+    "zh-tw": "顯示補全",
+    "es": "Mostrar Completados",
+    "fr": "Afficher les Complétions",
+    "ja": "補完を表示"
+  },
+  "editor::AcceptCompletion": {
+    "en": "Accept Completion",
+    "zh-cn": "接受补全",
+    "zh-tw": "接受補全",
+    "es": "Aceptar Completado",
+    "fr": "Accepter la Complétion",
+    "ja": "補完を受け入れる"
+  },
+  "editor::ConfirmCompletion": {
+    "en": "Confirm Completion",
+    "zh-cn": "确认补全",
+    "zh-tw": "確認補全",
+    "es": "Confirmar Completado",
+    "fr": "Confirmer la Complétion",
+    "ja": "補完を確認"
+  },
+  "editor::NextCompletionItem": {
+    "en": "Next Completion Item",
+    "zh-cn": "下一个补全项",
+    "zh-tw": "下一個補全項",
+    "es": "Siguiente Elemento de Completado",
+    "fr": "Élément de Complétion Suivant",
+    "ja": "次の補完候補"
+  },
+  "editor::PreviousCompletionItem": {
+    "en": "Previous Completion Item",
+    "zh-cn": "上一个补全项",
+    "zh-tw": "上一個補全項",
+    "es": "Elemento de Completado Anterior",
+    "fr": "Élément de Complétion Précédent",
+    "ja": "前の補完候補"
+  },
+  "editor::ShowSignatureHelp": {
+    "en": "Show Signature Help",
+    "zh-cn": "显示签名帮助",
+    "zh-tw": "顯示簽名說明",
+    "es": "Mostrar Ayuda de Firma",
+    "fr": "Afficher l'Aide de Signature",
+    "ja": "シグネチャヘルプを表示"
+  },
+  "editor::TabPrev": {
+    "en": "Previous Suggestion",
+    "zh-cn": "上一个建议",
+    "zh-tw": "上一個建議",
+    "es": "Sugerencia Anterior",
+    "fr": "Suggestion Précédente",
+    "ja": "前の提案"
+  },
+  "editor::CodeActions": {
+    "en": "Code Actions",
+    "zh-cn": "代码操作",
+    "zh-tw": "程式碼動作",
+    "es": "Acciones de Código",
+    "fr": "Actions de Code",
+    "ja": "コードアクション"
+  },
+  "editor::ToggleLineNumbers": {
+    "en": "Toggle Line Numbers",
+    "zh-cn": "切换行号",
+    "zh-tw": "切換行號",
+    "es": "Alternar Números de Línea",
+    "fr": "Basculer les Numéros de Ligne",
+    "ja": "行番号を切り替え"
+  },
+  "editor::ToggleRelativeLineNumbers": {
+    "en": "Toggle Relative Line Numbers",
+    "zh-cn": "切换相对行号",
+    "zh-tw": "切換相對行號",
+    "es": "Alternar Números de Línea Relativos",
+    "fr": "Basculer les Numéros de Ligne Relatifs",
+    "ja": "相対行番号を切り替え"
+  },
+  "editor::ToggleSoftWrap": {
+    "en": "Toggle Soft Wrap",
+    "zh-cn": "切换软换行",
+    "zh-tw": "切換軟換行",
+    "es": "Alternar Ajuste de Línea",
+    "fr": "Basculer le Retour à la Ligne Automatique",
+    "ja": "ソフトラップを切り替え"
+  },
+  "editor::Indent": {
+    "en": "Indent",
+    "zh-cn": "增加缩进",
+    "zh-tw": "增加縮排",
+    "es": "Indentar",
+    "fr": "Indenter",
+    "ja": "インデント"
+  },
+  "editor::Outdent": {
+    "en": "Outdent",
+    "zh-cn": "减少缩进",
+    "zh-tw": "減少縮排",
+    "es": "Desindenter",
+    "fr": "Désindenter",
+    "ja": "インデントを減らす"
+  },
+  "editor::Newline": {
+    "en": "New Line",
+    "zh-cn": "新行",
+    "zh-tw": "新行",
+    "es": "Nueva Línea",
+    "fr": "Nouvelle Ligne",
+    "ja": "新しい行"
+  },
+  "editor::NewlineAbove": {
+    "en": "New Line Above",
+    "zh-cn": "在上方新建行",
+    "zh-tw": "在上方新增行",
+    "es": "Nueva Línea Arriba",
+    "fr": "Nouvelle Ligne au-dessus",
+    "ja": "上に新しい行"
+  },
+  "editor::NewlineBelow": {
+    "en": "New Line Below",
+    "zh-cn": "在下方新建行",
+    "zh-tw": "在下方新增行",
+    "es": "Nueva Línea Abajo",
+    "fr": "Nouvelle Ligne en Dessous",
+    "ja": "下に新しい行"
+  },
+  "editor::Backspace": {
+    "en": "Backspace",
+    "zh-cn": "退格",
+    "zh-tw": "退格",
+    "es": "Retroceso",
+    "fr": "Retour Arrière",
+    "ja": "バックスペース"
+  },
+  "editor::Delete": {
+    "en": "Delete",
+    "zh-cn": "删除",
+    "zh-tw": "刪除",
+    "es": "Eliminar",
+    "fr": "Supprimer",
+    "ja": "削除"
+  },
+  "editor::DeleteToBeginningOfLine": {
+    "en": "Delete to Line Start",
+    "zh-cn": "删除到行首",
+    "zh-tw": "刪除至行首",
+    "es": "Eliminar al Inicio de Línea",
+    "fr": "Supprimer jusqu'au Début de Ligne",
+    "ja": "行頭まで削除"
+  },
+  "editor::DeleteToEndOfLine": {
+    "en": "Delete to Line End",
+    "zh-cn": "删除到行尾",
+    "zh-tw": "刪除至行尾",
+    "es": "Eliminar al Fin de Línea",
+    "fr": "Supprimer jusqu'à la Fin de Ligne",
+    "ja": "行末まで削除"
+  },
+  "editor::DeleteWordBackward": {
+    "en": "Delete Word Backward",
+    "zh-cn": "向后删除单词",
+    "zh-tw": "向後刪除字詞",
+    "es": "Eliminar Palabra Hacia Atrás",
+    "fr": "Supprimer un Mot vers l'Arrière",
+    "ja": "単語を後方に削除"
+  },
+  "editor::DeleteWordForward": {
+    "en": "Delete Word Forward",
+    "zh-cn": "向前删除单词",
+    "zh-tw": "向前刪除字詞",
+    "es": "Eliminar Palabra Hacia Adelante",
+    "fr": "Supprimer un Mot vers l'Avant",
+    "ja": "単語を前方に削除"
+  },
+  "editor::TransposeChars": {
+    "en": "Transpose Characters",
+    "zh-cn": "交换字符",
+    "zh-tw": "交換字元",
+    "es": "Transponer Caracteres",
+    "fr": "Transposer les Caractères",
+    "ja": "文字を入れ替え"
+  },
+  "editor::UppercaseWord": {
+    "en": "Uppercase Word",
+    "zh-cn": "单词转大写",
+    "zh-tw": "字詞轉大寫",
+    "es": "Mayúsculas la Palabra",
+    "fr": "Mettre le Mot en Majuscules",
+    "ja": "単語を大文字に変換"
+  },
+  "editor::LowercaseWord": {
+    "en": "Lowercase Word",
+    "zh-cn": "单词转小写",
+    "zh-tw": "字詞轉小寫",
+    "es": "Minúsculas la Palabra",
+    "fr": "Mettre le Mot en Minuscules",
+    "ja": "単語を小文字に変換"
+  },
+  "editor::TitlecaseWord": {
+    "en": "Titlecase Word",
+    "zh-cn": "单词首字母大写",
+    "zh-tw": "字詞首字母大寫",
+    "es": "Título la Palabra",
+    "fr": "Mettre le Mot en Casse de Titre",
+    "ja": "単語をタイトルケースに変換"
+  },
+  "editor::ScrollCursorTop": {
+    "en": "Scroll Cursor to Top",
+    "zh-cn": "将光标滚动到顶部",
+    "zh-tw": "將游標捲至頂端",
+    "es": "Desplazar Cursor al Inicio",
+    "fr": "Faire Défiler le Curseur vers le Haut",
+    "ja": "カーソルを上端にスクロール"
+  },
+  "editor::ScrollCursorCenter": {
+    "en": "Scroll Cursor to Center",
+    "zh-cn": "将光标滚动到中间",
+    "zh-tw": "將游標捲至中間",
+    "es": "Desplazar Cursor al Centro",
+    "fr": "Faire Défiler le Curseur vers le Centre",
+    "ja": "カーソルを中央にスクロール"
+  },
+  "editor::ScrollCursorBottom": {
+    "en": "Scroll Cursor to Bottom",
+    "zh-cn": "将光标滚动到底部",
+    "zh-tw": "將游標捲至底端",
+    "es": "Desplazar Cursor al Final",
+    "fr": "Faire Défiler le Curseur vers le Bas",
+    "ja": "カーソルを下端にスクロール"
+  },
+  "editor::MovePageUp": {
+    "en": "Move Page Up",
+    "zh-cn": "向上翻页",
+    "zh-tw": "向上翻頁",
+    "es": "Mover Página Arriba",
+    "fr": "Monter d'une Page",
+    "ja": "ページ上に移動"
+  },
+  "editor::MovePageDown": {
+    "en": "Move Page Down",
+    "zh-cn": "向下翻页",
+    "zh-tw": "向下翻頁",
+    "es": "Mover Página Abajo",
+    "fr": "Descendre d'une Page",
+    "ja": "ページ下に移動"
+  },
+  "editor::GoToLine": {
+    "en": "Go to Line",
+    "zh-cn": "跳转到行",
+    "zh-tw": "移至行",
+    "es": "Ir a la Línea",
+    "fr": "Aller à la Ligne",
+    "ja": "行に移動"
+  },
+  "editor::ToggleDiagnostics": {
+    "en": "Toggle Diagnostics",
+    "zh-cn": "切换诊断",
+    "zh-tw": "切換診斷",
+    "es": "Alternar Diagnósticos",
+    "fr": "Basculer les Diagnostics",
+    "ja": "診断を切り替え"
+  },
+  "editor::GoToDiagnostic": {
+    "en": "Go to Next Diagnostic",
+    "zh-cn": "跳转到下一个诊断",
+    "zh-tw": "移至下一個診斷",
+    "es": "Ir al Siguiente Diagnóstico",
+    "fr": "Aller au Diagnostic Suivant",
+    "ja": "次の診断に移動"
+  },
+  "editor::GoToPrevDiagnostic": {
+    "en": "Go to Previous Diagnostic",
+    "zh-cn": "跳转到上一个诊断",
+    "zh-tw": "移至上一個診斷",
+    "es": "Ir al Diagnóstico Anterior",
+    "fr": "Aller au Diagnostic Précédent",
+    "ja": "前の診断に移動"
+  },
+  "workspace::NewTerminal": {
+    "en": "New Terminal",
+    "zh-cn": "新建终端",
+    "zh-tw": "新增終端機",
+    "es": "Nueva Terminal",
+    "fr": "Nouveau Terminal",
+    "ja": "新しいターミナル"
+  },
+  "workspace::ActivateNextPane": {
+    "en": "Next Pane",
+    "zh-cn": "下一个面板",
+    "zh-tw": "下一個面板",
+    "es": "Siguiente Panel",
+    "fr": "Panneau Suivant",
+    "ja": "次のペイン"
+  },
+  "workspace::ActivatePreviousPane": {
+    "en": "Previous Pane",
+    "zh-cn": "上一个面板",
+    "zh-tw": "上一個面板",
+    "es": "Panel Anterior",
+    "fr": "Panneau Précédent",
+    "ja": "前のペイン"
+  },
+  "workspace::CloseAllDocks": {
+    "en": "Close All Docks",
+    "zh-cn": "关闭所有停靠栏",
+    "zh-tw": "關閉所有停靠列",
+    "es": "Cerrar Todos los Paneles",
+    "fr": "Fermer Tous les Volets",
+    "ja": "すべてのドックを閉じる"
+  },
+  "workspace::ToggleLeftDock": {
+    "en": "Toggle Left Dock",
+    "zh-cn": "切换左侧停靠栏",
+    "zh-tw": "切換左側停靠列",
+    "es": "Alternar Panel Izquierdo",
+    "fr": "Basculer le Panneau Gauche",
+    "ja": "左ドックを切り替え"
+  },
+  "workspace::ToggleRightDock": {
+    "en": "Toggle Right Dock",
+    "zh-cn": "切换右侧停靠栏",
+    "zh-tw": "切換右側停靠列",
+    "es": "Alternar Panel Derecho",
+    "fr": "Basculer le Panneau Droit",
+    "ja": "右ドックを切り替え"
+  },
+  "workspace::ToggleBottomDock": {
+    "en": "Toggle Bottom Dock",
+    "zh-cn": "切换底部停靠栏",
+    "zh-tw": "切換底部停靠列",
+    "es": "Alternar Panel Inferior",
+    "fr": "Basculer le Panneau du Bas",
+    "ja": "下ドックを切り替え"
+  },
+  "workspace::Save": {
+    "en": "Save",
+    "zh-cn": "保存",
+    "zh-tw": "儲存",
+    "es": "Guardar",
+    "fr": "Enregistrer",
+    "ja": "保存"
+  },
+  "workspace::SaveAll": {
+    "en": "Save All",
+    "zh-cn": "全部保存",
+    "zh-tw": "全部儲存",
+    "es": "Guardar Todo",
+    "fr": "Tout Enregistrer",
+    "ja": "すべて保存"
+  },
+  "workspace::CloseActiveItem": {
+    "en": "Close Active Item",
+    "zh-cn": "关闭当前项目",
+    "zh-tw": "關閉目前項目",
+    "es": "Cerrar Elemento Activo",
+    "fr": "Fermer l'Élément Actif",
+    "ja": "アクティブアイテムを閉じる"
+  },
+  "workspace::CloseAllItems": {
+    "en": "Close All Items",
+    "zh-cn": "关闭所有项目",
+    "zh-tw": "關閉所有項目",
+    "es": "Cerrar Todos los Elementos",
+    "fr": "Fermer Tous les Éléments",
+    "ja": "すべてのアイテムを閉じる"
+  },
+  "workspace::CloseInactiveItems": {
+    "en": "Close Inactive Items",
+    "zh-cn": "关闭非活动项目",
+    "zh-tw": "關閉非活動項目",
+    "es": "Cerrar Elementos Inactivos",
+    "fr": "Fermer les Éléments Inactifs",
+    "ja": "非アクティブアイテムを閉じる"
+  },
+  "workspace::ReopenClosedItem": {
+    "en": "Reopen Closed Item",
+    "zh-cn": "重新打开已关闭项目",
+    "zh-tw": "重新開啟已關閉項目",
+    "es": "Reabrir Elemento Cerrado",
+    "fr": "Rouvrir l'Élément Fermé",
+    "ja": "閉じたアイテムを再度開く"
+  },
+  "workspace::SplitUp": {
+    "en": "Split Up",
+    "zh-cn": "向上分割",
+    "zh-tw": "向上分割",
+    "es": "Dividir Arriba",
+    "fr": "Diviser vers le Haut",
+    "ja": "上に分割"
+  },
+  "workspace::SplitDown": {
+    "en": "Split Down",
+    "zh-cn": "向下分割",
+    "zh-tw": "向下分割",
+    "es": "Dividir Abajo",
+    "fr": "Diviser vers le Bas",
+    "ja": "下に分割"
+  },
+  "workspace::SplitLeft": {
+    "en": "Split Left",
+    "zh-cn": "向左分割",
+    "zh-tw": "向左分割",
+    "es": "Dividir a la Izquierda",
+    "fr": "Diviser à Gauche",
+    "ja": "左に分割"
+  },
+  "workspace::SplitRight": {
+    "en": "Split Right",
+    "zh-cn": "向右分割",
+    "zh-tw": "向右分割",
+    "es": "Dividir a la Derecha",
+    "fr": "Diviser à Droite",
+    "ja": "右に分割"
+  },
+  "workspace::ActivatePane": {
+    "en": "Activate Pane",
+    "zh-cn": "激活面板",
+    "zh-tw": "啟動面板",
+    "es": "Activar Panel",
+    "fr": "Activer le Panneau",
+    "ja": "ペインをアクティブ化"
+  },
+  "pane::ActivateNextItem": {
+    "en": "Next Tab",
+    "zh-cn": "下一个标签页",
+    "zh-tw": "下一個分頁",
+    "es": "Siguiente Pestaña",
+    "fr": "Onglet Suivant",
+    "ja": "次のタブ"
+  },
+  "pane::ActivatePreviousItem": {
+    "en": "Previous Tab",
+    "zh-cn": "上一个标签页",
+    "zh-tw": "上一個分頁",
+    "es": "Pestaña Anterior",
+    "fr": "Onglet Précédent",
+    "ja": "前のタブ"
+  },
+  "pane::CloseActiveItem": {
+    "en": "Close Tab",
+    "zh-cn": "关闭标签页",
+    "zh-tw": "關閉分頁",
+    "es": "Cerrar Pestaña",
+    "fr": "Fermer l'Onglet",
+    "ja": "タブを閉じる"
+  },
+  "pane::SplitRight": {
+    "en": "Split Right",
+    "zh-cn": "向右分割",
+    "zh-tw": "向右分割",
+    "es": "Dividir a la Derecha",
+    "fr": "Diviser à Droite",
+    "ja": "右に分割"
+  },
+  "pane::SplitDown": {
+    "en": "Split Down",
+    "zh-cn": "向下分割",
+    "zh-tw": "向下分割",
+    "es": "Dividir Abajo",
+    "fr": "Diviser vers le Bas",
+    "ja": "下に分割"
+  },
+  "pane::MoveItemToNewPane": {
+    "en": "Move Item to New Pane",
+    "zh-cn": "将项目移动到新面板",
+    "zh-tw": "將項目移至新面板",
+    "es": "Mover Elemento a Nuevo Panel",
+    "fr": "Déplacer l'Élément vers un Nouveau Panneau",
+    "ja": "アイテムを新しいペインに移動"
+  },
+  "git_panel::ToggleFocus": {
+    "en": "Toggle Git Panel",
+    "zh-cn": "切换Git面板",
+    "zh-tw": "切換Git面板",
+    "es": "Alternar Panel de Git",
+    "fr": "Basculer le Panneau Git",
+    "ja": "Gitパネルを切り替え"
+  },
+  "git_panel::StageFile": {
+    "en": "Stage File",
+    "zh-cn": "暂存文件",
+    "zh-tw": "暫存文件",
+    "es": "Preparar Archivo",
+    "fr": "Indexer le Fichier",
+    "ja": "ファイルをステージ"
+  },
+  "git_panel::UnstageFile": {
+    "en": "Unstage File",
+    "zh-cn": "取消暂存文件",
+    "zh-tw": "取消暫存文件",
+    "es": "Quitar Archivo del Área de Preparación",
+    "fr": "Retirer le Fichier de l'Index",
+    "ja": "ファイルをアンステージ"
+  },
+  "git_panel::StageAll": {
+    "en": "Stage All",
+    "zh-cn": "暂存全部",
+    "zh-tw": "暫存全部",
+    "es": "Preparar Todo",
+    "fr": "Indexer Tout",
+    "ja": "すべてをステージ"
+  },
+  "git_panel::UnstageAll": {
+    "en": "Unstage All",
+    "zh-cn": "取消暂存全部",
+    "zh-tw": "取消暫存全部",
+    "es": "Quitar Todo del Área de Preparación",
+    "fr": "Retirer Tout de l'Index",
+    "ja": "すべてをアンステージ"
+  },
+  "git_panel::Commit": {
+    "en": "Commit Changes",
+    "zh-cn": "提交更改",
+    "zh-tw": "提交更改",
+    "es": "Confirmar Cambios",
+    "fr": "Valider les Modifications",
+    "ja": "変更をコミット"
+  },
+  "outline_panel::ToggleFocus": {
+    "en": "Toggle Outline",
+    "zh-cn": "切换大纲",
+    "zh-tw": "切換大綱",
+    "es": "Alternar Esquema",
+    "fr": "Basculer le Plan",
+    "ja": "アウトラインを切り替え"
+  },
+  "project_panel::ToggleFocus": {
+    "en": "Toggle Project Panel",
+    "zh-cn": "切换项目面板",
+    "zh-tw": "切換專案面板",
+    "es": "Alternar Panel de Proyecto",
+    "fr": "Basculer le Panneau de Projet",
+    "ja": "プロジェクトパネルを切り替え"
+  },
+  "project_panel::NewFile": {
+    "en": "New File in Project",
+    "zh-cn": "在项目中新建文件",
+    "zh-tw": "在專案中新增文件",
+    "es": "Nuevo Archivo en el Proyecto",
+    "fr": "Nouveau Fichier dans le Projet",
+    "ja": "プロジェクトに新しいファイル"
+  },
+  "project_panel::NewDirectory": {
+    "en": "New Directory",
+    "zh-cn": "新建目录",
+    "zh-tw": "新增目錄",
+    "es": "Nuevo Directorio",
+    "fr": "Nouveau Répertoire",
+    "ja": "新しいディレクトリ"
+  },
+  "project_panel::RenameFile": {
+    "en": "Rename File",
+    "zh-cn": "重命名文件",
+    "zh-tw": "重新命名文件",
+    "es": "Renombrar Archivo",
+    "fr": "Renommer le Fichier",
+    "ja": "ファイル名を変更"
+  },
+  "project_panel::DeleteFile": {
+    "en": "Delete File",
+    "zh-cn": "删除文件",
+    "zh-tw": "刪除文件",
+    "es": "Eliminar Archivo",
+    "fr": "Supprimer le Fichier",
+    "ja": "ファイルを削除"
+  },
+  "project_panel::CopyPath": {
+    "en": "Copy File Path",
+    "zh-cn": "复制文件路径",
+    "zh-tw": "複製文件路徑",
+    "es": "Copiar Ruta del Archivo",
+    "fr": "Copier le Chemin du Fichier",
+    "ja": "ファイルパスをコピー"
+  },
+  "collab_panel::ToggleFocus": {
+    "en": "Toggle Collaboration Panel",
+    "zh-cn": "切换协作面板",
+    "zh-tw": "切換協作面板",
+    "es": "Alternar Panel de Colaboración",
+    "fr": "Basculer le Panneau de Collaboration",
+    "ja": "コラボレーションパネルを切り替え"
+  },
+  "terminal::Clear": {
+    "en": "Clear Terminal",
+    "zh-cn": "清空终端",
+    "zh-tw": "清空終端機",
+    "es": "Limpiar Terminal",
+    "fr": "Effacer le Terminal",
+    "ja": "ターミナルをクリア"
+  },
+  "terminal::Copy": {
+    "en": "Copy in Terminal",
+    "zh-cn": "在终端中复制",
+    "zh-tw": "在終端機中複製",
+    "es": "Copiar en Terminal",
+    "fr": "Copier dans le Terminal",
+    "ja": "ターミナルでコピー"
+  },
+  "terminal::Paste": {
+    "en": "Paste in Terminal",
+    "zh-cn": "在终端中粘贴",
+    "zh-tw": "在終端機中貼上",
+    "es": "Pegar en Terminal",
+    "fr": "Coller dans le Terminal",
+    "ja": "ターミナルでペースト"
+  },
+  "assistant::InlineAssist": {
+    "en": "Inline AI Assist",
+    "zh-cn": "内联AI辅助",
+    "zh-tw": "內聯AI輔助",
+    "es": "Asistencia de IA en Línea",
+    "fr": "Assistance IA Intégrée",
+    "ja": "インラインAI支援"
+  },
+  "assistant::ToggleFocus": {
+    "en": "Toggle AI Assistant",
+    "zh-cn": "切换AI助手",
+    "zh-tw": "切換AI助手",
+    "es": "Alternar Asistente de IA",
+    "fr": "Basculer l'Assistant IA",
+    "ja": "AIアシスタントを切り替え"
+  },
+  "menu::Cancel": {
+    "en": "Cancel Menu",
+    "zh-cn": "取消菜单",
+    "zh-tw": "取消選單",
+    "es": "Cancelar menú",
+    "fr": "Annuler le menu",
+    "ja": "メニューをキャンセル"
+  },
+  "menu::Confirm": {
+    "en": "Confirm Menu Selection",
+    "zh-cn": "确认菜单选择",
+    "zh-tw": "確認選單選擇",
+    "es": "Confirmar selección del menú",
+    "fr": "Confirmer la sélection du menu",
+    "ja": "メニュー選択を確定"
+  },
+  "menu::SecondaryConfirm": {
+    "en": "Secondary Confirm",
+    "zh-cn": "次级确认",
+    "zh-tw": "次要確認",
+    "es": "Confirmación secundaria",
+    "fr": "Confirmation secondaire",
+    "ja": "二次確認"
+  },
+  "menu::SelectFirst": {
+    "en": "Select First Menu Item",
+    "zh-cn": "选择第一个菜单项",
+    "zh-tw": "選取第一個選單項目",
+    "es": "Seleccionar el primer elemento del menú",
+    "fr": "Sélectionner le premier élément du menu",
+    "ja": "最初のメニュー項目を選択"
+  },
+  "menu::SelectLast": {
+    "en": "Select Last Menu Item",
+    "zh-cn": "选择最后一个菜单项",
+    "zh-tw": "選取最後一個選單項目",
+    "es": "Seleccionar el último elemento del menú",
+    "fr": "Sélectionner le dernier élément du menu",
+    "ja": "最後のメニュー項目を選択"
+  },
+  "menu::SelectNext": {
+    "en": "Select Next Menu Item",
+    "zh-cn": "选择下一个菜单项",
+    "zh-tw": "選取下一個選單項目",
+    "es": "Seleccionar el siguiente elemento del menú",
+    "fr": "Sélectionner l’élément de menu suivant",
+    "ja": "次のメニュー項目を選択"
+  },
+  "menu::SelectPrevious": {
+    "en": "Select Previous Menu Item",
+    "zh-cn": "选择上一个菜单项",
+    "zh-tw": "選取上一個選單項目",
+    "es": "Seleccionar el elemento anterior del menú",
+    "fr": "Sélectionner l’élément de menu précédent",
+    "ja": "前のメニュー項目を選択"
+  },
+  "terminal::SendKeystroke": {
+    "en": "Send Keystroke to Terminal",
+    "zh-cn": "向终端发送按键",
+    "zh-tw": "向終端機傳送按鍵",
+    "es": "Enviar pulsación al terminal",
+    "fr": "Envoyer une frappe au terminal",
+    "ja": "ターミナルにキーストロークを送信"
+  },
+  "terminal::SendText": {
+    "en": "Send Text to Terminal",
+    "zh-cn": "向终端发送文本",
+    "zh-tw": "向終端機傳送文字",
+    "es": "Enviar texto al terminal",
+    "fr": "Envoyer du texte au terminal",
+    "ja": "ターミナルにテキストを送信"
+  },
+  "terminal::RerunTask": {
+    "en": "Rerun Terminal Task",
+    "zh-cn": "重新运行终端任务",
+    "zh-tw": "重新執行終端機任務",
+    "es": "Volver a ejecutar tarea del terminal",
+    "fr": "Relancer la tâche du terminal",
+    "ja": "ターミナルタスクを再実行"
+  },
+  "search::FocusSearch": {
+    "en": "Focus Search",
+    "zh-cn": "聚焦搜索",
+    "zh-tw": "聚焦搜尋",
+    "es": "Enfocar búsqueda",
+    "fr": "Mettre le focus sur la recherche",
+    "ja": "検索にフォーカス"
+  },
+  "search::ToggleRegex": {
+    "en": "Toggle Regex Search",
+    "zh-cn": "切换正则表达式搜索",
+    "zh-tw": "切換規則運算式搜尋",
+    "es": "Alternar Búsqueda de Expresión Regular",
+    "fr": "Basculer la Recherche par Expression Régulière",
+    "ja": "正規表現検索を切り替え"
+  },
+  "search::ToggleReplace": {
+    "en": "Toggle Replace",
+    "zh-cn": "切换替换",
+    "zh-tw": "切換取代",
+    "es": "Alternar reemplazo",
+    "fr": "Basculer le remplacement",
+    "ja": "置換を切り替え"
+  },
+  "search::SelectNextMatch": {
+    "en": "Select Next Search Match",
+    "zh-cn": "选择下一个搜索匹配项",
+    "zh-tw": "選取下一個搜尋相符項",
+    "es": "Seleccionar la siguiente coincidencia de búsqueda",
+    "fr": "Sélectionner la correspondance de recherche suivante",
+    "ja": "次の検索一致を選択"
+  },
+  "search::SelectPreviousMatch": {
+    "en": "Select Previous Search Match",
+    "zh-cn": "选择上一个搜索匹配项",
+    "zh-tw": "選取上一個搜尋相符項",
+    "es": "Seleccionar la coincidencia de búsqueda anterior",
+    "fr": "Sélectionner la correspondance de recherche précédente",
+    "ja": "前の検索一致を選択"
+  },
+  "welcome::OpenRecentProject": {
+    "en": "Open Recent Project",
+    "zh-cn": "打开最近项目",
+    "zh-tw": "開啟最近專案",
+    "es": "Abrir proyecto reciente",
+    "fr": "Ouvrir un projet récent",
+    "ja": "最近のプロジェクトを開く"
+  },
+  "settings_editor::FocusFile": {
+    "en": "Focus Settings File",
+    "zh-cn": "聚焦设置文件",
+    "zh-tw": "聚焦設定檔案",
+    "es": "Enfocar archivo de configuración",
+    "fr": "Mettre le focus sur le fichier de paramètres",
+    "ja": "設定ファイルにフォーカス"
+  },
+  "pane::ActivateItem": {
+    "en": "Activate Pane Item",
+    "zh-cn": "激活窗格项目",
+    "zh-tw": "啟用窗格項目",
+    "es": "Activar elemento del panel",
+    "fr": "Activer l’élément du panneau",
+    "ja": "ペイン項目をアクティブ化"
+  },
+  "pane::GoBack": {
+    "en": "Go Back in Pane",
+    "zh-cn": "在窗格中后退",
+    "zh-tw": "在窗格中返回",
+    "es": "Retroceder en el panel",
+    "fr": "Revenir en arrière dans le panneau",
+    "ja": "ペイン内で戻る"
+  },
+  "pane::SplitLeft": {
+    "en": "Split Pane Left",
+    "zh-cn": "向左拆分窗格",
+    "zh-tw": "向左分割窗格",
+    "es": "Dividir panel a la izquierda",
+    "fr": "Diviser le panneau à gauche",
+    "ja": "ペインを左に分割"
+  },
+  "pane::SplitUp": {
+    "en": "Split Pane Up",
+    "zh-cn": "向上拆分窗格",
+    "zh-tw": "向上分割窗格",
+    "es": "Dividir panel hacia arriba",
+    "fr": "Diviser le panneau vers le haut",
+    "ja": "ペインを上に分割"
+  },
+  "pane::DeploySearch": {
+    "en": "Open Search in Pane",
+    "zh-cn": "在窗格中打开搜索",
+    "zh-tw": "在窗格中開啟搜尋",
+    "es": "Abrir búsqueda en el panel",
+    "fr": "Ouvrir la recherche dans le panneau",
+    "ja": "ペインで検索を開く"
+  },
+  "workspace::CloseWindow": {
+    "en": "Close Window",
+    "zh-cn": "关闭窗口",
+    "zh-tw": "關閉視窗",
+    "es": "Cerrar Ventana",
+    "fr": "Fermer la Fenêtre",
+    "ja": "ウィンドウを閉じる"
+  },
+  "workspace::CloseActiveDock": {
+    "en": "Close Active Dock",
+    "zh-cn": "关闭当前停靠栏",
+    "zh-tw": "關閉目前停靠列",
+    "es": "Cerrar panel acoplado activo",
+    "fr": "Fermer le dock actif",
+    "ja": "アクティブなドックを閉じる"
+  },
+  "workspace::CopyRelativePath": {
+    "en": "Copy Relative Path",
+    "zh-cn": "复制相对路径",
+    "zh-tw": "複製相對路徑",
+    "es": "Copiar ruta relativa",
+    "fr": "Copier le chemin relatif",
+    "ja": "相対パスをコピー"
+  },
+  "zed::IncreaseUiFontSize": {
+    "en": "Increase UI Font Size",
+    "zh-cn": "增大界面字体大小",
+    "zh-tw": "放大介面字體大小",
+    "es": "Aumentar tamaño de fuente de la interfaz",
+    "fr": "Augmenter la taille de police de l’interface",
+    "ja": "UI のフォントサイズを大きくする"
+  },
+  "zed::DecreaseUiFontSize": {
+    "en": "Decrease UI Font Size",
+    "zh-cn": "减小界面字体大小",
+    "zh-tw": "縮小介面字體大小",
+    "es": "Reducir tamaño de fuente de la interfaz",
+    "fr": "Réduire la taille de police de l’interface",
+    "ja": "UI のフォントサイズを小さくする"
+  },
+  "zed::ResetUiFontSize": {
+    "en": "Reset UI Font Size",
+    "zh-cn": "重置界面字体大小",
+    "zh-tw": "重設介面字體大小",
+    "es": "Restablecer tamaño de fuente de la interfaz",
+    "fr": "Réinitialiser la taille de police de l’interface",
+    "ja": "UI のフォントサイズをリセット"
+  },
+  "zed::IncreaseBufferFontSize": {
+    "en": "Increase Buffer Font Size",
+    "zh-cn": "增大编辑区字体大小",
+    "zh-tw": "放大編輯區字體大小",
+    "es": "Aumentar tamaño de fuente del editor",
+    "fr": "Augmenter la taille de police de l’éditeur",
+    "ja": "エディターのフォントサイズを大きくする"
+  },
+  "git::Amend": {
+    "en": "Git Amend",
+    "zh-cn": "Git 修正提交",
+    "zh-tw": "Git 修正提交",
+    "es": "Modificar commit de Git",
+    "fr": "Modifier le commit Git",
+    "ja": "Git コミットを修正"
+  },
+  "git::Commit": {
+    "en": "Git Commit",
+    "zh-cn": "Git 提交",
+    "zh-tw": "Git 提交",
+    "es": "Realizar commit de Git",
+    "fr": "Valider les changements Git",
+    "ja": "Git コミット"
+  },
+  "git::Diff": {
+    "en": "Open Git Diff",
+    "zh-cn": "打开 Git 差异",
+    "zh-tw": "開啟 Git 差異",
+    "es": "Abrir diff de Git",
+    "fr": "Ouvrir le diff Git",
+    "ja": "Git 差分を開く"
+  },
+  "git::GenerateCommitMessage": {
+    "en": "Generate Commit Message",
+    "zh-cn": "生成提交信息",
+    "zh-tw": "產生提交訊息",
+    "es": "Generar mensaje de commit",
+    "fr": "Générer un message de commit",
+    "ja": "コミットメッセージを生成"
+  },
+  "git::RestoreFile": {
+    "en": "Restore File",
+    "zh-cn": "还原文件",
+    "zh-tw": "還原檔案",
+    "es": "Restaurar archivo",
+    "fr": "Restaurer le fichier",
+    "ja": "ファイルを復元"
+  },
+  "git::StageAll": {
+    "en": "Stage All Changes",
+    "zh-cn": "暂存所有更改",
+    "zh-tw": "暫存所有變更",
+    "es": "Preparar todos los cambios",
+    "fr": "Indexer tous les changements",
+    "ja": "すべての変更をステージ"
+  },
+  "git::UnstageAll": {
+    "en": "Unstage All Changes",
+    "zh-cn": "取消暂存所有更改",
+    "zh-tw": "取消暫存所有變更",
+    "es": "Quitar todos los cambios del área de preparación",
+    "fr": "Désindexer tous les changements",
+    "ja": "すべての変更をアンステージ"
+  },
+  "git::ToggleStaged": {
+    "en": "Toggle Staged Changes",
+    "zh-cn": "切换已暂存更改",
+    "zh-tw": "切換已暫存變更",
+    "es": "Alternar cambios preparados",
+    "fr": "Basculer les changements indexés",
+    "ja": "ステージ済みの変更を切り替え"
+  },
+  "git_panel::FocusChanges": {
+    "en": "Focus Git Changes",
+    "zh-cn": "聚焦 Git 更改",
+    "zh-tw": "聚焦 Git 變更",
+    "es": "Enfocar cambios de Git",
+    "fr": "Mettre le focus sur les changements Git",
+    "ja": "Git の変更にフォーカス"
+  },
+  "git_panel::FocusEditor": {
+    "en": "Focus Editor from Git Panel",
+    "zh-cn": "从 Git 面板聚焦编辑器",
+    "zh-tw": "從 Git 面板聚焦編輯器",
+    "es": "Enfocar editor desde el panel de Git",
+    "fr": "Mettre le focus sur l’éditeur depuis le panneau Git",
+    "ja": "Git パネルからエディターにフォーカス"
+  },
+  "project_search::ToggleFocus": {
+    "en": "Toggle Project Search Focus",
+    "zh-cn": "切换项目搜索焦点",
+    "zh-tw": "切換專案搜尋焦點",
+    "es": "Alternar foco de búsqueda de proyecto",
+    "fr": "Basculer le focus de la recherche de projet",
+    "ja": "プロジェクト検索のフォーカスを切り替え"
+  },
+  "project_search::ToggleAllSearchResults": {
+    "en": "Toggle All Search Results",
+    "zh-cn": "切换全部搜索结果",
+    "zh-tw": "切換全部搜尋結果",
+    "es": "Alternar todos los resultados de búsqueda",
+    "fr": "Basculer tous les résultats de recherche",
+    "ja": "すべての検索結果を切り替え"
+  },
+  "buffer_search::Deploy": {
+    "en": "Open Buffer Search",
+    "zh-cn": "打开编辑区搜索",
+    "zh-tw": "開啟編輯區搜尋",
+    "es": "Abrir búsqueda en el editor",
+    "fr": "Ouvrir la recherche dans l’éditeur",
+    "ja": "バッファ検索を開く"
+  },
+  "file_finder::Toggle": {
+    "en": "Toggle File Finder",
+    "zh-cn": "切换文件查找器",
+    "zh-tw": "切換檔案尋找器",
+    "es": "Alternar buscador de archivos",
+    "fr": "Basculer le chercheur de fichiers",
+    "ja": "ファイルファインダーを切り替え"
+  },
+  "project_panel::Delete": {
+    "en": "Delete from Project Panel",
+    "zh-cn": "从项目面板删除",
+    "zh-tw": "從專案面板刪除",
+    "es": "Eliminar desde el panel de proyecto",
+    "fr": "Supprimer depuis le panneau de projet",
+    "ja": "プロジェクトパネルから削除"
+  },
+  "project_panel::Trash": {
+    "en": "Project Panel Trash",
+    "zh-cn": "项目面板移至回收站",
+    "zh-tw": "專案面板移至垃圾桶",
+    "es": "Enviar a la papelera desde el panel de proyecto",
+    "fr": "Mettre à la corbeille depuis le panneau de projet",
+    "ja": "プロジェクトパネルからゴミ箱へ移動"
+  },
+  "picker::ConfirmInput": {
+    "en": "Confirm Picker Input",
+    "zh-cn": "确认选择器输入",
+    "zh-tw": "確認選擇器輸入",
+    "es": "Confirmar entrada del selector",
+    "fr": "Confirmer la saisie du sélecteur",
+    "ja": "ピッカー入力を確定"
+  },
+  "channel_modal::ToggleMode": {
+    "en": "Toggle Channel Mode",
+    "zh-cn": "切换频道模式",
+    "zh-tw": "切換頻道模式",
+    "es": "Alternar modo de canal",
+    "fr": "Basculer le mode de canal",
+    "ja": "チャンネルモードを切り替え"
+  },
+  "editor::AcceptEditPrediction": {
+    "en": "Accept Edit Prediction",
+    "zh-cn": "接受编辑预测",
+    "zh-tw": "接受編輯預測",
+    "es": "Aceptar predicción de edición",
+    "fr": "Accepter la prédiction d’édition",
+    "ja": "編集予測を受け入れる"
+  },
+  "editor::AcceptNextLineEditPrediction": {
+    "en": "Accept Next Line Edit Prediction",
+    "zh-cn": "接受下一行编辑预测",
+    "zh-tw": "接受下一行編輯預測",
+    "es": "Aceptar predicción de edición de la siguiente línea",
+    "fr": "Accepter la prédiction d’édition de la ligne suivante",
+    "ja": "次の行の編集予測を受け入れる"
+  },
+  "editor::AcceptNextWordEditPrediction": {
+    "en": "Accept Next Word Edit Prediction",
+    "zh-cn": "接受下一个词编辑预测",
+    "zh-tw": "接受下一個詞編輯預測",
+    "es": "Aceptar predicción de edición de la siguiente palabra",
+    "fr": "Accepter la prédiction d’édition du mot suivant",
+    "ja": "次の単語の編集予測を受け入れる"
+  },
+  "editor::ContextMenuNext": {
+    "en": "Next Context Menu Item",
+    "zh-cn": "下一个上下文菜单项",
+    "zh-tw": "下一個內容選單項目",
+    "es": "Siguiente elemento del menú contextual",
+    "fr": "Élément suivant du menu contextuel",
+    "ja": "次のコンテキストメニュー項目"
+  },
+  "editor::ContextMenuPrevious": {
+    "en": "Previous Context Menu Item",
+    "zh-cn": "上一个上下文菜单项",
+    "zh-tw": "上一個內容選單項目",
+    "es": "Elemento anterior del menú contextual",
+    "fr": "Élément précédent du menu contextuel",
+    "ja": "前のコンテキストメニュー項目"
+  },
+  "editor::DeleteToNextSubwordEnd": {
+    "en": "Delete to Next Subword End",
+    "zh-cn": "删除到下一个子词结尾",
+    "zh-tw": "刪除至下一個子詞結尾",
+    "es": "Eliminar hasta el final de la siguiente subpalabra",
+    "fr": "Supprimer jusqu’à la fin du sous-mot suivant",
+    "ja": "次のサブワードの末尾まで削除"
+  },
+  "editor::DeleteToPreviousSubwordStart": {
+    "en": "Delete to Previous Subword Start",
+    "zh-cn": "删除到上一个子词开头",
+    "zh-tw": "刪除至上一個子詞開頭",
+    "es": "Eliminar hasta el inicio de la subpalabra anterior",
+    "fr": "Supprimer jusqu’au début du sous-mot précédent",
+    "ja": "前のサブワードの先頭まで削除"
+  },
+  "editor::OpenExcerpts": {
+    "en": "Open Excerpts",
+    "zh-cn": "打开摘录",
+    "zh-tw": "開啟摘錄",
+    "es": "Abrir extractos",
+    "fr": "Ouvrir les extraits",
+    "ja": "抜粋を開く"
+  },
+  "editor::OpenExcerptsSplit": {
+    "en": "Open Excerpts in Split",
+    "zh-cn": "在拆分窗格中打开摘录",
+    "zh-tw": "在分割窗格中開啟摘錄",
+    "es": "Abrir extractos en división",
+    "fr": "Ouvrir les extraits dans une vue scindée",
+    "ja": "抜粋を分割表示で開く"
+  },
+  "editor::Rewrap": {
+    "en": "Rewrap Text",
+    "zh-cn": "重新换行",
+    "zh-tw": "重新換行",
+    "es": "Reajustar texto en el editor",
+    "fr": "Réajuster le texte dans l’éditeur",
+    "ja": "エディターで再折り返し"
+  },
+  "editor::SelectNext": {
+    "en": "Select Next",
+    "zh-cn": "选择下一个",
+    "zh-tw": "選取下一個",
+    "es": "Seleccionar siguiente",
+    "fr": "Sélectionner le suivant",
+    "ja": "次を選択"
+  },
+  "editor::SelectPrevious": {
+    "en": "Select Previous",
+    "zh-cn": "选择上一个",
+    "zh-tw": "選取上一個",
+    "es": "Seleccionar anterior",
+    "fr": "Sélectionner le précédent",
+    "ja": "前を選択"
+  },
+  "editor::SelectToNextSubwordEnd": {
+    "en": "Select to Next Subword End",
+    "zh-cn": "选择到下一个子词结尾",
+    "zh-tw": "選取至下一個子詞結尾",
+    "es": "Seleccionar hasta el final de la siguiente subpalabra",
+    "fr": "Sélectionner jusqu’à la fin du sous-mot suivant",
+    "ja": "次のサブワードの末尾まで選択"
+  },
+  "editor::SelectToPreviousSubwordStart": {
+    "en": "Select to Previous Subword Start",
+    "zh-cn": "选择到上一个子词开头",
+    "zh-tw": "選取至上一個子詞開頭",
+    "es": "Seleccionar hasta el inicio de la subpalabra anterior",
+    "fr": "Sélectionner jusqu’au début du sous-mot précédent",
+    "ja": "前のサブワードの先頭まで選択"
+  },
+  "editor::MoveToEnclosingBracket": {
+    "en": "Move to Enclosing Bracket",
+    "zh-cn": "移动到包围括号",
+    "zh-tw": "移動到包圍括號",
+    "es": "Mover al paréntesis envolvente",
+    "fr": "Aller à la parenthèse englobante",
+    "ja": "囲み括弧へ移動"
+  },
+  "assistant::InsertIntoEditor": {
+    "en": "Insert into Editor",
+    "zh-cn": "插入到编辑器",
+    "zh-tw": "插入到編輯器",
+    "es": "Insertar en el editor",
+    "fr": "Insérer dans l’éditeur",
+    "ja": "エディターに挿入"
+  },
+  "agent::AddSelectionToThread": {
+    "en": "Add Selection to Thread",
+    "zh-cn": "将选择内容添加到线程",
+    "zh-tw": "將選取內容加入執行緒",
+    "es": "Añadir selección al hilo",
+    "fr": "Ajouter la sélection au fil",
+    "ja": "選択範囲をスレッドに追加"
+  },
+  "agent::Chat": {
+    "en": "Start Agent Chat",
+    "zh-cn": "开始 Agent 对话",
+    "zh-tw": "開始 Agent 對話",
+    "es": "Iniciar chat del agente",
+    "fr": "Démarrer le chat de l’agent",
+    "ja": "エージェントチャットを開始"
+  },
+  "agent::CycleFavoriteModels": {
+    "en": "Cycle Favorite Models",
+    "zh-cn": "循环切换收藏模型",
+    "zh-tw": "循環切換收藏模型",
+    "es": "Recorrer modelos favoritos",
+    "fr": "Faire défiler les modèles favoris",
+    "ja": "お気に入りモデルを切り替え"
+  },
+  "agent::CycleModeSelector": {
+    "en": "Cycle Agent Mode",
+    "zh-cn": "循环切换 Agent 模式",
+    "zh-tw": "循環切換 Agent 模式",
+    "es": "Recorrer modos del agente",
+    "fr": "Faire défiler les modes de l’agent",
+    "ja": "エージェントモードを切り替え"
+  },
+  "agent::Keep": {
+    "en": "Keep Agent Changes",
+    "zh-cn": "保留 Agent 更改",
+    "zh-tw": "保留 Agent 變更",
+    "es": "Conservar cambios del agente",
+    "fr": "Conserver les modifications de l’agent",
+    "ja": "エージェントの変更を保持"
+  },
+  "agent::KeepAll": {
+    "en": "Keep All Agent Changes",
+    "zh-cn": "保留所有 Agent 更改",
+    "zh-tw": "保留所有 Agent 變更",
+    "es": "Conservar todos los cambios del agente",
+    "fr": "Conserver toutes les modifications de l’agent",
+    "ja": "すべてのエージェント変更を保持"
+  },
+  "agent::NewThread": {
+    "en": "New Agent Thread",
+    "zh-cn": "新建 Agent 线程",
+    "zh-tw": "新增 Agent 執行緒",
+    "es": "Nuevo hilo de agente",
+    "fr": "Nouveau fil d’agent",
+    "ja": "新しいエージェントスレッド"
+  },
+  "agent::NewTextThread": {
+    "en": "New Text Thread",
+    "zh-cn": "新建文本线程",
+    "zh-tw": "新增文字執行緒",
+    "es": "Nuevo hilo de texto",
+    "fr": "Nouveau fil de texte",
+    "ja": "新しいテキストスレッド"
+  },
+  "agent::OpenAgentDiff": {
+    "en": "Open Agent Diff",
+    "zh-cn": "打开 Agent 差异",
+    "zh-tw": "開啟 Agent 差異",
+    "es": "Abrir diff del agente",
+    "fr": "Ouvrir le diff de l’agent",
+    "ja": "エージェントの差分を開く"
+  },
+  "agent::OpenRulesLibrary": {
+    "en": "Open Rules Library",
+    "zh-cn": "打开规则库",
+    "zh-tw": "開啟規則庫",
+    "es": "Abrir biblioteca de reglas",
+    "fr": "Ouvrir la bibliothèque de règles",
+    "ja": "ルールライブラリを開く"
+  },
+  "agent::PasteRaw": {
+    "en": "Paste Raw",
+    "zh-cn": "粘贴原始内容",
+    "zh-tw": "貼上原始內容",
+    "es": "Pegar sin formato",
+    "fr": "Coller brut",
+    "ja": "プレーンで貼り付け"
+  },
+  "agent::Reject": {
+    "en": "Reject Agent Changes",
+    "zh-cn": "拒绝 Agent 更改",
+    "zh-tw": "拒絕 Agent 變更",
+    "es": "Rechazar cambios del agente",
+    "fr": "Rejeter les modifications de l’agent",
+    "ja": "エージェントの変更を却下"
+  },
+  "agent::RejectAll": {
+    "en": "Reject All Agent Changes",
+    "zh-cn": "拒绝所有 Agent 更改",
+    "zh-tw": "拒絕所有 Agent 變更",
+    "es": "Rechazar todos los cambios del agente",
+    "fr": "Rejeter toutes les modifications de l’agent",
+    "ja": "すべてのエージェント変更を却下"
+  },
+  "agent::ToggleProfileSelector": {
+    "en": "Toggle Profile Selector",
+    "zh-cn": "切换配置选择器",
+    "zh-tw": "切換設定檔選擇器",
+    "es": "Alternar selector de perfil",
+    "fr": "Basculer le sélecteur de profil",
+    "ja": "プロファイルセレクターを切り替え"
+  },
+  "notebook::Run": {
+    "en": "Run Notebook",
+    "zh-cn": "运行 Notebook",
+    "zh-tw": "執行 Notebook",
+    "es": "Ejecutar notebook",
+    "fr": "Exécuter le notebook",
+    "ja": "ノートブックを実行"
+  },
+  "image_viewer::ZoomIn": {
+    "en": "Image Viewer Zoom in",
+    "zh-cn": "图像查看器放大",
+    "zh-tw": "影像檢視器放大",
+    "es": "Acercar visor de imágenes",
+    "fr": "Zoom avant dans la visionneuse d’images",
+    "ja": "画像ビューアーを拡大"
+  },
+  "markdown::Copy": {
+    "en": "Copy as Markdown",
+    "zh-cn": "复制为 Markdown",
+    "zh-tw": "複製為 Markdown",
+    "es": "Copiar como Markdown",
+    "fr": "Copier en Markdown",
+    "ja": "Markdown としてコピー"
+  },
+  "markdown::CopyAsMarkdown": {
+    "en": "Copy as Markdown",
+    "zh-cn": "复制为 Markdown",
+    "zh-tw": "複製為 Markdown",
+    "es": "Copiar como Markdown",
+    "fr": "Copier en Markdown",
+    "ja": "Markdown としてコピー"
+  },
+  "menu::Restart": {
+    "en": "Restart Menu",
+    "zh-cn": "重启菜单",
+    "zh-tw": "重新啟動選單",
+    "es": "Reiniciar menú",
+    "fr": "Redémarrer le menu",
+    "ja": "メニューを再起動"
+  },
+  "workspace::ToggleZoom": {
+    "en": "Toggle Workspace Zoom",
+    "zh-cn": "切换工作区缩放",
+    "zh-tw": "切換工作區縮放",
+    "es": "Alternar zoom del área de trabajo",
+    "fr": "Basculer le zoom de l’espace de travail",
+    "ja": "ワークスペースのズームを切り替え"
+  },
+  "workspace::OpenFiles": {
+    "en": "Open Workspace Files",
+    "zh-cn": "打开工作区文件",
+    "zh-tw": "開啟工作區檔案",
+    "es": "Abrir archivos del área de trabajo",
+    "fr": "Ouvrir les fichiers de l’espace de travail",
+    "ja": "ワークスペースのファイルを開く"
+  },
+  "workspace::Open": {
+    "en": "Open Workspace",
+    "zh-cn": "打开工作区",
+    "zh-tw": "開啟工作區",
+    "es": "Abrir área de trabajo",
+    "fr": "Ouvrir l’espace de travail",
+    "ja": "ワークスペースを開く"
+  },
+  "zed::DecreaseBufferFontSize": {
+    "en": "Decrease Buffer Font Size",
+    "zh-cn": "减小编辑区字体大小",
+    "zh-tw": "縮小編輯區字體大小",
+    "es": "Reducir tamaño de fuente del editor",
+    "fr": "Réduire la taille de police de l’éditeur",
+    "ja": "エディターのフォントサイズを小さくする"
+  },
+  "zed::ResetBufferFontSize": {
+    "en": "Reset Buffer Font Size",
+    "zh-cn": "重置编辑区字体大小",
+    "zh-tw": "重設編輯區字體大小",
+    "es": "Restablecer tamaño de fuente del editor",
+    "fr": "Réinitialiser la taille de police de l’éditeur",
+    "ja": "エディターのフォントサイズをリセット"
+  },
+  "zed::OpenSettingsFile": {
+    "en": "Open Settings File",
+    "zh-cn": "打开设置文件",
+    "zh-tw": "開啟設定檔案",
+    "es": "Abrir archivo de configuración",
+    "fr": "Ouvrir le fichier de paramètres",
+    "ja": "設定ファイルを開く"
+  },
+  "debugger::Start": {
+    "en": "Start Debugger",
+    "zh-cn": "启动调试器",
+    "zh-tw": "啟動偵錯器",
+    "es": "Iniciar depurador",
+    "fr": "Démarrer le débogueur",
+    "ja": "デバッガーを開始"
+  },
+  "debugger::Stop": {
+    "en": "Stop Debugger",
+    "zh-cn": "停止调试器",
+    "zh-tw": "停止偵錯器",
+    "es": "Detener depurador",
+    "fr": "Arrêter le débogueur",
+    "ja": "デバッガーを停止"
+  },
+  "debugger::RerunSession": {
+    "en": "Rerun Debug Session",
+    "zh-cn": "重新运行调试会话",
+    "zh-tw": "重新執行偵錯工作階段",
+    "es": "Volver a ejecutar sesión del depurador",
+    "fr": "Relancer la session du débogueur",
+    "ja": "デバッガーセッションを再実行"
+  },
+  "debugger::Pause": {
+    "en": "Pause Debugger",
+    "zh-cn": "暂停调试器",
+    "zh-tw": "暫停偵錯器",
+    "es": "Pausar depurador",
+    "fr": "Mettre le débogueur en pause",
+    "ja": "デバッガーを一時停止"
+  },
+  "debugger::StepOver": {
+    "en": "Step Over",
+    "zh-cn": "单步跳过",
+    "zh-tw": "單步略過",
+    "es": "Paso por encima del depurador",
+    "fr": "Pas suivant du débogueur",
+    "ja": "デバッガーでステップオーバー"
+  },
+  "debugger::StepOut": {
+    "en": "Step Out",
+    "zh-cn": "单步跳出",
+    "zh-tw": "單步跳出",
+    "es": "Salir del paso del depurador",
+    "fr": "Sortir de la fonction dans le débogueur",
+    "ja": "デバッガーでステップアウト"
+  },
+  "edit_prediction::ToggleMenu": {
+    "en": "Toggle Edit Prediction Menu",
+    "zh-cn": "切换编辑预测菜单",
+    "zh-tw": "切換編輯預測選單",
+    "es": "Alternar menú de predicción de edición",
+    "fr": "Basculer le menu de prédiction d’édition",
+    "ja": "編集予測メニューを切り替え"
+  },
+  "lsp_tool::ToggleMenu": {
+    "en": "Toggle LSP Tool Menu",
+    "zh-cn": "切换 LSP 工具菜单",
+    "zh-tw": "切換 LSP 工具選單",
+    "es": "Alternar menú de herramienta LSP",
+    "fr": "Basculer le menu de l’outil LSP",
+    "ja": "LSP ツールメニューを切り替え"
+  },
+  "editor::DisplayCursorNames": {
+    "en": "Display Cursor Names",
+    "zh-cn": "显示光标名称",
+    "zh-tw": "顯示游標名稱",
+    "es": "Mostrar nombres de cursores en el editor",
+    "fr": "Afficher les noms des curseurs dans l’éditeur",
+    "ja": "エディターでカーソル名を表示"
+  },
+  "workspace::ToggleWorktreeSecurity": {
+    "en": "Toggle Worktree Security",
+    "zh-cn": "切换工作树安全设置",
+    "zh-tw": "切換工作樹安全性",
+    "es": "Alternar seguridad del árbol de trabajo",
+    "fr": "Basculer la sécurité du worktree",
+    "ja": "ワークツリーのセキュリティを切り替え"
+  },
+  "menu::SelectChild": {
+    "en": "Select Child Menu Item",
+    "zh-cn": "选择子菜单项",
+    "zh-tw": "選取子選單項目",
+    "es": "Seleccionar subelemento del menú",
+    "fr": "Sélectionner l’élément enfant du menu",
+    "ja": "メニューの子項目を選択"
+  },
+  "menu::SelectParent": {
+    "en": "Select Parent Menu Item",
+    "zh-cn": "选择父菜单项",
+    "zh-tw": "選取父選單項目",
+    "es": "Seleccionar elemento padre del menú",
+    "fr": "Sélectionner l’élément parent du menu",
+    "ja": "メニューの親項目を選択"
+  },
+  "editor::Cancel": {
+    "en": "Cancel",
+    "zh-cn": "取消",
+    "zh-tw": "取消",
+    "es": "Cancelar en el editor",
+    "fr": "Annuler dans l’éditeur",
+    "ja": "エディターでキャンセル"
+  },
+  "editor::Tab": {
+    "en": "Tab",
+    "zh-cn": "Tab 键",
+    "zh-tw": "Tab 鍵",
+    "es": "Tabulador en el editor",
+    "fr": "Tabulation dans l’éditeur",
+    "ja": "エディターのタブ"
+  },
+  "editor::Backtab": {
+    "en": "Reverse Tab",
+    "zh-cn": "反向 Tab",
+    "zh-tw": "反向 Tab",
+    "es": "Tabulación inversa en el editor",
+    "fr": "Tabulation arrière dans l’éditeur",
+    "ja": "エディターの逆タブ"
+  },
+  "editor::DeleteToPreviousWordStart": {
+    "en": "Delete to Previous Word Start",
+    "zh-cn": "删除到上一个单词开头",
+    "zh-tw": "刪除至上一個單字開頭",
+    "es": "Eliminar hasta el inicio de la palabra anterior en el editor",
+    "fr": "Supprimer jusqu’au début du mot précédent dans l’éditeur",
+    "ja": "エディターで前の単語の先頭まで削除"
+  },
+  "editor::DeleteToNextWordEnd": {
+    "en": "Delete to Next Word End",
+    "zh-cn": "删除到下一个单词结尾",
+    "zh-tw": "刪除至下一個單字結尾",
+    "es": "Eliminar hasta el final de la siguiente palabra en el editor",
+    "fr": "Supprimer jusqu’à la fin du mot suivant dans l’éditeur",
+    "ja": "エディターで次の単語の末尾まで削除"
+  },
+  "editor::LineUp": {
+    "en": "Move Up One Line",
+    "zh-cn": "向上移动一行",
+    "zh-tw": "向上移動一行",
+    "es": "Mover una línea arriba en el editor",
+    "fr": "Monter d’une ligne dans l’éditeur",
+    "ja": "エディターで1行上へ移動"
+  },
+  "editor::LineDown": {
+    "en": "Move Down One Line",
+    "zh-cn": "向下移动一行",
+    "zh-tw": "向下移動一行",
+    "es": "Mover una línea abajo en el editor",
+    "fr": "Descendre d’une ligne dans l’éditeur",
+    "ja": "エディターで1行下へ移動"
+  },
+  "editor::PageUp": {
+    "en": "Page Up",
+    "zh-cn": "向上翻页",
+    "zh-tw": "向上翻頁",
+    "es": "Página arriba en el editor",
+    "fr": "Page précédente dans l’éditeur",
+    "ja": "エディターでページアップ"
+  },
+  "editor::SelectPageUp": {
+    "en": "Select Page Up",
+    "zh-cn": "向上翻页并选择",
+    "zh-tw": "向上翻頁並選取",
+    "es": "Seleccionar página arriba en el editor",
+    "fr": "Sélectionner vers la page précédente dans l’éditeur",
+    "ja": "エディターでページアップしながら選択"
+  },
+  "editor::PageDown": {
+    "en": "Page Down",
+    "zh-cn": "向下翻页",
+    "zh-tw": "向下翻頁",
+    "es": "Página abajo en el editor",
+    "fr": "Page suivante dans l’éditeur",
+    "ja": "エディターでページダウン"
+  },
+  "editor::SelectPageDown": {
+    "en": "Select Page Down",
+    "zh-cn": "向下翻页并选择",
+    "zh-tw": "向下翻頁並選取",
+    "es": "Seleccionar página abajo en el editor",
+    "fr": "Sélectionner vers la page suivante dans l’éditeur",
+    "ja": "エディターでページダウンしながら選択"
+  },
+  "editor::MoveToPreviousWordStart": {
+    "en": "Move to Previous Word Start",
+    "zh-cn": "移动到上一个单词开头",
+    "zh-tw": "移動至上一個單字開頭",
+    "es": "Mover al inicio de la palabra anterior en el editor",
+    "fr": "Aller au début du mot précédent dans l’éditeur",
+    "ja": "エディターで前の単語の先頭へ移動"
+  },
+  "editor::MoveToNextWordEnd": {
+    "en": "Move to Next Word End",
+    "zh-cn": "移动到下一个单词结尾",
+    "zh-tw": "移動至下一個單字結尾",
+    "es": "Mover al final de la siguiente palabra en el editor",
+    "fr": "Aller à la fin du mot suivant dans l’éditeur",
+    "ja": "エディターで次の単語の末尾へ移動"
+  },
+  "editor::SelectUp": {
+    "en": "Select Up",
+    "zh-cn": "向上选择",
+    "zh-tw": "向上選取",
+    "es": "Seleccionar hacia arriba en el editor",
+    "fr": "Sélectionner vers le haut dans l’éditeur",
+    "ja": "エディターで上方向に選択"
+  },
+  "editor::SelectDown": {
+    "en": "Select Down",
+    "zh-cn": "向下选择",
+    "zh-tw": "向下選取",
+    "es": "Seleccionar hacia abajo en el editor",
+    "fr": "Sélectionner vers le bas dans l’éditeur",
+    "ja": "エディターで下方向に選択"
+  },
+  "editor::SelectLeft": {
+    "en": "Select Left",
+    "zh-cn": "向左选择",
+    "zh-tw": "向左選取",
+    "es": "Seleccionar hacia la izquierda en el editor",
+    "fr": "Sélectionner vers la gauche dans l’éditeur",
+    "ja": "エディターで左方向に選択"
+  },
+  "editor::SelectRight": {
+    "en": "Select Right",
+    "zh-cn": "向右选择",
+    "zh-tw": "向右選取",
+    "es": "Seleccionar hacia la derecha en el editor",
+    "fr": "Sélectionner vers la droite dans l’éditeur",
+    "ja": "エディターで右方向に選択"
+  },
+  "editor::SelectToPreviousWordStart": {
+    "en": "Select to Previous Word Start",
+    "zh-cn": "选择到上一个单词开头",
+    "zh-tw": "選取至上一個單字開頭",
+    "es": "Seleccionar hasta el inicio de la palabra anterior en el editor",
+    "fr": "Sélectionner jusqu’au début du mot précédent dans l’éditeur",
+    "ja": "エディターで前の単語の先頭まで選択"
+  },
+  "editor::SelectToNextWordEnd": {
+    "en": "Select to Next Word End",
+    "zh-cn": "选择到下一个单词结尾",
+    "zh-tw": "選取至下一個單字結尾",
+    "es": "Seleccionar hasta el final de la siguiente palabra en el editor",
+    "fr": "Sélectionner jusqu’à la fin du mot suivant dans l’éditeur",
+    "ja": "エディターで次の単語の末尾まで選択"
+  },
+  "editor::OrganizeImports": {
+    "en": "Organize Imports",
+    "zh-cn": "整理导入",
+    "zh-tw": "整理匯入",
+    "es": "Organizar importaciones en el editor",
+    "fr": "Organiser les imports dans l’éditeur",
+    "ja": "エディターでインポートを整理"
+  },
+  "editor::ShowCharacterPalette": {
+    "en": "Show Character Palette",
+    "zh-cn": "显示字符面板",
+    "zh-tw": "顯示字元面板",
+    "es": "Mostrar paleta de caracteres en el editor",
+    "fr": "Afficher la palette de caractères dans l’éditeur",
+    "ja": "エディターで文字パレットを表示"
+  },
+  "editor::ToggleSelectedDiffHunks": {
+    "en": "Toggle Selected Diff Hunks",
+    "zh-cn": "切换已选差异块",
+    "zh-tw": "切換已選差異區塊",
+    "es": "Alternar bloques diff seleccionados en el editor",
+    "fr": "Basculer les blocs de diff sélectionnés dans l’éditeur",
+    "ja": "エディターで選択した差分ハンクを切り替え"
+  },
+  "editor::ExpandAllDiffHunks": {
+    "en": "Expand All Diff Hunks",
+    "zh-cn": "展开所有差异块",
+    "zh-tw": "展開所有差異區塊",
+    "es": "Expandir todos los bloques diff en el editor",
+    "fr": "Développer tous les blocs de diff dans l’éditeur",
+    "ja": "エディターですべての差分ハンクを展開"
+  },
+  "git::Blame": {
+    "en": "Git Blame",
+    "zh-cn": "Git 追溯",
+    "zh-tw": "Git 追溯",
+    "es": "Ver Git blame",
+    "fr": "Afficher le blame Git",
+    "ja": "Git blame を表示"
+  },
+  "git::OpenModifiedFiles": {
+    "en": "Open Modified Files",
+    "zh-cn": "Git 打开已修改文件",
+    "zh-tw": "Git 開啟已修改檔案",
+    "es": "Abrir archivos modificados de Git",
+    "fr": "Ouvrir les fichiers modifiés Git",
+    "ja": "Git の変更ファイルを開く"
+  },
+  "git::ReviewDiff": {
+    "en": "Git Review Diff",
+    "zh-cn": "Git 审查差异",
+    "zh-tw": "Git 檢視差異",
+    "es": "Revisar diff de Git",
+    "fr": "Examiner le diff Git",
+    "ja": "Git 差分を確認"
+  },
+  "editor::OpenContextMenu": {
+    "en": "Open Context Menu",
+    "zh-cn": "打开上下文菜单",
+    "zh-tw": "開啟內容選單",
+    "es": "Abrir menú contextual del editor",
+    "fr": "Ouvrir le menu contextuel de l’éditeur",
+    "ja": "エディターのコンテキストメニューを開く"
+  },
+  "editor::ToggleEditPrediction": {
+    "en": "Toggle Edit Prediction",
+    "zh-cn": "切换编辑预测",
+    "zh-tw": "切換編輯預測",
+    "es": "Alternar predicción de edición del editor",
+    "fr": "Basculer la prédiction d’édition de l’éditeur",
+    "ja": "エディターの編集予測を切り替え"
+  },
+  "editor::ToggleBreakpoint": {
+    "en": "Toggle Breakpoint",
+    "zh-cn": "切换断点",
+    "zh-tw": "切換中斷點",
+    "es": "Alternar punto de interrupción en el editor",
+    "fr": "Basculer le point d’arrêt dans l’éditeur",
+    "ja": "エディターでブレークポイントを切り替え"
+  },
+  "editor::EditLogBreakpoint": {
+    "en": "Edit Log Breakpoint",
+    "zh-cn": "编辑日志断点",
+    "zh-tw": "編輯日誌中斷點",
+    "es": "Editar punto de interrupción de registro en el editor",
+    "fr": "Modifier le point d’arrêt journalisé dans l’éditeur",
+    "ja": "エディターでログポイントを編集"
+  },
+  "buffer_search::DeployReplace": {
+    "en": "Open Replace in Buffer Search",
+    "zh-cn": "在编辑区搜索中打开替换",
+    "zh-tw": "在編輯區搜尋中開啟取代",
+    "es": "Abrir reemplazo en la búsqueda del editor",
+    "fr": "Ouvrir le remplacement dans la recherche de l’éditeur",
+    "ja": "バッファ検索で置換を開く"
+  },
+  "editor::SelectEnclosingSymbol": {
+    "en": "Select Enclosing Symbol",
+    "zh-cn": "选择包围符号",
+    "zh-tw": "選取包圍符號",
+    "es": "Seleccionar símbolo contenedor en el editor",
+    "fr": "Sélectionner le symbole englobant dans l’éditeur",
+    "ja": "エディターで囲みシンボルを選択"
+  },
+  "editor::GoToPreviousChange": {
+    "en": "Go to Previous Change",
+    "zh-cn": "转到上一个更改",
+    "zh-tw": "移至上一個變更",
+    "es": "Ir al cambio anterior en el editor",
+    "fr": "Aller au changement précédent dans l’éditeur",
+    "ja": "エディターで前の変更へ移動"
+  },
+  "editor::GoToNextChange": {
+    "en": "Go to Next Change",
+    "zh-cn": "转到下一个更改",
+    "zh-tw": "移至下一個變更",
+    "es": "Ir al siguiente cambio en el editor",
+    "fr": "Aller au changement suivant dans l’éditeur",
+    "ja": "エディターで次の変更へ移動"
+  },
+  "editor::OpenSelectionsInMultibuffer": {
+    "en": "Open Selections in Multibuffer",
+    "zh-cn": "在多缓冲区中打开所选内容",
+    "zh-tw": "在多緩衝區中開啟所選內容",
+    "es": "Abrir selecciones en multibúfer",
+    "fr": "Ouvrir les sélections dans le multibuffer",
+    "ja": "選択範囲をマルチバッファで開く"
+  },
+  "editor::NextEditPrediction": {
+    "en": "Next Edit Prediction",
+    "zh-cn": "下一个编辑预测",
+    "zh-tw": "下一個編輯預測",
+    "es": "Siguiente predicción de edición del editor",
+    "fr": "Prédiction d’édition suivante de l’éditeur",
+    "ja": "エディターの次の編集予測"
+  },
+  "editor::PreviousEditPrediction": {
+    "en": "Previous Edit Prediction",
+    "zh-cn": "上一个编辑预测",
+    "zh-tw": "上一個編輯預測",
+    "es": "Predicción de edición anterior del editor",
+    "fr": "Prédiction d’édition précédente de l’éditeur",
+    "ja": "エディターの前の編集予測"
+  },
+  "editor::ShowEditPrediction": {
+    "en": "Show Edit Prediction",
+    "zh-cn": "显示编辑预测",
+    "zh-tw": "顯示編輯預測",
+    "es": "Mostrar predicción de edición del editor",
+    "fr": "Afficher la prédiction d’édition de l’éditeur",
+    "ja": "エディターの編集予測を表示"
+  },
+  "repl::Run": {
+    "en": "REPL Run",
+    "zh-cn": "REPL 运行",
+    "zh-tw": "REPL 執行",
+    "es": "Ejecutar REPL",
+    "fr": "Exécuter le REPL",
+    "ja": "REPL を実行"
+  },
+  "repl::RunInPlace": {
+    "en": "REPL Run in Place",
+    "zh-cn": "REPL 原地运行",
+    "zh-tw": "REPL 原地執行",
+    "es": "Ejecutar REPL en el lugar",
+    "fr": "Exécuter le REPL sur place",
+    "ja": "REPL をその場で実行"
+  },
+  "git::Restore": {
+    "en": "Git Restore",
+    "zh-cn": "Git 还原",
+    "zh-tw": "Git 還原",
+    "es": "Restaurar con Git",
+    "fr": "Restaurer avec Git",
+    "ja": "Git で復元"
+  },
+  "git::StageAndNext": {
+    "en": "Git Stage and Next",
+    "zh-cn": "Git 暂存并转到下一个",
+    "zh-tw": "Git 暫存並前往下一個",
+    "es": "Preparar en Git y pasar al siguiente",
+    "fr": "Indexer avec Git et passer au suivant",
+    "ja": "Git でステージして次へ"
+  },
+  "git::UnstageAndNext": {
+    "en": "Git Unstage and Next",
+    "zh-cn": "Git 取消暂存并转到下一个",
+    "zh-tw": "Git 取消暫存並前往下一個",
+    "es": "Quitar de Git y pasar al siguiente",
+    "fr": "Désindexer avec Git et passer au suivant",
+    "ja": "Git でアンステージして次へ"
+  },
+  "assistant::Assist": {
+    "en": "Assistant Assist",
+    "zh-cn": "助手协助",
+    "zh-tw": "助手協助",
+    "es": "Asistencia del asistente",
+    "fr": "Assistance de l’assistant",
+    "ja": "アシスタント支援"
+  },
+  "assistant::Split": {
+    "en": "Assistant Split",
+    "zh-cn": "助手拆分",
+    "zh-tw": "助手分割",
+    "es": "Dividir asistente",
+    "fr": "Scinder l’assistant",
+    "ja": "アシスタントを分割"
+  },
+  "assistant::CycleMessageRole": {
+    "en": "Assistant Cycle Message Role",
+    "zh-cn": "助手循环消息角色",
+    "zh-tw": "助手循環訊息角色",
+    "es": "Recorrer rol de mensaje del asistente",
+    "fr": "Faire défiler le rôle du message de l’assistant",
+    "ja": "アシスタントのメッセージ役割を切り替え"
+  },
+  "assistant::ConfirmCommand": {
+    "en": "Assistant Confirm Command",
+    "zh-cn": "助手确认命令",
+    "zh-tw": "助手確認命令",
+    "es": "Confirmar comando del asistente",
+    "fr": "Confirmer la commande de l’assistant",
+    "ja": "アシスタントのコマンドを確定"
+  },
+  "assistant::CopyCode": {
+    "en": "Assistant Copy Code",
+    "zh-cn": "助手复制代码",
+    "zh-tw": "助手複製程式碼",
+    "es": "Copiar código del asistente",
+    "fr": "Copier le code de l’assistant",
+    "ja": "アシスタントのコードをコピー"
+  },
+  "agent::OpenHistory": {
+    "en": "Agent Open History",
+    "zh-cn": "Agent 打开历史记录",
+    "zh-tw": "Agent 開啟歷史紀錄",
+    "es": "Abrir historial del agente",
+    "fr": "Ouvrir l’historique de l’agent",
+    "ja": "エージェントの履歴を開く"
+  },
+  "agent::OpenSettings": {
+    "en": "Agent Open Settings",
+    "zh-cn": "Agent 打开设置",
+    "zh-tw": "Agent 開啟設定",
+    "es": "Abrir configuración del agente",
+    "fr": "Ouvrir les paramètres de l’agent",
+    "ja": "エージェント設定を開く"
+  },
+  "agent::ManageProfiles": {
+    "en": "Agent Manage Profiles",
+    "zh-cn": "Agent 管理配置",
+    "zh-tw": "Agent 管理設定檔",
+    "es": "Administrar perfiles del agente",
+    "fr": "Gérer les profils de l’agent",
+    "ja": "エージェントのプロファイルを管理"
+  },
+  "agent::ToggleModelSelector": {
+    "en": "Agent Toggle Model Selector",
+    "zh-cn": "Agent 切换模型选择器",
+    "zh-tw": "Agent 切換模型選擇器",
+    "es": "Alternar selector de modelo del agente",
+    "fr": "Basculer le sélecteur de modèle de l’agent",
+    "ja": "エージェントのモデルセレクターを切り替え"
+  },
+  "agent::ToggleNavigationMenu": {
+    "en": "Agent Toggle Navigation Menu",
+    "zh-cn": "Agent 切换导航菜单",
+    "zh-tw": "Agent 切換導覽選單",
+    "es": "Alternar menú de navegación del agente",
+    "fr": "Basculer le menu de navigation de l’agent",
+    "ja": "エージェントのナビゲーションメニューを切り替え"
+  },
+  "agent::ToggleOptionsMenu": {
+    "en": "Agent Toggle Options Menu",
+    "zh-cn": "Agent 切换选项菜单",
+    "zh-tw": "Agent 切換選項選單",
+    "es": "Alternar menú de opciones del agente",
+    "fr": "Basculer le menu d’options de l’agent",
+    "ja": "エージェントのオプションメニューを切り替え"
+  },
+  "agent::ToggleNewThreadMenu": {
+    "en": "Agent Toggle New Thread Menu",
+    "zh-cn": "Agent 切换新线程菜单",
+    "zh-tw": "Agent 切換新增執行緒選單",
+    "es": "Alternar menú de nuevo hilo del agente",
+    "fr": "Basculer le menu de nouveau fil de l’agent",
+    "ja": "エージェントの新規スレッドメニューを切り替え"
+  },
+  "agent::ExpandMessageEditor": {
+    "en": "Agent Expand Message Editor",
+    "zh-cn": "Agent 展开消息编辑器",
+    "zh-tw": "Agent 展開訊息編輯器",
+    "es": "Expandir editor de mensajes del agente",
+    "fr": "Développer l’éditeur de messages de l’agent",
+    "ja": "エージェントのメッセージエディターを展開"
+  },
+  "agent::ContinueThread": {
+    "en": "Agent Continue Thread",
+    "zh-cn": "Agent 继续线程",
+    "zh-tw": "Agent 繼續執行緒",
+    "es": "Continuar hilo del agente",
+    "fr": "Continuer le fil de l’agent",
+    "ja": "エージェントのスレッドを続ける"
+  },
+  "agent::AllowOnce": {
+    "en": "Agent Allow Once",
+    "zh-cn": "Agent 允许一次",
+    "zh-tw": "Agent 允許一次",
+    "es": "Permitir una vez al agente",
+    "fr": "Autoriser l’agent une fois",
+    "ja": "エージェントを一度だけ許可"
+  },
+  "agent::OpenPermissionDropdown": {
+    "en": "Agent Open Permission Dropdown",
+    "zh-cn": "Agent 打开权限下拉菜单",
+    "zh-tw": "Agent 開啟權限下拉選單",
+    "es": "Abrir menú desplegable de permisos del agente",
+    "fr": "Ouvrir la liste déroulante des permissions de l’agent",
+    "ja": "エージェントの権限ドロップダウンを開く"
+  },
+  "agent::RejectOnce": {
+    "en": "Agent Reject Once",
+    "zh-cn": "Agent 拒绝一次",
+    "zh-tw": "Agent 拒絕一次",
+    "es": "Rechazar una vez al agente",
+    "fr": "Refuser l’agent une fois",
+    "ja": "エージェントを一度だけ拒否"
+  },
+  "agent::NewExternalAgentThread": {
+    "en": "Agent New External Agent Thread",
+    "zh-cn": "Agent 新建外部 Agent 线程",
+    "zh-tw": "Agent 新增外部 Agent 執行緒",
+    "es": "Nuevo hilo de agente externo",
+    "fr": "Nouveau fil d’agent externe",
+    "ja": "新しい外部エージェントスレッド"
+  },
+  "agent::UndoLastReject": {
+    "en": "Agent Undo Last Reject",
+    "zh-cn": "Agent 撤销上次拒绝",
+    "zh-tw": "Agent 復原上次拒絕",
+    "es": "Deshacer último rechazo del agente",
+    "fr": "Annuler le dernier refus de l’agent",
+    "ja": "エージェントの直前の拒否を取り消す"
+  },
+  "agent::ChatWithFollow": {
+    "en": "Agent Chat with Follow",
+    "zh-cn": "Agent 跟随聊天",
+    "zh-tw": "Agent 跟隨對話",
+    "es": "Chat del agente con seguimiento",
+    "fr": "Chat de l’agent avec suivi",
+    "ja": "フォロー付きでエージェントとチャット"
+  },
+  "agent::SendImmediately": {
+    "en": "Agent Send Immediately",
+    "zh-cn": "Agent 立即发送",
+    "zh-tw": "Agent 立即傳送",
+    "es": "Enviar inmediatamente con el agente",
+    "fr": "Envoyer immédiatement avec l’agent",
+    "ja": "エージェントで即時送信"
+  },
+  "agent::SendNextQueuedMessage": {
+    "en": "Agent Send Next Queued Message",
+    "zh-cn": "Agent 发送下一条排队消息",
+    "zh-tw": "Agent 傳送下一則佇列訊息",
+    "es": "Enviar siguiente mensaje en cola del agente",
+    "fr": "Envoyer le prochain message en file de l’agent",
+    "ja": "エージェントの次のキューメッセージを送信"
+  },
+  "agent::RemoveFirstQueuedMessage": {
+    "en": "Agent Remove First Queued Message",
+    "zh-cn": "Agent 移除第一条排队消息",
+    "zh-tw": "Agent 移除第一則佇列訊息",
+    "es": "Eliminar primer mensaje en cola del agente",
+    "fr": "Supprimer le premier message en file de l’agent",
+    "ja": "エージェントの先頭キューメッセージを削除"
+  },
+  "agent::EditFirstQueuedMessage": {
+    "en": "Agent Edit First Queued Message",
+    "zh-cn": "Agent 编辑第一条排队消息",
+    "zh-tw": "Agent 編輯第一則佇列訊息",
+    "es": "Editar primer mensaje en cola del agente",
+    "fr": "Modifier le premier message en file de l’agent",
+    "ja": "エージェントの先頭キューメッセージを編集"
+  },
+  "agent::ClearMessageQueue": {
+    "en": "Agent Clear Message Queue",
+    "zh-cn": "Agent 清空消息队列",
+    "zh-tw": "Agent 清空訊息佇列",
+    "es": "Vaciar cola de mensajes del agente",
+    "fr": "Vider la file de messages de l’agent",
+    "ja": "エージェントのメッセージキューをクリア"
+  },
+  "agent::OpenAddContextMenu": {
+    "en": "Agent Open Add Context Menu",
+    "zh-cn": "Agent 打开添加上下文菜单",
+    "zh-tw": "Agent 開啟新增內容選單",
+    "es": "Abrir menú para añadir contexto del agente",
+    "fr": "Ouvrir le menu d’ajout de contexte de l’agent",
+    "ja": "エージェントのコンテキスト追加メニューを開く"
+  },
+  "agent::ToggleThinkingMode": {
+    "en": "Agent Toggle Thinking Mode",
+    "zh-cn": "Agent 切换思考模式",
+    "zh-tw": "Agent 切換思考模式",
+    "es": "Alternar modo de pensamiento del agente",
+    "fr": "Basculer le mode de réflexion de l’agent",
+    "ja": "エージェントの思考モードを切り替え"
+  },
+  "agent::ToggleThinkingEffortMenu": {
+    "en": "Agent Toggle Thinking Effort Menu",
+    "zh-cn": "Agent 切换思考强度菜单",
+    "zh-tw": "Agent 切換思考強度選單",
+    "es": "Alternar menú de esfuerzo de pensamiento del agente",
+    "fr": "Basculer le menu d’intensité de réflexion de l’agent",
+    "ja": "エージェントの思考強度メニューを切り替え"
+  },
+  "agent::CycleThinkingEffort": {
+    "en": "Agent Cycle Thinking Effort",
+    "zh-cn": "Agent 循环切换思考强度",
+    "zh-tw": "Agent 循環切換思考強度",
+    "es": "Recorrer esfuerzo de pensamiento del agente",
+    "fr": "Faire défiler l’intensité de réflexion de l’agent",
+    "ja": "エージェントの思考強度を切り替え"
+  },
+  "agent::ToggleFastMode": {
+    "en": "Agent Toggle Fast Mode",
+    "zh-cn": "Agent 切换快速模式",
+    "zh-tw": "Agent 切換快速模式",
+    "es": "Alternar modo rápido del agente",
+    "fr": "Basculer le mode rapide de l’agent",
+    "ja": "エージェントの高速モードを切り替え"
+  },
+  "agent::RemoveSelectedThread": {
+    "en": "Agent Remove Selected Thread",
+    "zh-cn": "Agent 移除选中线程",
+    "zh-tw": "Agent 移除選取執行緒",
+    "es": "Eliminar hilo seleccionado del agente",
+    "fr": "Supprimer le fil sélectionné de l’agent",
+    "ja": "エージェントの選択中スレッドを削除"
+  },
+  "rules_library::NewRule": {
+    "en": "Rules Library New Rule",
+    "zh-cn": "规则库新建规则",
+    "zh-tw": "規則庫新增規則",
+    "es": "Nueva regla en la biblioteca de reglas",
+    "fr": "Nouvelle règle dans la bibliothèque de règles",
+    "ja": "ルールライブラリで新しいルールを作成"
+  },
+  "rules_library::ToggleDefaultRule": {
+    "en": "Rules Library Toggle Default Rule",
+    "zh-cn": "规则库切换默认规则",
+    "zh-tw": "規則庫切換預設規則",
+    "es": "Alternar regla predeterminada de la biblioteca",
+    "fr": "Basculer la règle par défaut de la bibliothèque",
+    "ja": "ルールライブラリの既定ルールを切り替え"
+  },
+  "buffer_search::Dismiss": {
+    "en": "Buffer Search Dismiss",
+    "zh-cn": "编辑区搜索关闭",
+    "zh-tw": "編輯區搜尋關閉",
+    "es": "Cerrar búsqueda del editor",
+    "fr": "Fermer la recherche de l’éditeur",
+    "ja": "バッファ検索を閉じる"
+  },
+  "buffer_search::FocusEditor": {
+    "en": "Buffer Search Focus Editor",
+    "zh-cn": "编辑区搜索聚焦编辑器",
+    "zh-tw": "編輯區搜尋聚焦編輯器",
+    "es": "Enfocar editor desde la búsqueda",
+    "fr": "Mettre le focus sur l’éditeur depuis la recherche",
+    "ja": "バッファ検索からエディターにフォーカス"
+  },
+  "editor::ToggleFoldAll": {
+    "en": "Editor Toggle Fold All",
+    "zh-cn": "编辑器切换全部折叠",
+    "zh-tw": "編輯器切換全部摺疊",
+    "es": "Alternar plegado completo en el editor",
+    "fr": "Basculer le repliement complet dans l’éditeur",
+    "ja": "エディターですべての折りたたみを切り替え"
+  },
+  "search::SelectAllMatches": {
+    "en": "Search Select All Matches",
+    "zh-cn": "搜索选择所有匹配项",
+    "zh-tw": "搜尋選取所有相符項",
+    "es": "Seleccionar todas las coincidencias de búsqueda",
+    "fr": "Sélectionner toutes les correspondances de recherche",
+    "ja": "すべての検索一致を選択"
+  },
+  "search::ToggleSelection": {
+    "en": "Search Toggle Selection",
+    "zh-cn": "搜索切换选择",
+    "zh-tw": "搜尋切換選取",
+    "es": "Alternar selección de búsqueda",
+    "fr": "Basculer la sélection de recherche",
+    "ja": "検索選択を切り替え"
+  },
+  "search::ReplaceNext": {
+    "en": "Search Replace Next",
+    "zh-cn": "搜索替换下一个",
+    "zh-tw": "搜尋取代下一個",
+    "es": "Reemplazar siguiente en búsqueda",
+    "fr": "Remplacer le suivant dans la recherche",
+    "ja": "検索で次を置換"
+  },
+  "search::ReplaceAll": {
+    "en": "Search Replace All",
+    "zh-cn": "搜索全部替换",
+    "zh-tw": "搜尋全部取代",
+    "es": "Reemplazar todo en búsqueda",
+    "fr": "Tout remplacer dans la recherche",
+    "ja": "検索ですべて置換"
+  },
+  "search::PreviousHistoryQuery": {
+    "en": "Search Previous History Query",
+    "zh-cn": "搜索上一条历史查询",
+    "zh-tw": "搜尋上一筆歷史查詢",
+    "es": "Consulta anterior del historial de búsqueda",
+    "fr": "Requête précédente de l’historique de recherche",
+    "ja": "前の検索履歴クエリ"
+  },
+  "search::NextHistoryQuery": {
+    "en": "Search Next History Query",
+    "zh-cn": "搜索下一条历史查询",
+    "zh-tw": "搜尋下一筆歷史查詢",
+    "es": "Siguiente consulta del historial de búsqueda",
+    "fr": "Requête suivante de l’historique de recherche",
+    "ja": "次の検索履歴クエリ"
+  },
+  "pane::ActivateLastItem": {
+    "en": "Activate Last Item",
+    "zh-cn": "激活最后一项",
+    "zh-tw": "啟用最後一項",
+    "es": "Activar último elemento del panel",
+    "fr": "Activer le dernier élément du panneau",
+    "ja": "ペインの最後の項目をアクティブ化"
+  },
+  "pane::SwapItemLeft": {
+    "en": "Swap Item Left",
+    "zh-cn": "向左交换项目",
+    "zh-tw": "向左交換項目",
+    "es": "Intercambiar elemento del panel a la izquierda",
+    "fr": "Échanger l’élément du panneau vers la gauche",
+    "ja": "ペイン項目を左へ入れ替え"
+  },
+  "pane::SwapItemRight": {
+    "en": "Swap Item Right",
+    "zh-cn": "向右交换项目",
+    "zh-tw": "向右交換項目",
+    "es": "Intercambiar elemento del panel a la derecha",
+    "fr": "Échanger l’élément du panneau vers la droite",
+    "ja": "ペイン項目を右へ入れ替え"
+  },
+  "pane::CloseOtherItems": {
+    "en": "Close Other Items",
+    "zh-cn": "关闭其他项目",
+    "zh-tw": "關閉其他項目",
+    "es": "Cerrar otros elementos del panel",
+    "fr": "Fermer les autres éléments du panneau",
+    "ja": "ペインの他の項目を閉じる"
+  },
+  "workspace::CloseInactiveTabsAndPanes": {
+    "en": "Close Inactive Tabs and Panes",
+    "zh-cn": "关闭非活动标签页和窗格",
+    "zh-tw": "關閉非作用中分頁與窗格",
+    "es": "Cerrar pestañas y paneles inactivos del área de trabajo",
+    "fr": "Fermer les onglets et panneaux inactifs de l’espace de travail",
+    "ja": "ワークスペースの非アクティブなタブとペインを閉じる"
+  },
+  "pane::CloseItemsToTheLeft": {
+    "en": "Close Items to the Left",
+    "zh-cn": "关闭左侧项目",
+    "zh-tw": "關閉左側項目",
+    "es": "Cerrar elementos a la izquierda del panel",
+    "fr": "Fermer les éléments à gauche dans le panneau",
+    "ja": "ペインの左側の項目を閉じる"
+  },
+  "pane::CloseItemsToTheRight": {
+    "en": "Close Items to the Right",
+    "zh-cn": "关闭右侧项目",
+    "zh-tw": "關閉右側項目",
+    "es": "Cerrar elementos a la derecha del panel",
+    "fr": "Fermer les éléments à droite dans le panneau",
+    "ja": "ペインの右側の項目を閉じる"
+  },
+  "pane::CloseCleanItems": {
+    "en": "Close Unmodified Items",
+    "zh-cn": "关闭未修改项目",
+    "zh-tw": "關閉未修改項目",
+    "es": "Cerrar elementos sin cambios del panel",
+    "fr": "Fermer les éléments intacts du panneau",
+    "ja": "ペインの未変更項目を閉じる"
+  },
+  "pane::CloseAllItems": {
+    "en": "Close All Items",
+    "zh-cn": "关闭所有项目",
+    "zh-tw": "關閉所有項目",
+    "es": "Cerrar todos los elementos del panel",
+    "fr": "Fermer tous les éléments du panneau",
+    "ja": "ペインのすべての項目を閉じる"
+  },
+  "workspace::CloseAllItemsAndPanes": {
+    "en": "Close All Items and Panes",
+    "zh-cn": "关闭所有项目和窗格",
+    "zh-tw": "關閉所有項目與窗格",
+    "es": "Cerrar todos los elementos y paneles del área de trabajo",
+    "fr": "Fermer tous les éléments et panneaux de l’espace de travail",
+    "ja": "ワークスペースのすべての項目とペインを閉じる"
+  },
+  "pane::GoForward": {
+    "en": "Go Forward in Pane",
+    "zh-cn": "在窗格中前进",
+    "zh-tw": "在窗格中前進",
+    "es": "Avanzar en el panel",
+    "fr": "Avancer dans le panneau",
+    "ja": "ペイン内で進む"
+  },
+  "search::ToggleCaseSensitive": {
+    "en": "Search Toggle Case Sensitive",
+    "zh-cn": "搜索切换区分大小写",
+    "zh-tw": "搜尋切換區分大小寫",
+    "es": "Alternar distinción entre mayúsculas y minúsculas en búsqueda",
+    "fr": "Basculer la casse dans la recherche",
+    "ja": "検索で大文字小文字を切り替え"
+  },
+  "search::ToggleWholeWord": {
+    "en": "Search Toggle Whole Word",
+    "zh-cn": "搜索切换全词匹配",
+    "zh-tw": "搜尋切換全字匹配",
+    "es": "Alternar coincidencia de palabra completa en búsqueda",
+    "fr": "Basculer la recherche par mot entier",
+    "ja": "検索で単語全体一致を切り替え"
+  },
+  "project_search::ToggleFilters": {
+    "en": "Project Search Toggle Filters",
+    "zh-cn": "项目搜索切换筛选器",
+    "zh-tw": "專案搜尋切換篩選器",
+    "es": "Alternar filtros de búsqueda de proyecto",
+    "fr": "Basculer les filtres de recherche de projet",
+    "ja": "プロジェクト検索のフィルターを切り替え"
+  },
+  "pane::TogglePinTab": {
+    "en": "Toggle Pin Tab",
+    "zh-cn": "切换固定标签页",
+    "zh-tw": "切換釘選分頁",
+    "es": "Alternar fijación de pestaña del panel",
+    "fr": "Basculer l’épinglage de l’onglet du panneau",
+    "ja": "ペインのピン留めタブを切り替え"
+  },
+  "editor::DuplicateLineUp": {
+    "en": "Editor Duplicate Line Up",
+    "zh-cn": "编辑器向上复制行",
+    "zh-tw": "編輯器向上複製行",
+    "es": "Duplicar línea hacia arriba en el editor",
+    "fr": "Dupliquer la ligne vers le haut dans l’éditeur",
+    "ja": "エディターで行を上に複製"
+  },
+  "editor::DuplicateLineDown": {
+    "en": "Editor Duplicate Line Down",
+    "zh-cn": "编辑器向下复制行",
+    "zh-tw": "編輯器向下複製行",
+    "es": "Duplicar línea hacia abajo en el editor",
+    "fr": "Dupliquer la ligne vers le bas dans l’éditeur",
+    "ja": "エディターで行を下に複製"
+  },
+  "editor::SelectLargerSyntaxNode": {
+    "en": "Editor Select Larger Syntax Node",
+    "zh-cn": "编辑器选择更大的语法节点",
+    "zh-tw": "編輯器選取更大的語法節點",
+    "es": "Seleccionar nodo sintáctico mayor en el editor",
+    "fr": "Sélectionner le nœud syntaxique plus large dans l’éditeur",
+    "ja": "エディターでより大きい構文ノードを選択"
+  },
+  "editor::SelectSmallerSyntaxNode": {
+    "en": "Editor Select Smaller Syntax Node",
+    "zh-cn": "编辑器选择更小的语法节点",
+    "zh-tw": "編輯器選取更小的語法節點",
+    "es": "Seleccionar nodo sintáctico menor en el editor",
+    "fr": "Sélectionner le nœud syntaxique plus petit dans l’éditeur",
+    "ja": "エディターでより小さい構文ノードを選択"
+  },
+  "editor::BlameHover": {
+    "en": "Editor Blame Hover",
+    "zh-cn": "编辑器悬停显示追溯",
+    "zh-tw": "編輯器懸停顯示追溯",
+    "es": "Mostrar blame al pasar en el editor",
+    "fr": "Afficher le blame au survol dans l’éditeur",
+    "ja": "エディターでホバー時に blame を表示"
+  },
+  "editor::FormatSelections": {
+    "en": "Editor Format Selections",
+    "zh-cn": "编辑器格式化所选内容",
+    "zh-tw": "編輯器格式化所選內容",
+    "es": "Formatear selecciones del editor",
+    "fr": "Formater les sélections de l’éditeur",
+    "ja": "エディターの選択範囲を整形"
+  },
+  "editor::GoToPreviousDiagnostic": {
+    "en": "Editor Go to Previous Diagnostic",
+    "zh-cn": "编辑器转到上一个诊断",
+    "zh-tw": "編輯器移至上一個診斷",
+    "es": "Ir al diagnóstico anterior en el editor",
+    "fr": "Aller au diagnostic précédent dans l’éditeur",
+    "ja": "エディターで前の診断へ移動"
+  },
+  "editor::GoToDefinitionSplit": {
+    "en": "Editor Go to Definition Split",
+    "zh-cn": "编辑器在拆分窗格中转到定义",
+    "zh-tw": "編輯器在分割窗格中移至定義",
+    "es": "Ir a la definición en vista dividida del editor",
+    "fr": "Aller à la définition en vue scindée dans l’éditeur",
+    "ja": "エディターで定義を分割表示で開く"
+  },
+  "editor::FindAllReferences": {
+    "en": "Editor Find All References",
+    "zh-cn": "编辑器查找所有引用",
+    "zh-tw": "編輯器尋找所有參照",
+    "es": "Buscar todas las referencias en el editor",
+    "fr": "Trouver toutes les références dans l’éditeur",
+    "ja": "エディターですべての参照を検索"
+  },
+  "editor::UnfoldLines": {
+    "en": "Editor Unfold Lines",
+    "zh-cn": "编辑器展开行",
+    "zh-tw": "編輯器展開行",
+    "es": "Desplegar líneas en el editor",
+    "fr": "Déplier les lignes dans l’éditeur",
+    "ja": "エディターで行を展開"
+  },
+  "editor::FoldRecursive": {
+    "en": "Editor Fold Recursive",
+    "zh-cn": "编辑器递归折叠",
+    "zh-tw": "編輯器遞迴摺疊",
+    "es": "Plegado recursivo en el editor",
+    "fr": "Repliement récursif dans l’éditeur",
+    "ja": "エディターで再帰的に折りたたむ"
+  },
+  "editor::UnfoldRecursive": {
+    "en": "Editor Unfold Recursive",
+    "zh-cn": "编辑器递归展开",
+    "zh-tw": "編輯器遞迴展開",
+    "es": "Desplegado recursivo en el editor",
+    "fr": "Dépliement récursif dans l’éditeur",
+    "ja": "エディターで再帰的に展開"
+  },
+  "editor::FoldAtLevel_1": {
+    "en": "Editor Fold at Level 1",
+    "zh-cn": "编辑器折叠到第 1 级",
+    "zh-tw": "編輯器摺疊到第 1 層",
+    "es": "Plegar editor en el nivel 1",
+    "fr": "Replier l’éditeur au niveau 1",
+    "ja": "エディターをレベル1まで折りたたむ"
+  },
+  "editor::FoldAtLevel_2": {
+    "en": "Editor Fold at Level 2",
+    "zh-cn": "编辑器折叠到第 2 级",
+    "zh-tw": "編輯器摺疊到第 2 層",
+    "es": "Plegar editor en el nivel 2",
+    "fr": "Replier l’éditeur au niveau 2",
+    "ja": "エディターをレベル2まで折りたたむ"
+  },
+  "editor::FoldAtLevel_3": {
+    "en": "Editor Fold at Level 3",
+    "zh-cn": "编辑器折叠到第 3 级",
+    "zh-tw": "編輯器摺疊到第 3 層",
+    "es": "Plegar editor en el nivel 3",
+    "fr": "Replier l’éditeur au niveau 3",
+    "ja": "エディターをレベル3まで折りたたむ"
+  },
+  "editor::FoldAtLevel_4": {
+    "en": "Editor Fold at Level 4",
+    "zh-cn": "编辑器折叠到第 4 级",
+    "zh-tw": "編輯器摺疊到第 4 層",
+    "es": "Plegar editor en el nivel 4",
+    "fr": "Replier l’éditeur au niveau 4",
+    "ja": "エディターをレベル4まで折りたたむ"
+  },
+  "editor::FoldAtLevel_5": {
+    "en": "Editor Fold at Level 5",
+    "zh-cn": "编辑器折叠到第 5 级",
+    "zh-tw": "編輯器摺疊到第 5 層",
+    "es": "Plegar editor en el nivel 5",
+    "fr": "Replier l’éditeur au niveau 5",
+    "ja": "エディターをレベル5まで折りたたむ"
+  },
+  "editor::FoldAtLevel_6": {
+    "en": "Editor Fold at Level 6",
+    "zh-cn": "编辑器折叠到第 6 级",
+    "zh-tw": "編輯器摺疊到第 6 層",
+    "es": "Plegar editor en el nivel 6",
+    "fr": "Replier l’éditeur au niveau 6",
+    "ja": "エディターをレベル6まで折りたたむ"
+  },
+  "editor::FoldAtLevel_7": {
+    "en": "Editor Fold at Level 7",
+    "zh-cn": "编辑器折叠到第 7 级",
+    "zh-tw": "編輯器摺疊到第 7 層",
+    "es": "Plegar editor en el nivel 7",
+    "fr": "Replier l’éditeur au niveau 7",
+    "ja": "エディターをレベル7まで折りたたむ"
+  },
+  "editor::FoldAtLevel_8": {
+    "en": "Editor Fold at Level 8",
+    "zh-cn": "编辑器折叠到第 8 级",
+    "zh-tw": "編輯器摺疊到第 8 層",
+    "es": "Plegar editor en el nivel 8",
+    "fr": "Replier l’éditeur au niveau 8",
+    "ja": "エディターをレベル8まで折りたたむ"
+  },
+  "editor::FoldAtLevel_9": {
+    "en": "Editor Fold at Level 9",
+    "zh-cn": "编辑器折叠到第 9 级",
+    "zh-tw": "編輯器摺疊到第 9 層",
+    "es": "Plegar editor en el nivel 9",
+    "fr": "Replier l’éditeur au niveau 9",
+    "ja": "エディターをレベル9まで折りたたむ"
+  },
+  "editor::ShowWordCompletions": {
+    "en": "Editor Show Word Completions",
+    "zh-cn": "编辑器显示单词补全",
+    "zh-tw": "編輯器顯示單字補全",
+    "es": "Mostrar completados de palabras en el editor",
+    "fr": "Afficher les complétions de mots dans l’éditeur",
+    "ja": "エディターで単語補完を表示"
+  },
+  "editor::ToggleCodeActions": {
+    "en": "Editor Toggle Code Actions",
+    "zh-cn": "编辑器切换代码操作",
+    "zh-tw": "編輯器切換程式碼動作",
+    "es": "Alternar acciones de código del editor",
+    "fr": "Basculer les actions de code de l’éditeur",
+    "ja": "エディターのコードアクションを切り替え"
+  },
+  "editor::RevealInFileManager": {
+    "en": "Editor Reveal in File Manager",
+    "zh-cn": "编辑器在文件管理器中显示",
+    "zh-tw": "編輯器在檔案總管中顯示",
+    "es": "Mostrar en el gestor de archivos desde el editor",
+    "fr": "Afficher dans le gestionnaire de fichiers depuis l’éditeur",
+    "ja": "エディターからファイルマネージャーで表示"
+  },
+  "editor::CopyPath": {
+    "en": "Editor Copy Path",
+    "zh-cn": "编辑器复制路径",
+    "zh-tw": "編輯器複製路徑",
+    "es": "Copiar ruta en el editor",
+    "fr": "Copier le chemin dans l’éditeur",
+    "ja": "エディターでパスをコピー"
+  },
+  "editor::GoToHunk": {
+    "en": "Editor Go to Hunk",
+    "zh-cn": "编辑器转到差异块",
+    "zh-tw": "編輯器移至差異區塊",
+    "es": "Ir al bloque diff en el editor",
+    "fr": "Aller au bloc diff dans l’éditeur",
+    "ja": "エディターで差分ハンクへ移動"
+  },
+  "editor::GoToPreviousHunk": {
+    "en": "Editor Go to Previous Hunk",
+    "zh-cn": "编辑器转到上一个差异块",
+    "zh-tw": "編輯器移至上一個差異區塊",
+    "es": "Ir al bloque diff anterior en el editor",
+    "fr": "Aller au bloc diff précédent dans l’éditeur",
+    "ja": "エディターで前の差分ハンクへ移動"
+  },
+  "markdown::OpenPreviewToTheSide": {
+    "en": "Markdown Open Preview to the Side",
+    "zh-cn": "Markdown 在侧边打开预览",
+    "zh-tw": "Markdown 在側邊開啟預覽",
+    "es": "Abrir vista previa de Markdown al lado",
+    "fr": "Ouvrir l’aperçu Markdown sur le côté",
+    "ja": "Markdown プレビューを横に開く"
+  },
+  "markdown::OpenPreview": {
+    "en": "Markdown Open Preview",
+    "zh-cn": "Markdown 打开预览",
+    "zh-tw": "Markdown 開啟預覽",
+    "es": "Abrir vista previa de Markdown",
+    "fr": "Ouvrir l’aperçu Markdown",
+    "ja": "Markdown プレビューを開く"
+  },
+  "svg::OpenPreviewToTheSide": {
+    "en": "SVG Open Preview to the Side",
+    "zh-cn": "SVG 在侧边打开预览",
+    "zh-tw": "SVG 在側邊開啟預覽",
+    "es": "Abrir vista previa de SVG al lado",
+    "fr": "Ouvrir l’aperçu SVG sur le côté",
+    "ja": "SVG プレビューを横に開く"
+  },
+  "svg::OpenPreview": {
+    "en": "SVG Open Preview",
+    "zh-cn": "SVG 打开预览",
+    "zh-tw": "SVG 開啟預覽",
+    "es": "Abrir vista previa de SVG",
+    "fr": "Ouvrir l’aperçu SVG",
+    "ja": "SVG プレビューを開く"
+  },
+  "outline::Toggle": {
+    "en": "Toggle Outline",
+    "zh-cn": "切换大纲",
+    "zh-tw": "切換大綱",
+    "es": "Alternar esquema",
+    "fr": "Basculer le plan",
+    "ja": "アウトラインを切り替え"
+  },
+  "go_to_line::Toggle": {
+    "en": "Go to Line",
+    "zh-cn": "转到行",
+    "zh-tw": "移至行",
+    "es": "Alternar ir a la línea",
+    "fr": "Basculer Aller à la ligne",
+    "ja": "行へ移動を切り替え"
+  },
+  "projects::OpenRecent": {
+    "en": "Open Recent Project",
+    "zh-cn": "打开最近项目",
+    "zh-tw": "開啟最近專案",
+    "es": "Abrir proyectos recientes",
+    "fr": "Ouvrir les projets récents",
+    "ja": "最近のプロジェクトを開く"
+  },
+  "projects::OpenRemote": {
+    "en": "Open Remote Project",
+    "zh-cn": "打开远程项目",
+    "zh-tw": "開啟遠端專案",
+    "es": "Abrir proyecto remoto",
+    "fr": "Ouvrir un projet distant",
+    "ja": "リモートプロジェクトを開く"
+  },
+  "branches::OpenRecent": {
+    "en": "Open Recent Branch",
+    "zh-cn": "打开最近分支",
+    "zh-tw": "開啟最近分支",
+    "es": "Abrir ramas recientes",
+    "fr": "Ouvrir les branches récentes",
+    "ja": "最近のブランチを開く"
+  },
+  "toast::RunAction": {
+    "en": "Run Notification Action",
+    "zh-cn": "执行通知操作",
+    "zh-tw": "執行通知動作",
+    "es": "Ejecutar acción del aviso",
+    "fr": "Exécuter l’action de la notification",
+    "ja": "トーストのアクションを実行"
+  },
+  "workspace::SaveWithoutFormat": {
+    "en": "Save Without Formatting",
+    "zh-cn": "工作区保存（不格式化）",
+    "zh-tw": "工作區儲存（不格式化）",
+    "es": "Guardar área de trabajo sin formato",
+    "fr": "Enregistrer l’espace de travail sans formatage",
+    "ja": "ワークスペースを整形せず保存"
+  },
+  "workspace::SaveAs": {
+    "en": "Save As",
+    "zh-cn": "工作区另存为",
+    "zh-tw": "工作區另存新檔",
+    "es": "Guardar área de trabajo como",
+    "fr": "Enregistrer l’espace de travail sous",
+    "ja": "ワークスペースに名前を付けて保存"
+  },
+  "workspace::NewFile": {
+    "en": "New File",
+    "zh-cn": "工作区新建文件",
+    "zh-tw": "工作區新增檔案",
+    "es": "Nuevo archivo del área de trabajo",
+    "fr": "Nouveau fichier de l’espace de travail",
+    "ja": "ワークスペースで新しいファイル"
+  },
+  "workspace::NewWindow": {
+    "en": "New Window",
+    "zh-cn": "工作区新建窗口",
+    "zh-tw": "工作區新增視窗",
+    "es": "Nueva ventana del área de trabajo",
+    "fr": "Nouvelle fenêtre de l’espace de travail",
+    "ja": "ワークスペースの新しいウィンドウ"
+  },
+  "terminal_panel::Toggle": {
+    "en": "Toggle Terminal Panel",
+    "zh-cn": "切换终端面板",
+    "zh-tw": "切換終端機面板",
+    "es": "Alternar panel de terminal",
+    "fr": "Basculer le panneau du terminal",
+    "ja": "ターミナルパネルを切り替え"
+  },
+  "app_menu::OpenApplicationMenu": {
+    "en": "Open Application Menu",
+    "zh-cn": "打开应用菜单",
+    "zh-tw": "開啟應用程式選單",
+    "es": "Abrir menú de la aplicación",
+    "fr": "Ouvrir le menu de l’application",
+    "ja": "アプリケーションメニューを開く"
+  },
+  "multi_workspace::ToggleWorkspaceSidebar": {
+    "en": "Toggle Workspace Sidebar",
+    "zh-cn": "切换工作区侧边栏",
+    "zh-tw": "切換工作區側邊欄",
+    "es": "Alternar barra lateral de multiárea de trabajo",
+    "fr": "Basculer la barre latérale multi-espace de travail",
+    "ja": "マルチワークスペースのサイドバーを切り替え"
+  },
+  "multi_workspace::FocusWorkspaceSidebar": {
+    "en": "Focus Workspace Sidebar",
+    "zh-cn": "聚焦工作区侧边栏",
+    "zh-tw": "聚焦工作區側邊欄",
+    "es": "Enfocar barra lateral de multiárea de trabajo",
+    "fr": "Mettre le focus sur la barre latérale multi-espace de travail",
+    "ja": "マルチワークスペースのサイドバーにフォーカス"
+  },
+  "workspace::ToggleAllDocks": {
+    "en": "Toggle All Docks",
+    "zh-cn": "工作区切换所有停靠栏",
+    "zh-tw": "工作區切換所有停靠列",
+    "es": "Alternar todos los paneles acoplados del área de trabajo",
+    "fr": "Basculer tous les docks de l’espace de travail",
+    "ja": "ワークスペースのすべてのドックを切り替え"
+  },
+  "workspace::ResetActiveDockSize": {
+    "en": "Reset Active Dock Size",
+    "zh-cn": "工作区重置当前停靠栏大小",
+    "zh-tw": "工作區重設目前停靠列大小",
+    "es": "Restablecer tamaño del panel acoplado activo",
+    "fr": "Réinitialiser la taille du dock actif",
+    "ja": "アクティブなドックサイズをリセット"
+  },
+  "workspace::DecreaseActiveDockSize": {
+    "en": "Decrease Active Dock Size",
+    "zh-cn": "工作区减小当前停靠栏大小",
+    "zh-tw": "工作區縮小目前停靠列大小",
+    "es": "Reducir tamaño del panel acoplado activo",
+    "fr": "Réduire la taille du dock actif",
+    "ja": "アクティブなドックサイズを小さくする"
+  },
+  "workspace::IncreaseActiveDockSize": {
+    "en": "Increase Active Dock Size",
+    "zh-cn": "工作区增大当前停靠栏大小",
+    "zh-tw": "工作區放大目前停靠列大小",
+    "es": "Aumentar tamaño del panel acoplado activo",
+    "fr": "Augmenter la taille du dock actif",
+    "ja": "アクティブなドックサイズを大きくする"
+  },
+  "workspace::ResetOpenDocksSize": {
+    "en": "Reset Open Docks Size",
+    "zh-cn": "工作区重置已打开停靠栏大小",
+    "zh-tw": "工作區重設已開啟停靠列大小",
+    "es": "Restablecer tamaño de los paneles acoplados abiertos",
+    "fr": "Réinitialiser la taille des docks ouverts",
+    "ja": "開いているドックサイズをリセット"
+  },
+  "pane::ReopenClosedItem": {
+    "en": "Reopen Closed Item",
+    "zh-cn": "重新打开已关闭项目",
+    "zh-tw": "重新開啟已關閉項目",
+    "es": "Reabrir elemento cerrado del panel",
+    "fr": "Rouvrir l’élément fermé du panneau",
+    "ja": "ペインの閉じた項目を再度開く"
+  },
+  "theme_selector::Toggle": {
+    "en": "Toggle Theme Selector",
+    "zh-cn": "切换主题选择器",
+    "zh-tw": "切換主題選擇器",
+    "es": "Alternar selector de tema",
+    "fr": "Basculer le sélecteur de thème",
+    "ja": "テーマセレクターを切り替え"
+  },
+  "settings_profile_selector::Toggle": {
+    "en": "Toggle Settings Profile Selector",
+    "zh-cn": "切换设置配置选择器",
+    "zh-tw": "切換設定檔選擇器",
+    "es": "Alternar selector de perfil de configuración",
+    "fr": "Basculer le sélecteur de profil de paramètres",
+    "ja": "設定プロファイルセレクターを切り替え"
+  },
+  "project_symbols::Toggle": {
+    "en": "Toggle Project Symbols",
+    "zh-cn": "切换项目符号",
+    "zh-tw": "切換專案符號",
+    "es": "Alternar símbolos del proyecto",
+    "fr": "Basculer les symboles du projet",
+    "ja": "プロジェクトシンボルを切り替え"
+  },
+  "tab_switcher::Toggle": {
+    "en": "Toggle Tab Switcher",
+    "zh-cn": "切换标签页切换器",
+    "zh-tw": "切換分頁切換器",
+    "es": "Alternar selector de pestañas",
+    "fr": "Basculer le sélecteur d’onglets",
+    "ja": "タブスイッチャーを切り替え"
+  },
+  "command_palette::Toggle": {
+    "en": "Toggle Command Palette",
+    "zh-cn": "切换命令面板",
+    "zh-tw": "切換命令面板",
+    "es": "Alternar paleta de comandos",
+    "fr": "Basculer la palette de commandes",
+    "ja": "コマンドパレットを切り替え"
+  },
+  "diagnostics::Deploy": {
+    "en": "Open Diagnostics",
+    "zh-cn": "打开诊断",
+    "zh-tw": "開啟診斷",
+    "es": "Abrir diagnósticos",
+    "fr": "Ouvrir les diagnostics",
+    "ja": "診断を展開"
+  },
+  "debug_panel::ToggleFocus": {
+    "en": "Toggle Debug Panel",
+    "zh-cn": "切换调试面板",
+    "zh-tw": "切換偵錯面板",
+    "es": "Alternar foco del panel de depuración",
+    "fr": "Basculer le focus du panneau de débogage",
+    "ja": "デバッグパネルのフォーカスを切り替え"
+  },
+  "agent::ToggleFocus": {
+    "en": "Toggle Agent Panel",
+    "zh-cn": "切换 Agent 面板",
+    "zh-tw": "切換 Agent 面板",
+    "es": "Alternar foco del agente",
+    "fr": "Basculer le focus de l’agent",
+    "ja": "エージェントのフォーカスを切り替え"
+  },
+  "encoding_selector::Toggle": {
+    "en": "Toggle Encoding Selector",
+    "zh-cn": "切换编码选择器",
+    "zh-tw": "切換編碼選擇器",
+    "es": "Alternar selector de codificación",
+    "fr": "Basculer le sélecteur d’encodage",
+    "ja": "エンコーディングセレクターを切り替え"
+  },
+  "language_selector::Toggle": {
+    "en": "Toggle Language Selector",
+    "zh-cn": "切换语言选择器",
+    "zh-tw": "切換語言選擇器",
+    "es": "Alternar selector de idioma",
+    "fr": "Basculer le sélecteur de langue",
+    "ja": "言語セレクターを切り替え"
+  },
+  "toolchain::AddToolchain": {
+    "en": "Add Toolchain",
+    "zh-cn": "添加工具链",
+    "zh-tw": "新增工具鏈",
+    "es": "Añadir cadena de herramientas",
+    "fr": "Ajouter une chaîne d’outils",
+    "ja": "ツールチェーンを追加"
+  },
+  "workspace::Unfollow": {
+    "en": "Workspace Unfollow",
+    "zh-cn": "工作区取消跟随",
+    "zh-tw": "工作區取消跟隨",
+    "es": "Dejar de seguir en el área de trabajo",
+    "fr": "Ne plus suivre dans l’espace de travail",
+    "ja": "ワークスペースでフォローを解除"
+  },
+  "workspace::ActivatePaneLeft": {
+    "en": "Workspace Activate Pane Left",
+    "zh-cn": "工作区激活左侧窗格",
+    "zh-tw": "工作區啟用左側窗格",
+    "es": "Activar panel izquierdo del área de trabajo",
+    "fr": "Activer le panneau gauche de l’espace de travail",
+    "ja": "ワークスペースで左のペインをアクティブ化"
+  },
+  "workspace::ActivatePaneRight": {
+    "en": "Workspace Activate Pane Right",
+    "zh-cn": "工作区激活右侧窗格",
+    "zh-tw": "工作區啟用右側窗格",
+    "es": "Activar panel derecho del área de trabajo",
+    "fr": "Activer le panneau droit de l’espace de travail",
+    "ja": "ワークスペースで右のペインをアクティブ化"
+  },
+  "workspace::ActivatePaneUp": {
+    "en": "Workspace Activate Pane Up",
+    "zh-cn": "工作区激活上方窗格",
+    "zh-tw": "工作區啟用上方窗格",
+    "es": "Activar panel superior del área de trabajo",
+    "fr": "Activer le panneau supérieur de l’espace de travail",
+    "ja": "ワークスペースで上のペインをアクティブ化"
+  },
+  "workspace::ActivatePaneDown": {
+    "en": "Workspace Activate Pane Down",
+    "zh-cn": "工作区激活下方窗格",
+    "zh-tw": "工作區啟用下方窗格",
+    "es": "Activar panel inferior del área de trabajo",
+    "fr": "Activer le panneau inférieur de l’espace de travail",
+    "ja": "ワークスペースで下のペインをアクティブ化"
+  },
+  "workspace::SwapPaneLeft": {
+    "en": "Workspace Swap Pane Left",
+    "zh-cn": "工作区向左交换窗格",
+    "zh-tw": "工作區向左交換窗格",
+    "es": "Intercambiar panel a la izquierda en el área de trabajo",
+    "fr": "Échanger le panneau vers la gauche dans l’espace de travail",
+    "ja": "ワークスペースでペインを左へ入れ替え"
+  },
+  "workspace::SwapPaneRight": {
+    "en": "Workspace Swap Pane Right",
+    "zh-cn": "工作区向右交换窗格",
+    "zh-tw": "工作區向右交換窗格",
+    "es": "Intercambiar panel a la derecha en el área de trabajo",
+    "fr": "Échanger le panneau vers la droite dans l’espace de travail",
+    "ja": "ワークスペースでペインを右へ入れ替え"
+  },
+  "workspace::SwapPaneUp": {
+    "en": "Workspace Swap Pane Up",
+    "zh-cn": "工作区向上交换窗格",
+    "zh-tw": "工作區向上交換窗格",
+    "es": "Intercambiar panel hacia arriba en el área de trabajo",
+    "fr": "Échanger le panneau vers le haut dans l’espace de travail",
+    "ja": "ワークスペースでペインを上へ入れ替え"
+  },
+  "workspace::SwapPaneDown": {
+    "en": "Workspace Swap Pane Down",
+    "zh-cn": "工作区向下交换窗格",
+    "zh-tw": "工作區向下交換窗格",
+    "es": "Intercambiar panel hacia abajo en el área de trabajo",
+    "fr": "Échanger le panneau vers le bas dans l’espace de travail",
+    "ja": "ワークスペースでペインを下へ入れ替え"
+  },
+  "zed::Extensions": {
+    "en": "Zed Extensions",
+    "zh-cn": "Zed 扩展",
+    "zh-tw": "Zed 擴充功能",
+    "es": "Extensiones de Zed",
+    "fr": "Extensions Zed",
+    "ja": "Zed 拡張機能"
+  },
+  "task::Rerun": {
+    "en": "Rerun Task",
+    "zh-cn": "重新运行任务",
+    "zh-tw": "重新執行任務",
+    "es": "Volver a ejecutar tarea",
+    "fr": "Relancer la tâche",
+    "ja": "タスクを再実行"
+  },
+  "task::Spawn": {
+    "en": "Run Task",
+    "zh-cn": "运行任务",
+    "zh-tw": "執行任務",
+    "es": "Iniciar tarea",
+    "fr": "Lancer la tâche",
+    "ja": "タスクを起動"
+  },
+  "debugger::Rerun": {
+    "en": "Rerun Debugger",
+    "zh-cn": "重新运行调试器",
+    "zh-tw": "重新執行偵錯器",
+    "es": "Volver a ejecutar depurador",
+    "fr": "Relancer le débogueur",
+    "ja": "デバッガーを再実行"
+  },
+  "zed::NoAction": {
+    "en": "No Action",
+    "zh-cn": "无操作",
+    "zh-tw": "無動作",
+    "es": "Sin acción",
+    "fr": "Aucune action",
+    "ja": "操作なし"
+  },
+  "debugger::Continue": {
+    "en": "Debugger Continue",
+    "zh-cn": "调试器继续",
+    "zh-tw": "偵錯器繼續",
+    "es": "Continuar depurador",
+    "fr": "Continuer le débogueur",
+    "ja": "デバッガーを続行"
+  },
+  "multi_workspace::NewWorkspaceInWindow": {
+    "en": "New Workspace in Window",
+    "zh-cn": "在窗口中新建工作区",
+    "zh-tw": "在視窗中新增工作區",
+    "es": "Nueva área de trabajo múltiple en ventana",
+    "fr": "Nouvel espace de travail multiple dans une fenêtre",
+    "ja": "新しいマルチワークスペースをウィンドウで開く"
+  },
+  "app_menu::ActivateMenuLeft": {
+    "en": "Focus Left Application Menu",
+    "zh-cn": "聚焦左侧应用菜单",
+    "zh-tw": "聚焦左側應用程式選單",
+    "es": "Activar menú izquierdo de la aplicación",
+    "fr": "Activer le menu gauche de l’application",
+    "ja": "アプリメニューの左側メニューを有効化"
+  },
+  "app_menu::ActivateMenuRight": {
+    "en": "Focus Right Application Menu",
+    "zh-cn": "聚焦右侧应用菜单",
+    "zh-tw": "聚焦右側應用程式選單",
+    "es": "Activar menú derecho de la aplicación",
+    "fr": "Activer le menu droit de l’application",
+    "ja": "アプリメニューの右側メニューを有効化"
+  },
+  "editor::UndoSelection": {
+    "en": "Undo Selection",
+    "zh-cn": "撤销选择",
+    "zh-tw": "復原選取",
+    "es": "Deshacer selección del editor",
+    "fr": "Annuler la sélection dans l’éditeur",
+    "ja": "エディターの選択を元に戻す"
+  },
+  "editor::RedoSelection": {
+    "en": "Redo Selection",
+    "zh-cn": "重做选择",
+    "zh-tw": "重做選取",
+    "es": "Rehacer selección del editor",
+    "fr": "Rétablir la sélection dans l’éditeur",
+    "ja": "エディターの選択をやり直す"
+  },
+  "editor::JoinLines": {
+    "en": "Join Lines",
+    "zh-cn": "合并行",
+    "zh-tw": "合併行",
+    "es": "Unir líneas en el editor",
+    "fr": "Joindre les lignes dans l’éditeur",
+    "ja": "エディターで行を結合"
+  },
+  "editor::MoveToPreviousSubwordStart": {
+    "en": "Move to Previous Subword Start",
+    "zh-cn": "移动到上一个子词开头",
+    "zh-tw": "移動至上一個子詞開頭",
+    "es": "Mover al inicio de la subpalabra anterior en el editor",
+    "fr": "Aller au début du sous-mot précédent dans l’éditeur",
+    "ja": "エディターで前のサブワードの先頭へ移動"
+  },
+  "editor::MoveToNextSubwordEnd": {
+    "en": "Move to Next Subword End",
+    "zh-cn": "移动到下一个子词结尾",
+    "zh-tw": "移動至下一個子詞結尾",
+    "es": "Mover al final de la siguiente subpalabra en el editor",
+    "fr": "Aller à la fin du sous-mot suivant dans l’éditeur",
+    "ja": "エディターで次のサブワードの末尾へ移動"
+  },
+  "editor::ConfirmRename": {
+    "en": "Confirm Rename",
+    "zh-cn": "确认重命名",
+    "zh-tw": "確認重新命名",
+    "es": "Confirmar cambio de nombre en el editor",
+    "fr": "Confirmer le renommage dans l’éditeur",
+    "ja": "エディターで名前変更を確定"
+  },
+  "editor::ConfirmCompletionReplace": {
+    "en": "Confirm Completion Replace",
+    "zh-cn": "确认补全替换",
+    "zh-tw": "確認補全取代",
+    "es": "Confirmar reemplazo de completado en el editor",
+    "fr": "Confirmer le remplacement de complétion dans l’éditeur",
+    "ja": "エディターで補完置換を確定"
+  },
+  "editor::ComposeCompletion": {
+    "en": "Compose Completion",
+    "zh-cn": "组合补全",
+    "zh-tw": "組合補全",
+    "es": "Componer completado en el editor",
+    "fr": "Composer la complétion dans l’éditeur",
+    "ja": "エディターで補完を組み合わせる"
+  },
+  "editor::NextSnippetTabstop": {
+    "en": "Next Snippet Tabstop",
+    "zh-cn": "下一个代码片段停靠点",
+    "zh-tw": "下一個程式碼片段停駐點",
+    "es": "Siguiente punto de salto de snippet en el editor",
+    "fr": "Point d’arrêt de snippet suivant dans l’éditeur",
+    "ja": "エディターで次のスニペット停止位置へ移動"
+  },
+  "editor::PreviousSnippetTabstop": {
+    "en": "Previous Snippet Tabstop",
+    "zh-cn": "上一个代码片段停靠点",
+    "zh-tw": "上一個程式碼片段停駐點",
+    "es": "Punto de salto de snippet anterior en el editor",
+    "fr": "Point d’arrêt de snippet précédent dans l’éditeur",
+    "ja": "エディターで前のスニペット停止位置へ移動"
+  },
+  "editor::ConfirmCodeAction": {
+    "en": "Confirm Code Action",
+    "zh-cn": "确认代码操作",
+    "zh-tw": "確認程式碼動作",
+    "es": "Confirmar acción de código en el editor",
+    "fr": "Confirmer l’action de code dans l’éditeur",
+    "ja": "エディターでコードアクションを確定"
+  },
+  "editor::ContextMenuFirst": {
+    "en": "First Context Menu Item",
+    "zh-cn": "上下文菜单第一项",
+    "zh-tw": "內容選單第一項",
+    "es": "Primera opción del menú contextual del editor",
+    "fr": "Premier élément du menu contextuel de l’éditeur",
+    "ja": "エディターのコンテキストメニューの先頭項目"
+  },
+  "editor::ContextMenuLast": {
+    "en": "Last Context Menu Item",
+    "zh-cn": "上下文菜单最后一项",
+    "zh-tw": "內容選單最後一項",
+    "es": "Última opción del menú contextual del editor",
+    "fr": "Dernier élément du menu contextuel de l’éditeur",
+    "ja": "エディターのコンテキストメニューの最後の項目"
+  },
+  "editor::SignatureHelpPrevious": {
+    "en": "Previous Signature Help",
+    "zh-cn": "上一个签名帮助",
+    "zh-tw": "上一個簽章說明",
+    "es": "Ayuda de firma anterior del editor",
+    "fr": "Aide à la signature précédente de l’éditeur",
+    "ja": "エディターの前のシグネチャヘルプ"
+  },
+  "editor::SignatureHelpNext": {
+    "en": "Next Signature Help",
+    "zh-cn": "下一个签名帮助",
+    "zh-tw": "下一個簽章說明",
+    "es": "Siguiente ayuda de firma del editor",
+    "fr": "Aide à la signature suivante de l’éditeur",
+    "ja": "エディターの次のシグネチャヘルプ"
+  },
+  "workspace::FollowNextCollaborator": {
+    "en": "Workspace Follow Next Collaborator",
+    "zh-cn": "工作区跟随下一个协作者",
+    "zh-tw": "工作區跟隨下一位協作者",
+    "es": "Seguir al siguiente colaborador del área de trabajo",
+    "fr": "Suivre le collaborateur suivant de l’espace de travail",
+    "ja": "ワークスペースで次の共同編集者をフォロー"
+  },
+  "dev::ToggleInspector": {
+    "en": "Dev Toggle Inspector",
+    "zh-cn": "开发切换检查器",
+    "zh-tw": "開發切換檢查器",
+    "es": "Alternar inspector de desarrollo",
+    "fr": "Basculer l’inspecteur de développement",
+    "ja": "開発インスペクターを切り替え"
+  },
+  "editor::ExpandExcerpts": {
+    "en": "Expand Excerpts",
+    "zh-cn": "展开摘录",
+    "zh-tw": "展開摘錄",
+    "es": "Expandir extractos en el editor",
+    "fr": "Développer les extraits dans l’éditeur",
+    "ja": "エディターで抜粋を展開"
+  },
+  "pane::RevealInProjectPanel": {
+    "en": "Reveal in Project Panel",
+    "zh-cn": "在项目面板中显示",
+    "zh-tw": "在專案面板中顯示",
+    "es": "Mostrar en el panel del proyecto desde el panel",
+    "fr": "Afficher dans le panneau de projet depuis le volet",
+    "ja": "ペインからプロジェクトパネルで表示"
+  },
+  "editor::ToggleInlayHints": {
+    "en": "Editor Toggle Inlay Hints",
+    "zh-cn": "编辑器切换内联提示",
+    "zh-tw": "編輯器切換內嵌提示",
+    "es": "Alternar pistas incrustadas del editor",
+    "fr": "Basculer les indices intégrés de l’éditeur",
+    "ja": "エディターのインレイヒントを切り替え"
+  },
+  "agent::CyclePreviousInlineAssist": {
+    "en": "Agent Cycle Previous Inline Assist",
+    "zh-cn": "Agent 循环到上一个内联辅助",
+    "zh-tw": "Agent 循環到上一個內嵌輔助",
+    "es": "Ir a la asistencia en línea anterior del agente",
+    "fr": "Passer à l’assistance en ligne précédente de l’agent",
+    "ja": "前のインライン支援へ切り替え"
+  },
+  "agent::CycleNextInlineAssist": {
+    "en": "Agent Cycle Next Inline Assist",
+    "zh-cn": "Agent 循环到下一个内联辅助",
+    "zh-tw": "Agent 循環到下一個內嵌輔助",
+    "es": "Ir a la siguiente asistencia en línea del agente",
+    "fr": "Passer à l’assistance en ligne suivante de l’agent",
+    "ja": "次のインライン支援へ切り替え"
+  },
+  "inline_assistant::ThumbsUpResult": {
+    "en": "Inline Assistant Thumbs Up Result",
+    "zh-cn": "内联助手结果点赞",
+    "zh-tw": "內嵌助手結果按讚",
+    "es": "Marcar como útil el resultado del asistente en línea",
+    "fr": "Approuver le résultat de l’assistant en ligne",
+    "ja": "インラインアシスタント結果に高評価"
+  },
+  "inline_assistant::ThumbsDownResult": {
+    "en": "Inline Assistant Thumbs Down Result",
+    "zh-cn": "内联助手结果点踩",
+    "zh-tw": "內嵌助手結果點踩",
+    "es": "Marcar como no útil el resultado del asistente en línea",
+    "fr": "Désapprouver le résultat de l’assistant en ligne",
+    "ja": "インラインアシスタント結果に低評価"
+  },
+  "project_search::SearchInNew": {
+    "en": "Project Search in New",
+    "zh-cn": "项目搜索在新标签中打开",
+    "zh-tw": "專案搜尋在新分頁中開啟",
+    "es": "Buscar en Proyecto en Nueva Vista",
+    "fr": "Recherche de Projet dans une Nouvelle Vue",
+    "ja": "新しいビューでプロジェクト検索"
+  },
+  "outline_panel::CollapseSelectedEntry": {
+    "en": "Outline Panel Collapse Selected Entry",
+    "zh-cn": "大纲面板折叠所选项",
+    "zh-tw": "大綱面板摺疊所選項目",
+    "es": "Contraer entrada seleccionada del panel de esquema",
+    "fr": "Réduire l’entrée sélectionnée du panneau de plan",
+    "ja": "アウトラインパネルの選択項目を折りたたむ"
+  },
+  "outline_panel::ExpandSelectedEntry": {
+    "en": "Outline Panel Expand Selected Entry",
+    "zh-cn": "大纲面板展开所选项",
+    "zh-tw": "大綱面板展開所選項目",
+    "es": "Expandir entrada seleccionada del panel de esquema",
+    "fr": "Développer l’entrée sélectionnée du panneau de plan",
+    "ja": "アウトラインパネルの選択項目を展開"
+  },
+  "outline_panel::CopyPath": {
+    "en": "Outline Panel Copy Path",
+    "zh-cn": "大纲面板复制路径",
+    "zh-tw": "大綱面板複製路徑",
+    "es": "Copiar ruta del panel de esquema",
+    "fr": "Copier le chemin du panneau de plan",
+    "ja": "アウトラインパネルのパスをコピー"
+  },
+  "outline_panel::RevealInFileManager": {
+    "en": "Outline Panel Reveal in File Manager",
+    "zh-cn": "大纲面板在文件管理器中显示",
+    "zh-tw": "大綱面板在檔案總管中顯示",
+    "es": "Mostrar en el gestor de archivos desde el panel de esquema",
+    "fr": "Afficher dans le gestionnaire de fichiers depuis le panneau de plan",
+    "ja": "アウトラインパネルからファイルマネージャーで表示"
+  },
+  "outline_panel::OpenSelectedEntry": {
+    "en": "Outline Panel Open Selected Entry",
+    "zh-cn": "大纲面板打开所选项",
+    "zh-tw": "大綱面板開啟所選項目",
+    "es": "Abrir entrada seleccionada del panel de esquema",
+    "fr": "Ouvrir l’entrée sélectionnée du panneau de plan",
+    "ja": "アウトラインパネルの選択項目を開く"
+  },
+  "project_panel::CollapseSelectedEntry": {
+    "en": "Project Panel Collapse Selected Entry",
+    "zh-cn": "项目面板折叠所选项",
+    "zh-tw": "專案面板摺疊所選項目",
+    "es": "Contraer entrada seleccionada del panel de proyecto",
+    "fr": "Réduire l’entrée sélectionnée du panneau de projet",
+    "ja": "プロジェクトパネルの選択項目を折りたたむ"
+  },
+  "project_panel::CollapseAllEntries": {
+    "en": "Project Panel Collapse All Entries",
+    "zh-cn": "项目面板折叠全部项",
+    "zh-tw": "專案面板摺疊所有項目",
+    "es": "Contraer todas las entradas del panel de proyecto",
+    "fr": "Réduire toutes les entrées du panneau de projet",
+    "ja": "プロジェクトパネルの全項目を折りたたむ"
+  },
+  "project_panel::ExpandSelectedEntry": {
+    "en": "Project Panel Expand Selected Entry",
+    "zh-cn": "项目面板展开所选项",
+    "zh-tw": "專案面板展開所選項目",
+    "es": "Expandir entrada seleccionada del panel de proyecto",
+    "fr": "Développer l’entrée sélectionnée du panneau de projet",
+    "ja": "プロジェクトパネルの選択項目を展開"
+  },
+  "project_panel::Cut": {
+    "en": "Project Panel Cut",
+    "zh-cn": "项目面板剪切",
+    "zh-tw": "專案面板剪下",
+    "es": "Cortar en el panel de proyecto",
+    "fr": "Couper dans le panneau de projet",
+    "ja": "プロジェクトパネルで切り取り"
+  },
+  "project_panel::Copy": {
+    "en": "Project Panel Copy",
+    "zh-cn": "项目面板复制",
+    "zh-tw": "專案面板複製",
+    "es": "Copiar en el panel de proyecto",
+    "fr": "Copier dans le panneau de projet",
+    "ja": "プロジェクトパネルでコピー"
+  },
+  "project_panel::Paste": {
+    "en": "Project Panel Paste",
+    "zh-cn": "项目面板粘贴",
+    "zh-tw": "專案面板貼上",
+    "es": "Pegar en el panel de proyecto",
+    "fr": "Coller dans le panneau de projet",
+    "ja": "プロジェクトパネルで貼り付け"
+  },
+  "project_panel::Rename": {
+    "en": "Project Panel Rename",
+    "zh-cn": "项目面板重命名",
+    "zh-tw": "專案面板重新命名",
+    "es": "Renombrar en el panel de proyecto",
+    "fr": "Renommer dans le panneau de projet",
+    "ja": "プロジェクトパネルで名前変更"
+  },
+  "project_panel::RevealInFileManager": {
+    "en": "Project Panel Reveal in File Manager",
+    "zh-cn": "项目面板在文件管理器中显示",
+    "zh-tw": "專案面板在檔案總管中顯示",
+    "es": "Mostrar en el gestor de archivos desde el panel de proyecto",
+    "fr": "Afficher dans le gestionnaire de fichiers depuis le panneau de projet",
+    "ja": "プロジェクトパネルからファイルマネージャーで表示"
+  },
+  "project_panel::OpenWithSystem": {
+    "en": "Project Panel Open with System",
+    "zh-cn": "项目面板用系统打开",
+    "zh-tw": "專案面板以系統開啟",
+    "es": "Abrir con el sistema desde el panel de proyecto",
+    "fr": "Ouvrir avec le système depuis le panneau de projet",
+    "ja": "プロジェクトパネルからシステムで開く"
+  },
+  "project_panel::CompareMarkedFiles": {
+    "en": "Project Panel Compare Marked Files",
+    "zh-cn": "项目面板比较已标记文件",
+    "zh-tw": "專案面板比較已標記檔案",
+    "es": "Comparar archivos marcados del panel de proyecto",
+    "fr": "Comparer les fichiers marqués du panneau de projet",
+    "ja": "プロジェクトパネルのマーク済みファイルを比較"
+  },
+  "project_panel::NewSearchInDirectory": {
+    "en": "Project Panel New Search in Directory",
+    "zh-cn": "项目面板在目录中新建搜索",
+    "zh-tw": "專案面板在目錄中新增搜尋",
+    "es": "Nueva búsqueda en directorio desde el panel de proyecto",
+    "fr": "Nouvelle recherche dans le dossier depuis le panneau de projet",
+    "ja": "プロジェクトパネルからディレクトリ内検索を新規作成"
+  },
+  "project_panel::Open": {
+    "en": "Project Panel Open",
+    "zh-cn": "项目面板打开",
+    "zh-tw": "專案面板開啟",
+    "es": "Abrir desde el panel de proyecto",
+    "fr": "Ouvrir depuis le panneau de projet",
+    "ja": "プロジェクトパネルから開く"
+  },
+  "git_panel::PreviousEntry": {
+    "en": "Git Panel Previous Entry",
+    "zh-cn": "Git 面板上一项",
+    "zh-tw": "Git 面板上一項",
+    "es": "Entrada anterior del panel de Git",
+    "fr": "Entrée précédente du panneau Git",
+    "ja": "Git パネルの前の項目"
+  },
+  "git_panel::NextEntry": {
+    "en": "Git Panel Next Entry",
+    "zh-cn": "Git 面板下一项",
+    "zh-tw": "Git 面板下一項",
+    "es": "Siguiente entrada del panel de Git",
+    "fr": "Entrée suivante du panneau Git",
+    "ja": "Git パネルの次の項目"
+  },
+  "git_panel::CollapseSelectedEntry": {
+    "en": "Git Panel Collapse Selected Entry",
+    "zh-cn": "Git 面板折叠所选项",
+    "zh-tw": "Git 面板摺疊所選項目",
+    "es": "Contraer entrada seleccionada del panel de Git",
+    "fr": "Réduire l’entrée sélectionnée du panneau Git",
+    "ja": "Git パネルの選択項目を折りたたむ"
+  },
+  "git_panel::ExpandSelectedEntry": {
+    "en": "Git Panel Expand Selected Entry",
+    "zh-cn": "Git 面板展开所选项",
+    "zh-tw": "Git 面板展開所選項目",
+    "es": "Expandir entrada seleccionada del panel de Git",
+    "fr": "Développer l’entrée sélectionnée du panneau Git",
+    "ja": "Git パネルの選択項目を展開"
+  },
+  "git::StageFile": {
+    "en": "Git Stage File",
+    "zh-cn": "Git 暂存文件",
+    "zh-tw": "Git 暫存檔案",
+    "es": "Preparar archivo en Git",
+    "fr": "Indexer le fichier Git",
+    "ja": "Git でファイルをステージ"
+  },
+  "git::UnstageFile": {
+    "en": "Git Unstage File",
+    "zh-cn": "Git 取消暂存文件",
+    "zh-tw": "Git 取消暫存檔案",
+    "es": "Quitar archivo del área de Git",
+    "fr": "Désindexer le fichier Git",
+    "ja": "Git でファイルをアンステージ"
+  },
+  "git::StageRange": {
+    "en": "Git Stage Range",
+    "zh-cn": "Git 暂存范围",
+    "zh-tw": "Git 暫存範圍",
+    "es": "Preparar rango en Git",
+    "fr": "Indexer la plage Git",
+    "ja": "Git で範囲をステージ"
+  },
+  "git::Cancel": {
+    "en": "Git Cancel",
+    "zh-cn": "Git 取消",
+    "zh-tw": "Git 取消",
+    "es": "Cancelar en Git",
+    "fr": "Annuler dans Git",
+    "ja": "Git でキャンセル"
+  },
+  "git::Fetch": {
+    "en": "Git Fetch",
+    "zh-cn": "Git 拉取",
+    "zh-tw": "Git 擷取",
+    "es": "Obtener cambios de Git",
+    "fr": "Récupérer avec Git",
+    "ja": "Git でフェッチ"
+  },
+  "git::Push": {
+    "en": "Git Push",
+    "zh-cn": "Git 推送",
+    "zh-tw": "Git 推送",
+    "es": "Enviar con Git",
+    "fr": "Pousser avec Git",
+    "ja": "Git でプッシュ"
+  },
+  "git::Pull": {
+    "en": "Git Pull",
+    "zh-cn": "Git 拉取更新",
+    "zh-tw": "Git 拉取更新",
+    "es": "Actualizar con Git",
+    "fr": "Tirer avec Git",
+    "ja": "Git でプル"
+  },
+  "git::PullRebase": {
+    "en": "Git Pull Rebase",
+    "zh-cn": "Git 拉取并变基",
+    "zh-tw": "Git 拉取並變基",
+    "es": "Actualizar con rebase en Git",
+    "fr": "Tirer avec rebase dans Git",
+    "ja": "Git でリベース付きプル"
+  },
+  "git::ForcePush": {
+    "en": "Git Force Push",
+    "zh-cn": "Git 强制推送",
+    "zh-tw": "Git 強制推送",
+    "es": "Forzar envío con Git",
+    "fr": "Forcer la poussée Git",
+    "ja": "Git で強制プッシュ"
+  },
+  "git::RestoreTrackedFiles": {
+    "en": "Git Restore Tracked Files",
+    "zh-cn": "Git 还原已跟踪文件",
+    "zh-tw": "Git 還原已追蹤檔案",
+    "es": "Restaurar archivos seguidos con Git",
+    "fr": "Restaurer les fichiers suivis avec Git",
+    "ja": "Git で追跡中ファイルを復元"
+  },
+  "git::TrashUntrackedFiles": {
+    "en": "Git Trash Untracked Files",
+    "zh-cn": "Git 删除未跟踪文件",
+    "zh-tw": "Git 刪除未追蹤檔案",
+    "es": "Enviar archivos no rastreados a la papelera con Git",
+    "fr": "Mettre à la corbeille les fichiers non suivis avec Git",
+    "ja": "Git で未追跡ファイルをゴミ箱へ移動"
+  },
+  "debugger::ToggleThreadPicker": {
+    "en": "Debugger Toggle Thread Picker",
+    "zh-cn": "调试器切换线程选择器",
+    "zh-tw": "偵錯器切換執行緒選擇器",
+    "es": "Alternar selector de hilos del depurador",
+    "fr": "Basculer le sélecteur de fils du débogueur",
+    "ja": "デバッガーのスレッド選択を切り替え"
+  },
+  "debugger::ToggleSessionPicker": {
+    "en": "Debugger Toggle Session Picker",
+    "zh-cn": "调试器切换会话选择器",
+    "zh-tw": "偵錯器切換工作階段選擇器",
+    "es": "Alternar selector de sesiones del depurador",
+    "fr": "Basculer le sélecteur de sessions du débogueur",
+    "ja": "デバッガーのセッション選択を切り替え"
+  },
+  "debugger::ToggleExpandItem": {
+    "en": "Debugger Toggle Expand Item",
+    "zh-cn": "调试器切换展开项",
+    "zh-tw": "偵錯器切換展開項目",
+    "es": "Alternar expansión de elemento del depurador",
+    "fr": "Basculer le développement d’un élément du débogueur",
+    "ja": "デバッガー項目の展開を切り替え"
+  },
+  "variable_list::CollapseSelectedEntry": {
+    "en": "Variable List Collapse Selected Entry",
+    "zh-cn": "变量列表折叠所选项",
+    "zh-tw": "變數清單摺疊所選項目",
+    "es": "Contraer entrada seleccionada de la lista de variables",
+    "fr": "Réduire l’entrée sélectionnée de la liste des variables",
+    "ja": "変数リストの選択項目を折りたたむ"
+  },
+  "variable_list::ExpandSelectedEntry": {
+    "en": "Variable List Expand Selected Entry",
+    "zh-cn": "变量列表展开所选项",
+    "zh-tw": "變數清單展開所選項目",
+    "es": "Expandir entrada seleccionada de la lista de variables",
+    "fr": "Développer l’entrée sélectionnée de la liste des variables",
+    "ja": "変数リストの選択項目を展開"
+  },
+  "variable_list::EditVariable": {
+    "en": "Variable List Edit Variable",
+    "zh-cn": "变量列表编辑变量",
+    "zh-tw": "變數清單編輯變數",
+    "es": "Editar variable en la lista de variables",
+    "fr": "Modifier la variable dans la liste des variables",
+    "ja": "変数リストで変数を編集"
+  },
+  "variable_list::CopyVariableValue": {
+    "en": "Variable List Copy Variable Value",
+    "zh-cn": "变量列表复制变量值",
+    "zh-tw": "變數清單複製變數值",
+    "es": "Copiar valor de variable en la lista",
+    "fr": "Copier la valeur de la variable dans la liste",
+    "ja": "変数リストで変数値をコピー"
+  },
+  "variable_list::CopyVariableName": {
+    "en": "Variable List Copy Variable Name",
+    "zh-cn": "变量列表复制变量名",
+    "zh-tw": "變數清單複製變數名稱",
+    "es": "Copiar nombre de variable en la lista",
+    "fr": "Copier le nom de la variable dans la liste",
+    "ja": "変数リストで変数名をコピー"
+  },
+  "variable_list::RemoveWatch": {
+    "en": "Variable List Remove Watch",
+    "zh-cn": "变量列表移除监视",
+    "zh-tw": "變數清單移除監看",
+    "es": "Quitar seguimiento de la lista de variables",
+    "fr": "Retirer la surveillance de la liste des variables",
+    "ja": "変数リストのウォッチを削除"
+  },
+  "variable_list::AddWatch": {
+    "en": "Variable List Add Watch",
+    "zh-cn": "变量列表添加监视",
+    "zh-tw": "變數清單新增監看",
+    "es": "Añadir seguimiento en la lista de variables",
+    "fr": "Ajouter une surveillance dans la liste des variables",
+    "ja": "変数リストにウォッチを追加"
+  },
+  "debugger::ToggleEnableBreakpoint": {
+    "en": "Debugger Toggle Enable Breakpoint",
+    "zh-cn": "调试器切换启用断点",
+    "zh-tw": "偵錯器切換啟用中斷點",
+    "es": "Alternar activación de punto de interrupción del depurador",
+    "fr": "Basculer l’activation du point d’arrêt du débogueur",
+    "ja": "デバッガーのブレークポイント有効化を切り替え"
+  },
+  "debugger::UnsetBreakpoint": {
+    "en": "Debugger Unset Breakpoint",
+    "zh-cn": "调试器取消断点",
+    "zh-tw": "偵錯器取消中斷點",
+    "es": "Quitar punto de interrupción del depurador",
+    "fr": "Supprimer le point d’arrêt du débogueur",
+    "ja": "デバッガーのブレークポイントを解除"
+  },
+  "debugger::PreviousBreakpointProperty": {
+    "en": "Debugger Previous Breakpoint Property",
+    "zh-cn": "调试器上一个断点属性",
+    "zh-tw": "偵錯器上一個中斷點屬性",
+    "es": "Propiedad anterior del punto de interrupción",
+    "fr": "Propriété précédente du point d’arrêt",
+    "ja": "前のブレークポイント属性"
+  },
+  "debugger::NextBreakpointProperty": {
+    "en": "Debugger Next Breakpoint Property",
+    "zh-cn": "调试器下一个断点属性",
+    "zh-tw": "偵錯器下一個中斷點屬性",
+    "es": "Siguiente propiedad del punto de interrupción",
+    "fr": "Propriété suivante du point d’arrêt",
+    "ja": "次のブレークポイント属性"
+  },
+  "collab_panel::Remove": {
+    "en": "Collab Panel Remove",
+    "zh-cn": "协作面板移除",
+    "zh-tw": "協作面板移除",
+    "es": "Eliminar en el panel de colaboración",
+    "fr": "Supprimer dans le panneau de collaboration",
+    "ja": "コラボレーションパネルで削除"
+  },
+  "collab_panel::MoveChannelUp": {
+    "en": "Collab Panel Move Channel Up",
+    "zh-cn": "协作面板频道上移",
+    "zh-tw": "協作面板頻道上移",
+    "es": "Mover canal hacia arriba en el panel de colaboración",
+    "fr": "Déplacer le canal vers le haut dans le panneau de collaboration",
+    "ja": "コラボレーションパネルでチャンネルを上へ移動"
+  },
+  "collab_panel::MoveChannelDown": {
+    "en": "Collab Panel Move Channel Down",
+    "zh-cn": "协作面板频道下移",
+    "zh-tw": "協作面板頻道下移",
+    "es": "Mover canal hacia abajo en el panel de colaboración",
+    "fr": "Déplacer le canal vers le bas dans le panneau de collaboration",
+    "ja": "コラボレーションパネルでチャンネルを下へ移動"
+  },
+  "collab_panel::OpenSelectedChannelNotes": {
+    "en": "Collab Panel Open Selected Channel Notes",
+    "zh-cn": "协作面板打开所选频道笔记",
+    "zh-tw": "協作面板開啟所選頻道筆記",
+    "es": "Abrir notas del canal seleccionado en colaboración",
+    "fr": "Ouvrir les notes du canal sélectionné dans la collaboration",
+    "ja": "コラボレーションパネルで選択チャンネルのノートを開く"
+  },
+  "collab_panel::InsertSpace": {
+    "en": "Collab Panel Insert Space",
+    "zh-cn": "协作面板插入空格",
+    "zh-tw": "協作面板插入空白",
+    "es": "Insertar espacio en el panel de colaboración",
+    "fr": "Insérer un espace dans le panneau de collaboration",
+    "ja": "コラボレーションパネルでスペースを挿入"
+  },
+  "picker::ConfirmCompletion": {
+    "en": "Picker Confirm Completion",
+    "zh-cn": "选择器确认补全",
+    "zh-tw": "選擇器確認補全",
+    "es": "Confirmar completado del selector",
+    "fr": "Confirmer la complétion du sélecteur",
+    "ja": "ピッカーの補完を確定"
+  },
+  "file_finder::ToggleSplitMenu": {
+    "en": "File Finder Toggle Split Menu",
+    "zh-cn": "文件查找器切换拆分菜单",
+    "zh-tw": "檔案尋找器切換分割選單",
+    "es": "Alternar menú de división del buscador de archivos",
+    "fr": "Basculer le menu de division du chercheur de fichiers",
+    "ja": "ファイルファインダーの分割メニューを切り替え"
+  },
+  "file_finder::ToggleFilterMenu": {
+    "en": "File Finder Toggle Filter Menu",
+    "zh-cn": "文件查找器切换筛选菜单",
+    "zh-tw": "檔案尋找器切換篩選選單",
+    "es": "Alternar menú de filtros del buscador de archivos",
+    "fr": "Basculer le menu de filtres du chercheur de fichiers",
+    "ja": "ファイルファインダーのフィルターメニューを切り替え"
+  },
+  "file_finder::SelectPrevious": {
+    "en": "File Finder Select Previous",
+    "zh-cn": "文件查找器选择上一个",
+    "zh-tw": "檔案尋找器選取上一個",
+    "es": "Seleccionar anterior en el buscador de archivos",
+    "fr": "Sélectionner l’élément précédent dans le chercheur de fichiers",
+    "ja": "ファイルファインダーで前を選択"
+  },
+  "recent_projects::ToggleActionsMenu": {
+    "en": "Recent Projects Toggle Actions Menu",
+    "zh-cn": "最近项目切换操作菜单",
+    "zh-tw": "最近專案切換動作選單",
+    "es": "Alternar menú de acciones de proyectos recientes",
+    "fr": "Basculer le menu d’actions des projets récents",
+    "ja": "最近のプロジェクトのアクションメニューを切り替え"
+  },
+  "workspace::AddFolderToProject": {
+    "en": "Workspace Add Folder to Project",
+    "zh-cn": "工作区添加文件夹到项目",
+    "zh-tw": "工作區新增資料夾到專案",
+    "es": "Añadir carpeta al proyecto desde el área de trabajo",
+    "fr": "Ajouter un dossier au projet depuis l’espace de travail",
+    "ja": "ワークスペースからプロジェクトにフォルダーを追加"
+  },
+  "tab_switcher::CloseSelectedItem": {
+    "en": "Tab Switcher Close Selected Item",
+    "zh-cn": "标签页切换器关闭所选项",
+    "zh-tw": "分頁切換器關閉所選項目",
+    "es": "Cerrar elemento seleccionado del selector de pestañas",
+    "fr": "Fermer l’élément sélectionné du sélecteur d’onglets",
+    "ja": "タブスイッチャーの選択項目を閉じる"
+  },
+  "stash_picker::DropStashItem": {
+    "en": "Stash Picker Drop Stash Item",
+    "zh-cn": "暂存选择器丢弃暂存项",
+    "zh-tw": "暫存選擇器捨棄暫存項目",
+    "es": "Eliminar elemento de stash en el selector",
+    "fr": "Supprimer l’élément de stash dans le sélecteur",
+    "ja": "スタッシュ選択でスタッシュ項目を削除"
+  },
+  "stash_picker::ShowStashItem": {
+    "en": "Stash Picker Show Stash Item",
+    "zh-cn": "暂存选择器显示暂存项",
+    "zh-tw": "暫存選擇器顯示暫存項目",
+    "es": "Mostrar elemento de stash en el selector",
+    "fr": "Afficher l’élément de stash dans le sélecteur",
+    "ja": "スタッシュ選択でスタッシュ項目を表示"
+  },
+  "terminal::ShowCharacterPalette": {
+    "en": "Terminal Show Character Palette",
+    "zh-cn": "终端显示字符面板",
+    "zh-tw": "終端機顯示字元面板",
+    "es": "Mostrar paleta de caracteres del terminal",
+    "fr": "Afficher la palette de caractères du terminal",
+    "ja": "ターミナルで文字パレットを表示"
+  },
+  "terminal::ScrollPageUp": {
+    "en": "Terminal Scroll Page Up",
+    "zh-cn": "终端向上翻页",
+    "zh-tw": "終端機向上翻頁",
+    "es": "Desplazar una página arriba en el terminal",
+    "fr": "Faire défiler d’une page vers le haut dans le terminal",
+    "ja": "ターミナルで1ページ上へスクロール"
+  },
+  "terminal::ScrollPageDown": {
+    "en": "Terminal Scroll Page Down",
+    "zh-cn": "终端向下翻页",
+    "zh-tw": "終端機向下翻頁",
+    "es": "Desplazar una página abajo en el terminal",
+    "fr": "Faire défiler d’une page vers le bas dans le terminal",
+    "ja": "ターミナルで1ページ下へスクロール"
+  },
+  "terminal::ScrollLineUp": {
+    "en": "Terminal Scroll Line Up",
+    "zh-cn": "终端向上滚动一行",
+    "zh-tw": "終端機向上捲動一行",
+    "es": "Desplazar una línea arriba en el terminal",
+    "fr": "Faire défiler d’une ligne vers le haut dans le terminal",
+    "ja": "ターミナルで1行上へスクロール"
+  },
+  "terminal::ScrollLineDown": {
+    "en": "Terminal Scroll Line Down",
+    "zh-cn": "终端向下滚动一行",
+    "zh-tw": "終端機向下捲動一行",
+    "es": "Desplazar una línea abajo en el terminal",
+    "fr": "Faire défiler d’une ligne vers le bas dans le terminal",
+    "ja": "ターミナルで1行下へスクロール"
+  },
+  "terminal::ScrollToTop": {
+    "en": "Terminal Scroll to Top",
+    "zh-cn": "终端滚动到顶部",
+    "zh-tw": "終端機捲動到頂部",
+    "es": "Desplazar al inicio del terminal",
+    "fr": "Faire défiler jusqu’en haut du terminal",
+    "ja": "ターミナルの先頭へスクロール"
+  },
+  "terminal::ScrollToBottom": {
+    "en": "Terminal Scroll to Bottom",
+    "zh-cn": "终端滚动到底部",
+    "zh-tw": "終端機捲動到底部",
+    "es": "Desplazar al final del terminal",
+    "fr": "Faire défiler jusqu’en bas du terminal",
+    "ja": "ターミナルの末尾へスクロール"
+  },
+  "terminal::ToggleViMode": {
+    "en": "Terminal Toggle Vi Mode",
+    "zh-cn": "终端切换 Vi 模式",
+    "zh-tw": "終端機切換 Vi 模式",
+    "es": "Alternar modo Vi del terminal",
+    "fr": "Basculer le mode Vi du terminal",
+    "ja": "ターミナルの Vi モードを切り替え"
+  },
+  "diagnostics::ToggleDiagnosticsRefresh": {
+    "en": "Diagnostics Toggle Diagnostics Refresh",
+    "zh-cn": "诊断切换自动刷新",
+    "zh-tw": "診斷切換自動重新整理",
+    "es": "Alternar actualización de diagnósticos",
+    "fr": "Basculer l’actualisation des diagnostics",
+    "ja": "診断の更新を切り替え"
+  },
+  "console::WatchExpression": {
+    "en": "Console Watch Expression",
+    "zh-cn": "控制台监视表达式",
+    "zh-tw": "主控台監看運算式",
+    "es": "Observar expresión en la consola",
+    "fr": "Surveiller une expression dans la console",
+    "ja": "コンソールで式を監視"
+  },
+  "markdown::ScrollPageUp": {
+    "en": "Markdown Scroll Page Up",
+    "zh-cn": "Markdown 向上翻页",
+    "zh-tw": "Markdown 向上翻頁",
+    "es": "Desplazar una página arriba en Markdown",
+    "fr": "Faire défiler d’une page vers le haut dans Markdown",
+    "ja": "Markdown で1ページ上へスクロール"
+  },
+  "markdown::ScrollPageDown": {
+    "en": "Markdown Scroll Page Down",
+    "zh-cn": "Markdown 向下翻页",
+    "zh-tw": "Markdown 向下翻頁",
+    "es": "Desplazar una página abajo en Markdown",
+    "fr": "Faire défiler d’une page vers le bas dans Markdown",
+    "ja": "Markdown で1ページ下へスクロール"
+  },
+  "markdown::ScrollUp": {
+    "en": "Markdown Scroll Up",
+    "zh-cn": "Markdown 向上滚动",
+    "zh-tw": "Markdown 向上捲動",
+    "es": "Desplazar hacia arriba en Markdown",
+    "fr": "Faire défiler vers le haut dans Markdown",
+    "ja": "Markdown で上へスクロール"
+  },
+  "markdown::ScrollDown": {
+    "en": "Markdown Scroll Down",
+    "zh-cn": "Markdown 向下滚动",
+    "zh-tw": "Markdown 向下捲動",
+    "es": "Desplazar hacia abajo en Markdown",
+    "fr": "Faire défiler vers le bas dans Markdown",
+    "ja": "Markdown で下へスクロール"
+  },
+  "markdown::ScrollUpByItem": {
+    "en": "Markdown Scroll Up by Item",
+    "zh-cn": "Markdown 按项向上滚动",
+    "zh-tw": "Markdown 逐項向上捲動",
+    "es": "Desplazar un elemento hacia arriba en Markdown",
+    "fr": "Faire défiler d’un élément vers le haut dans Markdown",
+    "ja": "Markdown で項目単位に上へスクロール"
+  },
+  "markdown::ScrollDownByItem": {
+    "en": "Markdown Scroll Down by Item",
+    "zh-cn": "Markdown 按项向下滚动",
+    "zh-tw": "Markdown 逐項向下捲動",
+    "es": "Desplazar un elemento hacia abajo en Markdown",
+    "fr": "Faire défiler d’un élément vers le bas dans Markdown",
+    "ja": "Markdown で項目単位に下へスクロール"
+  },
+  "keymap_editor::ToggleKeystrokeSearch": {
+    "en": "Toggle Keystroke Search",
+    "zh-cn": "切换按键搜索",
+    "zh-tw": "切換按鍵搜尋",
+    "es": "Alternar búsqueda de pulsaciones del editor de atajos",
+    "fr": "Basculer la recherche de frappes dans l’éditeur de raccourcis",
+    "ja": "キーマップエディターのキー入力検索を切り替え"
+  },
+  "keymap_editor::ToggleConflictFilter": {
+    "en": "Toggle Conflict Filter",
+    "zh-cn": "切换冲突筛选",
+    "zh-tw": "切換衝突篩選",
+    "es": "Alternar filtro de conflictos del editor de atajos",
+    "fr": "Basculer le filtre de conflits de l’éditeur de raccourcis",
+    "ja": "キーマップエディターの競合フィルターを切り替え"
+  },
+  "keymap_editor::EditBinding": {
+    "en": "Edit Binding",
+    "zh-cn": "编辑绑定",
+    "zh-tw": "編輯綁定",
+    "es": "Editar asignación en el editor de atajos",
+    "fr": "Modifier l’affectation dans l’éditeur de raccourcis",
+    "ja": "キーマップエディターでバインドを編集"
+  },
+  "keymap_editor::CreateBinding": {
+    "en": "Create Binding",
+    "zh-cn": "创建绑定",
+    "zh-tw": "建立綁定",
+    "es": "Crear asignación en el editor de atajos",
+    "fr": "Créer une affectation dans l’éditeur de raccourcis",
+    "ja": "キーマップエディターでバインドを作成"
+  },
+  "keymap_editor::OpenCreateKeybindingModal": {
+    "en": "Open Create Keybinding Dialog",
+    "zh-cn": "打开新建按键绑定弹窗",
+    "zh-tw": "開啟新增按鍵綁定視窗",
+    "es": "Abrir ventana para crear atajo en el editor de atajos",
+    "fr": "Ouvrir la fenêtre de création de raccourci dans l’éditeur de raccourcis",
+    "ja": "キーマップエディターでキーバインド作成ダイアログを開く"
+  },
+  "keymap_editor::CopyAction": {
+    "en": "Copy Action",
+    "zh-cn": "复制动作",
+    "zh-tw": "複製動作",
+    "es": "Copiar acción en el editor de atajos",
+    "fr": "Copier l’action dans l’éditeur de raccourcis",
+    "ja": "キーマップエディターでアクションをコピー"
+  },
+  "keymap_editor::CopyContext": {
+    "en": "Copy Context",
+    "zh-cn": "复制上下文",
+    "zh-tw": "複製內容",
+    "es": "Copiar contexto en el editor de atajos",
+    "fr": "Copier le contexte dans l’éditeur de raccourcis",
+    "ja": "キーマップエディターでコンテキストをコピー"
+  },
+  "keymap_editor::ShowMatchingKeybinds": {
+    "en": "Show Matching Keybindings",
+    "zh-cn": "显示匹配的按键绑定",
+    "zh-tw": "顯示相符按鍵綁定",
+    "es": "Mostrar atajos coincidentes en el editor de atajos",
+    "fr": "Afficher les raccourcis correspondants dans l’éditeur de raccourcis",
+    "ja": "キーマップエディターで一致するキーバインドを表示"
+  },
+  "zed::OpenKeymapFile": {
+    "en": "Open Keymap File",
+    "zh-cn": "打开键位映射文件",
+    "zh-tw": "開啟鍵盤映射檔案",
+    "es": "Abrir archivo de atajos",
+    "fr": "Ouvrir le fichier de raccourcis",
+    "ja": "キーマップファイルを開く"
+  },
+  "keystroke_input::StartRecording": {
+    "en": "Start Recording Keystrokes",
+    "zh-cn": "开始录制按键",
+    "zh-tw": "開始錄製按鍵",
+    "es": "Iniciar grabación de pulsaciones",
+    "fr": "Démarrer l’enregistrement des frappes",
+    "ja": "キー入力の記録を開始"
+  },
+  "keystroke_input::StopRecording": {
+    "en": "Stop Recording Keystrokes",
+    "zh-cn": "停止录制按键",
+    "zh-tw": "停止錄製按鍵",
+    "es": "Detener grabación de pulsaciones",
+    "fr": "Arrêter l’enregistrement des frappes",
+    "ja": "キー入力の記録を停止"
+  },
+  "keystroke_input::ClearKeystrokes": {
+    "en": "Clear Recorded Keystrokes",
+    "zh-cn": "清空已录制按键",
+    "zh-tw": "清空已錄製按鍵",
+    "es": "Borrar pulsaciones registradas",
+    "fr": "Effacer les frappes enregistrées",
+    "ja": "記録したキー入力をクリア"
+  },
+  "onboarding::Finish": {
+    "en": "Onboarding Finish",
+    "zh-cn": "引导完成",
+    "zh-tw": "引導完成",
+    "es": "Finalizar introducción",
+    "fr": "Terminer l’onboarding",
+    "ja": "オンボーディングを完了"
+  },
+  "onboarding::SignIn": {
+    "en": "Onboarding Sign in",
+    "zh-cn": "引导登录",
+    "zh-tw": "引導登入",
+    "es": "Iniciar sesión en la introducción",
+    "fr": "Se connecter pendant l’onboarding",
+    "ja": "オンボーディングでサインイン"
+  },
+  "onboarding::OpenAccount": {
+    "en": "Onboarding Open Account",
+    "zh-cn": "引导打开账户",
+    "zh-tw": "引導開啟帳號",
+    "es": "Abrir cuenta en la introducción",
+    "fr": "Ouvrir le compte pendant l’onboarding",
+    "ja": "オンボーディングでアカウントを開く"
+  },
+  "git::WorktreeFromDefaultOnWindow": {
+    "en": "Git Worktree from Default on Window",
+    "zh-cn": "Git 从默认分支在新窗口创建工作树",
+    "zh-tw": "Git 從預設分支在新視窗建立工作樹",
+    "es": "Crear worktree desde la rama predeterminada en una nueva ventana",
+    "fr": "Créer un worktree depuis la branche par défaut dans une nouvelle fenêtre",
+    "ja": "既定ブランチから新しいウィンドウでワークツリーを作成"
+  },
+  "git::WorktreeFromDefault": {
+    "en": "Git Worktree from Default",
+    "zh-cn": "Git 从默认分支创建工作树",
+    "zh-tw": "Git 從預設分支建立工作樹",
+    "es": "Crear worktree desde la rama predeterminada",
+    "fr": "Créer un worktree depuis la branche par défaut",
+    "ja": "既定ブランチからワークツリーを作成"
+  },
+  "settings_editor::Minimize": {
+    "en": "Minimize Settings Editor",
+    "zh-cn": "最小化设置编辑器",
+    "zh-tw": "最小化設定編輯器",
+    "es": "Minimizar editor de configuración",
+    "fr": "Minimiser l’éditeur de paramètres",
+    "ja": "設定エディターを最小化"
+  },
+  "settings_editor::OpenCurrentFile": {
+    "en": "Open Current Settings File",
+    "zh-cn": "打开当前设置文件",
+    "zh-tw": "開啟目前設定檔案",
+    "es": "Abrir archivo actual del editor de configuración",
+    "fr": "Ouvrir le fichier actuel de l’éditeur de paramètres",
+    "ja": "設定エディターの現在のファイルを開く"
+  },
+  "settings_editor::ToggleFocusNav": {
+    "en": "Toggle Settings Navigation Focus",
+    "zh-cn": "切换设置导航焦点",
+    "zh-tw": "切換設定導覽焦點",
+    "es": "Alternar foco de navegación del editor de configuración",
+    "fr": "Basculer le focus de navigation de l’éditeur de paramètres",
+    "ja": "設定エディターのナビゲーションフォーカスを切り替え"
+  },
+  "settings_editor::FocusPreviousFile": {
+    "en": "Focus Previous Settings File",
+    "zh-cn": "聚焦上一个设置文件",
+    "zh-tw": "聚焦上一個設定檔案",
+    "es": "Enfocar archivo anterior del editor de configuración",
+    "fr": "Mettre le focus sur le fichier précédent de l’éditeur de paramètres",
+    "ja": "設定エディターの前のファイルにフォーカス"
+  },
+  "settings_editor::FocusNextFile": {
+    "en": "Focus Next Settings File",
+    "zh-cn": "聚焦下一个设置文件",
+    "zh-tw": "聚焦下一個設定檔案",
+    "es": "Enfocar siguiente archivo del editor de configuración",
+    "fr": "Mettre le focus sur le fichier suivant de l’éditeur de paramètres",
+    "ja": "設定エディターの次のファイルにフォーカス"
+  },
+  "git::ApplyCurrentStash": {
+    "en": "Git Apply Current Stash",
+    "zh-cn": "Git 应用当前暂存",
+    "zh-tw": "Git 套用目前暫存",
+    "es": "Aplicar stash actual de Git",
+    "fr": "Appliquer le stash actuel de Git",
+    "ja": "現在の Git スタッシュを適用"
+  },
+  "git::PopCurrentStash": {
+    "en": "Git Pop Current Stash",
+    "zh-cn": "Git 弹出当前暂存",
+    "zh-tw": "Git 彈出目前暫存",
+    "es": "Extraer stash actual de Git",
+    "fr": "Extraire le stash actuel de Git",
+    "ja": "現在の Git スタッシュを pop"
+  },
+  "git::DropCurrentStash": {
+    "en": "Git Drop Current Stash",
+    "zh-cn": "Git 丢弃当前暂存",
+    "zh-tw": "Git 捨棄目前暫存",
+    "es": "Descartar stash actual de Git",
+    "fr": "Supprimer le stash actuel de Git",
+    "ja": "現在の Git スタッシュを破棄"
+  },
+  "settings_editor::FocusPreviousNavEntry": {
+    "en": "Focus Previous Navigation Entry",
+    "zh-cn": "聚焦上一个导航项",
+    "zh-tw": "聚焦上一個導覽項目",
+    "es": "Enfocar entrada de navegación anterior del editor de configuración",
+    "fr": "Mettre le focus sur l’entrée de navigation précédente de l’éditeur de paramètres",
+    "ja": "設定エディターの前のナビ項目にフォーカス"
+  },
+  "settings_editor::FocusNextNavEntry": {
+    "en": "Focus Next Navigation Entry",
+    "zh-cn": "聚焦下一个导航项",
+    "zh-tw": "聚焦下一個導覽項目",
+    "es": "Enfocar siguiente entrada de navegación del editor de configuración",
+    "fr": "Mettre le focus sur l’entrée de navigation suivante de l’éditeur de paramètres",
+    "ja": "設定エディターの次のナビ項目にフォーカス"
+  },
+  "settings_editor::ExpandNavEntry": {
+    "en": "Expand Navigation Entry",
+    "zh-cn": "展开导航项",
+    "zh-tw": "展開導覽項目",
+    "es": "Expandir entrada de navegación",
+    "fr": "Développer l’entrée de navigation",
+    "ja": "ナビゲーション項目を展開"
+  },
+  "settings_editor::CollapseNavEntry": {
+    "en": "Collapse Navigation Entry",
+    "zh-cn": "折叠导航项",
+    "zh-tw": "摺疊導覽項目",
+    "es": "Contraer entrada de navegación",
+    "fr": "Réduire l’entrée de navigation",
+    "ja": "ナビゲーション項目を折りたたむ"
+  },
+  "settings_editor::FocusPreviousRootNavEntry": {
+    "en": "Focus Previous Root Navigation Entry",
+    "zh-cn": "聚焦上一个根导航项",
+    "zh-tw": "聚焦上一個根導覽項目",
+    "es": "Enfocar entrada raíz de navegación anterior",
+    "fr": "Mettre le focus sur l’entrée racine de navigation précédente",
+    "ja": "前のルートナビゲーション項目にフォーカス"
+  },
+  "settings_editor::FocusNextRootNavEntry": {
+    "en": "Focus Next Root Navigation Entry",
+    "zh-cn": "聚焦下一个根导航项",
+    "zh-tw": "聚焦下一個根導覽項目",
+    "es": "Enfocar siguiente entrada raíz de navegación",
+    "fr": "Mettre le focus sur l’entrée racine de navigation suivante",
+    "ja": "次のルートナビゲーション項目にフォーカス"
+  },
+  "settings_editor::FocusFirstNavEntry": {
+    "en": "Focus First Navigation Entry",
+    "zh-cn": "聚焦第一个导航项",
+    "zh-tw": "聚焦第一個導覽項目",
+    "es": "Enfocar la primera entrada de navegación",
+    "fr": "Mettre le focus sur la première entrée de navigation",
+    "ja": "最初のナビゲーション項目にフォーカス"
+  },
+  "settings_editor::FocusLastNavEntry": {
+    "en": "Focus Last Navigation Entry",
+    "zh-cn": "聚焦最后一个导航项",
+    "zh-tw": "聚焦最後一個導覽項目",
+    "es": "Enfocar la última entrada de navegación",
+    "fr": "Mettre le focus sur la dernière entrée de navigation",
+    "ja": "最後のナビゲーション項目にフォーカス"
+  },
+  "dev::EditPredictionContextGoBack": {
+    "en": "Go Back in Edit Prediction Context",
+    "zh-cn": "在编辑预测上下文中后退",
+    "zh-tw": "在編輯預測內容中返回",
+    "es": "Retroceder en el contexto de predicción de edición",
+    "fr": "Revenir en arrière dans le contexte de prédiction d’édition",
+    "ja": "編集予測コンテキストで戻る"
+  },
+  "dev::EditPredictionContextGoForward": {
+    "en": "Go Forward in Edit Prediction Context",
+    "zh-cn": "在编辑预测上下文中前进",
+    "zh-tw": "在編輯預測內容中前進",
+    "es": "Avanzar en el contexto de predicción de edición",
+    "fr": "Avancer dans le contexte de prédiction d’édition",
+    "ja": "編集予測コンテキストで進む"
+  },
+  "branch_picker::DeleteBranch": {
+    "en": "Delete Branch",
+    "zh-cn": "删除分支",
+    "zh-tw": "刪除分支",
+    "es": "Selector de Ramas Eliminar Rama",
+    "fr": "Sélecteur de Branches Supprimer la Branche",
+    "ja": "ブランチピッカー ブランチを削除"
+  },
+  "branch_picker::FilterRemotes": {
+    "en": "Filter Remote Branches",
+    "zh-cn": "筛选远程分支",
+    "zh-tw": "篩選遠端分支",
+    "es": "Filtrar ramas remotas",
+    "fr": "Filtrer les branches distantes",
+    "ja": "リモートブランチを絞り込む"
+  },
+  "image_viewer::ZoomOut": {
+    "en": "Image Viewer Zoom Out",
+    "zh-cn": "图像查看器缩小",
+    "zh-tw": "影像檢視器縮小",
+    "es": "Alejar en el visor de imágenes",
+    "fr": "Zoom arrière dans la visionneuse d’images",
+    "ja": "画像ビューアーを縮小"
+  },
+  "image_viewer::ResetZoom": {
+    "en": "Image Viewer Reset Zoom",
+    "zh-cn": "图像查看器重置缩放",
+    "zh-tw": "影像檢視器重設縮放",
+    "es": "Restablecer zoom del visor de imágenes",
+    "fr": "Réinitialiser le zoom de la visionneuse d’images",
+    "ja": "画像ビューアーのズームをリセット"
+  },
+  "image_viewer::ZoomToActualSize": {
+    "en": "Image Viewer Zoom to Actual Size",
+    "zh-cn": "图像查看器缩放到实际大小",
+    "zh-tw": "影像檢視器縮放到實際大小",
+    "es": "Zoom al tamaño real en el visor de imágenes",
+    "fr": "Zoomer à la taille réelle dans la visionneuse d’images",
+    "ja": "画像ビューアーを実寸表示にする"
+  },
+  "image_viewer::FitToView": {
+    "en": "Image Viewer Fit to View",
+    "zh-cn": "图像查看器适应视图",
+    "zh-tw": "影像檢視器適應檢視",
+    "es": "Ajustar a la vista en el visor de imágenes",
+    "fr": "Ajuster à la vue dans la visionneuse d’images",
+    "ja": "画像ビューアーを表示領域に合わせる"
+  },
+  "new_process_modal::ActivateTaskTab": {
+    "en": "Activate Task Tab",
+    "zh-cn": "激活任务标签页",
+    "zh-tw": "啟用任務分頁",
+    "es": "Activar pestaña de tareas",
+    "fr": "Activer l’onglet des tâches",
+    "ja": "タスクタブをアクティブ化"
+  },
+  "new_process_modal::ActivateDebugTab": {
+    "en": "Activate Debug Tab",
+    "zh-cn": "激活调试标签页",
+    "zh-tw": "啟用偵錯分頁",
+    "es": "Activar pestaña de depuración",
+    "fr": "Activer l’onglet de débogage",
+    "ja": "デバッグタブをアクティブ化"
+  },
+  "new_process_modal::ActivateAttachTab": {
+    "en": "Activate Attach Tab",
+    "zh-cn": "激活附加标签页",
+    "zh-tw": "啟用附加分頁",
+    "es": "Activar pestaña Adjuntar",
+    "fr": "Activer l’onglet Attacher",
+    "ja": "アタッチタブをアクティブ化"
+  },
+  "new_process_modal::ActivateLaunchTab": {
+    "en": "Activate Launch Tab",
+    "zh-cn": "激活启动标签页",
+    "zh-tw": "啟用啟動分頁",
+    "es": "Activar pestaña de inicio",
+    "fr": "Activer l’onglet de lancement",
+    "ja": "起動タブをアクティブ化"
+  },
+  "git_picker::ActivateBranchesTab": {
+    "en": "Activate Branches Tab",
+    "zh-cn": "激活分支标签页",
+    "zh-tw": "啟用分支分頁",
+    "es": "Activar pestaña de ramas",
+    "fr": "Activer l’onglet des branches",
+    "ja": "ブランチタブをアクティブ化"
+  },
+  "git_picker::ActivateWorktreesTab": {
+    "en": "Activate Worktrees Tab",
+    "zh-cn": "激活工作树标签页",
+    "zh-tw": "啟用工作樹分頁",
+    "es": "Activar pestaña de worktrees",
+    "fr": "Activer l’onglet des worktrees",
+    "ja": "ワークツリータブをアクティブ化"
+  },
+  "git_picker::ActivateStashTab": {
+    "en": "Activate Stash Tab",
+    "zh-cn": "激活暂存标签页",
+    "zh-tw": "啟用暫存分頁",
+    "es": "Activar pestaña de stash",
+    "fr": "Activer l’onglet des stashs",
+    "ja": "スタッシュタブをアクティブ化"
+  },
+  "notebook::RunAll": {
+    "en": "Run All Notebook Cells",
+    "zh-cn": "运行 Notebook 全部单元",
+    "zh-tw": "執行 Notebook 全部儲存格",
+    "es": "Ejecutar todas las celdas del cuaderno",
+    "fr": "Exécuter toutes les cellules du notebook",
+    "ja": "Notebook のすべてのセルを実行"
+  },
+  "notebook::MoveCellUp": {
+    "en": "Move Notebook Cell Up",
+    "zh-cn": "将 Notebook 单元上移",
+    "zh-tw": "將 Notebook 儲存格上移",
+    "es": "Mover celda del cuaderno hacia arriba",
+    "fr": "Déplacer la cellule du notebook vers le haut",
+    "ja": "Notebook のセルを上へ移動"
+  },
+  "notebook::MoveCellDown": {
+    "en": "Move Notebook Cell Down",
+    "zh-cn": "将 Notebook 单元下移",
+    "zh-tw": "將 Notebook 儲存格下移",
+    "es": "Mover celda del cuaderno hacia abajo",
+    "fr": "Déplacer la cellule du notebook vers le bas",
+    "ja": "Notebook のセルを下へ移動"
+  },
+  "notebook::AddCodeBlock": {
+    "en": "Add Notebook Code Block",
+    "zh-cn": "添加 Notebook 代码块",
+    "zh-tw": "新增 Notebook 程式碼區塊",
+    "es": "Añadir bloque de código al cuaderno",
+    "fr": "Ajouter un bloc de code au notebook",
+    "ja": "Notebook にコードブロックを追加"
+  },
+  "notebook::AddMarkdownBlock": {
+    "en": "Add Notebook Markdown Block",
+    "zh-cn": "添加 Notebook Markdown 块",
+    "zh-tw": "新增 Notebook Markdown 區塊",
+    "es": "Añadir bloque Markdown al cuaderno",
+    "fr": "Ajouter un bloc Markdown au notebook",
+    "ja": "Notebook に Markdown ブロックを追加"
+  },
+  "notebook::RestartKernel": {
+    "en": "Restart Notebook Kernel",
+    "zh-cn": "重启 Notebook 内核",
+    "zh-tw": "重新啟動 Notebook 核心",
+    "es": "Reiniciar el kernel del cuaderno",
+    "fr": "Redémarrer le noyau du notebook",
+    "ja": "Notebook のカーネルを再起動"
+  },
+  "notebook::InterruptKernel": {
+    "en": "Interrupt Notebook Kernel",
+    "zh-cn": "中断 Notebook 内核",
+    "zh-tw": "中斷 Notebook 核心",
+    "es": "Interrumpir el kernel del cuaderno",
+    "fr": "Interrompre le noyau du notebook",
+    "ja": "Notebook のカーネルを中断"
+  },
+  "debugger::StepInto": {
+    "en": "Step Into",
+    "zh-cn": "单步进入",
+    "zh-tw": "單步進入",
+    "es": "Entrar en la función",
+    "fr": "Entrer dans la fonction",
+    "ja": "ステップイン"
+  },
+  "zed::Hide": {
+    "en": "Hide Zed",
+    "zh-cn": "隐藏 Zed",
+    "zh-tw": "隱藏 Zed",
+    "es": "Ocultar Zed",
+    "fr": "Masquer Zed",
+    "ja": "Zed を隠す"
+  },
+  "zed::HideOthers": {
+    "en": "Hide Others",
+    "zh-cn": "隐藏其他窗口",
+    "zh-tw": "隱藏其他視窗",
+    "es": "Ocultar las demás ventanas",
+    "fr": "Masquer les autres fenêtres",
+    "ja": "ほかのウィンドウを隠す"
+  },
+  "edit_prediction::RatePredictions": {
+    "en": "Rate Edit Predictions",
+    "zh-cn": "为编辑预测评分",
+    "zh-tw": "為編輯預測評分",
+    "es": "Calificar predicciones de edición",
+    "fr": "Évaluer les prédictions d’édition",
+    "ja": "編集予測を評価"
+  },
+  "editor::Transpose": {
+    "en": "Transpose Characters",
+    "zh-cn": "交换字符",
+    "zh-tw": "交換字元",
+    "es": "Transponer caracteres",
+    "fr": "Transposer les caractères",
+    "ja": "文字を入れ替え"
+  },
+  "editor::KillRingCut": {
+    "en": "Cut to Kill Ring",
+    "zh-cn": "剪切到 Kill Ring",
+    "zh-tw": "剪下到 Kill Ring",
+    "es": "Cortar al Kill Ring",
+    "fr": "Couper vers le Kill Ring",
+    "ja": "Kill Ring に切り取り"
+  },
+  "editor::KillRingYank": {
+    "en": "Paste from Kill Ring",
+    "zh-cn": "从 Kill Ring 粘贴",
+    "zh-tw": "從 Kill Ring 貼上",
+    "es": "Pegar desde Kill Ring",
+    "fr": "Coller depuis le Kill Ring",
+    "ja": "Kill Ring から貼り付け"
+  },
+  "editor::MoveToStartOfParagraph": {
+    "en": "Move to Paragraph Start",
+    "zh-cn": "移动到段落开头",
+    "zh-tw": "移動至段落開頭",
+    "es": "Ir al inicio del párrafo",
+    "fr": "Aller au début du paragraphe",
+    "ja": "段落の先頭へ移動"
+  },
+  "editor::MoveToEndOfParagraph": {
+    "en": "Move to Paragraph End",
+    "zh-cn": "移动到段落结尾",
+    "zh-tw": "移動至段落結尾",
+    "es": "Ir al final del párrafo",
+    "fr": "Aller à la fin du paragraphe",
+    "ja": "段落の末尾へ移動"
+  },
+  "editor::SelectToStartOfParagraph": {
+    "en": "Select to Paragraph Start",
+    "zh-cn": "选择到段落开头",
+    "zh-tw": "選取至段落開頭",
+    "es": "Seleccionar hasta el inicio del párrafo",
+    "fr": "Sélectionner jusqu’au début du paragraphe",
+    "ja": "段落の先頭まで選択"
+  },
+  "editor::SelectToEndOfParagraph": {
+    "en": "Select to Paragraph End",
+    "zh-cn": "选择到段落结尾",
+    "zh-tw": "選取至段落結尾",
+    "es": "Seleccionar hasta el final del párrafo",
+    "fr": "Sélectionner jusqu’à la fin du paragraphe",
+    "ja": "段落の末尾まで選択"
+  },
+  "editor::GoToDeclaration": {
+    "en": "Go to Declaration",
+    "zh-cn": "转到声明",
+    "zh-tw": "移至宣告",
+    "es": "Ir a la declaración",
+    "fr": "Aller à la déclaration",
+    "ja": "宣言に移動"
+  },
+  "editor::GoToDeclarationSplit": {
+    "en": "Go to Declaration in Split",
+    "zh-cn": "在拆分窗格中转到声明",
+    "zh-tw": "在分割窗格中移至宣告",
+    "es": "Ir a la declaración en vista dividida",
+    "fr": "Aller à la déclaration en vue scindée",
+    "ja": "宣言を分割表示で開く"
+  },
+  "editor::MoveToStartOfExcerpt": {
+    "en": "Move to Excerpt Start",
+    "zh-cn": "移动到摘录开头",
+    "zh-tw": "移動至摘錄開頭",
+    "es": "Ir al inicio del extracto",
+    "fr": "Aller au début de l’extrait",
+    "ja": "抜粋の先頭へ移動"
+  },
+  "editor::MoveToStartOfNextExcerpt": {
+    "en": "Move to Next Excerpt Start",
+    "zh-cn": "移动到下一个摘录开头",
+    "zh-tw": "移動至下一個摘錄開頭",
+    "es": "Ir al inicio del siguiente extracto",
+    "fr": "Aller au début de l’extrait suivant",
+    "ja": "次の抜粋の先頭へ移動"
+  },
+  "editor::SelectToStartOfExcerpt": {
+    "en": "Select to Excerpt Start",
+    "zh-cn": "选择到摘录开头",
+    "zh-tw": "選取至摘錄開頭",
+    "es": "Seleccionar hasta el inicio del extracto",
+    "fr": "Sélectionner jusqu’au début de l’extrait",
+    "ja": "抜粋の先頭まで選択"
+  },
+  "editor::SelectToStartOfNextExcerpt": {
+    "en": "Select to Next Excerpt Start",
+    "zh-cn": "选择到下一个摘录开头",
+    "zh-tw": "選取至下一個摘錄開頭",
+    "es": "Seleccionar hasta el inicio del siguiente extracto",
+    "fr": "Sélectionner jusqu’au début de l’extrait suivant",
+    "ja": "次の抜粋の先頭まで選択"
+  },
+  "editor::SelectPreviousSyntaxNode": {
+    "en": "Select Previous Syntax Node",
+    "zh-cn": "选择上一个语法节点",
+    "zh-tw": "選取上一個語法節點",
+    "es": "Seleccionar nodo sintáctico anterior",
+    "fr": "Sélectionner le nœud syntaxique précédent",
+    "ja": "前の構文ノードを選択"
+  },
+  "editor::SelectNextSyntaxNode": {
+    "en": "Select Next Syntax Node",
+    "zh-cn": "选择下一个语法节点",
+    "zh-tw": "選取下一個語法節點",
+    "es": "Seleccionar siguiente nodo sintáctico",
+    "fr": "Sélectionner le nœud syntaxique suivant",
+    "ja": "次の構文ノードを選択"
+  },
+  "editor::GoToTypeDefinitionSplit": {
+    "en": "Go to Type Definition in Split",
+    "zh-cn": "在拆分窗格中转到类型定义",
+    "zh-tw": "在分割窗格中移至型別定義",
+    "es": "Ir a la definición de tipo en vista dividida",
+    "fr": "Aller à la définition de type en vue scindée",
+    "ja": "型定義を分割表示で開く"
+  },
+  "workspace::DecreaseOpenDocksSize": {
+    "en": "Decrease Open Docks Size",
+    "zh-cn": "减小已打开停靠栏的大小",
+    "zh-tw": "縮小已開啟停靠列的大小",
+    "es": "Reducir el tamaño de los paneles acoplados abiertos",
+    "fr": "Réduire la taille des docks ouverts",
+    "ja": "開いているドックのサイズを小さくする"
+  },
+  "workspace::IncreaseOpenDocksSize": {
+    "en": "Increase Open Docks Size",
+    "zh-cn": "增大已打开停靠栏的大小",
+    "zh-tw": "放大已開啟停靠列的大小",
+    "es": "Aumentar el tamaño de los paneles acoplados abiertos",
+    "fr": "Augmenter la taille des docks ouverts",
+    "ja": "開いているドックのサイズを大きくする"
+  },
+  "workspace::CopyPath": {
+    "en": "Copy Path",
+    "zh-cn": "复制路径",
+    "zh-tw": "複製路徑",
+    "es": "Copiar ruta",
+    "fr": "Copier le chemin",
+    "ja": "パスをコピー"
+  },
+  "project_panel::Duplicate": {
+    "en": "Duplicate Item",
+    "zh-cn": "复制项目",
+    "zh-tw": "複製項目",
+    "es": "Duplicar elemento",
+    "fr": "Dupliquer l’élément",
+    "ja": "項目を複製"
+  },
+  "workspace::OpenWithSystem": {
+    "en": "Open with System",
+    "zh-cn": "使用系统打开",
+    "zh-tw": "以系統開啟",
+    "es": "Abrir con el sistema",
+    "fr": "Ouvrir avec le système",
+    "ja": "システムで開く"
+  },
+  "git_panel::FirstEntry": {
+    "en": "Git Panel First Entry",
+    "zh-cn": "Git 面板第一项",
+    "zh-tw": "Git 面板第一項",
+    "es": "Primera entrada del panel de Git",
+    "fr": "Première entrée du panneau Git",
+    "ja": "Git パネルの最初の項目"
+  },
+  "git_panel::LastEntry": {
+    "en": "Git Panel Last Entry",
+    "zh-cn": "Git 面板最后一项",
+    "zh-tw": "Git 面板最後一項",
+    "es": "Última entrada del panel de Git",
+    "fr": "Dernière entrée du panneau Git",
+    "ja": "Git パネルの最後の項目"
+  },
+  "git::ExpandCommitEditor": {
+    "en": "Expand Commit Editor",
+    "zh-cn": "展开提交编辑器",
+    "zh-tw": "展開提交編輯器",
+    "es": "Expandir editor de commits",
+    "fr": "Développer l’éditeur de commit",
+    "ja": "コミットエディターを展開"
+  },
+  "zeta::ThumbsUpActivePrediction": {
+    "en": "Zeta Thumbs Up Active Prediction",
+    "zh-cn": "Zeta 对当前预测点赞",
+    "zh-tw": "Zeta 對目前預測按讚",
+    "es": "Aprobación de predicción activa de Zeta",
+    "fr": "Validation de la prédiction active Zeta",
+    "ja": "Zeta アクティブ予測に高評価"
+  },
+  "zeta::ThumbsDownActivePrediction": {
+    "en": "Zeta Thumbs Down Active Prediction",
+    "zh-cn": "Zeta 对当前预测点踩",
+    "zh-tw": "Zeta 對目前預測點踩",
+    "es": "Rechazo de predicción activa de Zeta",
+    "fr": "Rejet de la prédiction active Zeta",
+    "ja": "Zeta アクティブ予測に低評価"
+  },
+  "zeta::NextEdit": {
+    "en": "Zeta Next Edit",
+    "zh-cn": "Zeta 下一个编辑预测",
+    "zh-tw": "Zeta 下一個編輯預測",
+    "es": "Siguiente edición predicha de Zeta",
+    "fr": "Édition prédite suivante Zeta",
+    "ja": "Zeta 次の編集予測"
+  },
+  "zeta::PreviousEdit": {
+    "en": "Zeta Previous Edit",
+    "zh-cn": "Zeta 上一个编辑预测",
+    "zh-tw": "Zeta 上一個編輯預測",
+    "es": "Edición predicha anterior de Zeta",
+    "fr": "Édition prédite précédente Zeta",
+    "ja": "Zeta 前の編集予測"
+  },
+  "zeta::PreviewPrediction": {
+    "en": "Zeta Preview Prediction",
+    "zh-cn": "Zeta 预览预测",
+    "zh-tw": "Zeta 預覽預測",
+    "es": "Vista previa de predicción de Zeta",
+    "fr": "Aperçu de la prédiction Zeta",
+    "ja": "Zeta 予測をプレビュー"
+  },
+  "zeta::FocusPredictions": {
+    "en": "Zeta Focus Predictions",
+    "zh-cn": "Zeta 聚焦预测",
+    "zh-tw": "Zeta 聚焦預測",
+    "es": "Enfocar predicciones de Zeta",
+    "fr": "Mettre l’accent sur les prédictions Zeta",
+    "ja": "Zeta 予測にフォーカス"
+  }
+}

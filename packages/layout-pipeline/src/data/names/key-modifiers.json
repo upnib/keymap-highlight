@@ -1,0 +1,30 @@
+{
+  "modifierKinds": [
+    "ctrl",
+    "shift",
+    "alt",
+    "meta",
+    "fn",
+    "cmd",
+    "super",
+    "win",
+    "option",
+    "altgr",
+    "hyper",
+    "menu",
+    "gui"
+  ],
+  "modifierTokens": {
+    "ctrl": ["ctrl", "control", "ctl"],
+    "shift": ["shift"],
+    "alt": ["alt", "option", "opt", "altgr"],
+    "meta": ["meta", "cmd", "command", "super", "win", "windows", "gui", "hyper"],
+    "fn": ["fn"],
+    "menu": ["menu"]
+  },
+  "osSpecificTraits": {
+    "mac": ["cmd", "command", "opt", "option"],
+    "win": ["win", "windows", "menu"],
+    "linux": ["super", "meta", "hyper"]
+  }
+}

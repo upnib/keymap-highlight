@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "moduleResolution": "bundler",
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@keymap-highlight/cheatsheet-export": ["./packages/cheatsheet-export/src/index.ts"],
+      "@keymap-highlight/file-parsers": ["./packages/file-parsers/src/index.ts"],
+      "@keymap-highlight/layout-pipeline": ["./packages/layout-pipeline/src/index.ts"],
+      "@keymap-highlight/web": ["./apps/web/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "build"]
+}

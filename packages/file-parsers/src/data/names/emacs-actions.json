@@ -1,0 +1,1466 @@
+{
+  "save-buffer": {
+    "en": "Save Buffer",
+    "zh-cn": "保存缓冲区",
+    "zh-tw": "儲存緩衝區",
+    "es": "Guardar Búfer",
+    "fr": "Enregistrer le Tampon",
+    "ja": "バッファを保存"
+  },
+  "find-file": {
+    "en": "Find File",
+    "zh-cn": "查找文件",
+    "zh-tw": "尋找文件",
+    "es": "Buscar Archivo",
+    "fr": "Trouver le Fichier",
+    "ja": "ファイルを検索"
+  },
+  "execute-extended-command": {
+    "en": "Command Palette (M-x)",
+    "zh-cn": "命令面板 (M-x)",
+    "zh-tw": "命令選擇區 (M-x)",
+    "es": "Paleta de Comandos (M-x)",
+    "fr": "Palette de Commandes (M-x)",
+    "ja": "コマンドパレット (M-x)"
+  },
+  "kill-buffer": {
+    "en": "Close Buffer",
+    "zh-cn": "关闭缓冲区",
+    "zh-tw": "關閉緩衝區",
+    "es": "Cerrar Búfer",
+    "fr": "Fermer le Tampon",
+    "ja": "バッファを閉じる"
+  },
+  "switch-to-buffer": {
+    "en": "Switch Buffer",
+    "zh-cn": "切换缓冲区",
+    "zh-tw": "切換緩衝區",
+    "es": "Cambiar Búfer",
+    "fr": "Changer de Tampon",
+    "ja": "バッファを切り替え"
+  },
+  "other-window": {
+    "en": "Other Window",
+    "zh-cn": "其他窗口",
+    "zh-tw": "其他視窗",
+    "es": "Otra Ventana",
+    "fr": "Autre Fenêtre",
+    "ja": "他のウィンドウ"
+  },
+  "delete-window": {
+    "en": "Delete Window",
+    "zh-cn": "删除窗口",
+    "zh-tw": "刪除視窗",
+    "es": "Eliminar Ventana",
+    "fr": "Supprimer la Fenêtre",
+    "ja": "ウィンドウを削除"
+  },
+  "split-window-right": {
+    "en": "Split Window Right",
+    "zh-cn": "向右分割窗口",
+    "zh-tw": "向右分割視窗",
+    "es": "Dividir Ventana a la Derecha",
+    "fr": "Diviser la Fenêtre à Droite",
+    "ja": "ウィンドウを右に分割"
+  },
+  "split-window-below": {
+    "en": "Split Window Below",
+    "zh-cn": "向下分割窗口",
+    "zh-tw": "向下分割視窗",
+    "es": "Dividir Ventana Abajo",
+    "fr": "Diviser la Fenêtre en Dessous",
+    "ja": "ウィンドウを下に分割"
+  },
+  "keyboard-quit": {
+    "en": "Cancel (C-g)",
+    "zh-cn": "取消 (C-g)",
+    "zh-tw": "取消 (C-g)",
+    "es": "Cancelar (C-g)",
+    "fr": "Annuler (C-g)",
+    "ja": "キャンセル (C-g)"
+  },
+  "beginning-of-line": {
+    "en": "Go to Line Start",
+    "zh-cn": "跳转到行首",
+    "zh-tw": "移至行首",
+    "es": "Ir al Inicio de Línea",
+    "fr": "Aller au Début de Ligne",
+    "ja": "行頭へ移動"
+  },
+  "end-of-line": {
+    "en": "Go to Line End",
+    "zh-cn": "跳转到行尾",
+    "zh-tw": "移至行尾",
+    "es": "Ir al Fin de Línea",
+    "fr": "Aller à la Fin de Ligne",
+    "ja": "行末へ移動"
+  },
+  "beginning-of-buffer": {
+    "en": "Go to Buffer Start",
+    "zh-cn": "跳转到缓冲区开头",
+    "zh-tw": "移至緩衝區開頭",
+    "es": "Ir al Inicio del Búfer",
+    "fr": "Aller au Début du Tampon",
+    "ja": "バッファの先頭へ"
+  },
+  "end-of-buffer": {
+    "en": "Go to Buffer End",
+    "zh-cn": "跳转到缓冲区末尾",
+    "zh-tw": "移至緩衝區末尾",
+    "es": "Ir al Fin del Búfer",
+    "fr": "Aller à la Fin du Tampon",
+    "ja": "バッファの末尾へ"
+  },
+  "forward-char": {
+    "en": "Move Right",
+    "zh-cn": "向右移动",
+    "zh-tw": "向右移動",
+    "es": "Mover a la Derecha",
+    "fr": "Déplacer à Droite",
+    "ja": "右に移動"
+  },
+  "backward-char": {
+    "en": "Move Left",
+    "zh-cn": "向左移动",
+    "zh-tw": "向左移動",
+    "es": "Mover a la Izquierda",
+    "fr": "Déplacer à Gauche",
+    "ja": "左に移動"
+  },
+  "next-line": {
+    "en": "Move Down",
+    "zh-cn": "向下移动",
+    "zh-tw": "向下移動",
+    "es": "Mover Abajo",
+    "fr": "Déplacer vers le Bas",
+    "ja": "下に移動"
+  },
+  "previous-line": {
+    "en": "Move Up",
+    "zh-cn": "向上移动",
+    "zh-tw": "向上移動",
+    "es": "Mover Arriba",
+    "fr": "Déplacer vers le Haut",
+    "ja": "上に移動"
+  },
+  "forward-word": {
+    "en": "Move to Next Word",
+    "zh-cn": "向前移动一个单词",
+    "zh-tw": "向前移動一個字詞",
+    "es": "Mover Palabra Adelante",
+    "fr": "Avancer d'un Mot",
+    "ja": "単語を前方に移動"
+  },
+  "backward-word": {
+    "en": "Move to Previous Word",
+    "zh-cn": "向后移动一个单词",
+    "zh-tw": "向後移動一個字詞",
+    "es": "Mover Palabra Atrás",
+    "fr": "Reculer d'un Mot",
+    "ja": "単語を後方に移動"
+  },
+  "kill-line": {
+    "en": "Kill Line",
+    "zh-cn": "删除行",
+    "zh-tw": "刪除行",
+    "es": "Eliminar Línea",
+    "fr": "Tuer la Ligne",
+    "ja": "行をキル"
+  },
+  "kill-word": {
+    "en": "Kill Word",
+    "zh-cn": "删除单词",
+    "zh-tw": "刪除字詞",
+    "es": "Eliminar Palabra",
+    "fr": "Tuer le Mot",
+    "ja": "単語をキル"
+  },
+  "backward-kill-word": {
+    "en": "Kill Word Backward",
+    "zh-cn": "向后删除单词",
+    "zh-tw": "向後刪除字詞",
+    "es": "Eliminar Palabra Hacia Atrás",
+    "fr": "Tuer le Mot vers l'Arrière",
+    "ja": "後方の単語をキル"
+  },
+  "yank": {
+    "en": "Paste (Yank)",
+    "zh-cn": "粘贴（Yank）",
+    "zh-tw": "貼上（Yank）",
+    "es": "Pegar (Yank)",
+    "fr": "Coller (Yank)",
+    "ja": "ペースト（ヤンク）"
+  },
+  "kill-ring-save": {
+    "en": "Copy to Kill Ring",
+    "zh-cn": "复制到 Kill Ring",
+    "zh-tw": "複製到 Kill Ring",
+    "es": "Copiar al Kill Ring",
+    "fr": "Copier vers le Kill Ring",
+    "ja": "Kill Ring にコピー"
+  },
+  "undo": {
+    "en": "Undo",
+    "zh-cn": "撤销",
+    "zh-tw": "復原",
+    "es": "Deshacer",
+    "fr": "Annuler",
+    "ja": "元に戻す"
+  },
+  "undo-only": {
+    "en": "Undo Only",
+    "zh-cn": "仅撤销",
+    "zh-tw": "僅復原",
+    "es": "Solo Deshacer",
+    "fr": "Annuler Seulement",
+    "ja": "元に戻すのみ"
+  },
+  "redo": {
+    "en": "Redo",
+    "zh-cn": "重做",
+    "zh-tw": "取消復原",
+    "es": "Rehacer",
+    "fr": "Rétablir",
+    "ja": "やり直し"
+  },
+  "isearch-forward": {
+    "en": "Incremental Search Forward",
+    "zh-cn": "向前增量搜索",
+    "zh-tw": "向前增量搜尋",
+    "es": "Búsqueda Incremental Adelante",
+    "fr": "Recherche Incrémentielle vers l'Avant",
+    "ja": "前方インクリメンタル検索"
+  },
+  "isearch-backward": {
+    "en": "Incremental Search Backward",
+    "zh-cn": "向后增量搜索",
+    "zh-tw": "向後增量搜尋",
+    "es": "Búsqueda Incremental Atrás",
+    "fr": "Recherche Incrémentielle vers l'Arrière",
+    "ja": "後方インクリメンタル検索"
+  },
+  "query-replace": {
+    "en": "Query Replace",
+    "zh-cn": "交互式替换",
+    "zh-tw": "互動式替換",
+    "es": "Reemplazo Interactivo",
+    "fr": "Remplacement Interactif",
+    "ja": "対話的置換"
+  },
+  "query-replace-regexp": {
+    "en": "Query Replace Regexp",
+    "zh-cn": "正则表达式交互式替换",
+    "zh-tw": "規則運算式互動式替換",
+    "es": "Reemplazo Interactivo de Expresión Regular",
+    "fr": "Remplacement Interactif par Expression Régulière",
+    "ja": "正規表現対話的置換"
+  },
+  "mark-whole-buffer": {
+    "en": "Select All",
+    "zh-cn": "全选",
+    "zh-tw": "全選",
+    "es": "Seleccionar Todo",
+    "fr": "Sélectionner Tout",
+    "ja": "すべて選択"
+  },
+  "set-mark-command": {
+    "en": "Set Mark",
+    "zh-cn": "设置标记",
+    "zh-tw": "設定標記",
+    "es": "Establecer Marca",
+    "fr": "Définir la Marque",
+    "ja": "マークを設定"
+  },
+  "exchange-point-and-mark": {
+    "en": "Exchange Point and Mark",
+    "zh-cn": "交换光标和标记",
+    "zh-tw": "交換游標與標記",
+    "es": "Intercambiar Punto y Marca",
+    "fr": "Échanger le Point et la Marque",
+    "ja": "ポイントとマークを交換"
+  },
+  "indent-region": {
+    "en": "Indent Region",
+    "zh-cn": "缩进区域",
+    "zh-tw": "縮排區域",
+    "es": "Indentar Región",
+    "fr": "Indenter la Région",
+    "ja": "リージョンをインデント"
+  },
+  "comment-region": {
+    "en": "Comment Region",
+    "zh-cn": "注释区域",
+    "zh-tw": "注解區域",
+    "es": "Comentar Región",
+    "fr": "Commenter la Région",
+    "ja": "リージョンをコメントアウト"
+  },
+  "uncomment-region": {
+    "en": "Uncomment Region",
+    "zh-cn": "取消注释区域",
+    "zh-tw": "取消注解區域",
+    "es": "Descomentar Región",
+    "fr": "Décommenter la Région",
+    "ja": "リージョンのコメントアウトを解除"
+  },
+  "recenter-top-bottom": {
+    "en": "Recenter (Top/Middle/Bottom)",
+    "zh-cn": "重新居中（上/中/下）",
+    "zh-tw": "重新置中（上/中/下）",
+    "es": "Recentrar (Arriba/Centro/Abajo)",
+    "fr": "Recentrer (Haut/Milieu/Bas)",
+    "ja": "再センタリング（上/中/下）"
+  },
+  "scroll-up-command": {
+    "en": "Scroll Up",
+    "zh-cn": "向上滚动",
+    "zh-tw": "向上捲動",
+    "es": "Desplazar Arriba",
+    "fr": "Faire Défiler vers le Haut",
+    "ja": "上にスクロール"
+  },
+  "scroll-down-command": {
+    "en": "Scroll Down",
+    "zh-cn": "向下滚动",
+    "zh-tw": "向下捲動",
+    "es": "Desplazar Abajo",
+    "fr": "Faire Défiler vers le Bas",
+    "ja": "下にスクロール"
+  },
+  "goto-line": {
+    "en": "Go to Line",
+    "zh-cn": "跳转到行",
+    "zh-tw": "移至行",
+    "es": "Ir a la Línea",
+    "fr": "Aller à la Ligne",
+    "ja": "行に移動"
+  },
+  "dired": {
+    "en": "Open Directory",
+    "zh-cn": "打开目录",
+    "zh-tw": "開啟目錄",
+    "es": "Abrir Directorio",
+    "fr": "Ouvrir le Répertoire",
+    "ja": "ディレクトリを開く"
+  },
+  "magit-status": {
+    "en": "Git Status (Magit)",
+    "zh-cn": "Git状态 (Magit)",
+    "zh-tw": "Git狀態 (Magit)",
+    "es": "Estado de Git (Magit)",
+    "fr": "État Git (Magit)",
+    "ja": "Gitステータス (Magit)"
+  },
+  "projectile-find-file": {
+    "en": "Project Find File",
+    "zh-cn": "项目文件查找",
+    "zh-tw": "專案文件尋找",
+    "es": "Buscar Archivo en Proyecto",
+    "fr": "Trouver un Fichier dans le Projet",
+    "ja": "プロジェクトファイルを検索"
+  },
+  "counsel-find-file": {
+    "en": "Find File (Counsel)",
+    "zh-cn": "查找文件 (Counsel)",
+    "zh-tw": "尋找文件 (Counsel)",
+    "es": "Buscar Archivo (Counsel)",
+    "fr": "Trouver le Fichier (Counsel)",
+    "ja": "ファイルを検索 (Counsel)"
+  },
+  "helm-find-files": {
+    "en": "Find Files (Helm)",
+    "zh-cn": "查找文件 (Helm)",
+    "zh-tw": "尋找文件 (Helm)",
+    "es": "Buscar Archivos (Helm)",
+    "fr": "Trouver les Fichiers (Helm)",
+    "ja": "ファイルを検索 (Helm)"
+  },
+  "ivy-switch-buffer": {
+    "en": "Switch Buffer (Ivy)",
+    "zh-cn": "切换缓冲区 (Ivy)",
+    "zh-tw": "切換緩衝區 (Ivy)",
+    "es": "Cambiar Búfer (Ivy)",
+    "fr": "Changer de Tampon (Ivy)",
+    "ja": "バッファを切り替え (Ivy)"
+  },
+  "org-agenda": {
+    "en": "Org Agenda",
+    "zh-cn": "Org 日程",
+    "zh-tw": "Org 議程",
+    "es": "Agenda Org",
+    "fr": "Agenda Org",
+    "ja": "Org アジェンダ"
+  },
+  "org-capture": {
+    "en": "Org Capture",
+    "zh-cn": "Org 捕获",
+    "zh-tw": "Org 擷取",
+    "es": "Captura Org",
+    "fr": "Capture Org",
+    "ja": "Org キャプチャ"
+  },
+  "save-some-buffers": {
+    "en": "Save Some Buffers",
+    "zh-cn": "保存部分缓冲区",
+    "zh-tw": "儲存部分緩衝區",
+    "es": "Guardar Algunos Búferes",
+    "fr": "Enregistrer Certains Tampons",
+    "ja": "一部のバッファを保存"
+  },
+  "write-file": {
+    "en": "Write File As",
+    "zh-cn": "另存为",
+    "zh-tw": "另存為",
+    "es": "Guardar Archivo Como",
+    "fr": "Enregistrer sous",
+    "ja": "名前を付けて保存"
+  },
+  "find-file-other-window": {
+    "en": "Find File in Other Window",
+    "zh-cn": "在其他窗口查找文件",
+    "zh-tw": "在其他視窗尋找文件",
+    "es": "Buscar Archivo en Otra Ventana",
+    "fr": "Trouver le Fichier dans une Autre Fenêtre",
+    "ja": "別ウィンドウでファイルを検索"
+  },
+  "find-file-other-frame": {
+    "en": "Find File in Other Frame",
+    "zh-cn": "在其他帧查找文件",
+    "zh-tw": "在其他框架尋找文件",
+    "es": "Buscar Archivo en Otro Marco",
+    "fr": "Trouver le Fichier dans un Autre Cadre",
+    "ja": "別フレームでファイルを検索"
+  },
+  "revert-buffer": {
+    "en": "Revert Buffer",
+    "zh-cn": "还原缓冲区",
+    "zh-tw": "還原緩衝區",
+    "es": "Revertir Búfer",
+    "fr": "Rétablir le Tampon",
+    "ja": "バッファを元に戻す"
+  },
+  "recover-file": {
+    "en": "Recover File",
+    "zh-cn": "恢复文件",
+    "zh-tw": "恢復文件",
+    "es": "Recuperar Archivo",
+    "fr": "Récupérer le Fichier",
+    "ja": "ファイルを回復"
+  },
+  "list-buffers": {
+    "en": "List Buffers",
+    "zh-cn": "列出缓冲区",
+    "zh-tw": "列出緩衝區",
+    "es": "Listar Búferes",
+    "fr": "Lister les Tampons",
+    "ja": "バッファ一覧"
+  },
+  "buffer-menu": {
+    "en": "Buffer Menu",
+    "zh-cn": "缓冲区菜单",
+    "zh-tw": "緩衝區功能表",
+    "es": "Menú de Búfer",
+    "fr": "Menu des Tampons",
+    "ja": "バッファメニュー"
+  },
+  "ibuffer": {
+    "en": "Interactive Buffer List",
+    "zh-cn": "交互式缓冲区列表",
+    "zh-tw": "互動式緩衝區列表",
+    "es": "Lista Interactiva de Búferes",
+    "fr": "Liste Interactive des Tampons",
+    "ja": "インタラクティブバッファリスト"
+  },
+  "kill-some-buffers": {
+    "en": "Kill Some Buffers",
+    "zh-cn": "关闭部分缓冲区",
+    "zh-tw": "關閉部分緩衝區",
+    "es": "Cerrar Algunos Búferes",
+    "fr": "Fermer Certains Tampons",
+    "ja": "一部のバッファをキル"
+  },
+  "rename-buffer": {
+    "en": "Rename Buffer",
+    "zh-cn": "重命名缓冲区",
+    "zh-tw": "重新命名緩衝區",
+    "es": "Renombrar Búfer",
+    "fr": "Renommer le Tampon",
+    "ja": "バッファ名を変更"
+  },
+  "move-to-window-line-top-bottom": {
+    "en": "Move to Window Line (Top/Middle/Bottom)",
+    "zh-cn": "移动到窗口行（上/中/下）",
+    "zh-tw": "移至視窗行（上/中/下）",
+    "es": "Mover a la Línea de Ventana (Arriba/Centro/Abajo)",
+    "fr": "Déplacer à la Ligne de la Fenêtre (Haut/Milieu/Bas)",
+    "ja": "ウィンドウ行へ移動（上/中/下）"
+  },
+  "move-beginning-of-line": {
+    "en": "Move to Beginning of Line",
+    "zh-cn": "移动到行首",
+    "zh-tw": "移至行首",
+    "es": "Mover al Inicio de Línea",
+    "fr": "Déplacer au Début de Ligne",
+    "ja": "行頭に移動"
+  },
+  "move-end-of-line": {
+    "en": "Move to End of Line",
+    "zh-cn": "移动到行尾",
+    "zh-tw": "移至行尾",
+    "es": "Mover al Fin de Línea",
+    "fr": "Déplacer à la Fin de Ligne",
+    "ja": "行末に移動"
+  },
+  "forward-paragraph": {
+    "en": "Forward Paragraph",
+    "zh-cn": "向前移动段落",
+    "zh-tw": "向前移動段落",
+    "es": "Párrafo Adelante",
+    "fr": "Paragraphe Suivant",
+    "ja": "段落を前方に移動"
+  },
+  "backward-paragraph": {
+    "en": "Backward Paragraph",
+    "zh-cn": "向后移动段落",
+    "zh-tw": "向後移動段落",
+    "es": "Párrafo Atrás",
+    "fr": "Paragraphe Précédent",
+    "ja": "段落を後方に移動"
+  },
+  "forward-sentence": {
+    "en": "Forward Sentence",
+    "zh-cn": "向前移动句子",
+    "zh-tw": "向前移動句子",
+    "es": "Oración Adelante",
+    "fr": "Phrase Suivante",
+    "ja": "文を前方に移動"
+  },
+  "backward-sentence": {
+    "en": "Backward Sentence",
+    "zh-cn": "向后移动句子",
+    "zh-tw": "向後移動句子",
+    "es": "Oración Atrás",
+    "fr": "Phrase Précédente",
+    "ja": "文を後方に移動"
+  },
+  "forward-sexp": {
+    "en": "Forward S-expression",
+    "zh-cn": "向前移动S表达式",
+    "zh-tw": "向前移動S運算式",
+    "es": "S-expresión Adelante",
+    "fr": "S-expression Suivante",
+    "ja": "S式を前方に移動"
+  },
+  "backward-sexp": {
+    "en": "Backward S-expression",
+    "zh-cn": "向后移动S表达式",
+    "zh-tw": "向後移動S運算式",
+    "es": "S-expresión Atrás",
+    "fr": "S-expression Précédente",
+    "ja": "S式を後方に移動"
+  },
+  "up-list": {
+    "en": "Up List",
+    "zh-cn": "上升列表",
+    "zh-tw": "上升列表",
+    "es": "Subir en Lista",
+    "fr": "Monter dans la Liste",
+    "ja": "リストを上る"
+  },
+  "down-list": {
+    "en": "Down List",
+    "zh-cn": "下降列表",
+    "zh-tw": "下降列表",
+    "es": "Bajar en Lista",
+    "fr": "Descendre dans la Liste",
+    "ja": "リストを下る"
+  },
+  "kill-region": {
+    "en": "Kill Region (Cut)",
+    "zh-cn": "删除区域（剪切）",
+    "zh-tw": "刪除區域（剪下）",
+    "es": "Matar Región (Cortar)",
+    "fr": "Tuer la Région (Couper)",
+    "ja": "リージョンをキル（カット）"
+  },
+  "kill-ring-save-region": {
+    "en": "Copy Region to Kill Ring",
+    "zh-cn": "复制区域到 Kill Ring",
+    "zh-tw": "複製區域到 Kill Ring",
+    "es": "Copiar Región al Kill Ring",
+    "fr": "Copier la Région vers le Kill Ring",
+    "ja": "リージョンを Kill Ring にコピー"
+  },
+  "yank-pop": {
+    "en": "Yank Pop",
+    "zh-cn": "循环粘贴",
+    "zh-tw": "循環貼上",
+    "es": "Yank Pop",
+    "fr": "Yank Pop",
+    "ja": "ヤンクポップ"
+  },
+  "delete-char": {
+    "en": "Delete Character",
+    "zh-cn": "删除字符",
+    "zh-tw": "刪除字元",
+    "es": "Eliminar Carácter",
+    "fr": "Supprimer le Caractère",
+    "ja": "文字を削除"
+  },
+  "backward-delete-char": {
+    "en": "Backspace",
+    "zh-cn": "退格",
+    "zh-tw": "退格",
+    "es": "Retroceso",
+    "fr": "Retour Arrière",
+    "ja": "バックスペース"
+  },
+  "delete-horizontal-space": {
+    "en": "Delete Horizontal Space",
+    "zh-cn": "删除水平空白",
+    "zh-tw": "刪除水平空白",
+    "es": "Eliminar Espacio Horizontal",
+    "fr": "Supprimer l'Espace Horizontal",
+    "ja": "水平スペースを削除"
+  },
+  "just-one-space": {
+    "en": "Just One Space",
+    "zh-cn": "保留一个空格",
+    "zh-tw": "保留一個空格",
+    "es": "Solo un Espacio",
+    "fr": "Un Seul Espace",
+    "ja": "スペースを一つだけ残す"
+  },
+  "delete-blank-lines": {
+    "en": "Delete Blank Lines",
+    "zh-cn": "删除空行",
+    "zh-tw": "刪除空行",
+    "es": "Eliminar Líneas en Blanco",
+    "fr": "Supprimer les Lignes Vides",
+    "ja": "空行を削除"
+  },
+  "open-line": {
+    "en": "Open Line",
+    "zh-cn": "打开新行",
+    "zh-tw": "開啟新行",
+    "es": "Abrir Línea",
+    "fr": "Ouvrir une Ligne",
+    "ja": "新しい行を開く"
+  },
+  "newline": {
+    "en": "New Line",
+    "zh-cn": "新行",
+    "zh-tw": "新行",
+    "es": "Nueva Línea",
+    "fr": "Nouvelle Ligne",
+    "ja": "新しい行"
+  },
+  "newline-and-indent": {
+    "en": "New Line and Indent",
+    "zh-cn": "新行并缩进",
+    "zh-tw": "新行並縮排",
+    "es": "Nueva Línea e Indentar",
+    "fr": "Nouvelle Ligne et Indenter",
+    "ja": "新しい行とインデント"
+  },
+  "transpose-chars": {
+    "en": "Transpose Characters",
+    "zh-cn": "交换字符",
+    "zh-tw": "交換字元",
+    "es": "Transponer Caracteres",
+    "fr": "Transposer les Caractères",
+    "ja": "文字を入れ替え"
+  },
+  "transpose-words": {
+    "en": "Transpose Words",
+    "zh-cn": "交换单词",
+    "zh-tw": "交換字詞",
+    "es": "Transponer Palabras",
+    "fr": "Transposer les Mots",
+    "ja": "単語を入れ替え"
+  },
+  "transpose-lines": {
+    "en": "Transpose Lines",
+    "zh-cn": "交换行",
+    "zh-tw": "交換行",
+    "es": "Transponer Líneas",
+    "fr": "Transposer les Lignes",
+    "ja": "行を入れ替え"
+  },
+  "upcase-word": {
+    "en": "Uppercase Word",
+    "zh-cn": "单词转大写",
+    "zh-tw": "字詞轉大寫",
+    "es": "Mayúsculas la Palabra",
+    "fr": "Mettre le Mot en Majuscules",
+    "ja": "単語を大文字に変換"
+  },
+  "downcase-word": {
+    "en": "Lowercase Word",
+    "zh-cn": "单词转小写",
+    "zh-tw": "字詞轉小寫",
+    "es": "Minúsculas la Palabra",
+    "fr": "Mettre le Mot en Minuscules",
+    "ja": "単語を小文字に変換"
+  },
+  "capitalize-word": {
+    "en": "Capitalize Word",
+    "zh-cn": "单词首字母大写",
+    "zh-tw": "字詞首字母大寫",
+    "es": "Capitalizar Palabra",
+    "fr": "Mettre le Mot en Majuscule Initiale",
+    "ja": "単語を先頭大文字に変換"
+  },
+  "upcase-region": {
+    "en": "Uppercase Region",
+    "zh-cn": "区域转大写",
+    "zh-tw": "區域轉大寫",
+    "es": "Mayúsculas la Región",
+    "fr": "Mettre la Région en Majuscules",
+    "ja": "リージョンを大文字に変換"
+  },
+  "downcase-region": {
+    "en": "Lowercase Region",
+    "zh-cn": "区域转小写",
+    "zh-tw": "區域轉小寫",
+    "es": "Minúsculas la Región",
+    "fr": "Mettre la Région en Minuscules",
+    "ja": "リージョンを小文字に変換"
+  },
+  "fill-paragraph": {
+    "en": "Fill Paragraph",
+    "zh-cn": "填充段落",
+    "zh-tw": "填充段落",
+    "es": "Rellenar Párrafo",
+    "fr": "Remplir le Paragraphe",
+    "ja": "段落を整形"
+  },
+  "fill-region": {
+    "en": "Fill Region",
+    "zh-cn": "填充区域",
+    "zh-tw": "填充區域",
+    "es": "Rellenar Región",
+    "fr": "Remplir la Région",
+    "ja": "リージョンを整形"
+  },
+  "indent-for-tab-command": {
+    "en": "Indent or Complete",
+    "zh-cn": "缩进或补全",
+    "zh-tw": "縮排或補全",
+    "es": "Indentar o Completar",
+    "fr": "Indenter ou Compléter",
+    "ja": "インデントまたは補完"
+  },
+  "indent-rigidly": {
+    "en": "Indent Rigidly",
+    "zh-cn": "刚性缩进",
+    "zh-tw": "剛性縮排",
+    "es": "Indentar Rígidamente",
+    "fr": "Indenter Rigoureusement",
+    "ja": "厳密にインデント"
+  },
+  "tab-to-tab-stop": {
+    "en": "Tab to Tab Stop",
+    "zh-cn": "跳到Tab停止符",
+    "zh-tw": "跳至Tab停止點",
+    "es": "Tabulación al Tabulador",
+    "fr": "Tabulation au Taquet",
+    "ja": "タブ位置へタブ移動"
+  },
+  "move-to-column": {
+    "en": "Move to Column",
+    "zh-cn": "移动到列",
+    "zh-tw": "移至欄",
+    "es": "Mover a la Columna",
+    "fr": "Déplacer à la Colonne",
+    "ja": "列に移動"
+  },
+  "what-cursor-position": {
+    "en": "Show Cursor Position",
+    "zh-cn": "显示光标位置",
+    "zh-tw": "顯示游標位置",
+    "es": "Mostrar Posición del Cursor",
+    "fr": "Afficher la Position du Curseur",
+    "ja": "カーソル位置を表示"
+  },
+  "count-words-region": {
+    "en": "Count Words in Region",
+    "zh-cn": "统计区域字数",
+    "zh-tw": "統計區域字數",
+    "es": "Contar Palabras en la Región",
+    "fr": "Compter les Mots dans la Région",
+    "ja": "リージョン内の単語数を数える"
+  },
+  "count-lines-region": {
+    "en": "Count Lines in Region",
+    "zh-cn": "统计区域行数",
+    "zh-tw": "統計區域行數",
+    "es": "Contar Líneas en la Región",
+    "fr": "Compter les Lignes dans la Région",
+    "ja": "リージョン内の行数を数える"
+  },
+  "replace-string": {
+    "en": "Replace String",
+    "zh-cn": "替换字符串",
+    "zh-tw": "替換字串",
+    "es": "Reemplazar Cadena",
+    "fr": "Remplacer la Chaîne",
+    "ja": "文字列を置換"
+  },
+  "replace-regexp": {
+    "en": "Replace Regexp",
+    "zh-cn": "替换正则表达式",
+    "zh-tw": "替換規則運算式",
+    "es": "Reemplazar Expresión Regular",
+    "fr": "Remplacer l'Expression Régulière",
+    "ja": "正規表現を置換"
+  },
+  "occur": {
+    "en": "Occur (Find All)",
+    "zh-cn": "Occur（查找全部）",
+    "zh-tw": "Occur（尋找全部）",
+    "es": "Buscar Todas las Ocurrencias",
+    "fr": "Trouver Toutes les Occurrences",
+    "ja": "すべての出現箇所を検索"
+  },
+  "keep-lines": {
+    "en": "Keep Lines Matching",
+    "zh-cn": "保留匹配行",
+    "zh-tw": "保留相符行",
+    "es": "Mantener Líneas que Coincidan",
+    "fr": "Garder les Lignes Correspondantes",
+    "ja": "一致する行を保持"
+  },
+  "flush-lines": {
+    "en": "Flush Lines Matching",
+    "zh-cn": "删除匹配行",
+    "zh-tw": "刪除相符行",
+    "es": "Eliminar Líneas que Coincidan",
+    "fr": "Supprimer les Lignes Correspondantes",
+    "ja": "一致する行を削除"
+  },
+  "how-many": {
+    "en": "Count Occurrences",
+    "zh-cn": "统计出现次数",
+    "zh-tw": "統計出現次數",
+    "es": "Contar Ocurrencias",
+    "fr": "Compter les Occurrences",
+    "ja": "出現回数を数える"
+  },
+  "shell-command": {
+    "en": "Run Shell Command",
+    "zh-cn": "运行Shell命令",
+    "zh-tw": "執行Shell命令",
+    "es": "Ejecutar Comando de Shell",
+    "fr": "Exécuter une Commande Shell",
+    "ja": "シェルコマンドを実行"
+  },
+  "shell-command-on-region": {
+    "en": "Run Shell Command on Region",
+    "zh-cn": "在区域上运行Shell命令",
+    "zh-tw": "在區域上執行Shell命令",
+    "es": "Ejecutar Comando de Shell en la Región",
+    "fr": "Exécuter une Commande Shell sur la Région",
+    "ja": "リージョンでシェルコマンドを実行"
+  },
+  "async-shell-command": {
+    "en": "Async Shell Command",
+    "zh-cn": "异步Shell命令",
+    "zh-tw": "非同步Shell命令",
+    "es": "Comando de Shell Asíncrono",
+    "fr": "Commande Shell Asynchrone",
+    "ja": "非同期シェルコマンド"
+  },
+  "eshell": {
+    "en": "Open Eshell",
+    "zh-cn": "打开Eshell",
+    "zh-tw": "開啟Eshell",
+    "es": "Abrir Eshell",
+    "fr": "Ouvrir Eshell",
+    "ja": "Eshellを開く"
+  },
+  "term": {
+    "en": "Open Terminal",
+    "zh-cn": "打开终端",
+    "zh-tw": "開啟終端機",
+    "es": "Abrir Terminal",
+    "fr": "Ouvrir le Terminal",
+    "ja": "ターミナルを開く"
+  },
+  "ansi-term": {
+    "en": "Open ANSI Terminal",
+    "zh-cn": "打开ANSI终端",
+    "zh-tw": "開啟ANSI終端機",
+    "es": "Abrir Terminal ANSI",
+    "fr": "Ouvrir le Terminal ANSI",
+    "ja": "ANSIターミナルを開く"
+  },
+  "compile": {
+    "en": "Compile",
+    "zh-cn": "编译",
+    "zh-tw": "編譯",
+    "es": "Compilar",
+    "fr": "Compiler",
+    "ja": "コンパイル"
+  },
+  "recompile": {
+    "en": "Recompile",
+    "zh-cn": "重新编译",
+    "zh-tw": "重新編譯",
+    "es": "Recompilar",
+    "fr": "Recompiler",
+    "ja": "再コンパイル"
+  },
+  "next-error": {
+    "en": "Next Error",
+    "zh-cn": "下一个错误",
+    "zh-tw": "下一個錯誤",
+    "es": "Siguiente Error",
+    "fr": "Erreur Suivante",
+    "ja": "次のエラー"
+  },
+  "previous-error": {
+    "en": "Previous Error",
+    "zh-cn": "上一个错误",
+    "zh-tw": "上一個錯誤",
+    "es": "Error Anterior",
+    "fr": "Erreur Précédente",
+    "ja": "前のエラー"
+  },
+  "xref-find-definitions": {
+    "en": "Find Definitions",
+    "zh-cn": "查找定义",
+    "zh-tw": "尋找定義",
+    "es": "Buscar Definiciones",
+    "fr": "Trouver les Définitions",
+    "ja": "定義を検索"
+  },
+  "xref-find-references": {
+    "en": "Find References",
+    "zh-cn": "查找引用",
+    "zh-tw": "尋找參考",
+    "es": "Buscar Referencias",
+    "fr": "Trouver les Références",
+    "ja": "参照を検索"
+  },
+  "xref-go-back": {
+    "en": "Go Back (xref)",
+    "zh-cn": "返回 (xref)",
+    "zh-tw": "返回 (xref)",
+    "es": "Volver (xref)",
+    "fr": "Retour (xref)",
+    "ja": "戻る (xref)"
+  },
+  "xref-go-forward": {
+    "en": "Go Forward (xref)",
+    "zh-cn": "前进 (xref)",
+    "zh-tw": "前進 (xref)",
+    "es": "Avanzar (xref)",
+    "fr": "Avancer (xref)",
+    "ja": "進む (xref)"
+  },
+  "imenu": {
+    "en": "Jump to Definition (imenu)",
+    "zh-cn": "跳转到定义 (imenu)",
+    "zh-tw": "跳至定義 (imenu)",
+    "es": "Ir a Definición (imenu)",
+    "fr": "Aller à la Définition (imenu)",
+    "ja": "定義へジャンプ (imenu)"
+  },
+  "apropos": {
+    "en": "Search Commands",
+    "zh-cn": "搜索命令",
+    "zh-tw": "搜尋命令",
+    "es": "Buscar Comandos",
+    "fr": "Rechercher les Commandes",
+    "ja": "コマンドを検索"
+  },
+  "describe-function": {
+    "en": "Describe Function",
+    "zh-cn": "描述函数",
+    "zh-tw": "描述函式",
+    "es": "Describir Función",
+    "fr": "Décrire la Fonction",
+    "ja": "関数を説明"
+  },
+  "describe-variable": {
+    "en": "Describe Variable",
+    "zh-cn": "描述变量",
+    "zh-tw": "描述變數",
+    "es": "Describir Variable",
+    "fr": "Décrire la Variable",
+    "ja": "変数を説明"
+  },
+  "describe-key": {
+    "en": "Describe Key",
+    "zh-cn": "描述按键",
+    "zh-tw": "描述按鍵",
+    "es": "Describir Tecla",
+    "fr": "Décrire la Touche",
+    "ja": "キーを説明"
+  },
+  "describe-mode": {
+    "en": "Describe Mode",
+    "zh-cn": "描述模式",
+    "zh-tw": "描述模式",
+    "es": "Describir Modo",
+    "fr": "Décrire le Mode",
+    "ja": "モードを説明"
+  },
+  "describe-package": {
+    "en": "Describe Package",
+    "zh-cn": "描述包",
+    "zh-tw": "描述套件",
+    "es": "Describir Paquete",
+    "fr": "Décrire le Paquet",
+    "ja": "パッケージを説明"
+  },
+  "info": {
+    "en": "Open Info Manual",
+    "zh-cn": "打开Info手册",
+    "zh-tw": "開啟Info手冊",
+    "es": "Abrir Manual de Info",
+    "fr": "Ouvrir le Manuel Info",
+    "ja": "Infoマニュアルを開く"
+  },
+  "info-emacs-manual": {
+    "en": "Emacs Manual",
+    "zh-cn": "Emacs手册",
+    "zh-tw": "Emacs手冊",
+    "es": "Manual de Emacs",
+    "fr": "Manuel Emacs",
+    "ja": "Emacsマニュアル"
+  },
+  "undo-tree-undo": {
+    "en": "Undo Tree Undo",
+    "zh-cn": "撤销树撤销",
+    "zh-tw": "復原樹復原",
+    "es": "Deshacer del Árbol de Deshacer",
+    "fr": "Annuler dans l'Arbre d'Annulation",
+    "ja": "アンドゥツリーで元に戻す"
+  },
+  "undo-tree-redo": {
+    "en": "Undo Tree Redo",
+    "zh-cn": "撤销树重做",
+    "zh-tw": "復原樹取消復原",
+    "es": "Rehacer del Árbol de Deshacer",
+    "fr": "Rétablir dans l'Arbre d'Annulation",
+    "ja": "アンドゥツリーでやり直し"
+  },
+  "undo-tree-visualize": {
+    "en": "Visualize Undo Tree",
+    "zh-cn": "可视化撤销树",
+    "zh-tw": "視覺化復原樹",
+    "es": "Visualizar Árbol de Deshacer",
+    "fr": "Visualiser l'Arbre d'Annulation",
+    "ja": "アンドゥツリーを可視化"
+  },
+  "delete-other-windows": {
+    "en": "Delete Other Windows",
+    "zh-cn": "删除其他窗口",
+    "zh-tw": "刪除其他視窗",
+    "es": "Eliminar Otras Ventanas",
+    "fr": "Supprimer les Autres Fenêtres",
+    "ja": "他のウィンドウを削除"
+  },
+  "delete-frame": {
+    "en": "Delete Frame",
+    "zh-cn": "删除框架",
+    "zh-tw": "刪除框架",
+    "es": "Eliminar Marco",
+    "fr": "Supprimer le Cadre",
+    "ja": "フレームを削除"
+  },
+  "make-frame-command": {
+    "en": "New Frame",
+    "zh-cn": "新建框架",
+    "zh-tw": "新增框架",
+    "es": "Nuevo Marco",
+    "fr": "Nouveau Cadre",
+    "ja": "新しいフレーム"
+  },
+  "balance-windows": {
+    "en": "Balance Windows",
+    "zh-cn": "均衡窗口",
+    "zh-tw": "均衡視窗",
+    "es": "Equilibrar Ventanas",
+    "fr": "Équilibrer les Fenêtres",
+    "ja": "ウィンドウを均等にする"
+  },
+  "enlarge-window": {
+    "en": "Enlarge Window",
+    "zh-cn": "扩大窗口",
+    "zh-tw": "擴大視窗",
+    "es": "Ampliar Ventana",
+    "fr": "Agrandir la Fenêtre",
+    "ja": "ウィンドウを拡大"
+  },
+  "shrink-window": {
+    "en": "Shrink Window",
+    "zh-cn": "缩小窗口",
+    "zh-tw": "縮小視窗",
+    "es": "Reducir Ventana",
+    "fr": "Réduire la Fenêtre",
+    "ja": "ウィンドウを縮小"
+  },
+  "enlarge-window-horizontally": {
+    "en": "Enlarge Window Horizontally",
+    "zh-cn": "水平扩大窗口",
+    "zh-tw": "水平擴大視窗",
+    "es": "Ampliar Ventana Horizontalmente",
+    "fr": "Agrandir la Fenêtre Horizontalement",
+    "ja": "ウィンドウを水平に拡大"
+  },
+  "shrink-window-horizontally": {
+    "en": "Shrink Window Horizontally",
+    "zh-cn": "水平缩小窗口",
+    "zh-tw": "水平縮小視窗",
+    "es": "Reducir Ventana Horizontalmente",
+    "fr": "Réduire la Fenêtre Horizontalement",
+    "ja": "ウィンドウを水平に縮小"
+  },
+  "split-window-right-and-focus": {
+    "en": "Split Right and Focus",
+    "zh-cn": "向右分割并聚焦",
+    "zh-tw": "向右分割並聚焦",
+    "es": "Dividir a la Derecha y Enfocar",
+    "fr": "Diviser à Droite et Mettre le Focus",
+    "ja": "右に分割してフォーカス"
+  },
+  "split-window-below-and-focus": {
+    "en": "Split Below and Focus",
+    "zh-cn": "向下分割并聚焦",
+    "zh-tw": "向下分割並聚焦",
+    "es": "Dividir Abajo y Enfocar",
+    "fr": "Diviser en Dessous et Mettre le Focus",
+    "ja": "下に分割してフォーカス"
+  },
+  "window-swap-states": {
+    "en": "Swap Window States",
+    "zh-cn": "交换窗口状态",
+    "zh-tw": "交換視窗狀態",
+    "es": "Intercambiar Estados de Ventana",
+    "fr": "Échanger les États de Fenêtre",
+    "ja": "ウィンドウ状態を入れ替え"
+  },
+  "org-mode": {
+    "en": "Org Mode",
+    "zh-cn": "Org模式",
+    "zh-tw": "Org模式",
+    "es": "Modo Org",
+    "fr": "Mode Org",
+    "ja": "Orgモード"
+  },
+  "org-todo": {
+    "en": "Org Toggle TODO",
+    "zh-cn": "切换Org TODO",
+    "zh-tw": "切換Org TODO",
+    "es": "Alternar TODO de Org",
+    "fr": "Basculer TODO Org",
+    "ja": "Org TODOを切り替え"
+  },
+  "org-schedule": {
+    "en": "Org Schedule",
+    "zh-cn": "Org日程安排",
+    "zh-tw": "Org排程",
+    "es": "Programar en Org",
+    "fr": "Programmer en Org",
+    "ja": "Orgスケジュール"
+  },
+  "org-deadline": {
+    "en": "Org Deadline",
+    "zh-cn": "Org截止日期",
+    "zh-tw": "Org截止日期",
+    "es": "Fecha Límite en Org",
+    "fr": "Date Limite Org",
+    "ja": "Org締め切り"
+  },
+  "org-insert-heading": {
+    "en": "Org Insert Heading",
+    "zh-cn": "Org插入标题",
+    "zh-tw": "Org插入標題",
+    "es": "Insertar Encabezado en Org",
+    "fr": "Insérer un Titre Org",
+    "ja": "Org見出しを挿入"
+  },
+  "org-cycle": {
+    "en": "Org Cycle Visibility",
+    "zh-cn": "Org循环可见性",
+    "zh-tw": "Org循環可見性",
+    "es": "Ciclo de Visibilidad Org",
+    "fr": "Cycle de Visibilité Org",
+    "ja": "Org可視性を切り替え"
+  },
+  "org-global-cycle": {
+    "en": "Org Global Cycle",
+    "zh-cn": "Org全局循环",
+    "zh-tw": "Org全域循環",
+    "es": "Ciclo Global de Org",
+    "fr": "Cycle Global Org",
+    "ja": "Orgグローバルサイクル"
+  },
+  "org-export-dispatch": {
+    "en": "Org Export",
+    "zh-cn": "Org导出",
+    "zh-tw": "Org匯出",
+    "es": "Exportar Org",
+    "fr": "Exporter Org",
+    "ja": "Orgエクスポート"
+  },
+  "eglot": {
+    "en": "Start LSP (Eglot)",
+    "zh-cn": "启动LSP (Eglot)",
+    "zh-tw": "啟動LSP (Eglot)",
+    "es": "Iniciar LSP (Eglot)",
+    "fr": "Démarrer LSP (Eglot)",
+    "ja": "LSPを起動 (Eglot)"
+  },
+  "eglot-find-declaration": {
+    "en": "Find Declaration (Eglot)",
+    "zh-cn": "查找声明 (Eglot)",
+    "zh-tw": "尋找宣告 (Eglot)",
+    "es": "Buscar Declaración (Eglot)",
+    "fr": "Trouver la Déclaration (Eglot)",
+    "ja": "宣言を検索 (Eglot)"
+  },
+  "eglot-find-implementation": {
+    "en": "Find Implementation (Eglot)",
+    "zh-cn": "查找实现 (Eglot)",
+    "zh-tw": "尋找實作 (Eglot)",
+    "es": "Buscar Implementación (Eglot)",
+    "fr": "Trouver l'Implémentation (Eglot)",
+    "ja": "実装を検索 (Eglot)"
+  },
+  "eglot-rename": {
+    "en": "Rename Symbol (Eglot)",
+    "zh-cn": "重命名符号 (Eglot)",
+    "zh-tw": "重新命名符號 (Eglot)",
+    "es": "Renombrar Símbolo (Eglot)",
+    "fr": "Renommer le Symbole (Eglot)",
+    "ja": "シンボル名変更 (Eglot)"
+  },
+  "eglot-code-actions": {
+    "en": "Code Actions (Eglot)",
+    "zh-cn": "代码操作 (Eglot)",
+    "zh-tw": "程式碼動作 (Eglot)",
+    "es": "Acciones de Código (Eglot)",
+    "fr": "Actions de Code (Eglot)",
+    "ja": "コードアクション (Eglot)"
+  },
+  "lsp-mode": {
+    "en": "LSP Mode",
+    "zh-cn": "LSP模式",
+    "zh-tw": "LSP模式",
+    "es": "Modo LSP",
+    "fr": "Mode LSP",
+    "ja": "LSPモード"
+  },
+  "lsp-find-definition": {
+    "en": "Find Definition (LSP)",
+    "zh-cn": "查找定义 (LSP)",
+    "zh-tw": "尋找定義 (LSP)",
+    "es": "Buscar Definición (LSP)",
+    "fr": "Trouver la Définition (LSP)",
+    "ja": "定義を検索 (LSP)"
+  },
+  "lsp-find-references": {
+    "en": "Find References (LSP)",
+    "zh-cn": "查找引用 (LSP)",
+    "zh-tw": "尋找參考 (LSP)",
+    "es": "Buscar Referencias (LSP)",
+    "fr": "Trouver les Références (LSP)",
+    "ja": "参照を検索 (LSP)"
+  },
+  "lsp-rename": {
+    "en": "Rename (LSP)",
+    "zh-cn": "重命名 (LSP)",
+    "zh-tw": "重新命名 (LSP)",
+    "es": "Renombrar (LSP)",
+    "fr": "Renommer (LSP)",
+    "ja": "名前変更 (LSP)"
+  },
+  "lsp-execute-code-action": {
+    "en": "Code Action (LSP)",
+    "zh-cn": "代码操作 (LSP)",
+    "zh-tw": "程式碼動作 (LSP)",
+    "es": "Acción de Código (LSP)",
+    "fr": "Action de Code (LSP)",
+    "ja": "コードアクション (LSP)"
+  },
+  "flycheck-next-error": {
+    "en": "Next Error (Flycheck)",
+    "zh-cn": "下一个错误 (Flycheck)",
+    "zh-tw": "下一個錯誤 (Flycheck)",
+    "es": "Siguiente Error (Flycheck)",
+    "fr": "Erreur Suivante (Flycheck)",
+    "ja": "次のエラー (Flycheck)"
+  },
+  "flycheck-previous-error": {
+    "en": "Previous Error (Flycheck)",
+    "zh-cn": "上一个错误 (Flycheck)",
+    "zh-tw": "上一個錯誤 (Flycheck)",
+    "es": "Error Anterior (Flycheck)",
+    "fr": "Erreur Précédente (Flycheck)",
+    "ja": "前のエラー (Flycheck)"
+  },
+  "flycheck-list-errors": {
+    "en": "List Errors (Flycheck)",
+    "zh-cn": "列出错误 (Flycheck)",
+    "zh-tw": "列出錯誤 (Flycheck)",
+    "es": "Listar Errores (Flycheck)",
+    "fr": "Lister les Erreurs (Flycheck)",
+    "ja": "エラー一覧 (Flycheck)"
+  },
+  "company-complete": {
+    "en": "Trigger Completion",
+    "zh-cn": "触发补全",
+    "zh-tw": "觸發補全",
+    "es": "Activar Completado",
+    "fr": "Déclencher la Complétion",
+    "ja": "補完を起動"
+  },
+  "company-complete-common": {
+    "en": "Complete Common Part",
+    "zh-cn": "补全公共部分",
+    "zh-tw": "補全公共部分",
+    "es": "Completar Parte Común",
+    "fr": "Compléter la Partie Commune",
+    "ja": "共通部分を補完"
+  },
+  "company-select-next": {
+    "en": "Next Completion Candidate",
+    "zh-cn": "下一个补全候选",
+    "zh-tw": "下一個補全候選",
+    "es": "Siguiente Candidato de Completado",
+    "fr": "Candidat de Complétion Suivant",
+    "ja": "次の補完候補"
+  },
+  "company-select-previous": {
+    "en": "Previous Completion Candidate",
+    "zh-cn": "上一个补全候选",
+    "zh-tw": "上一個補全候選",
+    "es": "Candidato de Completado Anterior",
+    "fr": "Candidat de Complétion Précédent",
+    "ja": "前の補完候補"
+  },
+  "bookmark-set": {
+    "en": "Set Bookmark",
+    "zh-cn": "设置书签",
+    "zh-tw": "設定書籤",
+    "es": "Establecer Marcador",
+    "fr": "Définir un Signet",
+    "ja": "ブックマークを設定"
+  },
+  "bookmark-jump": {
+    "en": "Jump to Bookmark",
+    "zh-cn": "跳转到书签",
+    "zh-tw": "跳至書籤",
+    "es": "Saltar al Marcador",
+    "fr": "Aller au Signet",
+    "ja": "ブックマークへジャンプ"
+  },
+  "bookmark-list": {
+    "en": "List Bookmarks",
+    "zh-cn": "列出书签",
+    "zh-tw": "列出書籤",
+    "es": "Listar Marcadores",
+    "fr": "Lister les Signets",
+    "ja": "ブックマーク一覧"
+  },
+  "register-to-point": {
+    "en": "Move Point from Register",
+    "zh-cn": "从寄存器移动光标",
+    "zh-tw": "從暫存器移動游標",
+    "es": "Mover Punto desde Registro",
+    "fr": "Déplacer le Point depuis le Registre",
+    "ja": "レジスタからポイントを移動"
+  },
+  "jump-to-register": {
+    "en": "Jump to Register",
+    "zh-cn": "跳转到寄存器",
+    "zh-tw": "跳至暫存器",
+    "es": "Saltar al Registro",
+    "fr": "Aller au Registre",
+    "ja": "レジスタへジャンプ"
+  },
+  "point-to-register": {
+    "en": "Save Position to Register",
+    "zh-cn": "保存位置到寄存器",
+    "zh-tw": "將位置儲存至暫存器",
+    "es": "Guardar Posición en Registro",
+    "fr": "Enregistrer la Position dans un Registre",
+    "ja": "位置をレジスタに保存"
+  },
+  "kmacro-start-macro-or-insert-counter": {
+    "en": "Start Keyboard Macro",
+    "zh-cn": "开始键盘宏",
+    "zh-tw": "開始鍵盤巨集",
+    "es": "Iniciar Macro de Teclado",
+    "fr": "Démarrer une Macro Clavier",
+    "ja": "キーボードマクロを開始"
+  },
+  "kmacro-end-or-call-macro": {
+    "en": "End/Call Keyboard Macro",
+    "zh-cn": "结束/调用键盘宏",
+    "zh-tw": "結束/呼叫鍵盤巨集",
+    "es": "Terminar/Llamar Macro de Teclado",
+    "fr": "Terminer/Appeler la Macro Clavier",
+    "ja": "キーボードマクロを終了/実行"
+  },
+  "kmacro-call-macro": {
+    "en": "Call Last Keyboard Macro",
+    "zh-cn": "调用上次键盘宏",
+    "zh-tw": "呼叫上次鍵盤巨集",
+    "es": "Llamar Última Macro de Teclado",
+    "fr": "Appeler la Dernière Macro Clavier",
+    "ja": "前回のキーボードマクロを実行"
+  },
+  "toggle-truncate-lines": {
+    "en": "Toggle Truncate Lines",
+    "zh-cn": "切换截断行",
+    "zh-tw": "切換截斷行",
+    "es": "Alternar Líneas Truncadas",
+    "fr": "Basculer les Lignes Tronquées",
+    "ja": "行の切り捨てを切り替え"
+  },
+  "visual-line-mode": {
+    "en": "Visual Line Mode",
+    "zh-cn": "可视行模式",
+    "zh-tw": "視覺行模式",
+    "es": "Modo de Línea Visual",
+    "fr": "Mode Ligne Visuelle",
+    "ja": "ビジュアル行モード"
+  },
+  "global-visual-line-mode": {
+    "en": "Global Visual Line Mode",
+    "zh-cn": "全局可视行模式",
+    "zh-tw": "全域視覺行模式",
+    "es": "Modo de Línea Visual Global",
+    "fr": "Mode Ligne Visuelle Global",
+    "ja": "グローバルビジュアル行モード"
+  },
+  "whitespace-mode": {
+    "en": "Toggle Whitespace Mode",
+    "zh-cn": "切换空白模式",
+    "zh-tw": "切換空白模式",
+    "es": "Alternar Modo de Espacios en Blanco",
+    "fr": "Basculer le Mode des Espaces Blancs",
+    "ja": "空白モードを切り替え"
+  },
+  "display-line-numbers-mode": {
+    "en": "Toggle Line Numbers",
+    "zh-cn": "切换行号",
+    "zh-tw": "切換行號",
+    "es": "Alternar Números de Línea",
+    "fr": "Basculer les Numéros de Ligne",
+    "ja": "行番号を切り替え"
+  },
+  "save-buffers-kill-terminal": {
+    "en": "Save Buffers and Exit Emacs",
+    "zh-cn": "保存缓冲区并退出 Emacs",
+    "zh-tw": "儲存緩衝區並結束 Emacs",
+    "es": "Guardar Búferes y Salir de Emacs",
+    "fr": "Enregistrer les Tampons et Quitter Emacs",
+    "ja": "バッファを保存して Emacs を終了"
+  }
+}

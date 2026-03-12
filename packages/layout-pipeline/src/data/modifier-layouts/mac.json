@@ -1,0 +1,18 @@
+{
+  "canonicalBySlot": {
+    "control": "ctrl",
+    "shift": "shift",
+    "systemOuter": "option",
+    "systemInner": "cmd",
+    "fn": "fn",
+    "menu": "menu"
+  },
+  "aliasesBySlot": {
+    "control": ["ctrl", "control", "ctl"],
+    "shift": ["shift"],
+    "systemOuter": ["option", "opt", "alt", "altgr"],
+    "systemInner": ["cmd", "command", "meta", "super", "win", "windows", "gui", "hyper"],
+    "fn": ["fn"],
+    "menu": ["menu", "apps", "context"]
+  }
+}

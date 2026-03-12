@@ -1,0 +1,31 @@
+{
+  "name": "@keymap-highlight/cheatsheet-export",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "tsup --watch --",
+    "build": "tsup",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "@keymap-highlight/file-parsers": "workspace:*",
+    "@keymap-highlight/layout-pipeline": "workspace:*",
+    "@react-pdf/renderer": "^4.3.2",
+    "i18next": "^25.8.13",
+    "react": "^19.2.4"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "@types/react": "^19.2.14",
+    "typescript": "^5.5.0"
+  }
+}

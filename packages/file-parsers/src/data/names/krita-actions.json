@@ -1,0 +1,1554 @@
+{
+  "KisToolCrop": {
+    "en": "Crop Tool",
+    "zh-cn": "裁切工具",
+    "zh-tw": "裁切工具",
+    "es": "Herramienta de recorte",
+    "fr": "Outil de recadrage",
+    "ja": "切り抜きツール"
+  },
+  "KisToolSelectElliptical": {
+    "en": "Elliptical Selection Tool",
+    "zh-cn": "椭圆选区工具",
+    "zh-tw": "橢圓選取工具",
+    "es": "Herramienta de selección elíptica",
+    "fr": "Outil de sélection elliptique",
+    "ja": "楕円選択ツール"
+  },
+  "KisToolSelectRectangular": {
+    "en": "Rectangular Selection Tool",
+    "zh-cn": "矩形选区工具",
+    "zh-tw": "矩形選取工具",
+    "es": "Herramienta de selección rectangular",
+    "fr": "Outil de sélection rectangulaire",
+    "ja": "長方形選択ツール"
+  },
+  "KisToolTransform": {
+    "en": "Transform Tool",
+    "zh-cn": "变形工具",
+    "zh-tw": "變形工具",
+    "es": "Herramienta de transformación",
+    "fr": "Outil de transformation",
+    "ja": "変形ツール"
+  },
+  "KritaFill/KisToolFill": {
+    "en": "Fill Tool",
+    "zh-cn": "填充工具",
+    "zh-tw": "填色工具",
+    "es": "Herramienta de relleno",
+    "fr": "Outil de remplissage",
+    "ja": "塗りつぶしツール"
+  },
+  "KritaFill/KisToolGradient": {
+    "en": "Gradient Tool",
+    "zh-cn": "渐变工具",
+    "zh-tw": "漸層工具",
+    "es": "Herramienta de degradado",
+    "fr": "Outil de dégradé",
+    "ja": "グラデーションツール"
+  },
+  "KritaSelected/KisToolColorSampler": {
+    "en": "Color Sampler Tool",
+    "zh-cn": "取色工具",
+    "zh-tw": "取色工具",
+    "es": "Herramienta de muestreo de color",
+    "fr": "Outil d’échantillonnage de couleur",
+    "ja": "スポイトツール"
+  },
+  "KritaShape/KisToolBrush": {
+    "en": "Brush Tool",
+    "zh-cn": "笔刷工具",
+    "zh-tw": "筆刷工具",
+    "es": "Herramienta de pincel",
+    "fr": "Outil de brosse",
+    "ja": "ブラシツール"
+  },
+  "KritaShape/KisToolMultiBrush": {
+    "en": "Multi-Brush Tool",
+    "zh-cn": "多重笔刷工具",
+    "zh-tw": "多重筆刷工具",
+    "es": "Herramienta de pinceles múltiples",
+    "fr": "Outil de brosses multiples",
+    "ja": "マルチブラシツール"
+  },
+  "KritaShape/KisToolEllipse": {
+    "en": "Ellipse Tool",
+    "zh-cn": "椭圆工具",
+    "zh-tw": "橢圓工具",
+    "es": "Herramienta de elipse",
+    "fr": "Outil ellipse",
+    "ja": "楕円ツール"
+  },
+  "KritaShape/KisToolRectangle": {
+    "en": "Rectangle Tool",
+    "zh-cn": "矩形工具",
+    "zh-tw": "矩形工具",
+    "es": "Herramienta de rectángulo",
+    "fr": "Outil rectangle",
+    "ja": "長方形ツール"
+  },
+  "KritaTransform/KisToolMove": {
+    "en": "Move Tool",
+    "zh-cn": "移动工具",
+    "zh-tw": "移動工具",
+    "es": "Herramienta de mover",
+    "fr": "Outil de déplacement",
+    "ja": "移動ツール"
+  },
+  "activateNextLayer": {
+    "en": "Activate Next Layer",
+    "zh-cn": "激活下一图层",
+    "zh-tw": "啟用下一個圖層",
+    "es": "Activar la siguiente capa",
+    "fr": "Activer le calque suivant",
+    "ja": "次のレイヤーを有効化"
+  },
+  "activatePreviousLayer": {
+    "en": "Activate Previous Layer",
+    "zh-cn": "激活上一图层",
+    "zh-tw": "啟用上一個圖層",
+    "es": "Activar la capa anterior",
+    "fr": "Activer le calque précédent",
+    "ja": "前のレイヤーを有効化"
+  },
+  "add_new_paint_layer": {
+    "en": "Add New Paint Layer",
+    "zh-cn": "添加新绘画图层",
+    "zh-tw": "新增繪圖圖層",
+    "es": "Añadir nueva capa de pintura",
+    "fr": "Ajouter un nouveau calque de peinture",
+    "ja": "新しいペイントレイヤーを追加"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh-cn": "清除",
+    "zh-tw": "清除",
+    "es": "Borrar",
+    "fr": "Effacer",
+    "ja": "消去"
+  },
+  "copy_merged": {
+    "en": "Copy Merged",
+    "zh-cn": "复制合并结果",
+    "zh-tw": "複製合併結果",
+    "es": "Copiar combinado",
+    "fr": "Copier fusionné",
+    "ja": "結合結果をコピー"
+  },
+  "create_quick_group": {
+    "en": "Create Quick Group",
+    "zh-cn": "创建快速编组",
+    "zh-tw": "建立快速群組",
+    "es": "Crear grupo rápido",
+    "fr": "Créer un groupe rapide",
+    "ja": "クイックグループを作成"
+  },
+  "create_quick_clipping_group": {
+    "en": "Create Quick Clipping Group",
+    "zh-cn": "创建快速剪贴编组",
+    "zh-tw": "建立快速剪裁群組",
+    "es": "Crear grupo de recorte rápido",
+    "fr": "Créer un groupe d’écrêtage rapide",
+    "ja": "クイッククリッピンググループを作成"
+  },
+  "deselect": {
+    "en": "Deselect",
+    "zh-cn": "取消选择",
+    "zh-tw": "取消選取",
+    "es": "Deseleccionar",
+    "fr": "Désélectionner",
+    "ja": "選択解除"
+  },
+  "duplicatelayer": {
+    "en": "Duplicate Layer",
+    "zh-cn": "复制图层",
+    "zh-tw": "複製圖層",
+    "es": "Duplicar capa",
+    "fr": "Dupliquer le calque",
+    "ja": "レイヤーを複製"
+  },
+  "edit_copy": {
+    "en": "Copy",
+    "zh-cn": "复制",
+    "zh-tw": "複製",
+    "es": "Copiar",
+    "fr": "Copier",
+    "ja": "コピー"
+  },
+  "edit_cut": {
+    "en": "Cut",
+    "zh-cn": "剪切",
+    "zh-tw": "剪下",
+    "es": "Cortar",
+    "fr": "Couper",
+    "ja": "切り取り"
+  },
+  "edit_paste": {
+    "en": "Paste",
+    "zh-cn": "粘贴",
+    "zh-tw": "貼上",
+    "es": "Pegar",
+    "fr": "Coller",
+    "ja": "貼り付け"
+  },
+  "edit_redo": {
+    "en": "Redo",
+    "zh-cn": "重做",
+    "zh-tw": "重做",
+    "es": "Rehacer",
+    "fr": "Rétablir",
+    "ja": "やり直し"
+  },
+  "edit_undo": {
+    "en": "Undo",
+    "zh-cn": "撤销",
+    "zh-tw": "復原",
+    "es": "Deshacer",
+    "fr": "Annuler",
+    "ja": "元に戻す"
+  },
+  "file_new": {
+    "en": "New",
+    "zh-cn": "新建",
+    "zh-tw": "新增",
+    "es": "Nuevo",
+    "fr": "Nouveau",
+    "ja": "新規"
+  },
+  "file_open": {
+    "en": "Open",
+    "zh-cn": "打开",
+    "zh-tw": "開啟",
+    "es": "Abrir",
+    "fr": "Ouvrir",
+    "ja": "開く"
+  },
+  "file_save": {
+    "en": "Save",
+    "zh-cn": "保存",
+    "zh-tw": "儲存",
+    "es": "Guardar",
+    "fr": "Enregistrer",
+    "ja": "保存"
+  },
+  "file_save_as": {
+    "en": "Save As",
+    "zh-cn": "另存为",
+    "zh-tw": "另存新檔",
+    "es": "Guardar como",
+    "fr": "Enregistrer sous",
+    "ja": "名前を付けて保存"
+  },
+  "file_close": {
+    "en": "Close File",
+    "zh-cn": "关闭文件",
+    "zh-tw": "關閉檔案",
+    "es": "Cerrar archivo",
+    "fr": "Fermer le fichier",
+    "ja": "ファイルを閉じる"
+  },
+  "file_quit": {
+    "en": "Quit",
+    "zh-cn": "退出",
+    "zh-tw": "結束",
+    "es": "Salir",
+    "fr": "Quitter",
+    "ja": "終了"
+  },
+  "flatten_image": {
+    "en": "Flatten Image",
+    "zh-cn": "合并图像",
+    "zh-tw": "平面化影像",
+    "es": "Acoplar imagen",
+    "fr": "Aplatir l’image",
+    "ja": "画像を統合"
+  },
+  "help_contents": {
+    "en": "Help Contents",
+    "zh-cn": "帮助目录",
+    "zh-tw": "說明內容",
+    "es": "Contenido de la ayuda",
+    "fr": "Contenu de l’aide",
+    "ja": "ヘルプ内容"
+  },
+  "invert_selection": {
+    "en": "Invert Selection",
+    "zh-cn": "反选",
+    "zh-tw": "反轉選取",
+    "es": "Invertir selección",
+    "fr": "Inverser la sélection",
+    "ja": "選択範囲を反転"
+  },
+  "merge_layer": {
+    "en": "Merge Layer",
+    "zh-cn": "合并图层",
+    "zh-tw": "合併圖層",
+    "es": "Combinar capa",
+    "fr": "Fusionner le calque",
+    "ja": "レイヤーを結合"
+  },
+  "mirror_canvas": {
+    "en": "Mirror Canvas",
+    "zh-cn": "镜像画布",
+    "zh-tw": "鏡像畫布",
+    "es": "Reflejar lienzo",
+    "fr": "Miroir du canevas",
+    "ja": "キャンバスを反転"
+  },
+  "move_layer_down": {
+    "en": "Move Layer Down",
+    "zh-cn": "下移图层",
+    "zh-tw": "下移圖層",
+    "es": "Mover capa hacia abajo",
+    "fr": "Déplacer le calque vers le bas",
+    "ja": "レイヤーを下へ移動"
+  },
+  "move_layer_up": {
+    "en": "Move Layer Up",
+    "zh-cn": "上移图层",
+    "zh-tw": "上移圖層",
+    "es": "Mover capa hacia arriba",
+    "fr": "Déplacer le calque vers le haut",
+    "ja": "レイヤーを上へ移動"
+  },
+  "remove_layer": {
+    "en": "Remove Layer",
+    "zh-cn": "删除图层",
+    "zh-tw": "移除圖層",
+    "es": "Eliminar capa",
+    "fr": "Supprimer le calque",
+    "ja": "レイヤーを削除"
+  },
+  "select_all": {
+    "en": "Select All",
+    "zh-cn": "全选",
+    "zh-tw": "全選",
+    "es": "Seleccionar todo",
+    "fr": "Tout sélectionner",
+    "ja": "すべて選択"
+  },
+  "toggle_fg_bg": {
+    "en": "Toggle Foreground/Background Colors",
+    "zh-cn": "切换前景色/背景色",
+    "zh-tw": "切換前景色/背景色",
+    "es": "Alternar colores de primer plano/fondo",
+    "fr": "Basculer les couleurs d’avant-plan/arrière-plan",
+    "ja": "前景色/背景色を切り替え"
+  },
+  "toggle_zoom_to_fit": {
+    "en": "Toggle Zoom to Fit Canvas",
+    "zh-cn": "切换缩放以适应画布",
+    "zh-tw": "切換縮放以符合畫布",
+    "es": "Alternar zoom ajustado al lienzo",
+    "fr": "Basculer le zoom adapté au canevas",
+    "ja": "キャンバスに合わせるズームを切り替え"
+  },
+  "view_show_canvas_only": {
+    "en": "Toggle Canvas Only",
+    "zh-cn": "切换仅画布视图",
+    "zh-tw": "切換僅畫布檢視",
+    "es": "Alternar solo lienzo",
+    "fr": "Basculer le mode canevas seul",
+    "ja": "キャンバスのみ表示を切り替え"
+  },
+  "view_zoom_in": {
+    "en": "Zoom In",
+    "zh-cn": "放大",
+    "zh-tw": "放大",
+    "es": "Acercar",
+    "fr": "Zoom avant",
+    "ja": "ズームイン"
+  },
+  "view_zoom_out": {
+    "en": "Zoom Out",
+    "zh-cn": "缩小",
+    "zh-tw": "縮小",
+    "es": "Alejar",
+    "fr": "Zoom arrière",
+    "ja": "ズームアウト"
+  },
+  "wrap_around_mode": {
+    "en": "Toggle Wrap-Around Mode",
+    "zh-cn": "切换环绕模式",
+    "zh-tw": "切換環繞模式",
+    "es": "Alternar modo envolvente",
+    "fr": "Basculer le mode d’enroulement",
+    "ja": "ラップアラウンドモードを切り替え"
+  },
+  "zoom_to_100pct": {
+    "en": "Zoom to 100%",
+    "zh-cn": "缩放到 100%",
+    "zh-tw": "縮放到 100%",
+    "es": "Zoom al 100 %",
+    "fr": "Zoom à 100 %",
+    "ja": "100% にズーム"
+  },
+  "activate_preset_0": {
+    "en": "Activate Preset 0",
+    "zh-cn": "激活预设 0",
+    "zh-tw": "啟用預設 0",
+    "es": "Activar preajuste 0",
+    "fr": "Activer le préréglage 0",
+    "ja": "プリセット 0 を有効化"
+  },
+  "activate_preset_1": {
+    "en": "Activate Preset 1",
+    "zh-cn": "激活预设 1",
+    "zh-tw": "啟用預設 1",
+    "es": "Activar preajuste 1",
+    "fr": "Activer le préréglage 1",
+    "ja": "プリセット 1 を有効化"
+  },
+  "activate_preset_2": {
+    "en": "Activate Preset 2",
+    "zh-cn": "激活预设 2",
+    "zh-tw": "啟用預設 2",
+    "es": "Activar preajuste 2",
+    "fr": "Activer le préréglage 2",
+    "ja": "プリセット 2 を有効化"
+  },
+  "activate_preset_3": {
+    "en": "Activate Preset 3",
+    "zh-cn": "激活预设 3",
+    "zh-tw": "啟用預設 3",
+    "es": "Activar preajuste 3",
+    "fr": "Activer le préréglage 3",
+    "ja": "プリセット 3 を有効化"
+  },
+  "activate_preset_4": {
+    "en": "Activate Preset 4",
+    "zh-cn": "激活预设 4",
+    "zh-tw": "啟用預設 4",
+    "es": "Activar preajuste 4",
+    "fr": "Activer le préréglage 4",
+    "ja": "プリセット 4 を有効化"
+  },
+  "activate_preset_5": {
+    "en": "Activate Preset 5",
+    "zh-cn": "激活预设 5",
+    "zh-tw": "啟用預設 5",
+    "es": "Activar preajuste 5",
+    "fr": "Activer le préréglage 5",
+    "ja": "プリセット 5 を有効化"
+  },
+  "activate_preset_6": {
+    "en": "Activate Preset 6",
+    "zh-cn": "激活预设 6",
+    "zh-tw": "啟用預設 6",
+    "es": "Activar preajuste 6",
+    "fr": "Activer le préréglage 6",
+    "ja": "プリセット 6 を有効化"
+  },
+  "activate_preset_7": {
+    "en": "Activate Preset 7",
+    "zh-cn": "激活预设 7",
+    "zh-tw": "啟用預設 7",
+    "es": "Activar preajuste 7",
+    "fr": "Activer le préréglage 7",
+    "ja": "プリセット 7 を有効化"
+  },
+  "activate_preset_8": {
+    "en": "Activate Preset 8",
+    "zh-cn": "激活预设 8",
+    "zh-tw": "啟用預設 8",
+    "es": "Activar preajuste 8",
+    "fr": "Activer le préréglage 8",
+    "ja": "プリセット 8 を有効化"
+  },
+  "activate_preset_9": {
+    "en": "Activate Preset 9",
+    "zh-cn": "激活预设 9",
+    "zh-tw": "啟用預設 9",
+    "es": "Activar preajuste 9",
+    "fr": "Activer le préréglage 9",
+    "ja": "プリセット 9 を有効化"
+  },
+  "add_new_shape_layer": {
+    "en": "Add New Shape Layer",
+    "zh-cn": "添加新形状图层",
+    "zh-tw": "新增形狀圖層",
+    "es": "Añadir nueva capa de formas",
+    "fr": "Ajouter un nouveau calque de formes",
+    "ja": "新しいシェイプレイヤーを追加"
+  },
+  "canvassize": {
+    "en": "Canvas Size",
+    "zh-cn": "画布大小",
+    "zh-tw": "畫布大小",
+    "es": "Tamaño del lienzo",
+    "fr": "Taille du canevas",
+    "ja": "キャンバスサイズ"
+  },
+  "command_bar_open": {
+    "en": "Open Command Bar",
+    "zh-cn": "打开命令栏",
+    "zh-tw": "開啟命令列",
+    "es": "Abrir barra de comandos",
+    "fr": "Ouvrir la barre de commandes",
+    "ja": "コマンドバーを開く"
+  },
+  "convert-to-path": {
+    "en": "Convert to Path",
+    "zh-cn": "转换为路径",
+    "zh-tw": "轉換為路徑",
+    "es": "Convertir en trazado",
+    "fr": "Convertir en chemin",
+    "ja": "パスに変換"
+  },
+  "copy_selection_to_new_layer": {
+    "en": "Copy Selection to New Layer",
+    "zh-cn": "将选区复制到新图层",
+    "zh-tw": "將選取複製到新圖層",
+    "es": "Copiar selección a una capa nueva",
+    "fr": "Copier la sélection vers un nouveau calque",
+    "ja": "選択範囲を新しいレイヤーにコピー"
+  },
+  "cut_selection_to_new_layer": {
+    "en": "Cut Selection to New Layer",
+    "zh-cn": "将选区剪切到新图层",
+    "zh-tw": "將選取剪下到新圖層",
+    "es": "Cortar selección a una capa nueva",
+    "fr": "Couper la sélection vers un nouveau calque",
+    "ja": "選択範囲を新しいレイヤーに切り取り"
+  },
+  "decrease_brush_size": {
+    "en": "Decrease Brush Size",
+    "zh-cn": "减小笔刷大小",
+    "zh-tw": "縮小筆刷大小",
+    "es": "Disminuir tamaño del pincel",
+    "fr": "Réduire la taille de la brosse",
+    "ja": "ブラシサイズを小さくする"
+  },
+  "decrease_opacity": {
+    "en": "Decrease Opacity",
+    "zh-cn": "降低不透明度",
+    "zh-tw": "降低不透明度",
+    "es": "Disminuir opacidad",
+    "fr": "Réduire l’opacité",
+    "ja": "不透明度を下げる"
+  },
+  "erase_action": {
+    "en": "Toggle Eraser",
+    "zh-cn": "切换橡皮擦",
+    "zh-tw": "切換橡皮擦",
+    "es": "Alternar borrador",
+    "fr": "Basculer la gomme",
+    "ja": "消しゴムを切り替え"
+  },
+  "execute_script_1": {
+    "en": "Execute Script 1",
+    "zh-cn": "执行脚本 1",
+    "zh-tw": "執行腳本 1",
+    "es": "Ejecutar script 1",
+    "fr": "Exécuter le script 1",
+    "ja": "スクリプト 1 を実行"
+  },
+  "execute_script_2": {
+    "en": "Execute Script 2",
+    "zh-cn": "执行脚本 2",
+    "zh-tw": "執行腳本 2",
+    "es": "Ejecutar script 2",
+    "fr": "Exécuter le script 2",
+    "ja": "スクリプト 2 を実行"
+  },
+  "execute_script_3": {
+    "en": "Execute Script 3",
+    "zh-cn": "执行脚本 3",
+    "zh-tw": "執行腳本 3",
+    "es": "Ejecutar script 3",
+    "fr": "Exécuter le script 3",
+    "ja": "スクリプト 3 を実行"
+  },
+  "execute_script_4": {
+    "en": "Execute Script 4",
+    "zh-cn": "执行脚本 4",
+    "zh-tw": "執行腳本 4",
+    "es": "Ejecutar script 4",
+    "fr": "Exécuter le script 4",
+    "ja": "スクリプト 4 を実行"
+  },
+  "execute_script_5": {
+    "en": "Execute Script 5",
+    "zh-cn": "执行脚本 5",
+    "zh-tw": "執行腳本 5",
+    "es": "Ejecutar script 5",
+    "fr": "Exécuter le script 5",
+    "ja": "スクリプト 5 を実行"
+  },
+  "execute_script_6": {
+    "en": "Execute Script 6",
+    "zh-cn": "执行脚本 6",
+    "zh-tw": "執行腳本 6",
+    "es": "Ejecutar script 6",
+    "fr": "Exécuter le script 6",
+    "ja": "スクリプト 6 を実行"
+  },
+  "execute_script_7": {
+    "en": "Execute Script 7",
+    "zh-cn": "执行脚本 7",
+    "zh-tw": "執行腳本 7",
+    "es": "Ejecutar script 7",
+    "fr": "Exécuter le script 7",
+    "ja": "スクリプト 7 を実行"
+  },
+  "execute_script_8": {
+    "en": "Execute Script 8",
+    "zh-cn": "执行脚本 8",
+    "zh-tw": "執行腳本 8",
+    "es": "Ejecutar script 8",
+    "fr": "Exécuter le script 8",
+    "ja": "スクリプト 8 を実行"
+  },
+  "execute_script_9": {
+    "en": "Execute Script 9",
+    "zh-cn": "执行脚本 9",
+    "zh-tw": "執行腳本 9",
+    "es": "Ejecutar script 9",
+    "fr": "Exécuter le script 9",
+    "ja": "スクリプト 9 を実行"
+  },
+  "execute_script_10": {
+    "en": "Execute Script 10",
+    "zh-cn": "执行脚本 10",
+    "zh-tw": "執行腳本 10",
+    "es": "Ejecutar script 10",
+    "fr": "Exécuter le script 10",
+    "ja": "スクリプト 10 を実行"
+  },
+  "featherselection": {
+    "en": "Feather Selection",
+    "zh-cn": "羽化选区",
+    "zh-tw": "羽化選取",
+    "es": "Desvanecer selección",
+    "fr": "Adoucir la sélection",
+    "ja": "選択範囲をぼかす"
+  },
+  "file_close_all": {
+    "en": "Close All Files",
+    "zh-cn": "关闭所有文件",
+    "zh-tw": "關閉所有檔案",
+    "es": "Cerrar todos los archivos",
+    "fr": "Fermer tous les fichiers",
+    "ja": "すべてのファイルを閉じる"
+  },
+  "fill_selection_background_color": {
+    "en": "Fill Selection with Background Color",
+    "zh-cn": "用背景色填充选区",
+    "zh-tw": "以背景色填滿選取",
+    "es": "Rellenar selección con color de fondo",
+    "fr": "Remplir la sélection avec la couleur d’arrière-plan",
+    "ja": "選択範囲を背景色で塗りつぶす"
+  },
+  "fill_selection_background_color_opacity": {
+    "en": "Fill Selection with Background Color (Opacity)",
+    "zh-cn": "用背景色填充选区（含不透明度）",
+    "zh-tw": "以背景色填滿選取（含不透明度）",
+    "es": "Rellenar selección con color de fondo (opacidad)",
+    "fr": "Remplir la sélection avec la couleur d’arrière-plan (opacité)",
+    "ja": "選択範囲を背景色で塗りつぶす（不透明度あり）"
+  },
+  "fill_selection_foreground_color": {
+    "en": "Fill Selection with Foreground Color",
+    "zh-cn": "用前景色填充选区",
+    "zh-tw": "以前景色填滿選取",
+    "es": "Rellenar selección con color de primer plano",
+    "fr": "Remplir la sélection avec la couleur d’avant-plan",
+    "ja": "選択範囲を前景色で塗りつぶす"
+  },
+  "fill_selection_foreground_color_opacity": {
+    "en": "Fill Selection with Foreground Color (Opacity)",
+    "zh-cn": "用前景色填充选区（含不透明度）",
+    "zh-tw": "以前景色填滿選取（含不透明度）",
+    "es": "Rellenar selección con color de primer plano (opacidad)",
+    "fr": "Remplir la sélection avec la couleur d’avant-plan (opacité)",
+    "ja": "選択範囲を前景色で塗りつぶす（不透明度あり）"
+  },
+  "filter_apply_again": {
+    "en": "Apply Last Filter Again",
+    "zh-cn": "再次应用上次滤镜",
+    "zh-tw": "再次套用上次濾鏡",
+    "es": "Aplicar de nuevo el último filtro",
+    "fr": "Réappliquer le dernier filtre",
+    "ja": "前回のフィルターを再適用"
+  },
+  "fullscreen": {
+    "en": "Toggle Full Screen",
+    "zh-cn": "切换全屏",
+    "zh-tw": "切換全螢幕",
+    "es": "Alternar pantalla completa",
+    "fr": "Basculer en plein écran",
+    "ja": "フルスクリーンを切り替え"
+  },
+  "gamutCheck": {
+    "en": "Toggle Gamut Check",
+    "zh-cn": "切换色域检查",
+    "zh-tw": "切換色域檢查",
+    "es": "Alternar comprobación de gama",
+    "fr": "Basculer la vérification de gamut",
+    "ja": "色域チェックを切り替え"
+  },
+  "imagesize": {
+    "en": "Image Size",
+    "zh-cn": "图像大小",
+    "zh-tw": "影像大小",
+    "es": "Tamaño de imagen",
+    "fr": "Taille de l’image",
+    "ja": "画像サイズ"
+  },
+  "increase_brush_size": {
+    "en": "Increase Brush Size",
+    "zh-cn": "增大笔刷大小",
+    "zh-tw": "增大筆刷大小",
+    "es": "Aumentar tamaño del pincel",
+    "fr": "Augmenter la taille de la brosse",
+    "ja": "ブラシサイズを大きくする"
+  },
+  "increase_opacity": {
+    "en": "Increase Opacity",
+    "zh-cn": "提高不透明度",
+    "zh-tw": "提高不透明度",
+    "es": "Aumentar opacidad",
+    "fr": "Augmenter l’opacité",
+    "ja": "不透明度を上げる"
+  },
+  "krita_filter_colorbalance": {
+    "en": "Color Balance",
+    "zh-cn": "色彩平衡",
+    "zh-tw": "色彩平衡",
+    "es": "Balance de color",
+    "fr": "Balance des couleurs",
+    "ja": "カラーバランス"
+  },
+  "krita_filter_desaturate": {
+    "en": "Desaturate",
+    "zh-cn": "去色",
+    "zh-tw": "去飽和",
+    "es": "Desaturar",
+    "fr": "Désaturer",
+    "ja": "彩度を下げる"
+  },
+  "krita_filter_hsvadjustment": {
+    "en": "HSV Adjustment",
+    "zh-cn": "HSV 调整",
+    "zh-tw": "HSV 調整",
+    "es": "Ajuste de HSV",
+    "fr": "Réglage HSV",
+    "ja": "HSV 調整"
+  },
+  "krita_filter_invert": {
+    "en": "Invert Colors",
+    "zh-cn": "反相颜色",
+    "zh-tw": "反轉顏色",
+    "es": "Invertir colores",
+    "fr": "Inverser les couleurs",
+    "ja": "色を反転"
+  },
+  "krita_filter_levels": {
+    "en": "Levels",
+    "zh-cn": "色阶",
+    "zh-tw": "色階",
+    "es": "Niveles",
+    "fr": "Niveaux",
+    "ja": "レベル補正"
+  },
+  "krita_filter_perchannel": {
+    "en": "Per Channel Color Adjustment",
+    "zh-cn": "按通道调整颜色",
+    "zh-tw": "依通道調整顏色",
+    "es": "Ajuste de color por canal",
+    "fr": "Réglage des couleurs par canal",
+    "ja": "チャンネル別色調整"
+  },
+  "layer_properties": {
+    "en": "Layer Properties",
+    "zh-cn": "图层属性",
+    "zh-tw": "圖層屬性",
+    "es": "Propiedades de la capa",
+    "fr": "Propriétés du calque",
+    "ja": "レイヤープロパティ"
+  },
+  "level_of_detail_mode": {
+    "en": "Toggle Level of Detail Mode",
+    "zh-cn": "切换细节层级模式",
+    "zh-tw": "切換細節層級模式",
+    "es": "Alternar modo de nivel de detalle",
+    "fr": "Basculer le mode niveau de détail",
+    "ja": "詳細度モードを切り替え"
+  },
+  "make_brush_color_darker": {
+    "en": "Make Brush Color Darker",
+    "zh-cn": "加深笔刷颜色",
+    "zh-tw": "加深筆刷顏色",
+    "es": "Oscurecer color del pincel",
+    "fr": "Assombrir la couleur de la brosse",
+    "ja": "ブラシ色を暗くする"
+  },
+  "make_brush_color_lighter": {
+    "en": "Make Brush Color Lighter",
+    "zh-cn": "提亮笔刷颜色",
+    "zh-tw": "提亮筆刷顏色",
+    "es": "Aclarar color del pincel",
+    "fr": "Éclaircir la couleur de la brosse",
+    "ja": "ブラシ色を明るくする"
+  },
+  "mirror_canvas_around_cursor": {
+    "en": "Mirror Canvas Around Cursor",
+    "zh-cn": "围绕光标镜像画布",
+    "zh-tw": "以游標為中心鏡像畫布",
+    "es": "Reflejar lienzo alrededor del cursor",
+    "fr": "Miroir du canevas autour du curseur",
+    "ja": "カーソルを中心にキャンバスを反転"
+  },
+  "movetool-move-down": {
+    "en": "Move Tool Down",
+    "zh-cn": "移动工具向下",
+    "zh-tw": "移動工具向下",
+    "es": "Mover herramienta hacia abajo",
+    "fr": "Déplacer l’outil vers le bas",
+    "ja": "移動ツールを下へ"
+  },
+  "movetool-move-down-more": {
+    "en": "Move Tool Down More",
+    "zh-cn": "移动工具大幅向下",
+    "zh-tw": "移動工具大幅向下",
+    "es": "Mover herramienta más hacia abajo",
+    "fr": "Déplacer davantage l’outil vers le bas",
+    "ja": "移動ツールをさらに下へ"
+  },
+  "movetool-move-left": {
+    "en": "Move Tool Left",
+    "zh-cn": "移动工具向左",
+    "zh-tw": "移動工具向左",
+    "es": "Mover herramienta hacia la izquierda",
+    "fr": "Déplacer l’outil vers la gauche",
+    "ja": "移動ツールを左へ"
+  },
+  "movetool-move-left-more": {
+    "en": "Move Tool Left More",
+    "zh-cn": "移动工具大幅向左",
+    "zh-tw": "移動工具大幅向左",
+    "es": "Mover herramienta más hacia la izquierda",
+    "fr": "Déplacer davantage l’outil vers la gauche",
+    "ja": "移動ツールをさらに左へ"
+  },
+  "movetool-move-right": {
+    "en": "Move Tool Right",
+    "zh-cn": "移动工具向右",
+    "zh-tw": "移動工具向右",
+    "es": "Mover herramienta hacia la derecha",
+    "fr": "Déplacer l’outil vers la droite",
+    "ja": "移動ツールを右へ"
+  },
+  "movetool-move-right-more": {
+    "en": "Move Tool Right More",
+    "zh-cn": "移动工具大幅向右",
+    "zh-tw": "移動工具大幅向右",
+    "es": "Mover herramienta más hacia la derecha",
+    "fr": "Déplacer davantage l’outil vers la droite",
+    "ja": "移動ツールをさらに右へ"
+  },
+  "movetool-move-up": {
+    "en": "Move Tool Up",
+    "zh-cn": "移动工具向上",
+    "zh-tw": "移動工具向上",
+    "es": "Mover herramienta hacia arriba",
+    "fr": "Déplacer l’outil vers le haut",
+    "ja": "移動ツールを上へ"
+  },
+  "movetool-move-up-more": {
+    "en": "Move Tool Up More",
+    "zh-cn": "移动工具大幅向上",
+    "zh-tw": "移動工具大幅向上",
+    "es": "Mover herramienta más hacia arriba",
+    "fr": "Déplacer davantage l’outil vers le haut",
+    "ja": "移動ツールをさらに上へ"
+  },
+  "movetool-show-coordinates": {
+    "en": "Show Move Tool Coordinates",
+    "zh-cn": "显示移动工具坐标",
+    "zh-tw": "顯示移動工具座標",
+    "es": "Mostrar coordenadas de la herramienta Mover",
+    "fr": "Afficher les coordonnées de l’outil de déplacement",
+    "ja": "移動ツールの座標を表示"
+  },
+  "Next Blending Mode": {
+    "en": "Next Blending Mode",
+    "zh-cn": "下一个混合模式",
+    "zh-tw": "下一個混合模式",
+    "es": "Siguiente modo de fusión",
+    "fr": "Mode de fusion suivant",
+    "ja": "次の合成モード"
+  },
+  "next_favorite_preset": {
+    "en": "Next Favorite Preset",
+    "zh-cn": "下一个收藏预设",
+    "zh-tw": "下一個收藏預設",
+    "es": "Siguiente preajuste favorito",
+    "fr": "Préréglage favori suivant",
+    "ja": "次のお気に入りプリセット"
+  },
+  "object_order_back": {
+    "en": "Send Backward",
+    "zh-cn": "下移一层",
+    "zh-tw": "下移一層",
+    "es": "Enviar hacia atrás",
+    "fr": "Reculer d’un plan",
+    "ja": "一つ背面へ移動"
+  },
+  "object_order_front": {
+    "en": "Bring Forward",
+    "zh-cn": "上移一层",
+    "zh-tw": "上移一層",
+    "es": "Traer hacia adelante",
+    "fr": "Avancer d’un plan",
+    "ja": "一つ前面へ移動"
+  },
+  "object_order_lower": {
+    "en": "Send to Back",
+    "zh-cn": "置于底层",
+    "zh-tw": "置於底層",
+    "es": "Enviar al fondo",
+    "fr": "Envoyer à l’arrière-plan",
+    "ja": "最背面へ移動"
+  },
+  "object_order_raise": {
+    "en": "Bring to Front",
+    "zh-cn": "置于顶层",
+    "zh-tw": "置於頂層",
+    "es": "Traer al frente",
+    "fr": "Amener au premier plan",
+    "ja": "最前面へ移動"
+  },
+  "paste_as_reference": {
+    "en": "Paste as Reference",
+    "zh-cn": "粘贴为参考图",
+    "zh-tw": "貼上為參考圖",
+    "es": "Pegar como referencia",
+    "fr": "Coller comme référence",
+    "ja": "参照として貼り付け"
+  },
+  "paste_at": {
+    "en": "Paste at Cursor",
+    "zh-cn": "在光标处粘贴",
+    "zh-tw": "在游標處貼上",
+    "es": "Pegar en el cursor",
+    "fr": "Coller au curseur",
+    "ja": "カーソル位置に貼り付け"
+  },
+  "paste_new": {
+    "en": "Paste as New Layer",
+    "zh-cn": "粘贴为新图层",
+    "zh-tw": "貼上為新圖層",
+    "es": "Pegar como capa nueva",
+    "fr": "Coller comme nouveau calque",
+    "ja": "新しいレイヤーとして貼り付け"
+  },
+  "path-break-selection": {
+    "en": "Break Path at Selection",
+    "zh-cn": "在选区处断开路径",
+    "zh-tw": "在選取處斷開路徑",
+    "es": "Separar trazado en la selección",
+    "fr": "Rompre le chemin à la sélection",
+    "ja": "選択位置でパスを分割"
+  },
+  "pathpoint-insert": {
+    "en": "Insert Path Point",
+    "zh-cn": "插入路径点",
+    "zh-tw": "插入路徑點",
+    "es": "Insertar punto de trazado",
+    "fr": "Insérer un point de chemin",
+    "ja": "パスポイントを挿入"
+  },
+  "pathpoint-join": {
+    "en": "Join Path Points",
+    "zh-cn": "连接路径点",
+    "zh-tw": "連接路徑點",
+    "es": "Unir puntos de trazado",
+    "fr": "Joindre les points de chemin",
+    "ja": "パスポイントを連結"
+  },
+  "pathpoint-remove": {
+    "en": "Remove Path Point",
+    "zh-cn": "删除路径点",
+    "zh-tw": "移除路徑點",
+    "es": "Eliminar punto de trazado",
+    "fr": "Supprimer un point de chemin",
+    "ja": "パスポイントを削除"
+  },
+  "pathsegment-curve": {
+    "en": "Convert Path Segment to Curve",
+    "zh-cn": "将路径段转换为曲线",
+    "zh-tw": "將路徑線段轉換為曲線",
+    "es": "Convertir segmento de trazado en curva",
+    "fr": "Convertir le segment de chemin en courbe",
+    "ja": "パスセグメントを曲線に変換"
+  },
+  "pathsegment-line": {
+    "en": "Convert Path Segment to Line",
+    "zh-cn": "将路径段转换为直线",
+    "zh-tw": "將路徑線段轉換為直線",
+    "es": "Convertir segmento de trazado en línea",
+    "fr": "Convertir le segment de chemin en ligne",
+    "ja": "パスセグメントを直線に変換"
+  },
+  "Previous Blending Mode": {
+    "en": "Previous Blending Mode",
+    "zh-cn": "上一个混合模式",
+    "zh-tw": "上一個混合模式",
+    "es": "Modo de fusión anterior",
+    "fr": "Mode de fusion précédent",
+    "ja": "前の合成モード"
+  },
+  "previous_favorite_preset": {
+    "en": "Previous Favorite Preset",
+    "zh-cn": "上一个收藏预设",
+    "zh-tw": "上一個收藏預設",
+    "es": "Preajuste favorito anterior",
+    "fr": "Préréglage favori précédent",
+    "ja": "前のお気に入りプリセット"
+  },
+  "previous_preset": {
+    "en": "Previous Preset",
+    "zh-cn": "上一个预设",
+    "zh-tw": "上一個預設",
+    "es": "Preajuste anterior",
+    "fr": "Préréglage précédent",
+    "ja": "前のプリセット"
+  },
+  "quick_ungroup": {
+    "en": "Quick Ungroup",
+    "zh-cn": "快速取消编组",
+    "zh-tw": "快速取消群組",
+    "es": "Desagrupar rápidamente",
+    "fr": "Dégrouper rapidement",
+    "ja": "クイックグループ解除"
+  },
+  "RenameCurrentLayer": {
+    "en": "Rename Current Layer",
+    "zh-cn": "重命名当前图层",
+    "zh-tw": "重新命名目前圖層",
+    "es": "Renombrar capa actual",
+    "fr": "Renommer le calque actuel",
+    "ja": "現在のレイヤー名を変更"
+  },
+  "reselect": {
+    "en": "Reselect",
+    "zh-cn": "重新选择",
+    "zh-tw": "重新選取",
+    "es": "Volver a seleccionar",
+    "fr": "Resélectionner",
+    "ja": "再選択"
+  },
+  "reset_fg_bg": {
+    "en": "Reset Foreground/Background Colors",
+    "zh-cn": "重置前景色/背景色",
+    "zh-tw": "重設前景色/背景色",
+    "es": "Restablecer colores de primer plano/fondo",
+    "fr": "Réinitialiser les couleurs d’avant-plan/arrière-plan",
+    "ja": "前景色/背景色をリセット"
+  },
+  "rotate_canvas_left": {
+    "en": "Rotate Canvas Left",
+    "zh-cn": "向左旋转画布",
+    "zh-tw": "向左旋轉畫布",
+    "es": "Rotar lienzo a la izquierda",
+    "fr": "Pivoter le canevas vers la gauche",
+    "ja": "キャンバスを左に回転"
+  },
+  "rotate_canvas_right": {
+    "en": "Rotate Canvas Right",
+    "zh-cn": "向右旋转画布",
+    "zh-tw": "向右旋轉畫布",
+    "es": "Rotar lienzo a la derecha",
+    "fr": "Pivoter le canevas vers la droite",
+    "ja": "キャンバスを右に回転"
+  },
+  "save_incremental_backup": {
+    "en": "Save Incremental Backup",
+    "zh-cn": "保存增量备份",
+    "zh-tw": "儲存增量備份",
+    "es": "Guardar copia de seguridad incremental",
+    "fr": "Enregistrer une sauvegarde incrémentale",
+    "ja": "増分バックアップを保存"
+  },
+  "save_incremental_version": {
+    "en": "Save Incremental Version",
+    "zh-cn": "保存增量版本",
+    "zh-tw": "儲存增量版本",
+    "es": "Guardar versión incremental",
+    "fr": "Enregistrer une version incrémentale",
+    "ja": "増分バージョンを保存"
+  },
+  "Select Behind Blending Mode": {
+    "en": "Set Blending Mode: Behind",
+    "zh-cn": "设置混合模式：背后",
+    "zh-tw": "設定混合模式：背後",
+    "es": "Establecer modo de fusión: detrás",
+    "fr": "Définir le mode de fusion : derrière",
+    "ja": "合成モードを設定: 背後"
+  },
+  "Select Clear Blending Mode": {
+    "en": "Set Blending Mode: Clear",
+    "zh-cn": "设置混合模式：清除",
+    "zh-tw": "設定混合模式：清除",
+    "es": "Establecer modo de fusión: borrar",
+    "fr": "Définir le mode de fusion : effacer",
+    "ja": "合成モードを設定: クリア"
+  },
+  "Select Color Blending Mode": {
+    "en": "Set Blending Mode: Color",
+    "zh-cn": "设置混合模式：颜色",
+    "zh-tw": "設定混合模式：顏色",
+    "es": "Establecer modo de fusión: color",
+    "fr": "Définir le mode de fusion : couleur",
+    "ja": "合成モードを設定: カラー"
+  },
+  "Select Color Burn Blending Mode": {
+    "en": "Set Blending Mode: Color Burn",
+    "zh-cn": "设置混合模式：颜色加深",
+    "zh-tw": "設定混合模式：顏色加深",
+    "es": "Establecer modo de fusión: sobreexposición lineal",
+    "fr": "Définir le mode de fusion : densité couleur +",
+    "ja": "合成モードを設定: 焼き込みカラー"
+  },
+  "Select Color Dodge Blending Mode": {
+    "en": "Set Blending Mode: Color Dodge",
+    "zh-cn": "设置混合模式：颜色减淡",
+    "zh-tw": "設定混合模式：顏色減淡",
+    "es": "Establecer modo de fusión: sobreexposición color",
+    "fr": "Définir le mode de fusion : densité couleur -",
+    "ja": "合成モードを設定: 覆い焼きカラー"
+  },
+  "Select Darken Blending Mode": {
+    "en": "Set Blending Mode: Darken",
+    "zh-cn": "设置混合模式：变暗",
+    "zh-tw": "設定混合模式：變暗",
+    "es": "Establecer modo de fusión: oscurecer",
+    "fr": "Définir le mode de fusion : assombrir",
+    "ja": "合成モードを設定: 比較（暗）"
+  },
+  "Select Difference Blending Mode": {
+    "en": "Set Blending Mode: Difference",
+    "zh-cn": "设置混合模式：差值",
+    "zh-tw": "設定混合模式：差值",
+    "es": "Establecer modo de fusión: diferencia",
+    "fr": "Définir le mode de fusion : différence",
+    "ja": "合成モードを設定: 差の絶対値"
+  },
+  "Select Dissolve Blending Mode": {
+    "en": "Set Blending Mode: Dissolve",
+    "zh-cn": "设置混合模式：溶解",
+    "zh-tw": "設定混合模式：溶解",
+    "es": "Establecer modo de fusión: disolver",
+    "fr": "Définir le mode de fusion : dissoudre",
+    "ja": "合成モードを設定: ディゾルブ"
+  },
+  "Select Exclusion Blending Mode": {
+    "en": "Set Blending Mode: Exclusion",
+    "zh-cn": "设置混合模式：排除",
+    "zh-tw": "設定混合模式：排除",
+    "es": "Establecer modo de fusión: exclusión",
+    "fr": "Définir le mode de fusion : exclusion",
+    "ja": "合成モードを設定: 除外"
+  },
+  "Select Hard Light Blending Mode": {
+    "en": "Set Blending Mode: Hard Light",
+    "zh-cn": "设置混合模式：强光",
+    "zh-tw": "設定混合模式：強光",
+    "es": "Establecer modo de fusión: luz fuerte",
+    "fr": "Définir le mode de fusion : lumière crue",
+    "ja": "合成モードを設定: ハードライト"
+  },
+  "Select Hard Mix Blending Mode": {
+    "en": "Set Blending Mode: Hard Mix",
+    "zh-cn": "设置混合模式：实色混合",
+    "zh-tw": "設定混合模式：實色混合",
+    "es": "Establecer modo de fusión: mezcla dura",
+    "fr": "Définir le mode de fusion : mélange maximal",
+    "ja": "合成モードを設定: ハードミックス"
+  },
+  "Select Hard Overlay Blending Mode": {
+    "en": "Set Blending Mode: Hard Overlay",
+    "zh-cn": "设置混合模式：强叠加",
+    "zh-tw": "設定混合模式：強疊加",
+    "es": "Establecer modo de fusión: superposición fuerte",
+    "fr": "Définir le mode de fusion : incrustation dure",
+    "ja": "合成モードを設定: ハードオーバーレイ"
+  },
+  "Select Hue Blending Mode": {
+    "en": "Set Blending Mode: Hue",
+    "zh-cn": "设置混合模式：色相",
+    "zh-tw": "設定混合模式：色相",
+    "es": "Establecer modo de fusión: tono",
+    "fr": "Définir le mode de fusion : teinte",
+    "ja": "合成モードを設定: 色相"
+  },
+  "Select Lighten Blending Mode": {
+    "en": "Set Blending Mode: Lighten",
+    "zh-cn": "设置混合模式：变亮",
+    "zh-tw": "設定混合模式：變亮",
+    "es": "Establecer modo de fusión: aclarar",
+    "fr": "Définir le mode de fusion : éclaircir",
+    "ja": "合成モードを設定: 比較（明）"
+  },
+  "Select Linear Burn Blending Mode": {
+    "en": "Set Blending Mode: Linear Burn",
+    "zh-cn": "设置混合模式：线性加深",
+    "zh-tw": "設定混合模式：線性加深",
+    "es": "Establecer modo de fusión: subexposición lineal",
+    "fr": "Définir le mode de fusion : brûlure linéaire",
+    "ja": "合成モードを設定: 焼き込み（リニア）"
+  },
+  "Select Linear Dodge Blending Mode": {
+    "en": "Set Blending Mode: Linear Dodge",
+    "zh-cn": "设置混合模式：线性减淡",
+    "zh-tw": "設定混合模式：線性減淡",
+    "es": "Establecer modo de fusión: sobreexposición lineal",
+    "fr": "Définir le mode de fusion : esquive linéaire",
+    "ja": "合成モードを設定: 覆い焼き（リニア）"
+  },
+  "Select Linear Light Blending Mode": {
+    "en": "Set Blending Mode: Linear Light",
+    "zh-cn": "设置混合模式：线性光",
+    "zh-tw": "設定混合模式：線性光",
+    "es": "Establecer modo de fusión: luz lineal",
+    "fr": "Définir le mode de fusion : lumière linéaire",
+    "ja": "合成モードを設定: リニアライト"
+  },
+  "Select Luminosity Blending Mode": {
+    "en": "Set Blending Mode: Luminosity",
+    "zh-cn": "设置混合模式：明度",
+    "zh-tw": "設定混合模式：明度",
+    "es": "Establecer modo de fusión: luminosidad",
+    "fr": "Définir le mode de fusion : luminosité",
+    "ja": "合成モードを設定: 輝度"
+  },
+  "Select Multiply Blending Mode": {
+    "en": "Set Blending Mode: Multiply",
+    "zh-cn": "设置混合模式：正片叠底",
+    "zh-tw": "設定混合模式：正片疊底",
+    "es": "Establecer modo de fusión: multiplicar",
+    "fr": "Définir le mode de fusion : produit",
+    "ja": "合成モードを設定: 乗算"
+  },
+  "Select Normal Blending Mode": {
+    "en": "Set Blending Mode: Normal",
+    "zh-cn": "设置混合模式：正常",
+    "zh-tw": "設定混合模式：正常",
+    "es": "Establecer modo de fusión: normal",
+    "fr": "Définir le mode de fusion : normal",
+    "ja": "合成モードを設定: 通常"
+  },
+  "Select Overlay Blending Mode": {
+    "en": "Set Blending Mode: Overlay",
+    "zh-cn": "设置混合模式：叠加",
+    "zh-tw": "設定混合模式：疊加",
+    "es": "Establecer modo de fusión: superponer",
+    "fr": "Définir le mode de fusion : incrustation",
+    "ja": "合成モードを設定: オーバーレイ"
+  },
+  "Select Pin Light Blending Mode": {
+    "en": "Set Blending Mode: Pin Light",
+    "zh-cn": "设置混合模式：点光",
+    "zh-tw": "設定混合模式：點光",
+    "es": "Establecer modo de fusión: luz focal",
+    "fr": "Définir le mode de fusion : lumière ponctuelle",
+    "ja": "合成モードを設定: ピンライト"
+  },
+  "Select Saturation Blending Mode": {
+    "en": "Set Blending Mode: Saturation",
+    "zh-cn": "设置混合模式：饱和度",
+    "zh-tw": "設定混合模式：飽和度",
+    "es": "Establecer modo de fusión: saturación",
+    "fr": "Définir le mode de fusion : saturation",
+    "ja": "合成モードを設定: 彩度"
+  },
+  "Select Screen Blending Mode": {
+    "en": "Set Blending Mode: Screen",
+    "zh-cn": "设置混合模式：滤色",
+    "zh-tw": "設定混合模式：濾色",
+    "es": "Establecer modo de fusión: trama",
+    "fr": "Définir le mode de fusion : écran",
+    "ja": "合成モードを設定: スクリーン"
+  },
+  "Select Soft Light Blending Mode": {
+    "en": "Set Blending Mode: Soft Light",
+    "zh-cn": "设置混合模式：柔光",
+    "zh-tw": "設定混合模式：柔光",
+    "es": "Establecer modo de fusión: luz suave",
+    "fr": "Définir le mode de fusion : lumière douce",
+    "ja": "合成モードを設定: ソフトライト"
+  },
+  "Select Vivid Light Blending Mode": {
+    "en": "Set Blending Mode: Vivid Light",
+    "zh-cn": "设置混合模式：亮光",
+    "zh-tw": "設定混合模式：亮光",
+    "es": "Establecer modo de fusión: luz intensa",
+    "fr": "Définir le mode de fusion : lumière vive",
+    "ja": "合成モードを設定: ビビッドライト"
+  },
+  "show_brush_editor": {
+    "en": "Show Brush Editor",
+    "zh-cn": "显示笔刷编辑器",
+    "zh-tw": "顯示筆刷編輯器",
+    "es": "Mostrar editor de pinceles",
+    "fr": "Afficher l’éditeur de brosses",
+    "ja": "ブラシエディターを表示"
+  },
+  "show_brush_presets": {
+    "en": "Show Brush Presets",
+    "zh-cn": "显示笔刷预设",
+    "zh-tw": "顯示筆刷預設",
+    "es": "Mostrar preajustes de pincel",
+    "fr": "Afficher les préréglages de brosse",
+    "ja": "ブラシプリセットを表示"
+  },
+  "show_color_history": {
+    "en": "Show Color History",
+    "zh-cn": "显示颜色历史",
+    "zh-tw": "顯示顏色歷史",
+    "es": "Mostrar historial de color",
+    "fr": "Afficher l’historique des couleurs",
+    "ja": "カラー履歴を表示"
+  },
+  "show_color_selector": {
+    "en": "Show Color Selector",
+    "zh-cn": "显示颜色选择器",
+    "zh-tw": "顯示顏色選擇器",
+    "es": "Mostrar selector de color",
+    "fr": "Afficher le sélecteur de couleurs",
+    "ja": "カラーセレクターを表示"
+  },
+  "show_common_colors": {
+    "en": "Show Common Colors",
+    "zh-cn": "显示常用颜色",
+    "zh-tw": "顯示常用顏色",
+    "es": "Mostrar colores comunes",
+    "fr": "Afficher les couleurs courantes",
+    "ja": "よく使う色を表示"
+  },
+  "show_minimal_shade_selector": {
+    "en": "Show Minimal Shade Selector",
+    "zh-cn": "显示简洁明暗选择器",
+    "zh-tw": "顯示簡潔明暗選擇器",
+    "es": "Mostrar selector de tonos minimalista",
+    "fr": "Afficher le sélecteur d’ombres minimal",
+    "ja": "ミニマルシェードセレクターを表示"
+  },
+  "show_mypaint_shade_selector": {
+    "en": "Show MyPaint Shade Selector",
+    "zh-cn": "显示 MyPaint 明暗选择器",
+    "zh-tw": "顯示 MyPaint 明暗選擇器",
+    "es": "Mostrar selector de tonos de MyPaint",
+    "fr": "Afficher le sélecteur d’ombres MyPaint",
+    "ja": "MyPaint シェードセレクターを表示"
+  },
+  "show_snap_options_popup": {
+    "en": "Show Snap Options",
+    "zh-cn": "显示吸附选项",
+    "zh-tw": "顯示吸附選項",
+    "es": "Mostrar opciones de ajuste",
+    "fr": "Afficher les options d’aimantation",
+    "ja": "スナップオプションを表示"
+  },
+  "show_tool_options": {
+    "en": "Show Tool Options",
+    "zh-cn": "显示工具选项",
+    "zh-tw": "顯示工具選項",
+    "es": "Mostrar opciones de herramienta",
+    "fr": "Afficher les options de l’outil",
+    "ja": "ツールオプションを表示"
+  },
+  "show_wg_color_selector": {
+    "en": "Show Wide Gamut Color Selector",
+    "zh-cn": "显示广色域颜色选择器",
+    "zh-tw": "顯示廣色域顏色選擇器",
+    "es": "Mostrar selector de color de amplia gama",
+    "fr": "Afficher le sélecteur de couleurs à large gamut",
+    "ja": "広色域カラーセレクターを表示"
+  },
+  "softProof": {
+    "en": "Toggle Soft Proofing",
+    "zh-cn": "切换软打样",
+    "zh-tw": "切換軟打樣",
+    "es": "Alternar prueba en pantalla",
+    "fr": "Basculer l’épreuvage écran",
+    "ja": "ソフトプルーフを切り替え"
+  },
+  "svg_align_center": {
+    "en": "Align Center",
+    "zh-cn": "居中对齐",
+    "zh-tw": "置中對齊",
+    "es": "Alinear al centro",
+    "fr": "Aligner au centre",
+    "ja": "中央揃え"
+  },
+  "svg_align_justified": {
+    "en": "Justify Text",
+    "zh-cn": "文本两端对齐",
+    "zh-tw": "文字左右對齊",
+    "es": "Justificar texto",
+    "fr": "Justifier le texte",
+    "ja": "文字を両端揃え"
+  },
+  "svg_align_right": {
+    "en": "Align Right",
+    "zh-cn": "右对齐",
+    "zh-tw": "靠右對齊",
+    "es": "Alinear a la derecha",
+    "fr": "Aligner à droite",
+    "ja": "右揃え"
+  },
+  "svg_decrease_font_size": {
+    "en": "Decrease Font Size",
+    "zh-cn": "减小字号",
+    "zh-tw": "縮小字級",
+    "es": "Disminuir tamaño de fuente",
+    "fr": "Réduire la taille de police",
+    "ja": "フォントサイズを小さくする"
+  },
+  "svg_font": {
+    "en": "Select Font",
+    "zh-cn": "选择字体",
+    "zh-tw": "選擇字型",
+    "es": "Seleccionar fuente",
+    "fr": "Sélectionner la police",
+    "ja": "フォントを選択"
+  },
+  "svg_format_italic": {
+    "en": "Toggle Italic",
+    "zh-cn": "切换斜体",
+    "zh-tw": "切換斜體",
+    "es": "Alternar cursiva",
+    "fr": "Basculer l’italique",
+    "ja": "イタリックを切り替え"
+  },
+  "svg_format_subscript": {
+    "en": "Toggle Subscript",
+    "zh-cn": "切换下标",
+    "zh-tw": "切換下標",
+    "es": "Alternar subíndice",
+    "fr": "Basculer l’indice",
+    "ja": "下付き文字を切り替え"
+  },
+  "svg_format_superscript": {
+    "en": "Toggle Superscript",
+    "zh-cn": "切换上标",
+    "zh-tw": "切換上標",
+    "es": "Alternar superíndice",
+    "fr": "Basculer l’exposant",
+    "ja": "上付き文字を切り替え"
+  },
+  "svg_format_underline": {
+    "en": "Toggle Underline",
+    "zh-cn": "切换下划线",
+    "zh-tw": "切換底線",
+    "es": "Alternar subrayado",
+    "fr": "Basculer le soulignement",
+    "ja": "下線を切り替え"
+  },
+  "svg_increase_font_size": {
+    "en": "Increase Font Size",
+    "zh-cn": "增大字号",
+    "zh-tw": "增大字級",
+    "es": "Aumentar tamaño de fuente",
+    "fr": "Augmenter la taille de police",
+    "ja": "フォントサイズを大きくする"
+  },
+  "svg_insert_special_character": {
+    "en": "Insert Special Character",
+    "zh-cn": "插入特殊字符",
+    "zh-tw": "插入特殊字元",
+    "es": "Insertar carácter especial",
+    "fr": "Insérer un caractère spécial",
+    "ja": "特殊文字を挿入"
+  },
+  "svg_line_height": {
+    "en": "Set Line Height",
+    "zh-cn": "设置行高",
+    "zh-tw": "設定行高",
+    "es": "Establecer interlineado",
+    "fr": "Définir l’interligne",
+    "ja": "行間を設定"
+  },
+  "svg_weight_bold": {
+    "en": "Set Font Weight: Bold",
+    "zh-cn": "设置字重：粗体",
+    "zh-tw": "設定字重：粗體",
+    "es": "Establecer grosor de fuente: negrita",
+    "fr": "Définir l’épaisseur de police : gras",
+    "ja": "フォントウェイトを設定: 太字"
+  },
+  "svg_weight_light": {
+    "en": "Set Font Weight: Light",
+    "zh-cn": "设置字重：细体",
+    "zh-tw": "設定字重：細體",
+    "es": "Establecer grosor de fuente: fino",
+    "fr": "Définir l’épaisseur de police : léger",
+    "ja": "フォントウェイトを設定: 細字"
+  },
+  "svg_weight_normal": {
+    "en": "Set Font Weight: Normal",
+    "zh-cn": "设置字重：常规",
+    "zh-tw": "設定字重：一般",
+    "es": "Establecer grosor de fuente: normal",
+    "fr": "Définir l’épaisseur de police : normal",
+    "ja": "フォントウェイトを設定: 標準"
+  },
+  "switchToPreviouslyActiveNode": {
+    "en": "Switch to Previously Active Node",
+    "zh-cn": "切换到先前活动节点",
+    "zh-tw": "切換到先前作用中的節點",
+    "es": "Cambiar al nodo activo anterior",
+    "fr": "Passer au nœud actif précédent",
+    "ja": "前にアクティブだったノードへ切り替え"
+  },
+  "tablet_debugger": {
+    "en": "Open Tablet Debugger",
+    "zh-cn": "打开数位板调试器",
+    "zh-tw": "開啟數位板偵錯器",
+    "es": "Abrir depurador de tableta",
+    "fr": "Ouvrir le débogueur de tablette",
+    "ja": "タブレットデバッガーを開く"
+  },
+  "toggle_assistant": {
+    "en": "Toggle Assistant",
+    "zh-cn": "切换辅助器",
+    "zh-tw": "切換輔助器",
+    "es": "Alternar asistente",
+    "fr": "Basculer l’assistant",
+    "ja": "アシスタントを切り替え"
+  },
+  "toggle_display_selection": {
+    "en": "Toggle Selection Display",
+    "zh-cn": "切换选区显示",
+    "zh-tw": "切換選取顯示",
+    "es": "Alternar visualización de selección",
+    "fr": "Basculer l’affichage de la sélection",
+    "ja": "選択表示を切り替え"
+  },
+  "undo_polygon_selection": {
+    "en": "Undo Polygon Selection",
+    "zh-cn": "撤销多边形选区",
+    "zh-tw": "復原多邊形選取",
+    "es": "Deshacer selección poligonal",
+    "fr": "Annuler la sélection polygonale",
+    "ja": "多角形選択を元に戻す"
+  },
+  "view_grid": {
+    "en": "Toggle Grid",
+    "zh-cn": "切换网格",
+    "zh-tw": "切換格線",
+    "es": "Alternar cuadrícula",
+    "fr": "Basculer la grille",
+    "ja": "グリッドを切り替え"
+  },
+  "view_snap_to_grid": {
+    "en": "Toggle Snap to Grid",
+    "zh-cn": "切换吸附到网格",
+    "zh-tw": "切換貼齊格線",
+    "es": "Alternar ajuste a la cuadrícula",
+    "fr": "Basculer l’aimantation à la grille",
+    "ja": "グリッドにスナップを切り替え"
+  }
+}

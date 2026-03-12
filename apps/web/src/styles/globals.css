@@ -1,0 +1,82 @@
+/* globals.css — Global styles for Keymap Highlight. Supports dark and light color modes. */
+@import "tailwindcss";
+
+:root {
+  --font-sans: "IBM Plex Sans", "Segoe UI Variable", "Noto Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", "Cascadia Code", "Fira Code", monospace;
+  --color-primary: #2b6cb0;
+  --color-secondary: #0ea5a4;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  overflow: hidden;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.3);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 128, 128, 0.5);
+}
+
+.kh-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(128, 128, 128, 0.3) transparent;
+}
+
+.kh-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.kh-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.kh-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.3);
+}
+
+.kh-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 128, 128, 0.5);
+}
+
+.chakra-ui-dark body,
+body.chakra-ui-dark,
+html.chakra-ui-dark body {
+  color-scheme: dark;
+  color: #f3f4f6;
+  background: linear-gradient(180deg, #070b12 0%, #0d1320 56%, #0a1019 100%);
+}
+
+.chakra-ui-light body,
+body.chakra-ui-light,
+html.chakra-ui-light body {
+  color-scheme: light;
+  color: #1a202c;
+  background:
+    radial-gradient(1200px 700px at 12% -15%, rgba(56, 189, 248, 0.06), transparent 62%),
+    radial-gradient(900px 600px at 85% 0%, rgba(45, 212, 191, 0.05), transparent 58%),
+    linear-gradient(180deg, #f7fafc 0%, #edf2f7 56%, #f7fafc 100%);
+}
