@@ -12,37 +12,43 @@ These tables describe the current shipped app status in this repository.
 
 ### Editor and Software Support
 
-| Editor / Software   | Keymap Parser | Demo Presets |
-| ------------------- | ------------- | ------------ |
-| VS Code             | ✅            | ✅           |
-| JetBrains IDEs      | ✅            | ✅           |
-| Vim                 | ⚠️          | ⚠️         |
-| Neovim              | ⚠️          | ⏳            |
-| Zed                 | ✅            | ✅           |
-| Krita               | ✅            | ✅           |
-| Adobe Illustrator   | ⚠️          | ✅           |
-| Blender             | ✅            | ✅           |
-| Emacs               | ⚠️          | ⏳            |
-| Adobe Photoshop     | ⏳             | ⏳            |
-| Adobe After Effects | ⏳             | ⏳            |
-| Adobe Lightroom     | ⏳             | ⏳            |
-| Autodesk Maya       | ⏳             | ⏳            |
-| Sublime Text        | ⏳             | ⏳            |
+| Editor / Software    | Keymap Parser | Demo Presets |
+| -------------------- | ------------- | ------------ |
+| VS Code              | ✅            | ✅           |
+| JetBrains IDEs       | ✅            | ⚠️           |
+| Vim                  | ⚠️            | ⚠️           |
+| Neovim               | ⚠️            | ⏳           |
+| Zed                  | ✅            | ✅           |
+| Krita                | ✅            | ✅           |
+| Adobe Illustrator    | ✅            | ✅           |
+| Blender              | ✅            | ✅           |
+| GNU nano             | ✅            | ✅           |
+| Emacs                | ⚠️            | ⏳           |
+| Adobe Photoshop      | ⏳            | ⏳           |
+| Adobe After Effects  | ⏳            | ⏳           |
+| Adobe Lightroom      | ⏳            | ⏳           |
+| Autodesk Maya        | ⏳            | ⏳           |
+| Sublime Text         | ⏳            | ⏳           |
+| Chrome               | ⏳            | ⏳           |
+| Microsoft Word       | ⏳            | ⏳           |
+| Microsoft Excel      | ⏳            | ⏳           |
+| Microsoft PowerPoint | ⏳            | ⏳           |
 
 ### Functionality Status
 
-| Area                                           | Status |
-| ---------------------------------------------- | ------ |
-| Privacy-first local processing and persistence | ✅     |
-| Keyboard visualization                         | ✅     |
-| Key bindings searching, grouping, filtering    | ✅     |
-| Context of action analysis                     | ✅     |
-| Keyboard hardware/input layout switching       | ✅     |
-| Human-friendly action labels                   | ✅     |
-| Cheatsheet export                              | ✅     |
-| UI/UX i18n                                     | ⚠️   |
-| Code Test Suites                               | ⚠️   |
-| In-app usage guide and help                    | ⏳      |
+| Area                                                            | Status |
+| --------------------------------------------------------------- | ------ |
+| Privacy-first local processing and persistence                  | ✅     |
+| Keyboard visualization                                          | ✅     |
+| Key bindings searching, grouping, filtering                     | ✅     |
+| Context of action analysis                                      | ✅     |
+| Keyboard hardware/input layout switching                        | ✅     |
+| Human-friendly action labels                                    | ✅     |
+| Cheatsheet export (PDF/Markdown)                                | ✅     |
+| UI/UX i18n                                                      | ⚠️     |
+| Code Test Suites                                                | ⚠️     |
+| In-app usage guide and help                                     | ⏳     |
+| Press keys on physical keyboard to retrieve associated bindings | ⏳     |
 
 ## Getting Started
 
