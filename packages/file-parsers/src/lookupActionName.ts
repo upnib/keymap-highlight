@@ -4,6 +4,7 @@ import jetbrainsActions from './data/names/jetbrains-actions.json';
 import vimActions from './data/names/vim-actions.json';
 import zedActions from './data/names/zed-actions.json';
 import emacsActions from './data/names/emacs-actions.json';
+import nanoActions from './data/names/nano-actions.json';
 import kritaActions from './data/names/krita-actions.json';
 import illustratorActions from './data/names/illustrator-actions.json';
 import blenderActions from './data/names/blender-actions.json';
@@ -21,6 +22,7 @@ const dictionaries: Record<Editor, ActionDictionary> = {
   neovim: vimActions as ActionDictionary,
   zed: zedActions as ActionDictionary,
   emacs: emacsActions as ActionDictionary,
+  nano: nanoActions as ActionDictionary,
   krita: kritaActions as ActionDictionary,
   illustrator: illustratorActions as ActionDictionary,
   blender: blenderActions as ActionDictionary,
@@ -59,7 +61,7 @@ export function lookupActionName(
 }
 
 export function getSupportedEditors(): Editor[] {
-  return ['vscode', 'jetbrains', 'vim', 'neovim', 'zed', 'emacs', 'krita', 'illustrator', 'blender'];
+  return ['vscode', 'jetbrains', 'vim', 'neovim', 'zed', 'emacs', 'nano', 'krita', 'illustrator', 'blender'];
 }
 
 export function getEditorActions(editor: Editor): ActionDictionary {

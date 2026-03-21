@@ -7,7 +7,7 @@ export * from './detect-format';
 export * from './layouts';
 export * from './lookupActionName';
 export * from './commonActions';
-export { parseJetBrains, parseVSCode, parseVim, parseNeovim, parseZed, parseEmacs, parseKrita, parseIllustrator, parseBlender } from './parsers';
+export { parseJetBrains, parseVSCode, parseVim, parseNeovim, parseZed, parseEmacs, parseNano, parseKrita, parseIllustrator, parseBlender } from './parsers';
 export { PARSERS_BY_EDITOR, resolveParserByEditor, type ParserFunction } from './parsers';
 export * from './schemas/enums';
 export * from './schemas/keyBinding';

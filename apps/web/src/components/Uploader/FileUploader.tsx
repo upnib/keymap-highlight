@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next';
 
 const FILE_ACCEPT = {
   'application/json': ['.json', '.jsonc'],
-  'text/plain': ['.keymap', '.txt', '.vimrc', '.lua', '.el', '.emacs', '.shortcuts', '.py'],
+  'text/plain': ['.keymap', '.txt', '.vimrc', '.lua', '.el', '.emacs', '.nanorc', '.shortcuts', '.py'],
   'application/xml': ['.xml'],
 };
 

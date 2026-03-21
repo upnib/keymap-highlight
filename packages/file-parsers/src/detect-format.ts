@@ -8,6 +8,7 @@ const BLENDER_EXPORT_VERSION_TRAIT = /^\s*keyconfig_version\s*=\s*\(/m;
 const BLENDER_EXPORT_DATA_TRAIT = /^\s*keyconfig_data\s*=\s*\\?\s*\[/m;
 const BLENDER_EXPORT_IMPORT_TRAIT = /\bkeyconfig_import_from_data\b/;
 const NEOVIM_CONFIG_TRAIT = /(?:\bvim\.keymap\.set\b|\bvim\.api\.nvim_(?:buf_)?set_keymap\b)/i;
+const NANO_BINDING_TRAIT = /^\s*(?:bind|unbind)\s+(?:"[^"]+"|\S+)\s+(?:"[^"]+"|\S+)\s+(?:all|main|help|search|replace|replacewith|yesno|gotoline|writeout|insert|browser|whereisfile|gotodir|execute|spell|linter)\b/im;
 const JSON_COMMENT_SCAN_LIMIT = 1600;
 const TEXT_COMMENT_SCAN_LIMIT = 1600;
 const TEXT_COMMENT_LINE_LIMIT = 16;
@@ -21,6 +22,7 @@ const COMMENT_HINT_PATTERNS: readonly { format: Editor; pattern: RegExp }[] = [
   { format: 'blender', pattern: /\bblender\b/i },
   { format: 'neovim', pattern: /\b(?:neovim|nvim)\b/i },
   { format: 'emacs', pattern: /\bemacs\b/i },
+  { format: 'nano', pattern: /\b(?:gnu\s+nano|nanorc|nano)\b/i },
   { format: 'vim', pattern: /\bvim\b/i },
 ] as const;
 
@@ -244,6 +246,7 @@ export function detectFormat(filename: string, content: string): DetectedEditorF
   if (lowerName.endsWith('.vim') || lowerName === '.vimrc' || lowerName === 'vimrc' || lowerName === '_vimrc') return 'vim';
   if (lowerName.endsWith('.lua') || lowerName === 'init.lua') return 'neovim';
   if (lowerName.endsWith('.el') || lowerName === '.emacs' || lowerName === 'init.el') return 'emacs';
+  if (lowerName.endsWith('.nanorc') || lowerName === 'nanorc') return 'nano';
   if (lowerName.endsWith('.py') && looksLikeBlenderExport(content)) return 'blender';
 
   const detectedCommentHint = detectFormatFromLeadingComments(filename, content);
@@ -260,6 +263,7 @@ export function detectFormat(filename: string, content: string): DetectedEditorF
   if (/^\s*\[shortcuts\]\s*$/im.test(content)) return 'krita';
   if (looksLikeIllustratorExport(content)) return 'illustrator';
   if (looksLikeBlenderExport(content)) return 'blender';
+  if (NANO_BINDING_TRAIT.test(content)) return 'nano';
   if (NEOVIM_CONFIG_TRAIT.test(content)) return 'neovim';
   if (/\(global-set-key|\(define-key|\(kbd\s+"/i.test(content)) return 'emacs';
   if (/^\s*(?:[nvisxocst]?noremap!?|[nvisxocst]?map!?)\s/im.test(content)) return 'vim';

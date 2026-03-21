@@ -7,6 +7,7 @@ import { parseEmacs } from './emacs';
 import { parseIllustrator } from './illustrator';
 import { parseJetBrains } from './jetbrains';
 import { parseKrita } from './krita';
+import { parseNano } from './nano';
 import { parseNeovim } from './neovim';
 import { parseVim } from './vim';
 import { parseVSCode } from './vscode';
@@ -21,6 +22,7 @@ export const PARSERS_BY_EDITOR: Readonly<Record<Editor, ParserFunction>> = {
   neovim: parseNeovim,
   zed: parseZed,
   emacs: parseEmacs,
+  nano: parseNano,
   krita: parseKrita,
   illustrator: parseIllustrator,
   blender: parseBlender,
@@ -41,6 +43,7 @@ export { parseVim };
 export { parseNeovim };
 export { parseZed };
 export { parseEmacs };
+export { parseNano };
 export { parseKrita };
 export { parseIllustrator };
 export { parseBlender };

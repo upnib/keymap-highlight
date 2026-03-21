@@ -1,6 +1,6 @@
 // editors.ts - Shared editor metadata and grouped demo preset definitions for the upload and demo UI.
 // Keeps preset order, grouping, and lookup data in one place for landing-page and main-tool reuse.
-export const DEMO_SUPPORTED_EDITORS = ['vscode', 'jetbrains', 'vim', 'zed', 'krita', 'illustrator', 'blender'] as const;
+export const DEMO_SUPPORTED_EDITORS = ['vscode', 'jetbrains', 'vim', 'zed', 'nano', 'krita', 'illustrator', 'blender'] as const;
 
 export type DemoSupportedEditor = (typeof DEMO_SUPPORTED_EDITORS)[number];
 
@@ -14,6 +14,7 @@ export const DEMO_PRESETS = [
   },
   { id: 'vim-default', editor: 'vim', labelKey: 'demoPresets.default', fallback: 'Default' },
   { id: 'zed-default', editor: 'zed', labelKey: 'demoPresets.default', fallback: 'Default' },
+  { id: 'nano-default', editor: 'nano', labelKey: 'demoPresets.default', fallback: 'Default' },
   { id: 'krita-default', editor: 'krita', labelKey: 'demoPresets.default', fallback: 'Default' },
   { id: 'illustrator-default', editor: 'illustrator', labelKey: 'demoPresets.default', fallback: 'Default' },
   { id: 'blender-default', editor: 'blender', labelKey: 'demoPresets.default', fallback: 'Default' },
@@ -40,6 +41,7 @@ export const DEMO_PRESET_GROUPS = [
   { editor: 'jetbrains', labelKey: 'parsers.jetbrains', fallback: 'JetBrains IDEs', presetIds: ['jetbrains-default'] },
   { editor: 'vim', labelKey: 'parsers.vim', fallback: 'Vim / Neovim', presetIds: ['vim-default'] },
   { editor: 'zed', labelKey: 'parsers.zed', fallback: 'Zed', presetIds: ['zed-default'] },
+  { editor: 'nano', labelKey: 'parsers.nano', fallback: 'GNU nano', presetIds: ['nano-default'] },
   { editor: 'krita', labelKey: 'parsers.krita', fallback: 'Krita', presetIds: ['krita-default'] },
   {
     editor: 'illustrator',

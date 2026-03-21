@@ -6,6 +6,7 @@ export const SUPPORTED_EDITOR_FORMATS = [
   'neovim',
   'zed',
   'emacs',
+  'nano',
   'krita',
   'illustrator',
   'blender',

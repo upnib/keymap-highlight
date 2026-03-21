@@ -1,5 +1,7 @@
 // CheatsheetModal.tsx - Chakra UI modal for reviewing, filtering, and exporting keybindings as PDF or Markdown.
-import { useCallback, useMemo, useState } from 'react';
+// Keeps one selectable row per parsed binding (including conflicts and duplicate signatures)
+// so modal totals remain aligned with the parser output shown elsewhere in the app.
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import {
   Alert,
   AlertDescription,
@@ -26,7 +28,7 @@ import {
   formatRawCommand,
   type GroupingKind,
 } from '@keymap-highlight/cheatsheet-export';
-import { formatChordSequence } from '@keymap-highlight/layout-pipeline';
+import { formatChordSequence, getConflictIdentity } from '@keymap-highlight/layout-pipeline';
 import type { ParseResult } from '@keymap-highlight/file-parsers';
 import { useTranslation } from 'react-i18next';
 import { useKeymapStore } from '../../store/useKeymapStore';
@@ -34,8 +36,8 @@ import { getActionTierForSource, lookupActionNameForSource } from '../../utils/e
 
 type ParsedBinding = ParseResult['bindings'][number];
 
-function getBindingId(binding: ParsedBinding): string {
-  return `${binding.key}::${binding.command}::${binding.when}::${binding.sourceEditor}`;
+function getBindingId(binding: ParsedBinding, index: number): string {
+  return `${getConflictIdentity(binding)}::${binding.command}::${index}`;
 }
 
 interface CheatsheetModalProps {
@@ -51,55 +53,63 @@ export function CheatsheetModal({ isOpen, onClose }: CheatsheetModalProps) {
   const currentLayout = useKeymapStore((state) => state.currentLayout);
   const os = useKeymapStore((state) => state.os);
   const parsedMetadata = useKeymapStore((state) => state.parsedMetadata);
+  const conflicts = useKeymapStore((state) => state.conflicts);
   const activeContext = useKeymapStore((state) => state.activeContext);
   const inputLayout = useKeymapStore((state) => state.inputLayout);
   const customInputMapping = useKeymapStore((state) => state.customInputMapping);
 
-  const sourceEditor = parsedMetadata?.sourceEditor;
+  const sortableBindings = useMemo(() => {
+    const result = bindings.map((binding, index) => ({
+      id: getBindingId(binding, index),
+      binding,
+    }));
 
-  const deduped = useMemo<ParsedBinding[]>(() => {
-    const seen = new Set<string>();
-    const result: ParsedBinding[] = [];
-    for (const binding of bindings) {
-      const id = getBindingId(binding);
-      if (!seen.has(id)) {
-        seen.add(id);
-        result.push(binding);
-      }
-    }
-    result.sort((a, b) => {
-      const tierA = getActionTierForSource(sourceEditor, a.command) || 3;
-      const tierB = getActionTierForSource(sourceEditor, b.command) || 3;
+    result.sort((left, right) => {
+      const tierA = getActionTierForSource(left.binding.sourceEditor, left.binding.command) || 3;
+      const tierB = getActionTierForSource(right.binding.sourceEditor, right.binding.command) || 3;
       if (tierA !== tierB) return tierA - tierB;
-      return a.command.localeCompare(b.command);
+      const commandSort = left.binding.command.localeCompare(right.binding.command);
+      if (commandSort !== 0) return commandSort;
+      return left.id.localeCompare(right.id);
     });
+
     return result;
-  }, [bindings, sourceEditor]);
+  }, [bindings]);
+
+  const conflictIdentities = useMemo(
+    () => new Set(conflicts.map((binding) => getConflictIdentity(binding))),
+    [conflicts],
+  );
 
   const defaultChecked = useMemo<Set<string>>(() => {
     const checked = new Set<string>();
-    for (const binding of deduped) {
-      const tier = getActionTierForSource(sourceEditor, binding.command);
+    for (const item of sortableBindings) {
+      const tier = getActionTierForSource(item.binding.sourceEditor, item.binding.command);
       if (tier === 1 || tier === 2) {
-        checked.add(getBindingId(binding));
+        checked.add(item.id);
       }
     }
     if (checked.size === 0) {
-      for (const binding of deduped.slice(0, 50)) {
-        checked.add(getBindingId(binding));
+      for (const item of sortableBindings.slice(0, 50)) {
+        checked.add(item.id);
       }
     }
     return checked;
-  }, [deduped, sourceEditor]);
+  }, [sortableBindings]);
 
-  const [checkedIds, setCheckedIds] = useState<Set<string>>(defaultChecked);
+  const [checkedIds, setCheckedIds] = useState<Set<string>>(() => new Set(defaultChecked));
   const groupingKind: GroupingKind = 'modifier';
   const [showCommandIds, setShowCommandIds] = useState(false);
   const [isExportingPdf, setIsExportingPdf] = useState(false);
 
+  useEffect(() => {
+    if (!isOpen) return;
+    setCheckedIds(new Set(defaultChecked));
+  }, [defaultChecked, isOpen]);
+
   const selectedBindings = useMemo(
-    () => deduped.filter((b) => checkedIds.has(getBindingId(b))),
-    [deduped, checkedIds]
+    () => sortableBindings.filter((item) => checkedIds.has(item.id)).map((item) => item.binding),
+    [sortableBindings, checkedIds],
   );
 
   const toggleBinding = useCallback((id: string) => {
@@ -115,8 +125,8 @@ export function CheatsheetModal({ isOpen, onClose }: CheatsheetModalProps) {
   }, []);
 
   const selectAll = useCallback(() => {
-    setCheckedIds(new Set(deduped.map(getBindingId)));
-  }, [deduped]);
+    setCheckedIds(new Set(sortableBindings.map((item) => item.id)));
+  }, [sortableBindings]);
 
   const selectNone = useCallback(() => {
     setCheckedIds(new Set());
@@ -260,7 +270,7 @@ export function CheatsheetModal({ isOpen, onClose }: CheatsheetModalProps) {
                 {t('pdf.common')}
               </Button>
               <Text fontSize="xs" color="gray.500">
-                {t('pdf.selected', { selected: selectedBindings.length, total: deduped.length })}
+                {t('pdf.selected', { selected: selectedBindings.length, total: sortableBindings.length })}
               </Text>
             </HStack>
           </HStack>
@@ -288,10 +298,11 @@ export function CheatsheetModal({ isOpen, onClose }: CheatsheetModalProps) {
             }}
           >
             <VStack spacing={0} align="stretch">
-              {deduped.map((binding) => {
-                const id = getBindingId(binding);
+              {sortableBindings.map((item) => {
+                const { binding, id } = item;
                 const isChecked = checkedIds.has(id);
-                const tier = getActionTierForSource(sourceEditor, binding.command);
+                const tier = getActionTierForSource(binding.sourceEditor, binding.command);
+                const isConflict = conflictIdentities.has(getConflictIdentity(binding));
                 const friendlyName = lookupActionNameForSource(binding.sourceEditor, binding.command, i18n.language);
                 const isUnmapped = !friendlyName || friendlyName === binding.command;
                 
@@ -347,6 +358,11 @@ export function CheatsheetModal({ isOpen, onClose }: CheatsheetModalProps) {
                     {tier === 2 && (
                       <Text fontSize="2xs" color="gray.400" flexShrink={0}>
                         {t('pdf.somewhatCommonBadge')}
+                      </Text>
+                    )}
+                    {isConflict && (
+                      <Text fontSize="2xs" color="red.400" flexShrink={0}>
+                        {t('bindingList.conflictDetected')}
                       </Text>
                     )}
                   </Flex>

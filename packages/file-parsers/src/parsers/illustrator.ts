@@ -1,5 +1,6 @@
 // illustrator.ts - Parses Adobe Illustrator exported shortcut text files into normalized KeyBinding records.
-// Supports tab-separated tool shortcuts and compact menu-command lines like "NewCtrl+N".
+// Supports tab-separated tool shortcuts, compact menu-command lines like "NewCtrl+N", and
+// strict spaced-shortcut detection to prevent action names from being misclassified as key bindings.
 import type { OS } from '../schemas/enums';
 import { KeyBinding, type KeyBinding as KeyBindingType } from '../schemas/keyBinding';
 import {
@@ -22,6 +23,16 @@ const ILLUSTRATOR_MODIFIER_TOKENS = new Set([
   'cmdorctrl',
   'ctrlorcmd',
   'ctrlcmd',
+  'cmd/ctrl',
+  'ctrl/cmd',
+]);
+
+const OS_SENSITIVE_MODIFIERS = new Set([
+  'cmdorctrl',
+  'ctrlorcmd',
+  'ctrlcmd',
+  'cmd/ctrl',
+  'ctrl/cmd',
 ]);
 
 const SUPPORTED_NAMED_KEYS = new Set([
@@ -59,15 +70,57 @@ const SUPPORTED_NAMED_KEYS = new Set([
   'numlock',
 ]);
 
+const SUPPORTED_KEY_ALIASES: Readonly<Record<string, string>> = {
+  esc: 'escape',
+  del: 'delete',
+  ins: 'insert',
+  return: 'enter',
+  bksp: 'backspace',
+  pgup: 'pageup',
+  pgdn: 'pagedown',
+  pgdown: 'pagedown',
+  spacebar: 'space',
+  quote: "'",
+  apostrophe: "'",
+  backquote: '`',
+  grave: '`',
+  minus: '-',
+  hyphen: '-',
+  plus: '+',
+  equal: '=',
+  equals: '=',
+  comma: ',',
+  period: '.',
+  dot: '.',
+  slash: '/',
+  forwardslash: '/',
+  backslash: '\\',
+  semicolon: ';',
+  colon: ':',
+  bracketleft: '[',
+  leftbracket: '[',
+  bracketright: ']',
+  rightbracket: ']',
+};
+
+const MODIFIER_SORT_ORDER: Readonly<Record<string, number>> = {
+  ctrl: 0,
+  shift: 1,
+  alt: 2,
+  meta: 3,
+  fn: 4,
+  menu: 5,
+};
+
 const SECTION_CONTEXT: Readonly<Record<string, string>> = {
   tools: 'tools',
   'menu commands': 'menu commands',
 };
 
 const MODIFIER_PREFIX_PATTERN =
-  /(?:ctrl|control|ctl|shift|alt|option|opt|cmd|command|meta|super|win|windows|fn)\+/gi;
+  /(?:cmdorctrl|ctrlorcmd|ctrlcmd|cmd\/ctrl|ctrl\/cmd|ctrl|control|ctl|shift|alt|option|opt|cmd|command|meta|super|win|windows|fn)\s*\+/gi;
 
-export function parseIllustrator(content: string, _os: OS): ParseResult {
+export function parseIllustrator(content: string, os: OS): ParseResult {
   const bindings: KeyBindingType[] = [];
   const warnings: ParseWarning[] = [];
   const parsedAt = new Date().toISOString();
@@ -100,7 +153,7 @@ export function parseIllustrator(content: string, _os: OS): ParseResult {
       continue;
     }
 
-    const parsedShortcut = parseShortcut(parsedEntry.shortcut);
+    const parsedShortcut = parseShortcut(parsedEntry.shortcut, os);
     if (!parsedShortcut) {
       addWarning(
         warnings,
@@ -237,7 +290,7 @@ function parseSpacedShortcutEntry(rawLine: string): { command: string; shortcut:
 }
 
 function isLikelyShortcutToken(token: string): boolean {
-  const normalized = token.trim().toLowerCase();
+  const normalized = normalizeKey(token);
   if (!normalized) {
     return false;
   }
@@ -254,10 +307,10 @@ function isLikelyShortcutToken(token: string): boolean {
     return true;
   }
 
-  return SUPPORTED_NAMED_KEYS.has(normalized) || /^[a-z][a-z0-9_]*$/.test(normalized);
+  return SUPPORTED_NAMED_KEYS.has(normalized);
 }
 
-function parseShortcut(shortcut: string): ParsedShortcut | null {
+function parseShortcut(shortcut: string, os: OS): ParsedShortcut | null {
   const compactShortcut = shortcut.trim().replace(/\s*\+\s*/g, '+');
   if (!compactShortcut || /\s/.test(compactShortcut)) {
     return null;
@@ -268,7 +321,7 @@ function parseShortcut(shortcut: string): ParsedShortcut | null {
   const modifiers: string[] = [];
   const seenModifiers = new Set<string>();
   for (const token of modifierTokens) {
-    const modifier = normalizeModifier(token);
+    const modifier = normalizeModifier(token, os);
     if (!modifier) {
       return null;
     }
@@ -280,28 +333,32 @@ function parseShortcut(shortcut: string): ParsedShortcut | null {
   }
 
   const key = normalizeKey(keyToken);
-  if (!key || normalizeModifier(key) || !isSupportedKeyToken(key)) {
+  if (!key || normalizeModifier(key, os) || !isSupportedKeyToken(key)) {
     return null;
   }
 
   return {
     key,
-    modifiers,
+    modifiers: sortModifiers(modifiers),
   };
 }
 
-function normalizeModifier(token: string): string | null {
-  const normalized = token.trim().toLowerCase();
-  if (ILLUSTRATOR_MODIFIER_TOKENS.has(normalized)) {
-    return normalized;
+function normalizeModifier(token: string, os?: OS): string | null {
+  const normalized = token.trim().toLowerCase().replace(/[_\-\s]+/g, '');
+  if (!ILLUSTRATOR_MODIFIER_TOKENS.has(normalized)) {
+    return null;
   }
 
-  return null;
+  if (OS_SENSITIVE_MODIFIERS.has(normalized)) {
+    return os === 'macos' ? 'meta' : 'ctrl';
+  }
+
+  return BASE_MODIFIER_ALIASES[normalized] ?? null;
 }
 
 function normalizeKey(token: string): string {
   const normalized = token.trim().toLowerCase();
-  return normalized;
+  return SUPPORTED_KEY_ALIASES[normalized] ?? normalized;
 }
 
 function isSupportedKeyToken(key: string): boolean {
@@ -313,7 +370,19 @@ function isSupportedKeyToken(key: string): boolean {
     return true;
   }
 
-  return SUPPORTED_NAMED_KEYS.has(key) || /^[a-z][a-z0-9_]*$/.test(key);
+  return SUPPORTED_NAMED_KEYS.has(key);
+}
+
+function sortModifiers(modifiers: string[]): string[] {
+  return [...modifiers].sort((left, right) => {
+    const leftOrder = MODIFIER_SORT_ORDER[left] ?? Number.MAX_SAFE_INTEGER;
+    const rightOrder = MODIFIER_SORT_ORDER[right] ?? Number.MAX_SAFE_INTEGER;
+    if (leftOrder !== rightOrder) {
+      return leftOrder - rightOrder;
+    }
+
+    return left.localeCompare(right);
+  });
 }
 
 function addWarning(warnings: ParseWarning[], message: string, code: string, line?: number): void {

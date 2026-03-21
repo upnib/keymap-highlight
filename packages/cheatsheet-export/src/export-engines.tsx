@@ -153,7 +153,7 @@ const printStyles = StyleSheet.create({
     justifyContent: 'center',
   },
   commandCell: {
-    width: '54%',
+    width: '54.5%',
     paddingHorizontal: 3,
     paddingVertical: 2,
     justifyContent: 'center',
@@ -450,12 +450,12 @@ export function applyForcedLineBreaks(text: string, _language = 'en'): React.Rea
   return result;
 }
 
-function estimateTextLineCount(text: string, maxWidth: number, fontSize: number): number {
-  if (!text) return 1;
-
-  const charWidth = (char: string): number => {
-    if (char === '\u200B' || char === '\u00AD') return 0;
-    if (char === ' ') return fontSize * 0.28;
+function getRenderedTextWidth(text: string, fontSize: number): number {
+  if (!text) return 0;
+  let width = 0;
+  for (const char of text) {
+    if (char === '\u200B' || char === '\u00AD') continue;
+    if (char === ' ') { width += fontSize * 0.28; continue; }
 
     const codePoint = char.codePointAt(0) ?? 0;
     const isCjk =
@@ -463,18 +463,26 @@ function estimateTextLineCount(text: string, maxWidth: number, fontSize: number)
       (codePoint >= 0xf900 && codePoint <= 0xfaff) ||
       (codePoint >= 0xff00 && codePoint <= 0xffef);
 
-    if (isCjk) return fontSize * 0.96;
-    if (/[A-Z0-9]/.test(char)) return fontSize * 0.62;
-    if (/[a-z]/.test(char)) return fontSize * 0.54;
-    if (/[._\-()/\\]/.test(char)) return fontSize * 0.35;
-    return fontSize * 0.5;
-  };
+    if (isCjk) { width += fontSize * 0.96; continue; }
+    if (char === 'I' || char === 'i' || char === 'l' || char === 'f' || char === 'j' || char === 'r' || char === 't') { width += fontSize * 0.45; continue; }
+    
+    if (/[A-Z]/.test(char)) { width += fontSize * 0.8; continue; }
+    if (/[0-9]/.test(char)) { width += fontSize * 0.6; continue; }
+    if (/[a-z]/.test(char)) { width += fontSize * 0.55; continue; }
+    if (/[._\-()/\\]/.test(char)) { width += fontSize * 0.35; continue; }
+    width += fontSize * 0.5;
+  }
+  return width;
+}
+
+function estimateTextLineCount(text: string, maxWidth: number, fontSize: number): number {
+  if (!text) return 1;
 
   let lines = 1;
   let currentWidth = 0;
 
   for (const char of text) {
-    const width = charWidth(char);
+    const width = getRenderedTextWidth(char, fontSize);
     if (currentWidth > 0 && currentWidth + width > maxWidth) {
       lines += 1;
       currentWidth = width;
@@ -564,7 +572,7 @@ function estimateRowHeight(
 
   let keyLines = 1;
   let currWidth = 0;
-  const MAX_KEY_W = 76; // slightly reduced from 79.65 for safety margin
+  const MAX_KEY_W = 78; // improved calculation allows closer to actual 79.65
 
   const strokes = [
     { key: binding.key, modifiers: binding.modifiers },
@@ -576,7 +584,7 @@ function estimateRowHeight(
 
   strokes.forEach((stroke, strokeIdx) => {
     if (strokeIdx > 0) {
-      const arrowW = 14;
+      const arrowW = 11; // '->' string (~6.8) + margin (4) = ~10.8, padded to 11
       if (currWidth + arrowW > MAX_KEY_W && currWidth > 0) {
         keyLines += 1;
         currWidth = arrowW;
@@ -585,10 +593,11 @@ function estimateRowHeight(
       }
     }
 
-    stroke.labels.forEach((label) => {
-      // Font size 7 for badge text (~3.5px per char), plus 4px padding and 1px border.
-      const badgeW = (label.length * 3.5) + 6;
-      const plusW = 8; // '+' is font 8 (~4px) + margin 2x2
+    stroke.labels.forEach((label: string) => {
+      // Font size 7 for badge text, plus 4px padding and 1px border.
+      const textW = getRenderedTextWidth(label, 7);
+      const badgeW = textW + 6;
+      const plusW = 8; // '+' is font 8 (~4.6) + margin 2x2
       const itemW = badgeW + plusW;
       if (currWidth + itemW > MAX_KEY_W && currWidth > 0) {
         keyLines += 1;
@@ -598,8 +607,8 @@ function estimateRowHeight(
       }
     });
 
-    // Main key is font size 8 (~4.5px per char)
-    const keyTextW = stroke.displayKey.length * 4.5;
+    // Main key is font size 8
+    const keyTextW = getRenderedTextWidth(stroke.displayKey, 8);
     if (currWidth + keyTextW > MAX_KEY_W && currWidth > 0) {
       keyLines += 1;
       currWidth = keyTextW;

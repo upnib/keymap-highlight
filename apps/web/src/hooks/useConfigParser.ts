@@ -105,6 +105,19 @@ const DEMO_PRESET_CONFIGS: Record<DemoPresetId, DemoPresetConfig> = {
       linux: () => import('../data/demos/zed/zed-default-linux.json?raw').then((m) => m.default),
     },
   },
+  'nano-default': {
+    editor: 'nano',
+    filenameByOs: {
+      win: 'nano-default-windows.nanorc',
+      mac: 'nano-default-macos.nanorc',
+      linux: 'nano-default-linux.nanorc',
+    },
+    importByOs: {
+      win: () => import('../data/demos/nano/nano-default-windows.nanorc?raw').then((m) => m.default),
+      mac: () => import('../data/demos/nano/nano-default-macos.nanorc?raw').then((m) => m.default),
+      linux: () => import('../data/demos/nano/nano-default-linux.nanorc?raw').then((m) => m.default),
+    },
+  },
   'krita-default': {
     editor: 'krita',
     filenameByOs: {
