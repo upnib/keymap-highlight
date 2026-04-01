@@ -2,6 +2,8 @@
 
 Keymap Highlight is a web-based visualization tool for inspecting keymap configurations in your editor and software.
 
+![](https://i.imgur.com/CSdBS0S.png)
+
 ## Current Feature Status
 
 These tables describe the current shipped app status in this repository.
