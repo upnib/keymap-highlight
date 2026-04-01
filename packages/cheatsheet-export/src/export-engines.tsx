@@ -846,14 +846,14 @@ function CheatSheetDocument({
   );
 }
 
-function buildPdfFileName(layout: LayoutKey): string {
+function buildPdfFileName(): string {
   const date = new Date().toISOString().slice(0, 10);
-  return `keymap-cheat-sheet-${layout}-${date}.pdf`;
+  return `keymap-cheat-sheet-${date}.pdf`;
 }
 
-function buildMarkdownFileName(layout: LayoutKey): string {
+function buildMarkdownFileName(): string {
   const date = new Date().toISOString().slice(0, 10);
-  return `keymap-cheat-sheet-${layout}-${date}.md`;
+  return `keymap-cheat-sheet-${date}.md`;
 }
 
 export async function exportToPdf(options: ExportCheatsheetOptions): Promise<void> {
@@ -894,7 +894,7 @@ export async function exportToPdf(options: ExportCheatsheetOptions): Promise<voi
   const objectUrl = window.URL.createObjectURL(blob);
   const link = window.document.createElement('a');
   link.href = objectUrl;
-  link.download = buildPdfFileName(layout);
+  link.download = buildPdfFileName();
   link.click();
   window.URL.revokeObjectURL(objectUrl);
 }
@@ -963,7 +963,7 @@ export function exportToMarkdown(options: ExportCheatsheetOptions): void {
   const objectUrl = window.URL.createObjectURL(blob);
   const link = window.document.createElement('a');
   link.href = objectUrl;
-  link.download = buildMarkdownFileName(layout);
+  link.download = buildMarkdownFileName();
   link.click();
   window.URL.revokeObjectURL(objectUrl);
 }
