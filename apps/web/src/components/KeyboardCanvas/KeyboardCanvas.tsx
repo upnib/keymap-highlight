@@ -16,8 +16,7 @@ import {
   resolveBindingDisplayKey,
 } from '@keymap-highlight/layout-pipeline';
 import {
-  CANVAS_FIT_PADDING_X,
-  CANVAS_FIT_PADDING_Y,
+  computeFitPadding,
   CANVAS_INDICATOR_FADE_DURATION_MS,
   CANVAS_INDICATOR_OFFSET_X,
   CANVAS_INDICATOR_OFFSET_Y,
@@ -405,6 +404,26 @@ const KeysLayer = memo(function KeysLayer({
   );
 });
 
+function computeFitTransform(
+  stageWidth: number,
+  stageHeight: number,
+  layoutWidth: number,
+  layoutHeight: number,
+): { scale: number; x: number; y: number } {
+  const padX = computeFitPadding(stageWidth);
+  const padY = computeFitPadding(stageHeight);
+  const scale = Math.min(
+    Math.max(0, stageWidth - padX) / layoutWidth,
+    Math.max(0, stageHeight - padY) / layoutHeight,
+  );
+  const clampedScale = Math.max(MIN_ZOOM_LEVEL, Math.min(MAX_ZOOM_LEVEL, scale));
+  return {
+    scale: clampedScale,
+    x: (stageWidth - layoutWidth * clampedScale) / 2,
+    y: (stageHeight - layoutHeight * clampedScale) / 2,
+  };
+}
+
 export function KeyboardCanvas({ layout = [] }: KeyboardCanvasProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [stageSize, setStageSize] = useState({ width: 0, height: 0 });
@@ -673,18 +692,9 @@ export function KeyboardCanvas({ layout = [] }: KeyboardCanvasProps) {
   useEffect(() => {
     if (stageSize.width === 0 || layoutBounds.width === 0 || hasFitted) return;
 
-    const availableWidth = Math.max(0, stageSize.width - CANVAS_FIT_PADDING_X);
-    const availableHeight = Math.max(0, stageSize.height - CANVAS_FIT_PADDING_Y);
-
-    const scale = Math.min(
-      availableWidth / layoutBounds.width,
-      availableHeight / layoutBounds.height
-    );
-    const clampedScale = Math.max(MIN_ZOOM_LEVEL, Math.min(MAX_ZOOM_LEVEL, scale));
-    setZoomLevel(clampedScale);
-    const x = (stageSize.width - layoutBounds.width * clampedScale) / 2;
-    const y = (stageSize.height - layoutBounds.height * clampedScale) / 2;
-    const nextStagePos = { x, y };
+    const fit = computeFitTransform(stageSize.width, stageSize.height, layoutBounds.width, layoutBounds.height);
+    setZoomLevel(fit.scale);
+    const nextStagePos = { x: fit.x, y: fit.y };
     stagePosRef.current = nextStagePos;
     setStagePos(nextStagePos);
     setHasFitted(true);
@@ -782,18 +792,9 @@ export function KeyboardCanvas({ layout = [] }: KeyboardCanvasProps) {
   }, [setHoveredKey]);
 
   const handleFit = useCallback(() => {
-    const availableWidth = Math.max(0, stageSize.width - CANVAS_FIT_PADDING_X);
-    const availableHeight = Math.max(0, stageSize.height - CANVAS_FIT_PADDING_Y);
-
-    const scale = Math.min(
-      availableWidth / layoutBounds.width,
-      availableHeight / layoutBounds.height
-    );
-    const clampedScale = Math.max(MIN_ZOOM_LEVEL, Math.min(MAX_ZOOM_LEVEL, scale));
-    setZoomLevel(clampedScale);
-    const x = (stageSize.width - layoutBounds.width * clampedScale) / 2;
-    const y = (stageSize.height - layoutBounds.height * clampedScale) / 2;
-    const nextStagePos = { x, y };
+    const fit = computeFitTransform(stageSize.width, stageSize.height, layoutBounds.width, layoutBounds.height);
+    setZoomLevel(fit.scale);
+    const nextStagePos = { x: fit.x, y: fit.y };
     stagePosRef.current = nextStagePos;
     setStagePos(nextStagePos);
   }, [layoutBounds.height, layoutBounds.width, setZoomLevel, stageSize.height, stageSize.width]);

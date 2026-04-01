@@ -15,8 +15,13 @@ export const CANVAS_INDICATOR_OFFSET_Y = 10;
 export const CANVAS_INDICATOR_FADE_DURATION_MS = 120;
 export const CANVAS_RELATED_INDICATOR_MAX_PER_KEY = 16;
 
-export const CANVAS_FIT_PADDING_X = 240;
-export const CANVAS_FIT_PADDING_Y = 240;
+export const CANVAS_FIT_PADDING_RATIO = 0.125;
+export const CANVAS_FIT_PADDING_MIN = 60;
+export const CANVAS_FIT_PADDING_MAX = 180;
+
+export function computeFitPadding(stageAxisSize: number): number {
+  return Math.min(CANVAS_FIT_PADDING_MAX, Math.max(CANVAS_FIT_PADDING_MIN, stageAxisSize * CANVAS_FIT_PADDING_RATIO));
+}
 
 export type CanvasOs = 'mac' | 'win' | 'linux';
 export const MODIFIER_DISPLAY_LABELS: Record<string, Record<CanvasOs, string>> = {
